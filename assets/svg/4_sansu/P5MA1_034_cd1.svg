@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 230" width="560" height="230" role="img" aria-label="大きさのちがう長方形アとイを重ねた四角形ウの図">
+  <title>大きさのちがう長方形アとイを重ねた四角形ウの図</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 14px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 14px; font-weight: 700; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .th { font-size: 13px; font-weight: 700; fill: #1E293B; }
+      .td { font-size: 14px; font-weight: 600; fill: #1E293B; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="560" height="230" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <rect x="44" y="34" width="128" height="62" fill="#EFF6FF" stroke="#1E293B" stroke-width="2"/>
+  <text x="108" y="71" text-anchor="middle" font-size="16" font-weight="700">ア</text>
+  <rect x="44" y="110" width="148" height="46" fill="#DCFCE7" stroke="#1E293B" stroke-width="2"/>
+  <text x="118" y="139" text-anchor="middle" font-size="16" font-weight="700">イ</text>
+  <text x="112" y="192" text-anchor="middle" font-size="13" font-weight="600">長方形ア，イがある。</text>
+  <path d="M 222 96 L 246 96 L 246 88 L 264 102 L 246 116 L 246 108 L 222 108 Z" fill="#475569"/>
+  <defs><clipPath id="clipA"><rect x="316" y="68" width="164" height="66"/></clipPath></defs>
+  <rect x="316" y="68" width="164" height="66" fill="#EFF6FF" stroke="#1E293B" stroke-width="2"/>
+  <g transform="translate(398,101) rotate(54)">
+    <rect x="-86" y="-26" width="172" height="52" fill="rgba(220,252,231,0.55)" stroke="#1E293B" stroke-width="2"/>
+  </g>
+  <g clip-path="url(#clipA)">
+    <g transform="translate(398,101) rotate(54)">
+      <rect x="-86" y="-26" width="172" height="52" fill="rgba(37,99,235,0.22)" stroke="#2563EB" stroke-width="2.4"/>
+    </g>
+  </g>
+  <rect x="316" y="68" width="164" height="66" fill="none" stroke="#1E293B" stroke-width="2"/>
+  <text x="336" y="114" text-anchor="middle" font-size="16" font-weight="700">ア</text>
+  <text x="436" y="156" text-anchor="middle" font-size="16" font-weight="700">イ</text>
+  <text x="398" y="107" text-anchor="middle" font-size="17" font-weight="700" fill="#1D4ED8">ウ</text>
+  <text x="404" y="196" text-anchor="middle" font-size="13" font-weight="600">長方形イをアに重ねて，四角形ウをつくる。</text>
+</svg>

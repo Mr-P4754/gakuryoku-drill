@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 220" width="560" height="220">
+  <rect width="560" height="220" rx="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <text x="280" y="26" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="15" font-weight="bold" fill="#065F46">かん電池のつなぎ方 A（[①] つなぎ）</text>
+
+  <!-- Left box: Light bulb in series -->
+  <g transform="translate(18, 40)">
+    <rect width="252" height="164" rx="10" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.4"/>
+    <!-- Wire -->
+    <path d="M40,118 L24,118 L24,42 L114,42 M138,42 L228,42 L228,118 L212,118" fill="none" stroke="#334155" stroke-width="3"/>
+    <!-- Connection between battery 1 (-) and battery 2 (+) -->
+    <line x1="118" y1="118" x2="132" y2="118" stroke="#334155" stroke-width="3"/>
+    <!-- Bright Light Bulb -->
+    <g transform="translate(126, 36)">
+      <circle cx="0" cy="-4" r="14" fill="#FEF08A" stroke="#CA8A04" stroke-width="1.8"/>
+      <rect x="-6" y="8" width="12" height="10" rx="2" fill="#94A3B8" stroke="#475569" stroke-width="1.4"/>
+      <!-- Bright rays -->
+      <g stroke="#F59E0B" stroke-width="2" stroke-linecap="round">
+        <line x1="0" y1="-25" x2="0" y2="-20"/>
+        <line x1="-18" y1="-18" x2="-14" y2="-14"/>
+        <line x1="18" y1="-18" x2="14" y2="-14"/>
+        <line x1="-22" y1="-4" x2="-17" y2="-4"/>
+        <line x1="22" y1="-4" x2="17" y2="-4"/>
+      </g>
+    </g>
+    <text x="158" y="34" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12.5" font-weight="bold" fill="#334155">豆電球</text>
+    <!-- Two batteries in series -->
+    <g transform="translate(42,104)">
+      <rect x="-6" y="8.0" width="7" height="12" rx="1.5" fill="#CBD5E1" stroke="#475569" stroke-width="1.5"/>
+      <rect x="0" y="0" width="74" height="28" rx="4" fill="#10B981" stroke="#065F46" stroke-width="1.6"/>
+      <rect x="0" y="0" width="22" height="28" rx="3" fill="#DC2626"/>
+      <text x="11" y="19.0" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">＋</text>
+      <text x="62" y="19.0" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">－</text>
+    </g>
+    <g transform="translate(136,104)">
+      <rect x="-6" y="8.0" width="7" height="12" rx="1.5" fill="#CBD5E1" stroke="#475569" stroke-width="1.5"/>
+      <rect x="0" y="0" width="74" height="28" rx="4" fill="#10B981" stroke="#065F46" stroke-width="1.6"/>
+      <rect x="0" y="0" width="22" height="28" rx="3" fill="#DC2626"/>
+      <text x="11" y="19.0" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">＋</text>
+      <text x="62" y="19.0" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">－</text>
+    </g>
+    <text x="48" y="96" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#DC2626">＋</text>
+    <text x="104" y="96" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#2563EB">－</text>
+    <text x="142" y="96" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#DC2626">＋</text>
+    <text x="198" y="96" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#2563EB">－</text>
+  </g>
+
+  <!-- Right box: Motor in series -->
+  <g transform="translate(290, 40)">
+    <rect width="252" height="164" rx="10" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.4"/>
+    <path d="M40,118 L24,118 L24,46 L108,46 M144,46 L228,46 L228,118 L212,118" fill="none" stroke="#334155" stroke-width="3"/>
+    <line x1="118" y1="118" x2="132" y2="118" stroke="#334155" stroke-width="3"/>
+    <!-- Motor -->
+    <g transform="translate(108, 28)">
+      <rect x="0" y="6" width="36" height="38" rx="6" fill="#E2E8F0" stroke="#475569" stroke-width="1.8"/>
+      <rect x="15" y="-8" width="6" height="14" fill="#64748B"/>
+      <ellipse cx="18" cy="-8" rx="20" ry="5" fill="#38BDF8" stroke="#0284C7" stroke-width="1.4"/>
+    </g>
+    <text x="154" y="34" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12.5" font-weight="bold" fill="#334155">モーター</text>
+    <g transform="translate(42,104)">
+      <rect x="-6" y="8.0" width="7" height="12" rx="1.5" fill="#CBD5E1" stroke="#475569" stroke-width="1.5"/>
+      <rect x="0" y="0" width="74" height="28" rx="4" fill="#10B981" stroke="#065F46" stroke-width="1.6"/>
+      <rect x="0" y="0" width="22" height="28" rx="3" fill="#DC2626"/>
+      <text x="11" y="19.0" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">＋</text>
+      <text x="62" y="19.0" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">－</text>
+    </g>
+    <g transform="translate(136,104)">
+      <rect x="-6" y="8.0" width="7" height="12" rx="1.5" fill="#CBD5E1" stroke="#475569" stroke-width="1.5"/>
+      <rect x="0" y="0" width="74" height="28" rx="4" fill="#10B981" stroke="#065F46" stroke-width="1.6"/>
+      <rect x="0" y="0" width="22" height="28" rx="3" fill="#DC2626"/>
+      <text x="11" y="19.0" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">＋</text>
+      <text x="62" y="19.0" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#FFFFFF">－</text>
+    </g>
+    <text x="48" y="96" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#DC2626">＋</text>
+    <text x="104" y="96" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#2563EB">－</text>
+    <text x="142" y="96" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#DC2626">＋</text>
+    <text x="198" y="96" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#2563EB">－</text>
+  </g>
+</svg>

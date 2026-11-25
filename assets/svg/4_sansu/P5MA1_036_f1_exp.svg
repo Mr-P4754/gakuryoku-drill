@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 195" width="600" height="195" role="img" aria-label="さつまいもとじゃがいもの値上がり比較図">
+  <title>さつまいもとじゃがいもの値上がり比較図</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 14px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 14px; font-weight: 700; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .th { font-size: 13px; font-weight: 700; fill: #1E293B; }
+      .td { font-size: 14px; font-weight: 600; fill: #1E293B; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="600" height="195" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="170.0" y="30" text-anchor="middle" font-size="15" font-weight="700">さつまいも（2倍）</text>
+  <text x="84" y="82" text-anchor="end" font-size="13" font-weight="600" fill="#475569">ねあげ後</text>
+  <rect x="94" y="66" width="152" height="24" fill="#DBEAFE" stroke="#1E293B" stroke-width="1.8"/>
+  <line x1="170" y1="66" x2="170" y2="90" stroke="#475569" stroke-width="1.3" stroke-dasharray="3,2"/>
+  <path d="M 94.0 66.0 Q 170.0 50.0 246.0 66.0" fill="none" stroke="#475569" stroke-width="1.2" stroke-dasharray="3,2"/>
+  <text x="170.0" y="48.0" text-anchor="middle" font-size="13" font-weight="700" fill="#1E293B">200円</text>
+  <line x1="94" y1="90" x2="94" y2="136" stroke="#64748B" stroke-width="1.2" stroke-dasharray="3,2"/>
+  <line x1="170" y1="90" x2="170" y2="136" stroke="#64748B" stroke-width="1.2" stroke-dasharray="3,2"/>
+  <text x="84" y="152" text-anchor="end" font-size="13" font-weight="600" fill="#475569">もとのねだん</text>
+  <rect x="94" y="136" width="76" height="24" fill="#93C5FD" stroke="#1E293B" stroke-width="1.8"/>
+  <path d="M 94.0 136.0 Q 132.0 124.0 170.0 136.0" fill="none" stroke="#475569" stroke-width="1.2" stroke-dasharray="3,2"/>
+  <text x="132.0" y="124.0" text-anchor="middle" font-size="13" font-weight="700" fill="#1E293B">100円</text>
+  <text x="468.0" y="30" text-anchor="middle" font-size="15" font-weight="700">じゃがいも（3倍）</text>
+  <text x="386" y="82" text-anchor="end" font-size="13" font-weight="600" fill="#475569">ねあげ後</text>
+  <rect x="396" y="66" width="144" height="24" fill="#FEF3C7" stroke="#1E293B" stroke-width="1.8"/>
+  <line x1="444" y1="66" x2="444" y2="90" stroke="#475569" stroke-width="1.3" stroke-dasharray="3,2"/>
+  <line x1="492" y1="66" x2="492" y2="90" stroke="#475569" stroke-width="1.3" stroke-dasharray="3,2"/>
+  <path d="M 396.0 66.0 Q 468.0 50.0 540.0 66.0" fill="none" stroke="#475569" stroke-width="1.2" stroke-dasharray="3,2"/>
+  <text x="468.0" y="48.0" text-anchor="middle" font-size="13" font-weight="700" fill="#1E293B">150円</text>
+  <line x1="396" y1="90" x2="396" y2="136" stroke="#64748B" stroke-width="1.2" stroke-dasharray="3,2"/>
+  <line x1="444" y1="90" x2="444" y2="136" stroke="#64748B" stroke-width="1.2" stroke-dasharray="3,2"/>
+  <text x="386" y="152" text-anchor="end" font-size="13" font-weight="600" fill="#475569">もとのねだん</text>
+  <rect x="396" y="136" width="48" height="24" fill="#FCD34D" stroke="#1E293B" stroke-width="1.8"/>
+  <path d="M 396.0 136.0 Q 420.0 124.0 444.0 136.0" fill="none" stroke="#475569" stroke-width="1.2" stroke-dasharray="3,2"/>
+  <text x="420.0" y="124.0" text-anchor="middle" font-size="13" font-weight="700" fill="#1E293B">50円</text>
+</svg>

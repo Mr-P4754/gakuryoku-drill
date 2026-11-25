@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>標準学力調査たいさく デジタルドリル</title>
+  <meta name="description" content="小学4年生の標準学力調査に向けた国語・社会・算数・理科4教科対策デジタルドリル。単元別演習、要点チェック、手書き・作図自己採点、苦手復習、模擬テストに対応。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=Shippori+Mincho:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#home" class="brand-link" aria-label="ホームへもどる">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 36 36" width="32" height="32" fill="none">
+            <rect width="36" height="36" rx="10" fill="#2563EB"/>
+            <path d="M9 12.5C9 11.1 10.1 10 11.5 10H17.5V26H11.5C10.1 26 9 24.9 9 23.5V12.5Z" fill="#FFFFFF" fill-opacity="0.92"/>
+            <path d="M27 12.5C27 11.1 25.9 10 24.5 10H18.5V26H24.5C25.9 26 27 24.9 27 23.5V12.5Z" fill="#BFDBFE"/>
+            <circle cx="23" cy="22" r="5" fill="#16A34A"/>
+            <path d="M20.8 22L22.3 23.5L25.4 20.4" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        <span class="brand-text">
+          <strong>デジタルドリル</strong>
+          <small>標準学力調査たいさく</small>
+        </span>
+      </a>
+
+      <div class="header-actions">
+        <span id="header-queue-badge" class="queue-badge hidden" title="未送信の学習きろく"></span>
+        <button type="button" id="profile-badge-btn" class="profile-chip" aria-label="児童プロフィール設定">
+          <svg viewBox="0 0 20 20" width="16" height="16" fill="currentColor" aria-hidden="true">
+            <path d="M10 10a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm-7 7a7 7 0 0 1 14 0H3z"/>
+          </svg>
+          <span id="profile-badge-text">なまえ設定</span>
+        </button>
+        <button type="button" id="settings-btn" class="icon-btn" aria-label="設定を開く" title="設定">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="3"/>
+            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="app-main" class="app-main" aria-live="polite">
+    <div class="loading-box">
+      <div class="spinner"></div>
+      <p>問題を読みこんでいます...</p>
+    </div>
+  </main>
+
+  <!-- 計算メモ帳オーバーレイ -->
+  <div id="scratchpad-overlay" class="scratchpad-overlay hidden" role="dialog" aria-label="計算メモ帳">
+    <div class="scratchpad-toolbar">
+      <span class="scratchpad-title">計算メモ帳（自由に書いて消せるよ）</span>
+      <div class="scratchpad-tools">
+        <button type="button" class="pen-swatch is-active" data-pen-color="#1E293B" style="--swatch:#1E293B" aria-label="黒ペン"></button>
+        <button type="button" class="pen-swatch" data-pen-color="#DC2626" style="--swatch:#DC2626" aria-label="赤ペン"></button>
+        <button type="button" class="pen-swatch" data-pen-color="#2563EB" style="--swatch:#2563EB" aria-label="青ペン"></button>
+        <button type="button" id="scratch-eraser" class="tool-btn">消しゴム</button>
+        <button type="button" id="scratch-undo" class="tool-btn">もどす</button>
+        <button type="button" id="scratch-clear" class="tool-btn">ぜんぶ消す</button>
+        <button type="button" id="scratch-close" class="btn btn-primary btn-sm">とじる</button>
+      </div>
+    </div>
+    <canvas id="scratchpad-canvas" class="scratchpad-canvas"></canvas>
+  </div>
+
+  <!-- 児童プロフィール登録モーダル（学校名［半角英字］＋組＋出席番号） -->
+  <div id="profile-modal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="profile-modal-title">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h2 id="profile-modal-title">きろく用プロフィール登録</h2>
+        <button type="button" class="modal-close-btn" data-close-modal aria-label="とじる">×</button>
+      </div>
+      <form id="profile-form" class="modal-body">
+        <p class="modal-desc">先生が取り組みを確認できるよう、<strong>学校名（半角英字）・組・出席番号</strong>を入れてね。（本名は入れなくて大丈夫だよ）</p>
+        <div class="form-field">
+          <label for="prof-school">学校名（半角アルファベット）<span class="req">必須</span></label>
+          <input type="text" id="prof-school" class="form-input" placeholder="例: sakura" autocomplete="off" autocapitalize="off" spellcheck="false" required>
+          <p class="field-hint">先生から伝えられた半角英字（例：sakura, midori など）を入力してね</p>
+          <p id="prof-school-error" class="field-error hidden"></p>
+        </div>
+        <div class="form-row-3">
+          <div class="form-field">
+            <label for="prof-grade">学年</label>
+            <select id="prof-grade" class="form-select"></select>
+          </div>
+          <div class="form-field">
+            <label for="prof-class">組</label>
+            <select id="prof-class" class="form-select"></select>
+          </div>
+          <div class="form-field">
+            <label for="prof-number">出席番号</label>
+            <select id="prof-number" class="form-select"></select>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" id="prof-skip-btn" class="btn btn-ghost" data-close-modal>あとで登録する</button>
+          <button type="submit" class="btn btn-primary">この内容で保存</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- 要点チェックモーダル -->
+  <div id="guide-modal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="guide-modal-title">
+    <div class="modal-card modal-card-lg">
+      <div class="modal-header">
+        <h2 id="guide-modal-title">要点チェック</h2>
+        <button type="button" class="modal-close-btn" data-close-modal aria-label="とじる">×</button>
+      </div>
+      <div id="guide-modal-body" class="modal-body"></div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-ghost" data-close-modal>とじる</button>
+        <button type="button" id="guide-start-btn" class="btn btn-primary">この単元の問題にチャレンジ</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 設定モーダル -->
+  <div id="settings-modal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="settings-modal-title">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h2 id="settings-modal-title">設定・先生用データ連携</h2>
+        <button type="button" class="modal-close-btn" data-close-modal aria-label="とじる">×</button>
+      </div>
+      <div class="modal-body">
+        <div class="settings-section">
+          <h3>表示のせってい</h3>
+          <label class="toggle-row">
+            <span>漢字にふりがな（ルビ）を表示する</span>
+            <input type="checkbox" id="setting-ruby" checked>
+          </label>
+          <label class="toggle-row">
+            <span>国語の長文を縦書きで表示する</span>
+            <input type="checkbox" id="setting-vertical" checked>
+          </label>
+        </div>
+
+        <div class="settings-section">
+          <h3>スプレッドシート連携（先生用）</h3>
+          <p class="field-hint">GASウェブアプリURLを設定すると、問題DBの最新取得と「学習ログ」シートへの簡易スコア自動送信が有効になります。</p>
+          <div class="form-field">
+            <label for="setting-gas-url">GAS Webアプリ URL</label>
+            <input type="url" id="setting-gas-url" class="form-input" placeholder="https://script.google.com/macros/s/.../exec">
+          </div>
+          <div class="settings-btn-row">
+            <button type="button" id="save-gas-url-btn" class="btn btn-primary btn-sm">URL保存＆最新同期</button>
+            <button type="button" id="flush-queue-btn" class="btn btn-ghost btn-sm">未送信を再送（<span id="pending-queue-count">0 件</span>）</button>
+          </div>
+          <p id="setting-sync-msg" class="sync-feedback-msg"></p>
+        </div>
+
+        <div class="settings-section danger-zone">
+          <h3>学習きろくの初期化</h3>
+          <button type="button" id="reset-history-btn" class="btn btn-danger-outline btn-sm">この端末の学習きろくをリセット</button>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-ghost" data-close-modal>とじる</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 図版拡大ライトボックス -->
+  <div id="lightbox-modal" class="modal-backdrop lightbox-backdrop hidden" role="dialog" aria-modal="true" aria-label="図版拡大表示">
+    <div class="lightbox-card">
+      <div class="lightbox-toolbar">
+        <label class="lightbox-zoom-label">
+          拡大率
+          <input type="range" id="lightbox-zoom-range" min="100" max="260" value="100">
+        </label>
+        <button type="button" class="btn btn-primary btn-sm" data-close-modal>とじる ×</button>
+      </div>
+      <div class="lightbox-viewport">
+        <img id="lightbox-img" src="" alt="拡大図版">
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

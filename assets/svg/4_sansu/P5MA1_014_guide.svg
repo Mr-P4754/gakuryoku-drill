@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 175" width="640" height="175" role="img" aria-label="分数のしくみ（真分数・仮分数・帯分数）">
+  <title>分数のしくみ（真分数・仮分数・帯分数）</title>
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .lbl { font-size: 16px; font-weight: 600; }
+      .lbl-sm { font-size: 14px; font-weight: 600; }
+      .lbl-xs { font-size: 13px; font-weight: 500; fill: #475569; }
+      .num { font-size: 16px; font-weight: 700; }
+      .arrow-lbl { font-size: 18px; font-weight: 700; fill: #2563EB; }
+      .blank-num { font-size: 18px; font-weight: 700; fill: #2563EB; }
+      .ans-num { font-size: 18px; font-weight: 700; fill: #0F766E; }
+      .unit-txt { font-size: 15px; font-weight: 600; fill: #334155; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="640" height="175" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <line x1="70" y1="62" x2="574" y2="62" stroke="#1E293B" stroke-width="2.2"/>
+  <line x1="70" y1="42" x2="70" y2="62" stroke="#1E293B" stroke-width="2.2"/>
+  <text x="70" y="34" text-anchor="middle" class="num">0</text>
+  <line x1="126" y1="51" x2="126" y2="62" stroke="#64748B" stroke-width="1.5"/>
+  <line x1="182" y1="51" x2="182" y2="62" stroke="#64748B" stroke-width="1.5"/>
+  <line x1="238" y1="51" x2="238" y2="62" stroke="#64748B" stroke-width="1.5"/>
+  <line x1="294" y1="42" x2="294" y2="62" stroke="#1E293B" stroke-width="2.2"/>
+  <text x="294" y="34" text-anchor="middle" class="num">1</text>
+  <line x1="350" y1="51" x2="350" y2="62" stroke="#64748B" stroke-width="1.5"/>
+  <line x1="406" y1="51" x2="406" y2="62" stroke="#64748B" stroke-width="1.5"/>
+  <line x1="462" y1="51" x2="462" y2="62" stroke="#64748B" stroke-width="1.5"/>
+  <line x1="518" y1="42" x2="518" y2="62" stroke="#1E293B" stroke-width="2.2"/>
+  <text x="518" y="34" text-anchor="middle" class="num">2</text>
+  <line x1="574" y1="51" x2="574" y2="62" stroke="#64748B" stroke-width="1.5"/>
+  <circle cx="126" cy="62" r="3.8" fill="#059669"/>
+  <line x1="126" y1="82" x2="126" y2="71" stroke="#059669" stroke-width="2"/>
+  <polygon points="126,67 121.5,75 130.5,75" fill="#059669"/>
+  <text x="126" y="99" text-anchor="middle" class="lbl-sm" fill="#059669">1</text>
+  <line x1="116" y1="104" x2="136" y2="104" stroke="#059669" stroke-width="1.8"/>
+  <text x="126" y="120" text-anchor="middle" class="lbl-sm" fill="#059669">4</text>
+  <text x="126" y="144" text-anchor="middle" class="lbl-xs" fill="#059669">真分数</text>
+  <circle cx="238" cy="62" r="3.8" fill="#059669"/>
+  <line x1="238" y1="82" x2="238" y2="71" stroke="#059669" stroke-width="2"/>
+  <polygon points="238,67 233.5,75 242.5,75" fill="#059669"/>
+  <text x="238" y="99" text-anchor="middle" class="lbl-sm" fill="#059669">3</text>
+  <line x1="228" y1="104" x2="248" y2="104" stroke="#059669" stroke-width="1.8"/>
+  <text x="238" y="120" text-anchor="middle" class="lbl-sm" fill="#059669">4</text>
+  <text x="238" y="144" text-anchor="middle" class="lbl-xs" fill="#059669">真分数</text>
+  <circle cx="350" cy="62" r="3.8" fill="#2563EB"/>
+  <line x1="350" y1="82" x2="350" y2="71" stroke="#2563EB" stroke-width="2"/>
+  <polygon points="350,67 345.5,75 354.5,75" fill="#2563EB"/>
+  <text x="350" y="99" text-anchor="middle" class="lbl-sm" fill="#2563EB">5</text>
+  <line x1="340" y1="104" x2="360" y2="104" stroke="#2563EB" stroke-width="1.8"/>
+  <text x="350" y="120" text-anchor="middle" class="lbl-sm" fill="#2563EB">4</text>
+  <text x="374" y="109" text-anchor="middle" class="num" fill="#2563EB">＝</text>
+  <text x="392" y="109" text-anchor="middle" class="num" fill="#D97706">1</text>
+  <text x="410" y="99" text-anchor="middle" class="lbl-sm" fill="#D97706">1</text>
+  <line x1="400" y1="104" x2="420" y2="104" stroke="#D97706" stroke-width="1.8"/>
+  <text x="410" y="120" text-anchor="middle" class="lbl-sm" fill="#D97706">4</text>
+  <text x="380" y="144" text-anchor="middle" class="lbl-xs" fill="#2563EB">仮分数 ＝ 帯分数</text>
+  <text x="320" y="164" text-anchor="middle" class="lbl-xs">真分数（分子＜分母）／ 仮分数（分子≧分母）／ 帯分数（整数＋真分数）</text>
+</svg>

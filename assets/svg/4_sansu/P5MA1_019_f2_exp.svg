@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 224" width="340" height="224" role="img" aria-label="交わる2つの直線と角いの解説図">
+  <title>交わる2つの直線と角いの解説図</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .lbl { font-size: 16px; font-weight: 700; }
+      .lbl-sm { font-size: 14px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 15px; font-weight: 700; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="340" height="224" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <line x1="40" y1="108.0" x2="300" y2="108.0" stroke="#1E293B" stroke-width="2.4"/>
+  <line x1="206.3" y1="30.1" x2="135.3" y2="182.3" stroke="#1E293B" stroke-width="2.4"/>
+  <path d="M 196.00 108.00 A 26.00 26.00 0 0 0 180.99 84.44" fill="none" stroke="#1E293B" stroke-width="1.8"/>
+  <text x="216.0" y="94.0" text-anchor="middle" class="num">65°</text>
+  <path d="M 170.00 108.00 L 144.00 108.00 A 26.00 26.00 0 0 0 159.01 131.56 Z" fill="rgba(220,38,38,0.14)" stroke="#DC2626" stroke-width="2.2"/>
+  <circle cx="126.0" cy="130.0" r="12" fill="#FEF2F2" stroke="#DC2626" stroke-width="1.5"/>
+  <text x="126.0" y="135.0" text-anchor="middle" font-size="14" font-weight="700" fill="#DC2626">い</text>
+  <path d="M 170.00 108.00 L 181.83 82.62 A 28.00 28.00 0 0 0 142.00 108.00 Z" fill="rgba(37,99,235,0.12)" stroke="#2563EB" stroke-width="2.0"/>
+  <circle cx="144.0" cy="76.0" r="11" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="144.0" y="80.7" text-anchor="middle" font-size="13" font-weight="700" fill="#2563EB">う</text>
+  <rect x="20" y="191" width="300" height="24" rx="6" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.2"/>
+  <text x="170" y="208" text-anchor="middle" font-size="13" font-weight="700" fill="#1D4ED8">う＝180°−65°＝115° → い＝180°−115°＝65°</text>
+</svg>

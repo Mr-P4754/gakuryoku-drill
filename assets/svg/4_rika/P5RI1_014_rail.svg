@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 236" width="460" height="236">
+  <defs>
+    <linearGradient id="steelRail" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#64748B"/>
+      <stop offset="28%" stop-color="#E2E8F0"/>
+      <stop offset="52%" stop-color="#F8FAFC"/>
+      <stop offset="76%" stop-color="#94A3B8"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+  </defs>
+  <rect width="460" height="236" rx="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <text x="230" y="26" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="15" font-weight="bold" fill="#0F172A">季節による鉄道レールのすき間の変化</text>
+
+  <!-- Summer Day (almost no gap) -->
+  <g transform="translate(28, 44)">
+    <rect x="0" y="0" width="90" height="26" rx="13" fill="#FEF2F2" stroke="#EF4444" stroke-width="1.5"/>
+    <text x="45" y="18" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13.5" font-weight="bold" fill="#DC2626">夏の日</text>
+    <!-- Rail left and right touching tightly -->
+    <rect x="10" y="34" width="191" height="36" rx="2" fill="url(#steelRail)" stroke="#334155" stroke-width="1.5"/>
+    <rect x="203" y="34" width="191" height="36" rx="2" fill="url(#steelRail)" stroke="#334155" stroke-width="1.5"/>
+    <text x="202" y="88" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" fill="#DC2626">すき間がとてもせまい</text>
+  </g>
+
+  <!-- Winter Day (wide visible gap) -->
+  <g transform="translate(28, 140)">
+    <rect x="0" y="0" width="90" height="26" rx="13" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.5"/>
+    <text x="45" y="18" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13.5" font-weight="bold" fill="#1D4ED8">冬の日</text>
+    <!-- Rail left and right with clear gap -->
+    <rect x="10" y="34" width="181" height="36" rx="2" fill="url(#steelRail)" stroke="#334155" stroke-width="1.5"/>
+    <rect x="213" y="34" width="181" height="36" rx="2" fill="url(#steelRail)" stroke="#334155" stroke-width="1.5"/>
+    <!-- Gap highlight -->
+    <rect x="192" y="34" width="20" height="36" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.2" stroke-dasharray="3,2"/>
+    <text x="202" y="88" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#1D4ED8">← すき間が広い →</text>
+  </g>
+</svg>

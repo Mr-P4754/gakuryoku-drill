@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1220 860" width="1220" height="860" role="img" aria-label="日本の7地方と47都道府県・県庁所在地の地図">
+  <style>
+    text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans CJK JP', sans-serif; }
+    .title { font-size: 22px; font-weight: 700; fill: #1E293B; }
+    .subtitle { font-size: 15px; font-weight: 700; fill: #334155; }
+    .region-tag { font-size: 14px; font-weight: 700; }
+    .pref-lbl { font-size: 11.5px; font-weight: 700; fill: #0F172A; }
+    .cap-lbl { font-size: 10.5px; font-weight: 600; fill: #B91C1C; }
+    .note { font-size: 11px; fill: #475569; }
+  </style>
+  <rect width="1220" height="860" fill="#FFFFFF"/>
+
+  <rect x="16" y="46" width="1188" height="804" rx="12" fill="#F0F9FF" stroke="#1E3A5F" stroke-width="2"/>
+  <text x="24" y="32" class="title">日本の７地方区分と４７都道府県・県庁所在地</text>
+  <text x="1196" y="31" text-anchor="end" class="note">● 赤丸＝県庁所在地（都道府県名とことなる県庁所在地に注意しよう）</text>
+  <g transform="translate(66, 98)">
+    <circle cx="0" cy="0" r="24" fill="#FFFFFF" stroke="#64748B" stroke-width="1.5"/>
+    <line x1="0" y1="16" x2="0" y2="-16" stroke="#0F172A" stroke-width="2"/>
+    <line x1="-12" y1="0" x2="12" y2="0" stroke="#0F172A" stroke-width="1.5"/>
+    <polygon points="0,-18 7,-4 0,-8" fill="#0F172A"/>
+    <text x="0" y="-27" text-anchor="middle" font-size="13" font-weight="700" fill="#0F172A">北</text>
+  </g>
+  <g transform="translate(115, 62)">
+    <rect x="0" y="0" width="335" height="92" rx="8" fill="#FFFFFF" fill-opacity="0.95" stroke="#94A3B8" stroke-width="1.2"/>
+    <text x="12" y="20" font-size="12" font-weight="700" fill="#1E293B">７地方の区分（色分け）</text>
+    <rect x="12" y="29" width="14" height="12" fill="#C8E6C9" stroke="#475569" stroke-width="0.8"/><text x="31" y="39" font-size="11" fill="#1E293B">北海道地方</text>
+    <rect x="102" y="29" width="14" height="12" fill="#FFE0B2" stroke="#475569" stroke-width="0.8"/><text x="121" y="39" font-size="11" fill="#1E293B">東北地方</text>
+    <rect x="182" y="29" width="14" height="12" fill="#FFF59D" stroke="#475569" stroke-width="0.8"/><text x="201" y="39" font-size="11" fill="#1E293B">関東地方</text>
+    <rect x="262" y="29" width="14" height="12" fill="#F8BBD0" stroke="#475569" stroke-width="0.8"/><text x="281" y="39" font-size="11" fill="#1E293B">中部地方</text>
+    <rect x="12" y="49" width="14" height="12" fill="#DDD6FE" stroke="#475569" stroke-width="0.8"/><text x="31" y="59" font-size="11" fill="#1E293B">近畿地方</text>
+    <rect x="102" y="49" width="14" height="12" fill="#BAE6FD" stroke="#475569" stroke-width="0.8"/><text x="121" y="59" font-size="11" fill="#1E293B">中国・四国地方</text>
+    <rect x="202" y="49" width="14" height="12" fill="#DCFCE7" stroke="#475569" stroke-width="0.8"/><text x="221" y="59" font-size="11" fill="#1E293B">九州地方</text>
+    <circle cx="19" cy="76" r="3.5" fill="#DC2626"/><text x="31" y="80" font-size="11" fill="#1E293B">県庁所在地</text>
+    <polygon points="118,71 113,80 123,80" fill="#1E293B"/><text x="129" y="80" font-size="11" fill="#1E293B">富士山</text>
+    <ellipse cx="198" cy="76" rx="6" ry="4" fill="#38BDF8" stroke="#0284C7" stroke-width="0.8"/><text x="209" y="80" font-size="11" fill="#1E293B">琵琶湖</text>
+  </g>
+  <g id="prefectures" stroke="#334155" stroke-width="1.0" stroke-linejoin="round">
+    <polygon points="774.0,83.2 845.2,144.3 938.7,139.6 949.8,183.7 896.4,202.5 845.2,250.9 805.2,222.8 762.9,218.1 744.2,234.5 742.9,258.0 705.9,274.4 693.9,241.6 719.3,208.6 759.3,189.9 774.0,140.5" fill="#C8E6C9"/>
+    <polygon points="698.4,322.9 711.7,286.2 716.2,283.4 731.8,297.9 736.2,273.0 765.1,275.4 769.6,316.8 775.4,322.9 739.8,330.9" fill="#FFE0B2"/>
+    <polygon points="698.4,322.9 739.8,330.9 734.0,389.6 696.2,384.0 688.1,344.9" fill="#FFE0B2"/>
+    <polygon points="739.8,330.9 775.4,322.9 790.5,359.1 777.1,390.5 775.4,391.5 750.4,396.2 732.6,392.4 734.0,389.6" fill="#FFE0B2"/>
+    <polygon points="696.2,384.0 734.0,389.6 732.6,392.4 720.6,441.3 686.4,445.1 680.6,410.8" fill="#FFE0B2"/>
+    <polygon points="732.6,392.4 750.4,396.2 775.4,391.5 768.2,423.4 747.3,424.9 742.4,441.8 720.6,441.3" fill="#FFE0B2"/>
+    <polygon points="686.4,445.1 720.6,441.3 742.4,441.8 746.0,464.8 735.3,490.6 713.1,486.4 670.3,486.9 664.1,483.6" fill="#FFE0B2"/>
+    <polygon points="713.1,486.4 735.3,490.6 730.0,515.6 738.4,542.4 693.9,528.3 686.4,521.2" fill="#FFF59D"/>
+    <polygon points="670.3,486.9 713.1,486.4 686.4,521.2 676.6,520.3" fill="#FFF59D"/>
+    <polygon points="664.1,483.6 670.3,486.9 676.6,520.3 643.6,531.5 641.9,495.4" fill="#FFF59D"/>
+    <polygon points="643.6,531.5 676.6,520.3 686.4,521.2 693.9,528.3 695.3,541.9 653.9,537.2" fill="#FFF59D"/>
+    <polygon points="693.9,528.3 738.4,542.4 738.4,543.8 719.3,570.1 693.9,581.4 694.4,548.5 695.3,541.9" fill="#FFF59D"/>
+    <polygon points="653.9,537.2 695.3,541.9 694.4,548.5 690.8,552.2 657.4,547.5" fill="#FFF59D"/>
+    <polygon points="657.4,547.5 690.8,552.2 688.1,563.5 684.1,571.0 661.4,571.0 654.3,557.9" fill="#FFF59D"/>
+    <polygon points="680.6,410.8 686.4,445.1 664.1,483.6 641.9,495.4 596.0,492.1 621.4,475.1 641.9,457.3 658.3,440.4" fill="#F8BBD0"/>
+    <polygon points="566.2,487.4 584.9,489.2 596.0,492.1 593.8,509.9 557.3,515.6" fill="#F8BBD0"/>
+    <polygon points="552.9,471.9 581.8,460.1 569.3,482.7 566.2,487.4 557.3,515.6 556.0,526.8 533.7,516.5" fill="#F8BBD0"/>
+    <polygon points="533.7,516.5 556.0,526.8 539.5,550.3 514.6,559.7 499.5,553.2 523.5,542.4" fill="#F8BBD0"/>
+    <polygon points="621.4,548.5 643.6,531.5 653.9,537.2 657.4,547.5 654.3,557.9" fill="#F8BBD0"/>
+    <polygon points="596.0,492.1 641.9,495.4 643.6,531.5 621.4,548.5 603.6,569.1 596.0,567.3 593.8,509.9" fill="#F8BBD0"/>
+    <polygon points="556.0,526.8 557.3,515.6 593.8,509.9 596.0,567.3 552.4,571.0 542.6,565.9 539.5,550.3" fill="#F8BBD0"/>
+    <polygon points="603.6,569.1 621.4,548.5 654.3,557.9 661.4,571.0 650.8,595.5 642.8,575.3 621.4,596.4 589.4,592.6" fill="#F8BBD0"/>
+    <polygon points="552.4,571.0 596.0,567.3 603.6,569.1 589.4,592.6 570.7,595.5 563.5,590.8 557.3,576.7" fill="#F8BBD0"/>
+    <polygon points="542.6,565.9 552.4,571.0 557.3,576.7 562.7,603.4 541.3,616.1 521.7,636.8 519.0,628.4 523.5,588.9 525.3,584.2" fill="#DDD6FE"/>
+    <polygon points="514.6,559.7 539.5,550.3 542.6,565.9 525.3,584.2 515.9,576.7" fill="#DDD6FE"/>
+    <polygon points="478.1,547.1 499.5,553.2 514.6,559.7 515.9,576.7 525.3,584.2 523.5,588.9 510.1,589.8 494.1,581.4" fill="#DDD6FE"/>
+    <polygon points="494.1,581.4 510.1,589.8 502.1,607.7 482.6,610.5 496.8,592.6" fill="#DDD6FE"/>
+    <polygon points="447.8,547.1 478.1,547.1 494.1,581.4 496.8,592.6 487.0,593.6 447.8,590.8 450.5,569.1" fill="#DDD6FE"/>
+    <polygon points="510.1,589.8 523.5,588.9 519.0,628.4 502.1,607.7" fill="#DDD6FE"/>
+    <polygon points="482.6,610.5 502.1,607.7 519.0,628.4 521.7,636.8 511.9,650.9 490.6,636.8 480.8,616.1" fill="#DDD6FE"/>
+    <polygon points="399.8,552.2 429.2,551.3 447.8,547.1 450.5,569.1 402.5,573.8 395.8,575.3" fill="#BAE6FD"/>
+    <polygon points="330.4,592.6 364.6,569.1 399.8,552.2 395.8,575.3 345.5,605.8" fill="#BAE6FD"/>
+    <polygon points="402.5,573.8 450.5,569.1 447.8,590.8 410.5,603.0" fill="#BAE6FD"/>
+    <polygon points="345.5,605.8 395.8,575.3 402.5,573.8 410.5,603.0 354.4,616.1" fill="#BAE6FD"/>
+    <polygon points="294.8,606.7 330.4,592.6 345.5,605.8 354.4,616.1 349.9,628.4 323.2,626.5 294.8,626.9" fill="#BAE6FD"/>
+    <polygon points="416.7,616.1 437.2,607.7 452.3,612.9 419.4,622.7" fill="#BAE6FD"/>
+    <polygon points="419.4,622.7 452.3,612.9 461.2,631.2 447.0,646.2 419.4,631.2" fill="#BAE6FD"/>
+    <polygon points="388.2,622.3 416.7,616.1 419.4,622.7 419.4,631.2 369.1,675.4 346.8,655.1 369.1,641.1" fill="#BAE6FD"/>
+    <polygon points="369.1,675.4 419.4,631.2 447.0,646.2 441.6,659.9 413.6,649.0 389.1,684.8" fill="#BAE6FD"/>
+    <polygon points="263.6,642.5 300.1,627.4 308.1,643.4 294.8,665.0 274.3,669.7 259.2,651.9" fill="#DCFCE7"/>
+    <polygon points="247.6,647.2 259.2,651.9 274.3,669.7 263.6,673.9 248.9,667.8" fill="#DCFCE7"/>
+    <polygon points="235.6,659.9 247.6,647.2 248.9,667.8 263.6,673.9 268.1,686.6 244.5,690.4" fill="#DCFCE7"/>
+    <polygon points="308.1,643.4 330.4,640.6 342.4,673.9 336.6,684.8 314.3,683.4 294.8,665.0" fill="#DCFCE7"/>
+    <polygon points="274.3,669.7 294.8,665.0 314.3,683.4 293.4,714.8 271.2,711.6 274.3,697.4" fill="#DCFCE7"/>
+    <polygon points="314.3,683.4 336.6,684.8 327.7,711.6 318.8,745.9 308.1,746.8 293.4,714.8" fill="#DCFCE7"/>
+    <polygon points="271.2,711.6 293.4,714.8 308.1,746.8 287.6,764.7 284.5,745.9 280.1,758.6 263.6,749.1" fill="#DCFCE7"/>
+    <polygon points="622.7,445.1 634.7,427.2 633.0,422.5 621.4,434.3" fill="#F8BBD0"/>
+    <polygon points="477.2,596.4 474.5,612.4 465.6,614.3 469.2,602.0" fill="#DDD6FE"/>
+  </g>
+  <polygon points="527.9,557.9 532.4,564.4 527.1,572.9 519.9,577.6 519.0,572.0 523.5,561.6" fill="#38BDF8" stroke="#0369A1" stroke-width="1"/>
+  <polygon points="644.1,552.7 638.1,564.7 650.1,564.7" fill="#1E293B" stroke="#FFFFFF" stroke-width="0.8"/>
+  <polygon points="644.1,552.7 641.6,557.7 646.6,557.7" fill="#FFFFFF"/>
+  <g id="capitals">
+    <circle cx="760.7" cy="198.8" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="733.5" cy="304.1" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="751.8" cy="356.7" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="705.1" cy="355.8" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="739.3" cy="423.9" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="716.6" cy="425.3" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="721.5" cy="448.4" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="720.6" cy="514.6" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="695.3" cy="504.3" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="658.8" cy="512.3" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="685.0" cy="537.2" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="705.9" cy="548.9" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="686.8" cy="545.2" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="684.6" cy="556.4" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="657.0" cy="441.3" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="576.4" cy="497.7" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="550.6" cy="502.9" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="532.4" cy="527.8" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="637.0" cy="546.6" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="619.6" cy="500.1" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="554.6" cy="559.3" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="628.5" cy="578.5" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="563.1" cy="569.1" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="545.3" cy="590.3" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="516.8" cy="577.6" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="512.4" cy="577.1" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="501.2" cy="592.2" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="486.1" cy="592.2" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="515.0" cy="592.6" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="485.7" cy="613.8" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="444.3" cy="554.1" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="391.3" cy="555.5" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="430.5" cy="593.6" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="365.1" cy="605.8" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="321.0" cy="615.7" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="458.5" cy="621.3" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="435.4" cy="608.6" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="378.9" cy="632.1" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="412.7" cy="645.3" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="274.3" cy="643.4" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="269.0" cy="659.9" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="249.8" cy="683.4" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="288.5" cy="681.5" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="327.2" cy="660.3" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="318.8" cy="722.8" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+    <circle cx="280.5" cy="739.3" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.9"/>
+  </g>
+  <rect x="916.5" y="104" width="97" height="24" rx="12" fill="#C8E6C9" stroke="#2E7D32" stroke-width="1.6"/>
+  <text x="965" y="121" text-anchor="middle" class="region-tag" fill="#2E7D32">北海道地方</text>
+  <rect x="1004.0" y="331" width="82" height="24" rx="12" fill="#FFE0B2" stroke="#C2410C" stroke-width="1.6"/>
+  <text x="1045" y="348" text-anchor="middle" class="region-tag" fill="#C2410C">東北地方</text>
+  <rect x="1014.0" y="516" width="82" height="24" rx="12" fill="#FFF59D" stroke="#A16207" stroke-width="1.6"/>
+  <text x="1055" y="533" text-anchor="middle" class="region-tag" fill="#A16207">関東地方</text>
+  <rect x="567.0" y="242" width="82" height="24" rx="12" fill="#F8BBD0" stroke="#BE185D" stroke-width="1.6"/>
+  <text x="608" y="259" text-anchor="middle" class="region-tag" fill="#BE185D">中部地方</text>
+  <rect x="679.0" y="781" width="82" height="24" rx="12" fill="#DDD6FE" stroke="#6D28D9" stroke-width="1.6"/>
+  <text x="720" y="798" text-anchor="middle" class="region-tag" fill="#6D28D9">近畿地方</text>
+  <rect x="76.5" y="456" width="127" height="24" rx="12" fill="#BAE6FD" stroke="#0369A1" stroke-width="1.6"/>
+  <text x="140" y="473" text-anchor="middle" class="region-tag" fill="#0369A1">中国・四国地方</text>
+  <rect x="39.0" y="631" width="82" height="24" rx="12" fill="#DCFCE7" stroke="#15803D" stroke-width="1.6"/>
+  <text x="80" y="648" text-anchor="middle" class="region-tag" fill="#15803D">九州地方</text>
+  <g id="labels">
+    <text x="825" y="175" text-anchor="middle" font-size="14" font-weight="700" fill="#0F172A">北海道</text>
+    <text x="825" y="192" text-anchor="middle" font-size="12" font-weight="700" fill="#B91C1C">●札幌</text>
+    <line x1="851" y1="287" x2="749.6" y2="304.1" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="749.6" cy="304.1" r="1.8" fill="#475569"/>
+    <text x="855" y="290" text-anchor="start"><tspan class="pref-lbl">青森県</tspan><tspan font-size="10.5" font-weight="500" fill="#334155"> ●青森</tspan></text>
+    <line x1="644" y1="323" x2="710.4" y2="355.8" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="710.4" cy="355.8" r="1.8" fill="#475569"/>
+    <text x="640" y="326" text-anchor="end"><tspan class="pref-lbl">秋田県</tspan><tspan font-size="10.5" font-weight="500" fill="#334155"> ●秋田</tspan></text>
+    <line x1="851" y1="323" x2="765.1" y2="356.7" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="765.1" cy="356.7" r="1.8" fill="#475569"/>
+    <text x="855" y="326" text-anchor="start"><tspan class="pref-lbl">岩手県</tspan><tspan font-size="10.5" font-weight="700" fill="#B91C1C"> ●盛岡</tspan></text>
+    <line x1="629" y1="357" x2="705.9" y2="423.4" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="705.9" cy="423.4" r="1.8" fill="#475569"/>
+    <text x="625" y="360" text-anchor="end"><tspan class="pref-lbl">山形県</tspan><tspan font-size="10.5" font-weight="500" fill="#334155"> ●山形</tspan></text>
+    <line x1="851" y1="359" x2="747.3" y2="423.9" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="747.3" cy="423.9" r="1.8" fill="#475569"/>
+    <text x="855" y="362" text-anchor="start"><tspan class="pref-lbl">宮城県</tspan><tspan font-size="10.5" font-weight="700" fill="#B91C1C"> ●仙台</tspan></text>
+    <line x1="851" y1="395" x2="730.9" y2="459.2" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="730.9" cy="459.2" r="1.8" fill="#475569"/>
+    <text x="855" y="398" text-anchor="start"><tspan class="pref-lbl">福島県</tspan><tspan font-size="10.5" font-weight="500" fill="#334155"> ●福島</tspan></text>
+    <line x1="851" y1="505" x2="720.6" y2="517.4" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="720.6" cy="517.4" r="1.8" fill="#475569"/>
+    <text x="855" y="508" text-anchor="start"><tspan class="pref-lbl">茨城県</tspan><tspan font-size="10.5" font-weight="700" fill="#B91C1C"> ●水戸</tspan></text>
+    <line x1="851" y1="477" x2="695.3" y2="504.3" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="695.3" cy="504.3" r="1.8" fill="#475569"/>
+    <text x="855" y="480" text-anchor="start"><tspan class="pref-lbl">栃木県</tspan><tspan font-size="10.5" font-weight="700" fill="#B91C1C"> ●宇都宮</tspan></text>
+    <line x1="851" y1="449" x2="658.8" y2="510.9" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="658.8" cy="510.9" r="1.8" fill="#475569"/>
+    <text x="855" y="452" text-anchor="start"><tspan class="pref-lbl">群馬県</tspan><tspan font-size="10.5" font-weight="700" fill="#B91C1C"> ●前橋</tspan></text>
+    <line x1="851" y1="533" x2="681.9" y2="534.4" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="681.9" cy="534.4" r="1.8" fill="#475569"/>
+    <text x="855" y="536" text-anchor="start"><tspan class="pref-lbl">埼玉県</tspan><tspan font-size="10.5" font-weight="700" fill="#B91C1C"> ●さいたま</tspan></text>
+    <line x1="851" y1="589" x2="713.1" y2="557.9" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="713.1" cy="557.9" r="1.8" fill="#475569"/>
+    <text x="855" y="592" text-anchor="start"><tspan class="pref-lbl">千葉県</tspan><tspan font-size="10.5" font-weight="500" fill="#334155"> ●千葉</tspan></text>
+    <line x1="851" y1="561" x2="683.7" y2="545.2" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="683.7" cy="545.2" r="1.8" fill="#475569"/>
+    <text x="855" y="564" text-anchor="start"><tspan class="pref-lbl">東京都</tspan><tspan font-size="10.5" font-weight="500" fill="#334155"> ●東京</tspan></text>
+    <line x1="851" y1="617" x2="674.8" y2="559.7" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="674.8" cy="559.7" r="1.8" fill="#475569"/>
+    <text x="855" y="620" text-anchor="start"><tspan class="pref-lbl">神奈川県</tspan><tspan font-size="10.5" font-weight="700" fill="#B91C1C"> ●横浜</tspan></text>
+    <line x1="609" y1="393" x2="653.9" y2="448.4" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="653.9" cy="448.4" r="1.8" fill="#475569"/>
+    <text x="605" y="396" text-anchor="end"><tspan class="pref-lbl">新潟県</tspan><tspan font-size="10.5" font-weight="500" fill="#334155"> ●新潟</tspan></text>
+    <line x1="536" y1="461" x2="576.4" y2="498.6" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="576.4" cy="498.6" r="1.8" fill="#475569"/>
+    <text x="532" y="464" text-anchor="end"><tspan class="pref-lbl">富山県</tspan><tspan font-size="10.5" font-weight="500" fill="#334155"> ●富山</tspan></text>
+    <line x1="484" y1="409" x2="557.3" y2="481.3" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="557.3" cy="481.3" r="1.8" fill="#475569"/>
+    <text x="480" y="412" text-anchor="end"><tspan class="pref-lbl">石川県</tspan><tspan font-size="10.5" font-weight="700" fill="#B91C1C"> ●金沢</tspan></text>
+    <line x1="426" y1="461" x2="532.4" y2="532.9" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="532.4" cy="532.9" r="1.8" fill="#475569"/>
+    <text x="422" y="464" text-anchor="end"><tspan class="pref-lbl">福井県</tspan><tspan font-size="10.5" font-weight="500" fill="#334155"> ●福井</tspan></text>
+    <line x1="766" y1="659" x2="639.2" y2="548.5" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="639.2" cy="548.5" r="1.8" fill="#475569"/>
+    <text x="770" y="662" text-anchor="start"><tspan class="pref-lbl">山梨県</tspan><tspan font-size="10.5" font-weight="700" fill="#B91C1C"> ●甲府</tspan></text>
+    <line x1="586" y1="429" x2="613.8" y2="514.1" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="613.8" cy="514.1" r="1.8" fill="#475569"/>
+    <text x="582" y="432" text-anchor="end"><tspan class="pref-lbl">長野県</tspan><tspan font-size="10.5" font-weight="500" fill="#334155"> ●長野</tspan></text>
+    <line x1="504" y1="493" x2="567.1" y2="539.1" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="567.1" cy="539.1" r="1.8" fill="#475569"/>
+    <text x="500" y="496" text-anchor="end"><tspan class="pref-lbl">岐阜県</tspan><tspan font-size="10.5" font-weight="500" fill="#334155"> ●岐阜</tspan></text>
+    <line x1="734" y1="691" x2="625.0" y2="579.9" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="625.0" cy="579.9" r="1.8" fill="#475569"/>
+    <text x="738" y="694" text-anchor="start"><tspan class="pref-lbl">静岡県</tspan><tspan font-size="10.5" font-weight="500" fill="#334155"> ●静岡</tspan></text>
+    <line x1="688" y1="725" x2="571.6" y2="576.7" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="571.6" cy="576.7" r="1.8" fill="#475569"/>
+    <text x="692" y="728" text-anchor="start"><tspan class="pref-lbl">愛知県</tspan><tspan font-size="10.5" font-weight="700" fill="#B91C1C"> ●名古屋</tspan></text>
+    <line x1="641" y1="759" x2="542.6" y2="601.1" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="542.6" cy="601.1" r="1.8" fill="#475569"/>
+    <text x="645" y="762" text-anchor="start"><tspan class="pref-lbl">三重県</tspan><tspan font-size="10.5" font-weight="700" fill="#B91C1C"> ●津</tspan></text>
+    <line x1="394" y1="493" x2="527.9" y2="567.3" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="527.9" cy="567.3" r="1.8" fill="#475569"/>
+    <text x="390" y="496" text-anchor="end"><tspan class="pref-lbl">滋賀県</tspan><tspan font-size="10.5" font-weight="700" fill="#B91C1C"> ●大津</tspan></text>
+    <line x1="354" y1="523" x2="496.8" y2="565.9" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="496.8" cy="565.9" r="1.8" fill="#475569"/>
+    <text x="350" y="526" text-anchor="end"><tspan class="pref-lbl">京都府</tspan><tspan font-size="10.5" font-weight="500" fill="#334155"> ●京都</tspan></text>
+    <line x1="591" y1="827" x2="500.4" y2="595.5" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="500.4" cy="595.5" r="1.8" fill="#475569"/>
+    <text x="595" y="830" text-anchor="start"><tspan class="pref-lbl">大阪府</tspan><tspan font-size="10.5" font-weight="500" fill="#334155"> ●大阪</tspan></text>
+    <line x1="284" y1="481" x2="470.1" y2="567.3" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="470.1" cy="567.3" r="1.8" fill="#475569"/>
+    <text x="280" y="484" text-anchor="end"><tspan class="pref-lbl">兵庫県</tspan><tspan font-size="10.5" font-weight="700" fill="#B91C1C"> ●神戸</tspan></text>
+    <line x1="601" y1="793" x2="515.9" y2="608.1" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="515.9" cy="608.1" r="1.8" fill="#475569"/>
+    <text x="605" y="796" text-anchor="start"><tspan class="pref-lbl">奈良県</tspan><tspan font-size="10.5" font-weight="500" fill="#334155"> ●奈良</tspan></text>
+    <line x1="491" y1="757" x2="496.8" y2="631.6" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="496.8" cy="631.6" r="1.8" fill="#475569"/>
+    <text x="495" y="760" text-anchor="start"><tspan class="pref-lbl">和歌山県</tspan><tspan font-size="10.5" font-weight="500" fill="#334155"> ●和歌山</tspan></text>
+    <line x1="252" y1="517" x2="431.4" y2="556.4" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="431.4" cy="556.4" r="1.8" fill="#475569"/>
+    <text x="248" y="520" text-anchor="end"><tspan class="pref-lbl">鳥取県</tspan><tspan font-size="10.5" font-weight="500" fill="#334155"> ●鳥取</tspan></text>
+    <line x1="199" y1="585" x2="373.5" y2="570.6" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="373.5" cy="570.6" r="1.8" fill="#475569"/>
+    <text x="195" y="588" text-anchor="end"><tspan class="pref-lbl">島根県</tspan><tspan font-size="10.5" font-weight="700" fill="#B91C1C"> ●松江</tspan></text>
+    <line x1="232" y1="551" x2="426.9" y2="584.6" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="426.9" cy="584.6" r="1.8" fill="#475569"/>
+    <text x="228" y="554" text-anchor="end"><tspan class="pref-lbl">岡山県</tspan><tspan font-size="10.5" font-weight="500" fill="#334155"> ●岡山</tspan></text>
+    <line x1="199" y1="617" x2="373.5" y2="598.8" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="373.5" cy="598.8" r="1.8" fill="#475569"/>
+    <text x="195" y="620" text-anchor="end"><tspan class="pref-lbl">広島県</tspan><tspan font-size="10.5" font-weight="500" fill="#334155"> ●広島</tspan></text>
+    <line x1="199" y1="649" x2="322.4" y2="614.3" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="322.4" cy="614.3" r="1.8" fill="#475569"/>
+    <text x="195" y="652" text-anchor="end"><tspan class="pref-lbl">山口県</tspan><tspan font-size="10.5" font-weight="500" fill="#334155"> ●山口</tspan></text>
+    <line x1="481" y1="697" x2="435.4" y2="610.5" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="435.4" cy="610.5" r="1.8" fill="#475569"/>
+    <text x="485" y="700" text-anchor="start"><tspan class="pref-lbl">香川県</tspan><tspan font-size="10.5" font-weight="700" fill="#B91C1C"> ●高松</tspan></text>
+    <line x1="481" y1="727" x2="449.2" y2="628.4" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="449.2" cy="628.4" r="1.8" fill="#475569"/>
+    <text x="485" y="730" text-anchor="start"><tspan class="pref-lbl">徳島県</tspan><tspan font-size="10.5" font-weight="500" fill="#334155"> ●徳島</tspan></text>
+    <line x1="381" y1="759" x2="382.4" y2="636.4" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="382.4" cy="636.4" r="1.8" fill="#475569"/>
+    <text x="385" y="762" text-anchor="start"><tspan class="pref-lbl">愛媛県</tspan><tspan font-size="10.5" font-weight="700" fill="#B91C1C"> ●松山</tspan></text>
+    <line x1="414" y1="793" x2="413.6" y2="647.2" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="413.6" cy="647.2" r="1.8" fill="#475569"/>
+    <text x="418" y="796" text-anchor="start"><tspan class="pref-lbl">高知県</tspan><tspan font-size="10.5" font-weight="500" fill="#334155"> ●高知</tspan></text>
+    <line x1="189" y1="683" x2="281.4" y2="645.8" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="281.4" cy="645.8" r="1.8" fill="#475569"/>
+    <text x="185" y="686" text-anchor="end"><tspan class="pref-lbl">福岡県</tspan><tspan font-size="10.5" font-weight="500" fill="#334155"> ●福岡</tspan></text>
+    <line x1="189" y1="713" x2="263.6" y2="659.9" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="263.6" cy="659.9" r="1.8" fill="#475569"/>
+    <text x="185" y="716" text-anchor="end"><tspan class="pref-lbl">佐賀県</tspan><tspan font-size="10.5" font-weight="500" fill="#334155"> ●佐賀</tspan></text>
+    <line x1="189" y1="743" x2="248.9" y2="678.6" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="248.9" cy="678.6" r="1.8" fill="#475569"/>
+    <text x="185" y="746" text-anchor="end"><tspan class="pref-lbl">長崎県</tspan><tspan font-size="10.5" font-weight="500" fill="#334155"> ●長崎</tspan></text>
+    <line x1="334" y1="805" x2="324.6" y2="661.3" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="324.6" cy="661.3" r="1.8" fill="#475569"/>
+    <text x="338" y="808" text-anchor="start"><tspan class="pref-lbl">大分県</tspan><tspan font-size="10.5" font-weight="500" fill="#334155"> ●大分</tspan></text>
+    <line x1="189" y1="773" x2="287.6" y2="686.6" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="287.6" cy="686.6" r="1.8" fill="#475569"/>
+    <text x="185" y="776" text-anchor="end"><tspan class="pref-lbl">熊本県</tspan><tspan font-size="10.5" font-weight="500" fill="#334155"> ●熊本</tspan></text>
+    <line x1="286" y1="831" x2="317.0" y2="717.7" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="317.0" cy="717.7" r="1.8" fill="#475569"/>
+    <text x="290" y="834" text-anchor="start"><tspan class="pref-lbl">宮崎県</tspan><tspan font-size="10.5" font-weight="500" fill="#334155"> ●宮崎</tspan></text>
+    <line x1="189" y1="805" x2="278.7" y2="736.5" stroke="#64748B" stroke-width="0.9" stroke-dasharray="2,1.5"/>
+    <circle cx="278.7" cy="736.5" r="1.8" fill="#475569"/>
+    <text x="185" y="808" text-anchor="end"><tspan class="pref-lbl">鹿児島県</tspan><tspan font-size="10.5" font-weight="500" fill="#334155"> ●鹿児島</tspan></text>
+  </g>
+  <line x1="572" y1="646" x2="526.2" y2="567.3" stroke="#0284C7" stroke-width="1.2"/>
+  <rect x="572" y="635" width="70" height="20" rx="4" fill="#E0F2FE" stroke="#0284C7" stroke-width="1"/>
+  <text x="607" y="649" text-anchor="middle" font-size="11" font-weight="700" fill="#0369A1">琵琶湖</text>
+  <line x1="742" y1="628" x2="644.1" y2="560.7" stroke="#1E293B" stroke-width="1.1"/>
+  <rect x="742" y="618" width="68" height="20" rx="4" fill="#FEF3C7" stroke="#B45309" stroke-width="1"/>
+  <text x="776" y="632" text-anchor="middle" font-size="11" font-weight="700" fill="#92400E">▲富士山</text>
+  <g transform="translate(970, 695)">
+    <rect x="0" y="0" width="210" height="130" rx="8" fill="#F0F9FF" stroke="#1E3A5F" stroke-width="1.5"/>
+    <text x="10" y="20" font-size="11" font-weight="700" fill="#15803D">九州地方（沖縄県）</text>
+    <!-- Okinawa main island -->
+    <polygon points="118,32 126,38 116,58 106,76 96,94 86,98 84,88 94,72 104,54 112,38" fill="#DCFCE7" stroke="#334155" stroke-width="1"/>
+    <!-- Miyako & Yaeyama islands -->
+    <polygon points="54,104 64,106 60,114 52,110" fill="#DCFCE7" stroke="#334155" stroke-width="0.9"/>
+    <polygon points="24,106 36,104 34,114 22,115" fill="#DCFCE7" stroke="#334155" stroke-width="0.9"/>
+    <polygon points="40,108 46,108 45,115 39,114" fill="#DCFCE7" stroke="#334155" stroke-width="0.9"/>
+    <!-- Naha dot -->
+    <circle cx="92" cy="87" r="3.2" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.8"/>
+    <text x="130" y="72" class="pref-lbl">沖縄県</text>
+    <text x="130" y="90" font-size="11" font-weight="700" fill="#B91C1C">●那覇</text>
+  </g>
+</svg>

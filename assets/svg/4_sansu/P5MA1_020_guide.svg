@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 210" width="560" height="210" role="img" aria-label="長方形と正方形の面積の公式">
+  <title>長方形と正方形の面積の公式</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .lbl { font-size: 16px; font-weight: 700; }
+      .lbl-sm { font-size: 14px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 15px; font-weight: 700; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="560" height="210" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <rect x="86" y="34" width="160" height="106" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.4"/>
+  <path d="M 86.0 34.0 Q 104.0 87.0 86.0 140.0" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3,3"/>
+  <text x="42.0" y="92.0" text-anchor="middle" class="dim">たて 9m</text>
+  <path d="M 86.0 140.0 Q 166.0 158.0 246.0 140.0" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3,3"/>
+  <text x="166.0" y="166.0" text-anchor="middle" class="dim">横 6m</text>
+  <text x="166" y="92" text-anchor="middle" font-size="16" font-weight="700" fill="#1D4ED8">9×6＝54 m²</text>
+  <text x="166" y="192" text-anchor="middle" font-size="14" font-weight="700">長方形の面積＝たて×横</text>
+  <rect x="372" y="34" width="106" height="106" fill="#DCFCE7" stroke="#059669" stroke-width="2.4"/>
+  <path d="M 372.0 34.0 Q 390.0 87.0 372.0 140.0" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3,3"/>
+  <text x="344.0" y="92.0" text-anchor="middle" class="dim">7m</text>
+  <path d="M 372.0 140.0 Q 425.0 158.0 478.0 140.0" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3,3"/>
+  <text x="425.0" y="166.0" text-anchor="middle" class="dim">7m</text>
+  <text x="425" y="92" text-anchor="middle" font-size="16" font-weight="700" fill="#047857">7×7＝49 m²</text>
+  <text x="425" y="192" text-anchor="middle" font-size="14" font-weight="700">正方形の面積＝1辺×1辺</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 260" width="720" height="260" role="img" aria-label="漢字辞典の3つの引き方">
+  <defs>
+    <style>
+      .t { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', sans-serif; }
+    </style>
+  </defs>
+  <rect width="720" height="260" rx="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="360" y="34" text-anchor="middle" class="t" font-size="18" font-weight="700" fill="#0F172A">漢字辞典の3つの引き方（さくいん）</text>
+
+  <!-- Card 1: 部首さくいん -->
+  <rect x="24" y="54" width="212" height="184" rx="12" fill="#FEF2F2" stroke="#DC2626" stroke-width="2.2"/>
+  <rect x="24" y="54" width="212" height="38" rx="12" fill="#DC2626"/>
+  <text x="130" y="79" text-anchor="middle" class="t" font-size="16" font-weight="700" fill="#FFFFFF">① 部首さくいん</text>
+  <text x="130" y="116" text-anchor="middle" class="t" font-size="14" font-weight="700" fill="#991B1B">部首がわかるとき</text>
+  <text x="130" y="144" text-anchor="middle" class="t" font-size="13" fill="#334155">部首の画数を数えて</text>
+  <text x="130" y="164" text-anchor="middle" class="t" font-size="13" fill="#334155">ページを調べる</text>
+  <rect x="42" y="180" width="176" height="42" rx="8" fill="#FFFFFF" stroke="#FCA5A5"/>
+  <text x="130" y="198" text-anchor="middle" class="t" font-size="12.5" font-weight="700" fill="#991B1B">例：「校」→「木」(4画)</text>
+  <text x="130" y="215" text-anchor="middle" class="t" font-size="12.5" fill="#475569">「花」→「艹」(3画)</text>
+
+  <!-- Card 2: 音訓さくいん -->
+  <rect x="254" y="54" width="212" height="184" rx="12" fill="#EFF6FF" stroke="#2563EB" stroke-width="2.2"/>
+  <rect x="254" y="54" width="212" height="38" rx="12" fill="#2563EB"/>
+  <text x="360" y="79" text-anchor="middle" class="t" font-size="16" font-weight="700" fill="#FFFFFF">② 音訓さくいん</text>
+  <text x="360" y="116" text-anchor="middle" class="t" font-size="14" font-weight="700" fill="#1E40AF">読み方がわかるとき</text>
+  <text x="360" y="144" text-anchor="middle" class="t" font-size="13" fill="#334155">音読み・訓読みから</text>
+  <text x="360" y="164" text-anchor="middle" class="t" font-size="13" fill="#334155">五十音順で調べる</text>
+  <rect x="272" y="180" width="176" height="42" rx="8" fill="#FFFFFF" stroke="#93C5FD"/>
+  <text x="360" y="198" text-anchor="middle" class="t" font-size="12.5" font-weight="700" fill="#1E40AF">例：「うみ」「カイ」</text>
+  <text x="360" y="215" text-anchor="middle" class="t" font-size="12.5" fill="#475569">あいうえお順にならぶ</text>
+
+  <!-- Card 3: 総画さくいん -->
+  <rect x="484" y="54" width="212" height="184" rx="12" fill="#ECFDF5" stroke="#059669" stroke-width="2.2"/>
+  <rect x="484" y="54" width="212" height="38" rx="12" fill="#059669"/>
+  <text x="590" y="79" text-anchor="middle" class="t" font-size="16" font-weight="700" fill="#FFFFFF">③ 総画さくいん</text>
+  <text x="590" y="116" text-anchor="middle" class="t" font-size="14" font-weight="700" fill="#065F46">部首も読みも不明のとき</text>
+  <text x="590" y="144" text-anchor="middle" class="t" font-size="13" fill="#334155">漢字全体の画数を数えて</text>
+  <text x="590" y="164" text-anchor="middle" class="t" font-size="13" fill="#334155">画数順で調べる</text>
+  <rect x="502" y="180" width="176" height="42" rx="8" fill="#FFFFFF" stroke="#6EE7B7"/>
+  <text x="590" y="198" text-anchor="middle" class="t" font-size="12.5" font-weight="700" fill="#065F46">例：「海」→ 9画</text>
+  <text x="590" y="215" text-anchor="middle" class="t" font-size="12.5" fill="#475569">「清」→ 11画</text>
+</svg>

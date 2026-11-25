@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 252" width="680" height="252">
+  <defs>
+    <radialGradient id="ballCold" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#F1F5F9"/>
+      <stop offset="55%" stop-color="#94A3B8"/>
+      <stop offset="100%" stop-color="#475569"/>
+    </radialGradient>
+    <radialGradient id="ballHot" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FEF08A"/>
+      <stop offset="45%" stop-color="#FB923C"/>
+      <stop offset="100%" stop-color="#DC2626"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="680" height="252" rx="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+
+  <!-- Section Headers -->
+  <rect x="52" y="12" width="240" height="28" rx="8" fill="#FEF2F2" stroke="#EF4444" stroke-width="1.5"/>
+  <text x="172" y="31" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#B91C1C">金ぞくの玉を熱する</text>
+
+  <rect x="388" y="12" width="240" height="28" rx="8" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.5"/>
+  <text x="508" y="31" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#1D4ED8">熱した金ぞくの玉を冷やす</text>
+
+  <line x1="340" y1="16" x2="340" y2="236" stroke="#94A3B8" stroke-width="1.5" stroke-dasharray="5,4"/>
+
+  <!-- Panel 1: Heating metal ball over flame -->
+  <g transform="translate(18, 48)">
+    <rect width="144" height="184" rx="10" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.4"/>
+    <!-- Support rod & chain -->
+    <rect x="42" y="14" width="96" height="5" rx="2" fill="#64748B"/>
+    <g fill="none" stroke="#475569" stroke-width="1.8">
+      <ellipse cx="56" cy="28" rx="3" ry="6"/><ellipse cx="56" cy="40" rx="3" ry="6"/>
+      <ellipse cx="56" cy="52" rx="3" ry="6"/><ellipse cx="56" cy="64" rx="3" ry="6"/>
+    </g>
+    <!-- Hot Metal Ball -->
+    <circle cx="56" cy="90" r="20" fill="url(#ballHot)" stroke="#991B1B" stroke-width="1.6"/>
+    <!-- Flame -->
+    <path d="M56,114 C44,126 42,146 56,154 C70,146 68,126 56,114 Z" fill="#F97316"/>
+    <path d="M56,124 C50,132 49,144 56,150 C63,144 62,132 56,124 Z" fill="#FEF08A"/>
+    <!-- Burner top -->
+    <rect x="46" y="154" width="20" height="22" rx="2" fill="#94A3B8" stroke="#475569" stroke-width="1.5"/>
+    <text x="86" y="76" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#334155">金ぞくの</text>
+    <text x="86" y="92" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#334155">玉</text>
+    <line x1="76" y1="88" x2="84" y2="82" stroke="#475569" stroke-width="1.2"/>
+  </g>
+
+  <!-- Arrow 1->2 -->
+  <polygon points="165,134 176,134 176,128 184,139 176,150 176,144 165,144" fill="#475569"/>
+
+  <!-- Panel 2: Hot ball CANNOT pass through ring -->
+  <g transform="translate(186, 48)">
+    <rect width="144" height="184" rx="10" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.4"/>
+    <rect x="42" y="14" width="96" height="5" rx="2" fill="#64748B"/>
+    <g fill="none" stroke="#475569" stroke-width="1.8">
+      <ellipse cx="64" cy="28" rx="3" ry="6"/><ellipse cx="64" cy="40" rx="3" ry="6"/>
+      <ellipse cx="64" cy="52" rx="3" ry="6"/><ellipse cx="64" cy="64" rx="3" ry="6"/>
+    </g>
+    <!-- Ring sitting below expanded ball -->
+    <ellipse cx="64" cy="116" rx="20" ry="7" fill="none" stroke="#475569" stroke-width="3.5"/>
+    <rect x="84" y="113" width="52" height="5" fill="#64748B"/>
+    <!-- Expanded Hot Ball stuck on top of ring -->
+    <circle cx="64" cy="94" r="22" fill="url(#ballHot)" stroke="#991B1B" stroke-width="1.6"/>
+    <!-- Blocked indicator -->
+    <text x="64" y="144" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#DC2626">× 通らない</text>
+    <text x="72" y="164" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="10.5" fill="#475569">輪（実験前は通りぬけた）</text>
+  </g>
+
+  <!-- Arrow 2->3 -->
+  <polygon points="333,134 344,134 344,128 352,139 344,150 344,144 333,144" fill="#475569"/>
+
+  <!-- Panel 3: Cooling with running water -->
+  <g transform="translate(354, 48)">
+    <rect width="144" height="184" rx="10" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.4"/>
+    <!-- Faucet -->
+    <path d="M4,28 L34,28 C44,28 48,34 48,44 L48,54 L36,54 L36,44 L4,44 Z" fill="#94A3B8" stroke="#475569" stroke-width="1.6"/>
+    <!-- Water stream -->
+    <path d="M38,54 Q40,86 58,108 Q64,134 62,174 L74,174 Q76,134 72,108 Q56,82 46,54 Z" fill="#7DD3FC" opacity="0.7"/>
+    <!-- Rod & chain -->
+    <rect x="52" y="24" width="84" height="5" rx="2" fill="#64748B"/>
+    <g fill="none" stroke="#475569" stroke-width="1.8">
+      <ellipse cx="66" cy="38" rx="3" ry="6"/><ellipse cx="66" cy="50" rx="3" ry="6"/>
+      <ellipse cx="66" cy="62" rx="3" ry="6"/><ellipse cx="66" cy="74" rx="3" ry="6"/>
+    </g>
+    <!-- Cooled ball -->
+    <circle cx="66" cy="100" r="18" fill="url(#ballCold)" stroke="#334155" stroke-width="1.6"/>
+    <text x="108" y="148" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#0284C7">水で冷やす</text>
+  </g>
+
+  <!-- Arrow 3->4 -->
+  <polygon points="501,134 512,134 512,128 520,139 512,150 512,144 501,144" fill="#475569"/>
+
+  <!-- Panel 4: Cooled ball PASSES through ring -->
+  <g transform="translate(522, 48)">
+    <rect width="144" height="184" rx="10" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.4"/>
+    <rect x="42" y="14" width="96" height="5" rx="2" fill="#64748B"/>
+    <g fill="none" stroke="#475569" stroke-width="1.8">
+      <ellipse cx="64" cy="28" rx="3" ry="6"/><ellipse cx="64" cy="40" rx="3" ry="6"/>
+      <ellipse cx="64" cy="52" rx="3" ry="6"/><ellipse cx="64" cy="64" rx="3" ry="6"/>
+    </g>
+    <!-- Cooled smaller ball passing down into ring -->
+    <circle cx="64" cy="90" r="18" fill="url(#ballCold)" stroke="#334155" stroke-width="1.6"/>
+    <!-- Down arrow through ring -->
+    <line x1="64" y1="112" x2="64" y2="140" stroke="#059669" stroke-width="3"/>
+    <polygon points="64,148 58,136 70,136" fill="#059669"/>
+    <!-- Ring -->
+    <ellipse cx="64" cy="134" rx="22" ry="7" fill="none" stroke="#475569" stroke-width="3.5"/>
+    <rect x="86" y="131" width="50" height="5" fill="#64748B"/>
+    <text x="64" y="168" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#059669">○ 通りぬける</text>
+  </g>
+  
+  
+</svg>

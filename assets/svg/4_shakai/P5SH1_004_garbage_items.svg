@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 240" width="880" height="240" role="img" aria-label="4種類のごみのイラスト（ア・イ・ウ・エ）">
+  <style>
+    text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans CJK JP', sans-serif; }
+  </style>
+  <rect width="880" height="240" fill="#FFFFFF"/>
+
+  <rect x="20" y="16" width="195" height="208" rx="12" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.6"/>
+  <circle cx="46" cy="42" r="16" fill="#FFFFFF" stroke="#1E293B" stroke-width="2"/>
+  <text x="46" y="48" text-anchor="middle" font-size="16" font-weight="700" fill="#0F172A">ア</text>
+  <rect x="235" y="16" width="195" height="208" rx="12" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.6"/>
+  <circle cx="261" cy="42" r="16" fill="#FFFFFF" stroke="#1E293B" stroke-width="2"/>
+  <text x="261" y="48" text-anchor="middle" font-size="16" font-weight="700" fill="#0F172A">イ</text>
+  <rect x="450" y="16" width="195" height="208" rx="12" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.6"/>
+  <circle cx="476" cy="42" r="16" fill="#FFFFFF" stroke="#1E293B" stroke-width="2"/>
+  <text x="476" y="48" text-anchor="middle" font-size="16" font-weight="700" fill="#0F172A">ウ</text>
+  <rect x="665" y="16" width="195" height="208" rx="12" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.6"/>
+  <circle cx="691" cy="42" r="16" fill="#FFFFFF" stroke="#1E293B" stroke-width="2"/>
+  <text x="691" y="48" text-anchor="middle" font-size="16" font-weight="700" fill="#0F172A">エ</text>
+  <g transform="translate(55, 62)">
+    <!-- Upright tall can -->
+    <ellipse cx="38" cy="18" rx="22" ry="7" fill="#CBD5E1" stroke="#334155" stroke-width="1.8"/>
+    <path d="M 16,18 L 16,126 A 22,7 0 0,0 60,126 L 60,18 Z" fill="#93C5FD" stroke="#334155" stroke-width="1.8"/>
+    <ellipse cx="38" cy="18" rx="22" ry="7" fill="#E2E8F0" stroke="#334155" stroke-width="1.8"/>
+    <!-- Pull tab & drinking opening -->
+    <ellipse cx="44" cy="18" rx="6" ry="3" fill="#475569"/>
+    <ellipse cx="32" cy="18" rx="5" ry="2.2" fill="#FFFFFF" stroke="#334155" stroke-width="1.2"/>
+    <!-- Can stripe design -->
+    <path d="M 16,52 Q 38,62 60,52 L 60,92 Q 38,102 16,92 Z" fill="#3B82F6"/>
+    <path d="M 22,26 L 22,120" stroke="#FFFFFF" stroke-width="4" stroke-opacity="0.45"/>
+
+    <!-- Slightly crushed shorter can beside it -->
+    <path d="M 78,44 L 84,78 L 76,122 A 20,6 0 0,0 116,122 L 110,82 L 118,44 Z" fill="#86EFAC" stroke="#334155" stroke-width="1.8"/>
+    <ellipse cx="98" cy="44" rx="20" ry="6" fill="#E2E8F0" stroke="#334155" stroke-width="1.8"/>
+    <ellipse cx="102" cy="44" rx="5" ry="2.5" fill="#475569"/>
+    <!-- Crush crease lines -->
+    <path d="M 82,76 Q 98,88 112,79 M 80,96 Q 97,86 114,98" fill="none" stroke="#166534" stroke-width="1.5"/>
+  </g>
+  <g transform="translate(252, 68)">
+    <!-- Plastic bag / triangular sink strainer pouch -->
+    <path d="M 38,38 Q 20,76 28,118 Q 82,138 140,114 Q 148,74 128,36 Q 112,18 82,22 Q 52,18 38,38 Z" fill="#F1F5F9" stroke="#475569" stroke-width="1.8"/>
+    <!-- Crinkled open bag rim -->
+    <path d="M 36,44 Q 55,24 82,28 Q 110,22 130,44 Q 115,58 84,56 Q 52,58 36,44 Z" fill="#E2E8F0" stroke="#475569" stroke-width="1.5"/>
+    <!-- Fish bone -->
+    <g transform="translate(46, 56) rotate(-14)">
+      <line x1="8" y1="14" x2="66" y2="14" stroke="#475569" stroke-width="2.5"/>
+      <polygon points="8,14 0,6 0,22" fill="#94A3B8" stroke="#334155" stroke-width="1.3"/>
+      <polygon points="62,14 78,4 78,24" fill="#94A3B8" stroke="#334155" stroke-width="1.3"/>
+      <circle cx="71" cy="11" r="1.8" fill="#0F172A"/>
+      <line x1="22" y1="6" x2="22" y2="22" stroke="#475569" stroke-width="1.8"/>
+      <line x1="34" y1="5" x2="34" y2="23" stroke="#475569" stroke-width="1.8"/>
+      <line x1="46" y1="6" x2="46" y2="22" stroke="#475569" stroke-width="1.8"/>
+    </g>
+    <!-- Apple core -->
+    <g transform="translate(96, 68) rotate(16)">
+      <path d="M 6,4 Q 20,0 32,4 Q 22,16 22,24 Q 22,32 32,42 Q 18,46 6,42 Q 16,32 16,24 Q 16,16 6,4 Z" fill="#FEF08A" stroke="#854D0E" stroke-width="1.5"/>
+      <path d="M 6,4 Q 19,-2 32,4" fill="none" stroke="#DC2626" stroke-width="3.5"/>
+      <path d="M 6,42 Q 19,48 32,42" fill="none" stroke="#DC2626" stroke-width="3.5"/>
+      <line x1="19" y1="2" x2="22" y2="-8" stroke="#713F12" stroke-width="2"/>
+    </g>
+    <!-- Carrot peel & leafy vegetable scraps -->
+    <path d="M 40,94 Q 58,78 76,92 Q 92,102 74,114 Q 52,116 40,94 Z" fill="#4ADE80" stroke="#166534" stroke-width="1.4"/>
+    <path d="M 68,104 Q 88,92 104,106 Q 92,120 72,114 Z" fill="#FB923C" stroke="#C2410C" stroke-width="1.4"/>
+    <!-- Bag translucent overlay highlight -->
+    <path d="M 28,118 Q 82,138 140,114" fill="none" stroke="#475569" stroke-width="2"/>
+  </g>
+  <g transform="translate(476, 62)">
+    <!-- Isometric stack of bundled newspapers -->
+    <!-- Top face -->
+    <polygon points="72,12 138,34 82,62 16,40" fill="#F8FAFC" stroke="#334155" stroke-width="1.8"/>
+    <!-- Left front face (layered paper pages) -->
+    <polygon points="16,40 82,62 82,136 16,114" fill="#E2E8F0" stroke="#334155" stroke-width="1.8"/>
+    <!-- Right front face (layered paper pages) -->
+    <polygon points="82,62 138,34 138,108 82,136" fill="#CBD5E1" stroke="#334155" stroke-width="1.8"/>
+    <!-- Paper sheet horizontal layer lines -->
+    <g stroke="#64748B" stroke-width="1">
+      <line x1="16" y1="54" x2="82" y2="76"/><line x1="82" y1="76" x2="138" y2="48"/>
+      <line x1="16" y1="69" x2="82" y2="91"/><line x1="82" y1="91" x2="138" y2="63"/>
+      <line x1="16" y1="84" x2="82" y2="106"/><line x1="82" y1="106" x2="138" y2="78"/>
+      <line x1="16" y1="99" x2="82" y2="121"/><line x1="82" y1="121" x2="138" y2="93"/>
+    </g>
+    <!-- Faint newspaper print lines on top sheet -->
+    <g stroke="#94A3B8" stroke-width="1.3">
+      <line x1="48" y1="34" x2="74" y2="43"/><line x1="42" y1="40" x2="68" y2="49"/>
+      <line x1="78" y1="24" x2="106" y2="33"/>
+    </g>
+    <!-- Cross-tied twine string (warm brown) -->
+    <g fill="none" stroke="#B45309" stroke-width="3.2" stroke-linecap="round">
+      <polyline points="48,125 48,51 104,23"/>
+      <polyline points="110,122 110,48 44,26"/>
+    </g>
+    <!-- Knot & bow loops on top -->
+    <circle cx="77" cy="37" r="4" fill="#B45309"/>
+    <path d="M 77,37 Q 62,20 72,18 Q 82,20 77,37 Q 95,24 94,35 Q 88,42 77,37" fill="none" stroke="#B45309" stroke-width="2.2"/>
+  </g>
+  <g transform="translate(682, 68)">
+    <!-- Upper-right main cracked rice bowl -->
+    <ellipse cx="96" cy="34" rx="44" ry="15" fill="#F8FAFC" stroke="#334155" stroke-width="1.8"/>
+    <path d="M 52,34 Q 56,82 96,86 Q 136,82 140,34" fill="#FFFFFF" stroke="#334155" stroke-width="1.8"/>
+    <!-- Bowl foot ring -->
+    <path d="M 78,83 L 78,94 Q 96,99 114,94 L 114,83" fill="#E2E8F0" stroke="#334155" stroke-width="1.8"/>
+    <!-- Traditional blue stripe on bowl -->
+    <path d="M 56,52 Q 96,65 136,52" fill="none" stroke="#2563EB" stroke-width="3"/>
+    <!-- Big missing notch + jagged crack on main bowl -->
+    <polygon points="55,39 74,47 68,64 82,78 65,73 56,57" fill="#E2E8F0" stroke="#334155" stroke-width="1.5"/>
+    <polyline points="74,47 88,58 83,70 96,79" fill="none" stroke="#0F172A" stroke-width="1.8"/>
+
+    <!-- Broken ceramic shards lying in front-left -->
+    <g transform="translate(10, 74)">
+      <!-- Left large shard -->
+      <path d="M 10,34 Q 18,12 46,16 L 56,28 L 42,40 L 52,52 Q 24,54 10,34 Z" fill="#FFFFFF" stroke="#334155" stroke-width="1.8"/>
+      <path d="M 18,29 Q 34,26 48,30" fill="none" stroke="#2563EB" stroke-width="2.6"/>
+      <!-- Right jagged shard -->
+      <path d="M 58,34 L 74,22 Q 96,26 100,44 Q 82,56 62,48 L 68,40 Z" fill="#F8FAFC" stroke="#334155" stroke-width="1.8"/>
+      <path d="M 68,36 Q 82,35 94,40" fill="none" stroke="#2563EB" stroke-width="2.4"/>
+      <!-- Small chip -->
+      <polygon points="52,56 62,53 58,64" fill="#FFFFFF" stroke="#334155" stroke-width="1.4"/>
+    </g>
+  </g>
+</svg>

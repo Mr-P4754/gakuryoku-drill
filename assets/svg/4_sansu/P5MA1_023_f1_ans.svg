@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 324" width="460" height="324" role="img" aria-label="平行四辺形ABCDの模範作図">
+  <title>平行四辺形ABCDの模範作図</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .lbl { font-size: 16px; font-weight: 700; }
+      .lbl-sm { font-size: 14px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 15px; font-weight: 700; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+    </style>
+  </defs>
+  <polyline points="86,108 266,108 374,216" fill="none" stroke="#DC2626" stroke-width="3.6" stroke-linejoin="round"/>
+  <circle cx="266" cy="108" r="5" fill="#DC2626"/>
+  <text x="282.20000000000005" y="99.0" text-anchor="middle" font-size="18" font-weight="700" fill="#DC2626">D</text>
+</svg>

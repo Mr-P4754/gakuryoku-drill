@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 270" width="340" height="270" role="img" aria-label="L字形の複合図形（面積49cm²）">
+  <title>L字形の複合図形（面積49cm²）</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .lbl { font-size: 16px; font-weight: 700; }
+      .lbl-sm { font-size: 14px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 15px; font-weight: 700; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="340" height="270" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <polygon points="82.0,42.0 148.0,42.0 148.0,108.0 258.0,108.0 258.0,218.0 82.0,218.0" fill="#EFF6FF" stroke="#1E293B" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M 82.0 42.0 Q 115.0 28.0 148.0 42.0" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3,3"/>
+  <text x="115.0" y="26.0" text-anchor="middle" class="dim">3cm</text>
+  <path d="M 148.0 42.0 Q 134.0 75.0 148.0 108.0" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3,3"/>
+  <text x="174.0" y="79.0" text-anchor="middle" class="dim">3cm</text>
+  <path d="M 148.0 108.0 Q 203.0 94.0 258.0 108.0" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3,3"/>
+  <text x="203.0" y="94.0" text-anchor="middle" class="dim">5cm</text>
+  <path d="M 258.0 108.0 Q 242.0 163.0 258.0 218.0" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3,3"/>
+  <text x="286.0" y="167.0" text-anchor="middle" class="dim">5cm</text>
+  <path d="M 82.0 218.0 Q 170.0 236.0 258.0 218.0" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3,3"/>
+  <text x="170.0" y="244.0" text-anchor="middle" class="dim">8cm</text>
+  <path d="M 82.0 42.0 Q 100.0 130.0 82.0 218.0" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3,3"/>
+  <text x="54.0" y="134.0" text-anchor="middle" class="dim">8cm</text>
+</svg>

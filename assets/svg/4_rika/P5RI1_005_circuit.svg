@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 280" width="460" height="280">
+  <defs>
+    <linearGradient id="batBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#34D399"/>
+      <stop offset="50%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+    <linearGradient id="motorBody" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#CBD5E1"/>
+      <stop offset="50%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#94A3B8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="460" height="280" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+
+  <!-- Circuit Wire Loop -->
+  <path d="M180,210 L82,210 Q66,210 66,194 L66,86 Q66,70 82,70 L205,70" fill="none" stroke="#334155" stroke-width="4" stroke-linecap="round"/>
+  <path d="M255,70 L378,70 Q394,70 394,86 L394,194 Q394,210 378,210 L282,210" fill="none" stroke="#334155" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Motor at top -->
+  <g transform="translate(204, 44)">
+    <rect x="0" y="14" width="52" height="58" rx="8" fill="url(#motorBody)" stroke="#475569" stroke-width="2"/>
+    <rect x="18" y="4" width="16" height="12" rx="2" fill="#94A3B8" stroke="#475569" stroke-width="1.5"/>
+    <!-- Shaft & Propeller -->
+    <rect x="23" y="-14" width="6" height="18" fill="#64748B"/>
+    <ellipse cx="26" cy="-14" rx="26" ry="6" fill="#38BDF8" stroke="#0284C7" stroke-width="1.5" opacity="0.85"/>
+    <circle cx="26" cy="-14" r="4" fill="#0369A1"/>
+    <!-- Terminals -->
+    <circle cx="0" cy="26" r="4" fill="#EA580C"/>
+    <circle cx="52" cy="26" r="4" fill="#2563EB"/>
+  </g>
+  <line x1="256" y1="62" x2="294" y2="50" stroke="#475569" stroke-width="1.3"/>
+  <text x="300" y="55" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#0F172A">モーター</text>
+
+  <!-- Dry Cell Battery at bottom (+ on left, - on right, matching PDF!) -->
+  <g transform="translate(174, 186)">
+    <!-- + nub on left -->
+    <rect x="-8" y="14" width="10" height="20" rx="2" fill="#E2E8F0" stroke="#475569" stroke-width="1.8"/>
+    <!-- Battery cylinder -->
+    <rect x="2" y="2" width="110" height="44" rx="5" fill="url(#batBody)" stroke="#065F46" stroke-width="2"/>
+    <!-- White stripe & polarity -->
+    <rect x="2" y="2" width="28" height="44" rx="4" fill="#DC2626" opacity="0.88"/>
+    <text x="16" y="30" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">＋</text>
+    <text x="94" y="30" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF">－</text>
+  </g>
+  <text x="178" y="176" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#DC2626">＋極</text>
+  <text x="284" y="176" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#2563EB">－極</text>
+  <text x="230" y="256" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#065F46">かん電池</text>
+
+  <!-- Current direction arrows -->
+  <!-- Left: UP arrow -->
+  <line x1="92" y1="168" x2="92" y2="112" stroke="#EA580C" stroke-width="3"/>
+  <polygon points="92,102 85,116 99,116" fill="#EA580C"/>
+  <text x="104" y="144" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#C2410C">電流の向き</text>
+
+  <!-- Right: DOWN arrow -->
+  <line x1="368" y1="110" x2="368" y2="164" stroke="#EA580C" stroke-width="3"/>
+  <polygon points="368,174 361,160 375,160" fill="#EA580C"/>
+</svg>

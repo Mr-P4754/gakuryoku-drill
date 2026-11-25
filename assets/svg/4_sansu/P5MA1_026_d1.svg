@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 290" width="400" height="290" role="img" aria-label="立方体の展開図（頂点ア〜セ、面あ〜か）">
+  <title>立方体の展開図（頂点ア〜セ、面あ〜か）</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .lbl { font-size: 16px; font-weight: 700; }
+      .lbl-sm { font-size: 14px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 15px; font-weight: 700; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="400" height="290" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <rect x="68" y="112" width="66" height="66" fill="#F8FAFC" stroke="none"/>
+  <rect x="134" y="112" width="66" height="66" fill="#F8FAFC" stroke="none"/>
+  <rect x="200" y="112" width="66" height="66" fill="#F8FAFC" stroke="none"/>
+  <rect x="266" y="112" width="66" height="66" fill="#F8FAFC" stroke="none"/>
+  <rect x="68" y="178" width="66" height="66" fill="#F8FAFC" stroke="none"/>
+  <rect x="266" y="46" width="66" height="66" fill="#F8FAFC" stroke="none"/>
+  <line x1="68" y1="112" x2="134" y2="112" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="68" y1="178" x2="134" y2="178" stroke="#475569" stroke-width="1.6" stroke-dasharray="4,3"/>
+  <line x1="68" y1="112" x2="68" y2="178" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="134" y1="112" x2="134" y2="178" stroke="#475569" stroke-width="1.6" stroke-dasharray="4,3"/>
+  <line x1="134" y1="112" x2="200" y2="112" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="134" y1="178" x2="200" y2="178" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="200" y1="112" x2="200" y2="178" stroke="#475569" stroke-width="1.6" stroke-dasharray="4,3"/>
+  <line x1="200" y1="112" x2="266" y2="112" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="200" y1="178" x2="266" y2="178" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="266" y1="112" x2="266" y2="178" stroke="#475569" stroke-width="1.6" stroke-dasharray="4,3"/>
+  <line x1="266" y1="112" x2="332" y2="112" stroke="#475569" stroke-width="1.6" stroke-dasharray="4,3"/>
+  <line x1="266" y1="178" x2="332" y2="178" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="332" y1="112" x2="332" y2="178" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="68" y1="244" x2="134" y2="244" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="68" y1="178" x2="68" y2="244" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="134" y1="178" x2="134" y2="244" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="266" y1="46" x2="332" y2="46" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="266" y1="46" x2="266" y2="112" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="332" y1="46" x2="332" y2="112" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <circle cx="101.0" cy="145.0" r="12" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="101.0" y="150.0" text-anchor="middle" font-size="14" font-weight="700" fill="#2563EB">あ</text>
+  <circle cx="167.0" cy="145.0" r="12" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="167.0" y="150.0" text-anchor="middle" font-size="14" font-weight="700" fill="#2563EB">い</text>
+  <circle cx="233.0" cy="145.0" r="12" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="233.0" y="150.0" text-anchor="middle" font-size="14" font-weight="700" fill="#2563EB">う</text>
+  <circle cx="299.0" cy="145.0" r="12" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="299.0" y="150.0" text-anchor="middle" font-size="14" font-weight="700" fill="#2563EB">え</text>
+  <circle cx="101.0" cy="211.0" r="12" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="101.0" y="216.0" text-anchor="middle" font-size="14" font-weight="700" fill="#2563EB">お</text>
+  <circle cx="299.0" cy="79.0" r="12" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="299.0" y="84.0" text-anchor="middle" font-size="14" font-weight="700" fill="#2563EB">か</text>
+  <circle cx="68" cy="112" r="2.5" fill="#1E293B"/>
+  <text x="52" y="108" text-anchor="middle" font-size="14" font-weight="700" fill="#1E293B">ア</text>
+  <circle cx="68" cy="178" r="2.5" fill="#1E293B"/>
+  <text x="52" y="182" text-anchor="middle" font-size="14" font-weight="700" fill="#1E293B">イ</text>
+  <circle cx="68" cy="244" r="2.5" fill="#1E293B"/>
+  <text x="52" y="258" text-anchor="middle" font-size="14" font-weight="700" fill="#1E293B">ウ</text>
+  <circle cx="134" cy="244" r="2.5" fill="#1E293B"/>
+  <text x="148" y="258" text-anchor="middle" font-size="14" font-weight="700" fill="#1E293B">エ</text>
+  <circle cx="134" cy="178" r="2.5" fill="#1E293B"/>
+  <text x="146" y="194" text-anchor="middle" font-size="14" font-weight="700" fill="#1E293B">オ</text>
+  <circle cx="200" cy="178" r="2.5" fill="#1E293B"/>
+  <text x="200" y="196" text-anchor="middle" font-size="14" font-weight="700" fill="#1E293B">カ</text>
+  <circle cx="266" cy="178" r="2.5" fill="#1E293B"/>
+  <text x="266" y="196" text-anchor="middle" font-size="14" font-weight="700" fill="#1E293B">キ</text>
+  <circle cx="332" cy="178" r="2.5" fill="#1E293B"/>
+  <text x="348" y="190" text-anchor="middle" font-size="14" font-weight="700" fill="#1E293B">ク</text>
+  <circle cx="332" cy="112" r="2.5" fill="#1E293B"/>
+  <text x="348" y="116" text-anchor="middle" font-size="14" font-weight="700" fill="#1E293B">ケ</text>
+  <circle cx="332" cy="46" r="2.5" fill="#1E293B"/>
+  <text x="348" y="42" text-anchor="middle" font-size="14" font-weight="700" fill="#1E293B">コ</text>
+  <circle cx="266" cy="46" r="2.5" fill="#1E293B"/>
+  <text x="250" y="42" text-anchor="middle" font-size="14" font-weight="700" fill="#1E293B">サ</text>
+  <circle cx="266" cy="112" r="2.5" fill="#1E293B"/>
+  <text x="254" y="102" text-anchor="middle" font-size="14" font-weight="700" fill="#1E293B">シ</text>
+  <circle cx="200" cy="112" r="2.5" fill="#1E293B"/>
+  <text x="200" y="102" text-anchor="middle" font-size="14" font-weight="700" fill="#1E293B">ス</text>
+  <circle cx="134" cy="112" r="2.5" fill="#1E293B"/>
+  <text x="134" y="102" text-anchor="middle" font-size="14" font-weight="700" fill="#1E293B">セ</text>
+</svg>

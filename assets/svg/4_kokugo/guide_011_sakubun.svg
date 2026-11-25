@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 260" width="720" height="260" role="img" aria-label="2段落の作文の組み立て方">
+  <defs>
+    <style>
+      .t { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', sans-serif; }
+    </style>
+  </defs>
+  <rect width="720" height="260" rx="14" fill="#FFF7ED" stroke="#FDBA74" stroke-width="2"/>
+  <text x="360" y="34" text-anchor="middle" class="t" font-size="18" font-weight="700" fill="#9A3412">わかりやすい紹介作文の組み立て（2つの段落）</text>
+
+  <!-- Paragraph 1 -->
+  <rect x="30" y="56" width="305" height="132" rx="12" fill="#FFFFFF" stroke="#EA580C" stroke-width="2.2"/>
+  <rect x="30" y="56" width="305" height="36" rx="12" fill="#EA580C"/>
+  <text x="182" y="80" text-anchor="middle" class="t" font-size="15.5" font-weight="700" fill="#FFFFFF">1つめの段落：紹介すること</text>
+  <text x="48" y="118" class="t" font-size="14" fill="#1E293B">・書き出しは1マスあける</text>
+  <text x="48" y="144" class="t" font-size="14" fill="#1E293B">・何を紹介するのかはっきり書く</text>
+  <text x="48" y="170" class="t" font-size="13" fill="#64748B">例：「ぼくは、運動会を紹介します。」</text>
+
+  <!-- Arrow -->
+  <path d="M342 122 L374 122 M366 113 L376 122 L366 131" fill="none" stroke="#EA580C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Paragraph 2 -->
+  <rect x="385" y="56" width="305" height="132" rx="12" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.2"/>
+  <rect x="385" y="56" width="305" height="36" rx="12" fill="#2563EB"/>
+  <text x="537" y="80" text-anchor="middle" class="t" font-size="15.5" font-weight="700" fill="#FFFFFF">2つめの段落：紹介する理由</text>
+  <text x="403" y="118" class="t" font-size="14" fill="#1E293B">・行をかえて1マスあける</text>
+  <text x="403" y="144" class="t" font-size="14" fill="#1E293B">・なぜそれを選んだか具体的に書く</text>
+  <text x="403" y="170" class="t" font-size="13" fill="#64748B">例：できごと・様子・感想を入れる</text>
+
+  <!-- Length check bar -->
+  <rect x="30" y="204" width="660" height="38" rx="8" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1.5"/>
+  <text x="360" y="228" text-anchor="middle" class="t" font-size="15" font-weight="700" fill="#92400E">文字数のめやす：7行〜9行（121字〜180字の間）に収まっているか確かめよう！</text>
+</svg>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 410" width="880" height="410" role="img" aria-label="川から用水を引くための2つのくふう（あ・い）の模式図">
+  <style>
+    text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans CJK JP', sans-serif; }
+  </style>
+  <rect width="880" height="410" fill="#FFFFFF"/>
+
+  <defs>
+    <marker id="flow-arr" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 1,1 L 9,5 L 1,9 Z" fill="#1E3A8A"/>
+    </marker>
+    <clipPath id="cclip-a"><rect x="24" y="24" width="400" height="362" rx="10"/></clipPath>
+    <clipPath id="cclip-i"><rect x="456" y="24" width="400" height="362" rx="10"/></clipPath>
+  </defs>
+  <g id="canal-a">
+    <g clip-path="url(#cclip-a)">
+      <!-- Lush green fields / landscape -->
+      <rect x="24" y="24" width="400" height="362" fill="#DCFCE7"/>
+      <!-- Trees / forest patches -->
+      <g fill="#4ADE80" stroke="#166534" stroke-width="1.2">
+        <circle cx="80" cy="70" r="24"/><circle cx="115" cy="58" r="22"/><circle cx="152" cy="72" r="25"/>
+        <circle cx="205" cy="56" r="22"/><circle cx="242" cy="68" r="24"/><circle cx="282" cy="54" r="20"/>
+        <circle cx="195" cy="128" r="20"/><circle cx="228" cy="145" r="22"/>
+        <circle cx="385" cy="215" r="24"/><circle cx="355" cy="245" r="20"/>
+        <circle cx="72" cy="272" r="22"/><circle cx="245" cy="355" r="26"/><circle cx="295" cy="368" r="24"/>
+      </g>
+      <!-- River (川) flowing upper-right -> lower-left -->
+      <path d="M 435,95 Q 340,165 250,245 Q 160,320 45,395" fill="none" stroke="#38BDF8" stroke-width="64" stroke-linecap="round"/>
+      <path d="M 435,95 Q 340,165 250,245 Q 160,320 45,395" fill="none" stroke="#0284C7" stroke-width="68" stroke-opacity="0.25"/>
+      <!-- Crossing Canal (用水) flowing upper-left -> lower-right -->
+      <path d="M 15,155 Q 125,215 215,260 Q 315,305 435,360" fill="none" stroke="#60A5FA" stroke-width="38" stroke-linecap="round"/>
+      <!-- River banks outline -->
+      <path d="M 412,68 Q 318,138 228,218 L 195,215 Q 112,175 18,136" fill="none" stroke="#1E3A8A" stroke-width="1.6"/>
+      <path d="M 452,122 Q 358,192 272,268 Q 345,302 436,342" fill="none" stroke="#1E3A8A" stroke-width="1.6"/>
+      <path d="M 16,174 Q 108,224 185,264 Q 112,324 22,380" fill="none" stroke="#1E3A8A" stroke-width="1.6"/>
+      <path d="M 88,395 Q 175,332 232,286 Q 320,328 426,378" fill="none" stroke="#1E3A8A" stroke-width="1.6"/>
+
+      <!-- Weir (stones partially damming the river just downstream of intersection!) -->
+      <g fill="#E2E8F0" stroke="#334155" stroke-width="1.8">
+        <ellipse cx="164" cy="276" rx="11" ry="8" transform="rotate(28 164 276)"/>
+        <ellipse cx="182" cy="286" rx="12" ry="8" transform="rotate(28 182 286)"/>
+        <ellipse cx="201" cy="296" rx="12" ry="8" transform="rotate(28 201 296)"/>
+        <ellipse cx="218" cy="306" rx="11" ry="8" transform="rotate(28 218 306)"/>
+      </g>
+
+      <!-- Water Flow Arrows (clear blue-navy arrows!) -->
+      <line x1="362" y1="150" x2="314" y2="190" stroke="#1E3A8A" stroke-width="3.2" marker-end="url(#flow-arr)"/>
+      <line x1="138" y1="322" x2="94" y2="356" stroke="#1E3A8A" stroke-width="3.2" marker-end="url(#flow-arr)"/>
+      <line x1="88" y1="194" x2="140" y2="221" stroke="#1E3A8A" stroke-width="3.2" marker-end="url(#flow-arr)"/>
+      <line x1="292" y1="295" x2="352" y2="324" stroke="#1E3A8A" stroke-width="3.2" marker-end="url(#flow-arr)"/>
+
+      <!-- Crisp Labels matching PDF Page 13 -->
+      <rect x="292" y="102" width="44" height="26" rx="5" fill="#FFFFFF" stroke="#1E293B" stroke-width="1.3"/>
+      <text x="314" y="120" text-anchor="middle" font-size="16" font-weight="700" fill="#0F172A">川</text>
+
+      <rect x="104" y="138" width="56" height="26" rx="5" fill="#FFFFFF" stroke="#1E293B" stroke-width="1.3"/>
+      <text x="132" y="156" text-anchor="middle" font-size="15.5" font-weight="700" fill="#0F172A">用水</text>
+    </g>
+    <rect x="24" y="24" width="400" height="362" rx="10" fill="none" stroke="#1E293B" stroke-width="2"/>
+    <circle cx="52" cy="52" r="18" fill="#FFFFFF" stroke="#1E293B" stroke-width="2.2"/>
+    <text x="52" y="59" text-anchor="middle" font-size="18" font-weight="700" fill="#0F172A">あ</text>
+  </g>
+  <g id="canal-i">
+    <g clip-path="url(#cclip-i)">
+      <!-- Lush green valley background -->
+      <rect x="456" y="24" width="400" height="362" fill="#DCFCE7"/>
+      <!-- Rocky cliff at top with waterfall -->
+      <path d="M 456,24 L 856,24 L 856,118 Q 775,132 718,116 Q 635,108 555,126 Q 495,124 456,112 Z" fill="#CBD5E1" stroke="#475569" stroke-width="1.6"/>
+      <!-- Forest clusters -->
+      <g fill="#4ADE80" stroke="#166534" stroke-width="1.2">
+        <circle cx="485" cy="145" r="22"/><circle cx="525" cy="138" r="24"/><circle cx="565" cy="148" r="20"/>
+        <circle cx="675" cy="260" r="22"/><circle cx="718" cy="245" r="24"/><circle cx="645" cy="290" r="20"/>
+        <circle cx="485" cy="340" r="22"/><circle cx="515" cy="368" r="20"/>
+        <circle cx="818" cy="355" r="24"/><circle cx="785" cy="370" r="20"/>
+      </g>
+
+      <!-- Main River (川) flowing upper-right -> middle-left -->
+      <path d="M 865,128 Q 725,162 615,208 Q 525,248 450,285" fill="none" stroke="#38BDF8" stroke-width="58" stroke-linecap="round"/>
+      <path d="M 865,100 Q 725,134 615,180 Q 525,220 450,256" fill="none" stroke="#1E3A8A" stroke-width="1.6"/>
+      <path d="M 865,156 Q 725,190 615,236 Q 525,276 450,314" fill="none" stroke="#1E3A8A" stroke-width="1.6"/>
+      <!-- River flow arrows -->
+      <line x1="652" y1="194" x2="594" y2="220" stroke="#1E3A8A" stroke-width="3.2" marker-end="url(#flow-arr)"/>
+
+      <!-- Canal (用水) at bottom: loops from right flume outlet toward left/bottom-left -->
+      <path d="M 450,300 Q 565,315 660,355 Q 715,382 760,360 Q 795,335 812,285" fill="none" stroke="#60A5FA" stroke-width="36" stroke-linecap="round"/>
+      <path d="M 450,282 Q 568,298 668,338 Q 712,360 748,342 Q 778,322 794,276" fill="none" stroke="#1E3A8A" stroke-width="1.6"/>
+      <path d="M 450,318 Q 560,334 652,374 Q 718,402 774,374 Q 814,344 830,292" fill="none" stroke="#1E3A8A" stroke-width="1.6"/>
+      <!-- Canal flow arrow -->
+      <line x1="678" y1="362" x2="626" y2="338" stroke="#1E3A8A" stroke-width="3.2" marker-end="url(#flow-arr)"/>
+      <line x1="560" y1="316" x2="502" y2="306" stroke="#1E3A8A" stroke-width="3.2" marker-end="url(#flow-arr)"/>
+
+      <!-- Waterfall (滝) pouring from cliff into top of aqueduct/flume -->
+      <path d="M 652,32 Q 668,78 730,114 L 774,108 Q 715,74 700,32 Z" fill="#7DD3FC" stroke="#0284C7" stroke-width="1.5"/>
+      <path d="M 668,42 L 732,102 M 684,40 L 748,100" stroke="#FFFFFF" stroke-width="2.2" stroke-dasharray="6,4"/>
+      <!-- Splash foam cloud at intake of flume -->
+      <g fill="#FFFFFF" stroke="#0284C7" stroke-width="1.4">
+        <circle cx="744" cy="112" r="11"/><circle cx="758" cy="108" r="10"/><circle cx="770" cy="114" r="10"/><circle cx="756" cy="118" r="9"/>
+      </g>
+
+      <!-- Elevated Wooden Flume / Aqueduct (とい) bridging OVER the river! -->
+      <!-- Drop shadow & support stilts BEHIND/UNDER wooden trough -->
+      <polygon points="750,124 776,118 824,278 796,286" fill="#0F172A" fill-opacity="0.18"/>
+      <line x1="772" y1="205" x2="772" y2="232" stroke="#78350F" stroke-width="4.5"/>
+      <line x1="786" y1="246" x2="786" y2="274" stroke="#78350F" stroke-width="4.5"/>
+      <!-- Wooden trough sides -->
+      <polygon points="738,118 766,110 822,276 792,286" fill="#D97706" stroke="#78350F" stroke-width="2"/>
+      <!-- Water flowing INSIDE the flume -->
+      <polygon points="745,120 760,115 813,275 798,280" fill="#38BDF8"/>
+      <!-- Flow arrow along flume -->
+      <line x1="766" y1="162" x2="788" y2="224" stroke="#1E3A8A" stroke-width="2.8" marker-end="url(#flow-arr)"/>
+
+      <!-- Crisp Labels matching PDF Page 13 -->
+      <rect x="652" y="34" width="106" height="26" rx="5" fill="#FFFFFF" fill-opacity="0.95" stroke="#1E293B" stroke-width="1.3"/>
+      <text x="705" y="52" text-anchor="middle" font-size="14.5" font-weight="700" fill="#0F172A">滝（用水）</text>
+
+      <rect x="572" y="156" width="44" height="26" rx="5" fill="#FFFFFF" stroke="#1E293B" stroke-width="1.3"/>
+      <text x="594" y="174" text-anchor="middle" font-size="16" font-weight="700" fill="#0F172A">川</text>
+
+      <rect x="786" y="174" width="52" height="26" rx="5" fill="#FEF3C7" stroke="#92400E" stroke-width="1.5"/>
+      <text x="812" y="192" text-anchor="middle" font-size="15.5" font-weight="700" fill="#92400E">とい</text>
+
+      <rect x="574" y="330" width="56" height="26" rx="5" fill="#FFFFFF" stroke="#1E293B" stroke-width="1.3"/>
+      <text x="602" y="348" text-anchor="middle" font-size="15.5" font-weight="700" fill="#0F172A">用水</text>
+    </g>
+    <rect x="456" y="24" width="400" height="362" rx="10" fill="none" stroke="#1E293B" stroke-width="2"/>
+    <circle cx="484" cy="52" r="18" fill="#FFFFFF" stroke="#1E293B" stroke-width="2.2"/>
+    <text x="484" y="59" text-anchor="middle" font-size="18" font-weight="700" fill="#0F172A">い</text>
+  </g>
+</svg>

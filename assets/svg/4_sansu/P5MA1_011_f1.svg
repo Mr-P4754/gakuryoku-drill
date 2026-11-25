@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 215" width="640" height="215" role="img" aria-label="ガソリンと走れるきょりの関係図">
+  <title>ガソリンと走れるきょりの関係図</title>
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .lbl { font-size: 16px; font-weight: 600; }
+      .lbl-sm { font-size: 14px; font-weight: 600; }
+      .lbl-xs { font-size: 13px; font-weight: 500; fill: #475569; }
+      .num { font-size: 16px; font-weight: 700; }
+      .arrow-lbl { font-size: 18px; font-weight: 700; fill: #2563EB; }
+      .blank-num { font-size: 18px; font-weight: 700; fill: #2563EB; }
+      .ans-num { font-size: 18px; font-weight: 700; fill: #0F766E; }
+      .unit-txt { font-size: 15px; font-weight: 600; fill: #334155; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="640" height="215" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <rect x="92.0" y="24" width="88" height="36" rx="6" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+  <text x="136.0" y="48" text-anchor="middle" class="blank-num">①</text>
+  <rect x="472.0" y="24" width="88" height="36" rx="6" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+  <text x="516.0" y="48" text-anchor="middle" class="blank-num">②</text>
+  <rect x="92.0" y="156" width="88" height="36" rx="6" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+  <text x="136.0" y="180" text-anchor="middle" class="blank-num">③</text>
+  <rect x="472.0" y="156" width="88" height="36" rx="6" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+  <text x="516.0" y="180" text-anchor="middle" class="blank-num">④</text>
+  <line x1="136.0" y1="60" x2="136.0" y2="82" stroke="#64748B" stroke-width="1.3" stroke-dasharray="3,3"/>
+  <line x1="516.0" y1="60" x2="516.0" y2="82" stroke="#64748B" stroke-width="1.3" stroke-dasharray="3,3"/>
+  <line x1="136.0" y1="136" x2="136.0" y2="156" stroke="#64748B" stroke-width="1.3" stroke-dasharray="3,3"/>
+  <line x1="516.0" y1="136" x2="516.0" y2="156" stroke="#64748B" stroke-width="1.3" stroke-dasharray="3,3"/>
+  <text x="60" y="74" text-anchor="middle" class="num">0</text>
+  <text x="60" y="153" text-anchor="middle" class="num">0</text>
+  <text x="576" y="48" text-anchor="start" class="unit-txt">(km)</text>
+  <text x="576" y="180" text-anchor="start" class="unit-txt">(L)</text>
+  <rect x="60" y="82" width="456" height="30" fill="#E2E8F0" stroke="#334155" stroke-width="2" rx="2"/>
+  <rect x="60" y="82" width="76.0" height="30" fill="#93C5FD" stroke="#1D4ED8" stroke-width="2"/>
+  <line x1="60" y1="128" x2="560" y2="128" stroke="#1E293B" stroke-width="2"/>
+  <line x1="60.0" y1="120" x2="60.0" y2="136" stroke="#1E293B" stroke-width="2"/>
+  <line x1="136.0" y1="120" x2="136.0" y2="136" stroke="#1E293B" stroke-width="2"/>
+  <line x1="516.0" y1="120" x2="516.0" y2="136" stroke="#1E293B" stroke-width="2"/>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 310" width="380" height="310">
+  <rect width="380" height="310" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+
+  <!-- Wire gauze & Tripod -->
+  <polygon points="108,210 284,210 306,246 86,246" fill="#E2E8F0" stroke="#475569" stroke-width="1.6"/>
+  <ellipse cx="196" cy="228" rx="52" ry="13" fill="#CBD5E1" stroke="#64748B" stroke-width="1.2"/>
+  <line x1="126" y1="246" x2="108" y2="298" stroke="#334155" stroke-width="5" stroke-linecap="round"/>
+  <line x1="266" y1="246" x2="284" y2="298" stroke="#334155" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Alcohol Lamp under gauze -->
+  <path d="M196,238 C186,252 184,268 196,274 C208,268 206,252 196,238 Z" fill="#F97316"/>
+  <path d="M196,248 C191,256 190,266 196,270 C202,266 201,256 196,248 Z" fill="#FEF08A"/>
+  <path d="M174,274 L218,274 L224,298 L168,298 Z" fill="#F1F5F9" stroke="#475569" stroke-width="1.6"/>
+
+  <!-- Beaker -->
+  <path d="M148,118 L148,218 C148,225 154,228 164,228 L228,228 C238,228 244,225 244,218 L244,118" fill="#FFFFFF" stroke="#475569" stroke-width="2"/>
+  <!-- Water -->
+  <rect x="150" y="156" width="92" height="70" rx="4" fill="#BAE6FD" opacity="0.8"/>
+  <ellipse cx="196" cy="156" rx="46" ry="6" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.3"/>
+  <!-- Boiling stones at bottom -->
+  <circle cx="206" cy="218" r="5" fill="#78716C" stroke="#44403C" stroke-width="1"/>
+  <circle cx="218" cy="220" r="4.5" fill="#A8A29E" stroke="#44403C" stroke-width="1"/>
+  <!-- Aluminum foil cover -->
+  <path d="M144,118 C144,110 248,110 248,118 L250,132 C230,138 162,138 142,132 Z" fill="#CBD5E1" stroke="#475569" stroke-width="1.6"/>
+
+  <!-- Thermometer suspended vertically into water (bulb NOT touching bottom) -->
+  <rect x="191" y="14" width="10" height="186" rx="5" fill="#FFFFFF" stroke="#334155" stroke-width="1.6"/>
+  <rect x="194" y="64" width="4" height="130" fill="#EF4444"/>
+  <circle cx="196" cy="194" r="6" fill="#EF4444" stroke="#B91C1C" stroke-width="1"/>
+  <!-- Scale ticks on thermometer -->
+  <g stroke="#334155" stroke-width="1">
+    <line x1="191" y1="36" x2="196" y2="36"/><line x1="191" y1="56" x2="197" y2="56"/>
+    <line x1="191" y1="76" x2="196" y2="76"/><line x1="191" y1="96" x2="197" y2="96"/>
+  </g>
+
+  <!-- Labels -->
+  <line x1="201" y1="54" x2="254" y2="54" stroke="#475569" stroke-width="1.4"/>
+  <text x="260" y="59" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#0F172A">温度計</text>
+
+  <line x1="242" y1="168" x2="278" y2="162" stroke="#0284C7" stroke-width="1.4"/>
+  <text x="284" y="167" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#0369A1">水</text>
+
+  <!-- Callout ① pointing to boiling stones -->
+  <line x1="204" y1="216" x2="112" y2="176" stroke="#059669" stroke-width="1.8"/>
+  <rect x="14" y="146" width="108" height="48" rx="8" fill="#ECFDF5" stroke="#059669" stroke-width="1.8"/>
+  <text x="68" y="166" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#065F46">( ① )</text>
+  <text x="68" y="185" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12.5" fill="#065F46">を入れる。</text>
+</svg>

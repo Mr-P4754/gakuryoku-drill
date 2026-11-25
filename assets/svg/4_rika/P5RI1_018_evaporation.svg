@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 264" width="600" height="264">
+  <rect width="600" height="264" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+
+  <!-- Left panel: 日なたに置く -->
+  <rect x="16" y="34" width="276" height="196" rx="10" fill="#FEF9C3" fill-opacity="0.55" stroke="#EAB308" stroke-width="1.6"/>
+  <!-- Sun icon cleanly in top-left -->
+  <circle cx="36" cy="54" r="9" fill="#FACC15" stroke="#CA8A04" stroke-width="1.5"/>
+  <g transform="translate(44,102)">
+      <!-- Label badge neatly above beaker -->
+      <circle cx="42" cy="-42" r="12" fill="#ECFDF5" stroke="#059669" stroke-width="1.6"/>
+      <text x="42" y="-37" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#065F46">ア</text>
+      <text x="42" y="-15" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#334155">おおいをしない</text>
+      <!-- Beaker glass -->
+      <path d="M0,0 L0,100 C0,106 6,110 14,110 L70,110 C78,110 84,106 84,100 L84,0" fill="#FFFFFF" stroke="#475569" stroke-width="1.8"/>
+      <ellipse cx="42" cy="0" rx="42" ry="6" fill="none" stroke="#475569" stroke-width="1.6"/>
+      <!-- Water -->
+      <rect x="2" y="80" width="80" height="28" rx="4" fill="#93C5FD" opacity="0.82"/>
+      <ellipse cx="42" cy="80" rx="40" ry="5" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.2"/>
+      <!-- Initial level dashed line (y=48) -->
+      <line x1="2" y1="48" x2="82" y2="48" stroke="#64748B" stroke-width="1.2" stroke-dasharray="4,3"/>
+      
+    </g>
+  <g transform="translate(176,102)">
+      <!-- Label badge neatly above beaker -->
+      <circle cx="42" cy="-42" r="12" fill="#ECFDF5" stroke="#059669" stroke-width="1.6"/>
+      <text x="42" y="-37" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#065F46">イ</text>
+      <text x="42" y="-15" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#334155">おおいをする</text>
+      <!-- Beaker glass -->
+      <path d="M0,0 L0,100 C0,106 6,110 14,110 L70,110 C78,110 84,106 84,100 L84,0" fill="#FFFFFF" stroke="#475569" stroke-width="1.8"/>
+      <ellipse cx="42" cy="0" rx="42" ry="6" fill="none" stroke="#475569" stroke-width="1.6"/>
+      <!-- Water -->
+      <rect x="2" y="48" width="80" height="60" rx="4" fill="#93C5FD" opacity="0.82"/>
+      <ellipse cx="42" cy="48" rx="40" ry="5" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.2"/>
+      <!-- Initial level dashed line (y=48) -->
+      <line x1="2" y1="48" x2="82" y2="48" stroke="#64748B" stroke-width="1.2" stroke-dasharray="4,3"/>
+      
+      <path d="M-4,0 C-4,-8 88,-8 88,0 L90,14 C72,20 12,20 -6,14 Z" fill="#E2E8F0" fill-opacity="0.72" stroke="#475569" stroke-width="1.4"/>
+      <line x1="-5" y1="12" x2="89" y2="12" stroke="#DC2626" stroke-width="1.6"/>
+      <!-- Water droplets under wrap -->
+      <g fill="#38BDF8">
+        <circle cx="22" cy="8" r="2.2"/><circle cx="38" cy="11" r="2.5"/><circle cx="56" cy="9" r="2"/>
+        <circle cx="68" cy="12" r="2.3"/><circle cx="30" cy="18" r="1.8"/><circle cx="50" cy="20" r="2"/>
+      </g>
+    </g>
+  <text x="154" y="250" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#B45309">日なたに置く</text>
+
+  <!-- Right panel: 日かげに置く -->
+  <rect x="308" y="34" width="276" height="196" rx="10" fill="#94A3B8" fill-opacity="0.32" stroke="#64748B" stroke-width="1.6"/>
+  <g transform="translate(336,102)">
+      <!-- Label badge neatly above beaker -->
+      <circle cx="42" cy="-42" r="12" fill="#ECFDF5" stroke="#059669" stroke-width="1.6"/>
+      <text x="42" y="-37" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#065F46">ウ</text>
+      <text x="42" y="-15" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#334155">おおいをしない</text>
+      <!-- Beaker glass -->
+      <path d="M0,0 L0,100 C0,106 6,110 14,110 L70,110 C78,110 84,106 84,100 L84,0" fill="#FFFFFF" stroke="#475569" stroke-width="1.8"/>
+      <ellipse cx="42" cy="0" rx="42" ry="6" fill="none" stroke="#475569" stroke-width="1.6"/>
+      <!-- Water -->
+      <rect x="2" y="64" width="80" height="44" rx="4" fill="#93C5FD" opacity="0.82"/>
+      <ellipse cx="42" cy="64" rx="40" ry="5" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.2"/>
+      <!-- Initial level dashed line (y=48) -->
+      <line x1="2" y1="48" x2="82" y2="48" stroke="#64748B" stroke-width="1.2" stroke-dasharray="4,3"/>
+      
+    </g>
+  <g transform="translate(468,102)">
+      <!-- Label badge neatly above beaker -->
+      <circle cx="42" cy="-42" r="12" fill="#ECFDF5" stroke="#059669" stroke-width="1.6"/>
+      <text x="42" y="-37" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#065F46">エ</text>
+      <text x="42" y="-15" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#334155">おおいをする</text>
+      <!-- Beaker glass -->
+      <path d="M0,0 L0,100 C0,106 6,110 14,110 L70,110 C78,110 84,106 84,100 L84,0" fill="#FFFFFF" stroke="#475569" stroke-width="1.8"/>
+      <ellipse cx="42" cy="0" rx="42" ry="6" fill="none" stroke="#475569" stroke-width="1.6"/>
+      <!-- Water -->
+      <rect x="2" y="48" width="80" height="60" rx="4" fill="#93C5FD" opacity="0.82"/>
+      <ellipse cx="42" cy="48" rx="40" ry="5" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.2"/>
+      <!-- Initial level dashed line (y=48) -->
+      <line x1="2" y1="48" x2="82" y2="48" stroke="#64748B" stroke-width="1.2" stroke-dasharray="4,3"/>
+      
+      <path d="M-4,0 C-4,-8 88,-8 88,0 L90,14 C72,20 12,20 -6,14 Z" fill="#E2E8F0" fill-opacity="0.72" stroke="#475569" stroke-width="1.4"/>
+      <line x1="-5" y1="12" x2="89" y2="12" stroke="#DC2626" stroke-width="1.6"/>
+      <!-- Water droplets under wrap -->
+      <g fill="#38BDF8">
+        <circle cx="22" cy="8" r="2.2"/><circle cx="38" cy="11" r="2.5"/><circle cx="56" cy="9" r="2"/>
+        <circle cx="68" cy="12" r="2.3"/><circle cx="30" cy="18" r="1.8"/><circle cx="50" cy="20" r="2"/>
+      </g>
+    </g>
+  <text x="446" y="250" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#334155">日かげに置く</text>
+
+  <!-- Legend for initial level -->
+  <text x="300" y="22" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12.5" fill="#475569">（点線は実験をはじめたときの水面の高さ）</text>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 320" width="420" height="320">
+  <rect width="420" height="320" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+
+  <!-- Lab Stand (base, vertical rod, top clamp arm) -->
+  <rect x="200" y="294" width="144" height="10" rx="3" fill="#64748B" stroke="#334155" stroke-width="1.5"/>
+  <rect x="234" y="20" width="7" height="274" fill="#94A3B8" stroke="#475569" stroke-width="1.3"/>
+  <rect x="226" y="42" width="66" height="7" rx="2" fill="#64748B"/>
+  <circle cx="237" cy="45" r="6" fill="#475569"/>
+
+  <!-- Ice Beaker -->
+  <path d="M250,192 L250,282 C250,288 256,292 264,292 L344,292 C352,292 358,288 358,282 L358,192" fill="#EFF6FF" stroke="#475569" stroke-width="2"/>
+  <ellipse cx="304" cy="192" rx="54" ry="7" fill="none" stroke="#475569" stroke-width="1.8"/>
+  <!-- Ice cubes packed inside beaker -->
+  <g fill="#FFFFFF" fill-opacity="0.9" stroke="#0284C7" stroke-width="1.2">
+    <rect x="256" y="202" width="22" height="18" rx="4" transform="rotate(-8 267 211)"/>
+    <rect x="328" y="204" width="22" height="18" rx="4" transform="rotate(10 339 213)"/>
+    <rect x="258" y="226" width="20" height="18" rx="4" transform="rotate(12 268 235)"/>
+    <rect x="330" y="230" width="20" height="18" rx="4" transform="rotate(-14 340 239)"/>
+    <rect x="258" y="252" width="22" height="18" rx="4" transform="rotate(-6 269 261)"/>
+    <rect x="326" y="256" width="22" height="18" rx="4" transform="rotate(8 337 265)"/>
+    <rect x="288" y="268" width="28" height="18" rx="4"/>
+  </g>
+
+  <!-- Test tube 1 (with thermometer) -->
+  <path d="M276,174 L276,266 A10,10 0 0,0 296,266 L296,174" fill="#BAE6FD" fill-opacity="0.8" stroke="#334155" stroke-width="1.8"/>
+  <!-- Thermometer hanging inside test tube 1 -->
+  <rect x="282" y="48" width="8" height="206" rx="4" fill="#FFFFFF" stroke="#334155" stroke-width="1.4"/>
+  <rect x="284.5" y="138" width="3" height="110" fill="#EF4444"/>
+  <circle cx="286" cy="248" r="4.5" fill="#EF4444"/>
+
+  <!-- Test tube 2 (for observing water -> ice directly) -->
+  <path d="M312,174 L312,266 A10,10 0 0,0 332,266 L332,174" fill="#BAE6FD" fill-opacity="0.8" stroke="#334155" stroke-width="1.8"/>
+
+  <!-- Pouring beaker (tilted) pouring water + salt mixture -->
+  <g transform="translate(154, 152) rotate(32)">
+    <path d="M0,0 L0,46 C0,50 4,52 10,52 L44,52 C50,52 54,50 54,46 L54,0" fill="#FFFFFF" stroke="#475569" stroke-width="1.8"/>
+    <path d="M2,24 L52,24 L52,46 C52,49 48,50 44,50 L10,50 C6,50 2,49 2,46 Z" fill="#CBD5E1" opacity="0.85"/>
+  </g>
+  <!-- Pouring stream into ice beaker -->
+  <path d="M204,174 Q234,178 260,204" fill="none" stroke="#38BDF8" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Labels -->
+  <line x1="290" y1="92" x2="330" y2="74" stroke="#475569" stroke-width="1.3"/>
+  <text x="336" y="78" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#0F172A">温度計</text>
+
+  <line x1="354" y1="226" x2="378" y2="210" stroke="#0284C7" stroke-width="1.3"/>
+  <text x="384" y="214" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#0369A1">氷</text>
+
+  <!-- Callout ①: 水と(①)をまぜたもの -->
+  <line x1="158" y1="186" x2="108" y2="218" stroke="#059669" stroke-width="1.8"/>
+  <rect x="14" y="216" width="160" height="68" rx="10" fill="#ECFDF5" stroke="#059669" stroke-width="1.8"/>
+  <text x="94" y="238" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#065F46">水と</text>
+  <text x="94" y="258" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#047857">( ① )</text>
+  <text x="94" y="276" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#065F46">をまぜたもの。</text>
+</svg>

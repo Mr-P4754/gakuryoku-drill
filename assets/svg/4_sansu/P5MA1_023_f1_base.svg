@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 324" width="460" height="324" role="img" aria-label="平行四辺形ABCDの作図方眼">
+  <title>平行四辺形ABCDの作図方眼</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .lbl { font-size: 16px; font-weight: 700; }
+      .lbl-sm { font-size: 14px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 15px; font-weight: 700; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="460" height="324" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <rect x="50" y="36" width="360" height="252" fill="#FFFFFF" stroke="#475569" stroke-width="1.5"/>
+  <line x1="86" y1="36" x2="86" y2="288" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="122" y1="36" x2="122" y2="288" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="158" y1="36" x2="158" y2="288" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="194" y1="36" x2="194" y2="288" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="230" y1="36" x2="230" y2="288" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="266" y1="36" x2="266" y2="288" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="302" y1="36" x2="302" y2="288" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="338" y1="36" x2="338" y2="288" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="374" y1="36" x2="374" y2="288" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="50" y1="72" x2="410" y2="72" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="50" y1="108" x2="410" y2="108" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="50" y1="144" x2="410" y2="144" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="50" y1="180" x2="410" y2="180" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="50" y1="216" x2="410" y2="216" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="50" y1="252" x2="410" y2="252" stroke="#CBD5E1" stroke-width="1"/>
+  <polyline points="86,108 194,216 374,216" fill="none" stroke="#1E293B" stroke-width="3" stroke-linejoin="round"/>
+  <text x="69.8" y="99.0" text-anchor="middle" font-size="18" font-weight="700">A</text>
+  <text x="177.8" y="239.4" text-anchor="middle" font-size="18" font-weight="700">B</text>
+  <text x="390.2" y="239.4" text-anchor="middle" font-size="18" font-weight="700">C</text>
+</svg>

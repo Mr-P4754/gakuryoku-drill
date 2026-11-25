@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 460" width="680" height="460">
+  <defs>
+    <linearGradient id="seasonGrad2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F9A8D4"/>
+      <stop offset="35%" stop-color="#34D399"/>
+      <stop offset="70%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="680" height="460" rx="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <text x="340" y="28" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="16" font-weight="bold" fill="#065F46">１年間の動物のようす</text>
+
+  <!-- Column headers -->
+  <rect x="125" y="40" width="190" height="28" rx="14" fill="#DCFCE7" stroke="#16A34A" stroke-width="1.5"/>
+  <text x="220" y="59" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#166534">オオカマキリ</text>
+  <rect x="415" y="40" width="190" height="28" rx="14" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="510" y="59" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#1E40AF">ツバメ</text>
+  <line x1="365" y1="44" x2="365" y2="444" stroke="#CBD5E1" stroke-width="1.5" stroke-dasharray="5,4"/>
+
+  <!-- Left Season Arrow -->
+  <rect x="24" y="76" width="16" height="340" rx="8" fill="url(#seasonGrad2)"/>
+  <polygon points="15,410 49,410 32,438" fill="#60A5FA"/>
+  <g font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" text-anchor="middle">
+    <circle cx="32" cy="118" r="14" fill="#FDF2F8" stroke="#EC4899" stroke-width="2"/>
+    <text x="32" y="123" fill="#BE185D">春</text>
+    <circle cx="32" cy="232" r="14" fill="#ECFDF5" stroke="#10B981" stroke-width="2"/>
+    <text x="32" y="237" fill="#047857">夏</text>
+    <circle cx="32" cy="342" r="14" fill="#FFFBEB" stroke="#F59E0B" stroke-width="2"/>
+    <text x="32" y="347" fill="#B45309">秋</text>
+    <circle cx="32" cy="396" r="14" fill="#EFF6FF" stroke="#3B82F6" stroke-width="2"/>
+    <text x="32" y="401" fill="#1D4ED8">冬</text>
+  </g>
+
+  <!-- ===== MANTIS COLUMN ===== -->
+  <!-- Spring: Ootheca hatching -->
+  <g transform="translate(72, 78)">
+    <rect width="128" height="100" rx="10" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.4"/>
+    <!-- Twig -->
+    <line x1="88" y1="10" x2="102" y2="92" stroke="#78350F" stroke-width="4" stroke-linecap="round"/>
+    <!-- Egg case (ootheca) -->
+    <path d="M58,24 C45,35 45,55 58,64 C72,66 88,62 94,50 C96,38 86,24 72,22 Z" fill="#D6B28D" stroke="#92400E" stroke-width="1.5"/>
+    <path d="M54,34 Q70,38 88,33 M52,44 Q70,48 90,43 M56,54 Q72,58 88,53" fill="none" stroke="#92400E" stroke-width="1" opacity="0.6"/>
+    <!-- Tiny hatching nymphs hanging -->
+    <g fill="#65A30D" stroke="#365314" stroke-width="0.7">
+      <line x1="56" y1="62" x2="48" y2="76" stroke="#94A3B8" stroke-width="0.8"/>
+      <ellipse cx="46" cy="78" rx="4" ry="2.2" transform="rotate(30 46 78)"/>
+      <line x1="64" y1="64" x2="62" y2="82" stroke="#94A3B8" stroke-width="0.8"/>
+      <ellipse cx="62" cy="84" rx="4" ry="2.2" transform="rotate(-15 62 84)"/>
+      <line x1="72" y1="63" x2="76" y2="78" stroke="#94A3B8" stroke-width="0.8"/>
+      <ellipse cx="77" cy="80" rx="4" ry="2.2" transform="rotate(20 77 80)"/>
+      <ellipse cx="52" cy="88" rx="4" ry="2.2"/>
+    </g>
+  </g>
+  <g font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12.5" fill="#334155">
+    <text x="210" y="114">たまごから</text>
+    <text x="210" y="135" font-weight="bold" fill="#065F46">[①] がかえる。</text>
+  </g>
+
+  <!-- Summer: Adult Mantis -->
+  <g transform="translate(72, 192)">
+    <rect width="128" height="100" rx="10" fill="#F0FDF4" stroke="#94A3B8" stroke-width="1.4"/>
+    <!-- Mantis stylized illustration -->
+    <!-- Abdomen & Wings -->
+    <ellipse cx="48" cy="66" rx="30" ry="9" fill="#4ADE80" stroke="#15803D" stroke-width="1.5" transform="rotate(-18 48 66)"/>
+    <!-- Thorax -->
+    <line x1="72" y1="54" x2="94" y2="30" stroke="#16A34A" stroke-width="5" stroke-linecap="round"/>
+    <!-- Head & Eyes -->
+    <polygon points="94,24 104,28 96,35" fill="#22C55E" stroke="#15803D" stroke-width="1.2"/>
+    <circle cx="99" cy="27" r="2.2" fill="#14532D"/>
+    <!-- Antennae -->
+    <path d="M101,25 Q114,14 120,18 M99,24 Q108,10 116,10" fill="none" stroke="#15803D" stroke-width="1"/>
+    <!-- Raptorial forelegs -->
+    <path d="M90,34 L106,46 L94,56 L102,42" fill="none" stroke="#15803D" stroke-width="2.2" stroke-linejoin="round"/>
+    <!-- Walking legs -->
+    <path d="M72,56 L84,74 L94,88 M62,62 L68,80 L76,90 M46,68 L42,84 L32,90" fill="none" stroke="#15803D" stroke-width="1.8" stroke-linecap="round"/>
+  </g>
+  <g font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" fill="#334155">
+    <text x="210" y="218">気温が [②]、</text>
+    <text x="210" y="238">活動が [③] になる。</text>
+    <text x="210" y="262">成長して</text>
+    <text x="210" y="280" font-weight="bold" fill="#065F46">[④] になる。</text>
+  </g>
+
+  <!-- Autumn-Winter: Laying egg case & overwintering -->
+  <g transform="translate(72, 306)">
+    <rect width="128" height="114" rx="10" fill="#FFFBEB" stroke="#94A3B8" stroke-width="1.4"/>
+    <line x1="34" y1="104" x2="88" y2="14" stroke="#78350F" stroke-width="4.5" stroke-linecap="round"/>
+    <!-- Egg case on stem -->
+    <ellipse cx="78" cy="36" rx="16" ry="11" fill="#D6B28D" stroke="#92400E" stroke-width="1.5" transform="rotate(-25 78 36)"/>
+    <!-- Mantis laying eggs -->
+    <ellipse cx="62" cy="58" rx="22" ry="7" fill="#84CC16" stroke="#3F6212" stroke-width="1.3" transform="rotate(-55 62 58)"/>
+    <line x1="50" y1="74" x2="40" y2="92" stroke="#4D7C0F" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M56,64 L78,70 L84,84 M48,76 L68,82 L72,96" fill="none" stroke="#3F6212" stroke-width="1.5"/>
+  </g>
+  <g font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" fill="#334155">
+    <text x="210" y="334">成虫が [⑤] をうむ。</text>
+    <text x="210" y="392" font-weight="bold" fill="#1D4ED8">[⑥] のすがたで</text>
+    <text x="210" y="410">冬をこす。</text>
+  </g>
+
+  <!-- ===== SWALLOW COLUMN ===== -->
+  <!-- Spring: Nest & eggs -->
+  <g transform="translate(384, 78)">
+    <rect width="128" height="100" rx="10" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.4"/>
+    <!-- Wall/eave -->
+    <line x1="12" y1="22" x2="116" y2="22" stroke="#94A3B8" stroke-width="3"/>
+    <!-- Mud Nest -->
+    <path d="M26,56 C28,84 82,84 86,56 Z" fill="#B45309" stroke="#78350F" stroke-width="1.5"/>
+    <path d="M32,62 Q56,68 80,62 M36,70 Q56,76 76,70" fill="none" stroke="#FEF3C7" stroke-width="1" opacity="0.6"/>
+    <!-- Eggs in nest -->
+    <ellipse cx="46" cy="54" rx="5.5" ry="4" fill="#FFFBEB" stroke="#92400E" stroke-width="1"/>
+    <ellipse cx="58" cy="54" rx="5.5" ry="4" fill="#FFFBEB" stroke="#92400E" stroke-width="1"/>
+    <!-- Parent Swallow on edge -->
+    <path d="M62,48 C72,34 94,34 102,48 C90,54 74,54 62,48 Z" fill="#1E293B"/>
+    <circle cx="66" cy="40" r="7" fill="#1E293B"/>
+    <path d="M62,43 Q66,47 70,44" fill="#DC2626"/>
+    <polygon points="59,40 53,42 59,43" fill="#F59E0B"/>
+    <circle cx="64" cy="39" r="1.4" fill="#FFFFFF"/>
+    <!-- Forked tail -->
+    <path d="M98,46 L116,58 L104,50 L114,64 L94,50 Z" fill="#1E293B"/>
+  </g>
+  <g font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12.5" fill="#334155">
+    <text x="522" y="114">[⑦] をつくり、</text>
+    <text x="522" y="138" font-weight="bold" fill="#1E40AF">[⑧] をうむ。</text>
+  </g>
+
+  <!-- Summer: Raising chicks on wire -->
+  <g transform="translate(384, 192)">
+    <rect width="128" height="100" rx="10" fill="#EFF6FF" stroke="#94A3B8" stroke-width="1.4"/>
+    <!-- Wire -->
+    <line x1="8" y1="42" x2="120" y2="76" stroke="#334155" stroke-width="2"/>
+    <!-- Parent swallow -->
+    <g transform="translate(40, 44)">
+      <ellipse cx="0" cy="0" rx="14" ry="8" fill="#1E293B" transform="rotate(-20)"/>
+      <ellipse cx="2" cy="2" rx="9" ry="5" fill="#FFFFFF" transform="rotate(-20)"/>
+      <circle cx="10" cy="-7" r="6" fill="#1E293B"/>
+      <polygon points="15,-7 21,-5 15,-4" fill="#F59E0B"/>
+      <path d="M-12,4 L-26,18 L-14,10 L-22,22 L-8,7 Z" fill="#1E293B"/>
+    </g>
+    <!-- Young swallow -->
+    <g transform="translate(86, 56)">
+      <ellipse cx="0" cy="0" rx="11" ry="7" fill="#334155" transform="rotate(15)"/>
+      <ellipse cx="-2" cy="2" rx="7" ry="4" fill="#F8FAFC" transform="rotate(15)"/>
+      <circle cx="-8" cy="-6" r="5.5" fill="#334155"/>
+      <polygon points="-13,-6 -18,-5 -13,-3" fill="#F59E0B"/>
+      <path d="M9,4 L20,15 L10,9 L17,19 L6,6 Z" fill="#334155"/>
+    </g>
+  </g>
+  <g font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" fill="#334155">
+    <text x="522" y="220">親が子どもに</text>
+    <text x="522" y="238">食べ物をあたえる。</text>
+    <text x="522" y="262">子どもが成長し、</text>
+    <text x="522" y="280">大きくなる。</text>
+  </g>
+
+  <!-- Autumn-Winter: Migrating flock -->
+  <g transform="translate(384, 306)">
+    <rect width="128" height="114" rx="10" fill="#FEF3C7" stroke="#94A3B8" stroke-width="1.4"/>
+    <!-- Flying Swallows -->
+    <g fill="#1E293B">
+      <path d="M22,62 Q42,46 56,56 Q68,42 84,36 Q66,54 58,64 Q44,60 22,62 Z"/>
+      <path d="M52,60 L34,76 L48,66 L40,80 L58,64 Z"/>
+      <!-- Distant birds in flock -->
+      <path d="M78,24 Q86,18 92,24 Q98,18 106,24 Q97,22 92,27 Q87,22 78,24 Z"/>
+      <path d="M94,40 Q100,35 106,40 Q112,35 118,40 Q111,39 106,43 Q101,39 94,40 Z"/>
+      <path d="M74,72 Q82,66 88,72 Q94,66 102,72 Q93,70 88,75 Q83,70 74,72 Z"/>
+      <path d="M40,28 Q47,22 53,28 Q59,22 66,28 Q58,27 53,31 Q48,27 40,28 Z"/>
+    </g>
+  </g>
+  <g font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" fill="#334155">
+    <text x="522" y="334">寒くなると、</text>
+    <text x="522" y="354" font-weight="bold" fill="#B45309">[⑨] の方へ</text>
+    <text x="522" y="372">とび立つ。</text>
+    <text x="522" y="398" font-weight="bold" fill="#1D4ED8">[⑩] ところで</text>
+    <text x="522" y="416">すごす。</text>
+  </g>
+</svg>

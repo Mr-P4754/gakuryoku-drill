@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 260" width="380" height="260">
+  <defs>
+    <marker id="arrHotW" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#DC2626"/>
+    </marker>
+    <marker id="arrColdW" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#2563EB"/>
+    </marker>
+  </defs>
+  <rect width="380" height="260" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+  <text x="190" y="26" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="15" font-weight="bold" fill="#0369A1">水のあたたまり方</text>
+
+  <!-- Beaker -->
+  <path d="M108,46 L108,176 C108,184 116,190 126,190 L234,190 C244,190 252,184 252,176 L252,46" fill="#FFFFFF" stroke="#475569" stroke-width="2.2"/>
+  <!-- Water inside (slightly warmer top tint) -->
+  <rect x="110" y="72" width="140" height="116" rx="6" fill="#DBEAFE" opacity="0.85"/>
+  <line x1="110" y1="72" x2="250" y2="72" stroke="#0284C7" stroke-width="1.6"/>
+
+  <!-- Convection Arrows: Warm rises on left (red), spreads right across top, cools & sinks on right (blue) -->
+  <path d="M142,174 L142,96 Q142,84 156,84 L206,84" fill="none" stroke="#DC2626" stroke-width="4" stroke-linecap="round" marker-end="url(#arrHotW)"/>
+  <path d="M222,94 L222,164 Q222,176 208,176 L166,176" fill="none" stroke="#2563EB" stroke-width="4" stroke-linecap="round" marker-end="url(#arrColdW)"/>
+
+  <!-- Alcohol lamp heating bottom-left -->
+  <path d="M142,194 C132,208 132,222 142,228 C152,222 152,208 142,194 Z" fill="#F97316"/>
+  <path d="M142,202 C137,210 137,220 142,224 C147,220 147,210 142,202 Z" fill="#FEF08A"/>
+  <path d="M122,228 L162,228 L168,248 L116,248 Z" fill="#E2E8F0" stroke="#475569" stroke-width="1.6"/>
+
+  <!-- Labels -->
+  <text x="58" y="132" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#DC2626">あたたまった水</text>
+  <text x="58" y="148" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#DC2626">（上へ）</text>
+
+  <line x1="252" y1="126" x2="288" y2="118" stroke="#0284C7" stroke-width="1.5"/>
+  <text x="294" y="123" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="15" font-weight="bold" fill="#0369A1">水</text>
+  <text x="312" y="148" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#2563EB">冷たい水</text>
+  <text x="312" y="164" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#2563EB">（下へ）</text>
+</svg>

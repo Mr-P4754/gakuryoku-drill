@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 390" width="560" height="390" role="img" aria-label="7月1日の気温とプールの水温の変わり方グラフ">
+  <title>7月1日の気温とプールの水温の変わり方グラフ</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 14px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 14px; font-weight: 700; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .th { font-size: 13px; font-weight: 700; fill: #1E293B; }
+      .td { font-size: 14px; font-weight: 600; fill: #1E293B; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="560" height="390" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="284.0" y="32" text-anchor="middle" class="title">7月1日の気温とプールの水温の変わり方</text>
+  <text x="58" y="48" text-anchor="end" class="lbl-sm">(度)</text>
+  <text x="524" y="347" text-anchor="middle" class="lbl-sm">(時)</text>
+  <text x="58" y="61" text-anchor="end" class="num">35</text>
+  <line x1="68" y1="56" x2="500" y2="56" stroke="#1E293B" stroke-width="1.6"/>
+  <line x1="68" y1="67" x2="500" y2="67" stroke="#CBD5E1" stroke-width="0.7"/>
+  <line x1="68" y1="78" x2="500" y2="78" stroke="#CBD5E1" stroke-width="0.7"/>
+  <line x1="68" y1="89" x2="500" y2="89" stroke="#CBD5E1" stroke-width="0.7"/>
+  <line x1="68" y1="100" x2="500" y2="100" stroke="#CBD5E1" stroke-width="0.7"/>
+  <text x="58" y="116" text-anchor="end" class="num">30</text>
+  <line x1="68" y1="111" x2="500" y2="111" stroke="#1E293B" stroke-width="1.6"/>
+  <line x1="68" y1="122" x2="500" y2="122" stroke="#CBD5E1" stroke-width="0.7"/>
+  <line x1="68" y1="133" x2="500" y2="133" stroke="#CBD5E1" stroke-width="0.7"/>
+  <line x1="68" y1="144" x2="500" y2="144" stroke="#CBD5E1" stroke-width="0.7"/>
+  <line x1="68" y1="155" x2="500" y2="155" stroke="#CBD5E1" stroke-width="0.7"/>
+  <text x="58" y="171" text-anchor="end" class="num">25</text>
+  <line x1="68" y1="166" x2="500" y2="166" stroke="#1E293B" stroke-width="1.6"/>
+  <line x1="68" y1="177" x2="500" y2="177" stroke="#CBD5E1" stroke-width="0.7"/>
+  <line x1="68" y1="188" x2="500" y2="188" stroke="#CBD5E1" stroke-width="0.7"/>
+  <line x1="68" y1="199" x2="500" y2="199" stroke="#CBD5E1" stroke-width="0.7"/>
+  <line x1="68" y1="210" x2="500" y2="210" stroke="#CBD5E1" stroke-width="0.7"/>
+  <text x="58" y="226" text-anchor="end" class="num">20</text>
+  <line x1="68" y1="221" x2="500" y2="221" stroke="#1E293B" stroke-width="1.6"/>
+  <line x1="68" y1="232" x2="500" y2="232" stroke="#CBD5E1" stroke-width="0.7"/>
+  <line x1="68" y1="243" x2="500" y2="243" stroke="#CBD5E1" stroke-width="0.7"/>
+  <line x1="68" y1="254" x2="500" y2="254" stroke="#CBD5E1" stroke-width="0.7"/>
+  <line x1="68" y1="265" x2="500" y2="265" stroke="#CBD5E1" stroke-width="0.7"/>
+  <text x="58" y="281" text-anchor="end" class="num">15</text>
+  <line x1="68" y1="276" x2="500" y2="276" stroke="#1E293B" stroke-width="1.6"/>
+  <line x1="68" y1="287" x2="500" y2="287" stroke="#CBD5E1" stroke-width="0.7"/>
+  <line x1="68" y1="298" x2="500" y2="298" stroke="#CBD5E1" stroke-width="0.7"/>
+  <line x1="68" y1="314" x2="500" y2="314" stroke="#CBD5E1" stroke-width="0.8"/>
+  <line x1="68" y1="325" x2="500" y2="325" stroke="#1E293B" stroke-width="1.8"/>
+  <text x="58" y="330" text-anchor="end" class="num">0</text>
+  <line x1="68" y1="56" x2="68" y2="301" stroke="#1E293B" stroke-width="1.8"/>
+  <line x1="68" y1="311" x2="68" y2="325" stroke="#1E293B" stroke-width="1.8"/>
+  <line x1="116" y1="56" x2="116" y2="301" stroke="#94A3B8" stroke-width="0.9"/>
+  <line x1="116" y1="311" x2="116" y2="325" stroke="#94A3B8" stroke-width="0.9"/>
+  <text x="116" y="347" text-anchor="middle" class="num">8</text>
+  <line x1="164" y1="56" x2="164" y2="301" stroke="#94A3B8" stroke-width="0.9"/>
+  <line x1="164" y1="311" x2="164" y2="325" stroke="#94A3B8" stroke-width="0.9"/>
+  <text x="164" y="347" text-anchor="middle" class="num">9</text>
+  <line x1="212" y1="56" x2="212" y2="301" stroke="#94A3B8" stroke-width="0.9"/>
+  <line x1="212" y1="311" x2="212" y2="325" stroke="#94A3B8" stroke-width="0.9"/>
+  <text x="212" y="347" text-anchor="middle" class="num">10</text>
+  <line x1="260" y1="56" x2="260" y2="301" stroke="#94A3B8" stroke-width="0.9"/>
+  <line x1="260" y1="311" x2="260" y2="325" stroke="#94A3B8" stroke-width="0.9"/>
+  <text x="260" y="347" text-anchor="middle" class="num">11</text>
+  <line x1="308" y1="56" x2="308" y2="301" stroke="#94A3B8" stroke-width="0.9"/>
+  <line x1="308" y1="311" x2="308" y2="325" stroke="#94A3B8" stroke-width="0.9"/>
+  <text x="308" y="347" text-anchor="middle" class="num">0</text>
+  <line x1="356" y1="56" x2="356" y2="301" stroke="#94A3B8" stroke-width="0.9"/>
+  <line x1="356" y1="311" x2="356" y2="325" stroke="#94A3B8" stroke-width="0.9"/>
+  <text x="356" y="347" text-anchor="middle" class="num">1</text>
+  <line x1="404" y1="56" x2="404" y2="301" stroke="#94A3B8" stroke-width="0.9"/>
+  <line x1="404" y1="311" x2="404" y2="325" stroke="#94A3B8" stroke-width="0.9"/>
+  <text x="404" y="347" text-anchor="middle" class="num">2</text>
+  <line x1="452" y1="56" x2="452" y2="301" stroke="#94A3B8" stroke-width="0.9"/>
+  <line x1="452" y1="311" x2="452" y2="325" stroke="#94A3B8" stroke-width="0.9"/>
+  <text x="452" y="347" text-anchor="middle" class="num">3</text>
+  <line x1="500" y1="56" x2="500" y2="301" stroke="#1E293B" stroke-width="1.8"/>
+  <line x1="500" y1="311" x2="500" y2="325" stroke="#1E293B" stroke-width="1.8"/>
+  <text x="188.0" y="367" text-anchor="middle" class="lbl-sm">午前</text>
+  <text x="380.0" y="367" text-anchor="middle" class="lbl-sm">午後</text>
+  <path d="M 68.0 303.0 L 77.0 306.2 L 86.0 303.0 L 95.0 299.8 L 104.0 303.0 L 113.0 306.2 L 122.0 303.0 L 131.0 299.8 L 140.0 303.0 L 149.0 306.2 L 158.0 303.0 L 167.0 299.8 L 176.0 303.0 L 185.0 306.2 L 194.0 303.0 L 203.0 299.8 L 212.0 303.0 L 221.0 306.2 L 230.0 303.0 L 239.0 299.8 L 248.0 303.0 L 257.0 306.2 L 266.0 303.0 L 275.0 299.8 L 284.0 303.0 L 293.0 306.2 L 302.0 303.0 L 311.0 299.8 L 320.0 303.0 L 329.0 306.2 L 338.0 303.0 L 347.0 299.8 L 356.0 303.0 L 365.0 306.2 L 374.0 303.0 L 383.0 299.8 L 392.0 303.0 L 401.0 306.2 L 410.0 303.0 L 419.0 299.8 L 428.0 303.0 L 437.0 306.2 L 446.0 303.0 L 455.0 299.8 L 464.0 303.0 L 473.0 306.2 L 482.0 303.0 L 491.0 299.8 L 500.0 303.0" fill="none" stroke="#1E293B" stroke-width="1.4"/>
+  <path d="M 68.0 310.0 L 77.0 313.2 L 86.0 310.0 L 95.0 306.8 L 104.0 310.0 L 113.0 313.2 L 122.0 310.0 L 131.0 306.8 L 140.0 310.0 L 149.0 313.2 L 158.0 310.0 L 167.0 306.8 L 176.0 310.0 L 185.0 313.2 L 194.0 310.0 L 203.0 306.8 L 212.0 310.0 L 221.0 313.2 L 230.0 310.0 L 239.0 306.8 L 248.0 310.0 L 257.0 313.2 L 266.0 310.0 L 275.0 306.8 L 284.0 310.0 L 293.0 313.2 L 302.0 310.0 L 311.0 306.8 L 320.0 310.0 L 329.0 313.2 L 338.0 310.0 L 347.0 306.8 L 356.0 310.0 L 365.0 313.2 L 374.0 310.0 L 383.0 306.8 L 392.0 310.0 L 401.0 313.2 L 410.0 310.0 L 419.0 306.8 L 428.0 310.0 L 437.0 313.2 L 446.0 310.0 L 455.0 306.8 L 464.0 310.0 L 473.0 313.2 L 482.0 310.0 L 491.0 306.8 L 500.0 310.0" fill="none" stroke="#1E293B" stroke-width="1.4"/>
+  <polyline points="116,210 164,188 212,166 260,155 308,144 356,111 404,100 452,122" fill="none" stroke="#DC2626" stroke-width="2.8" stroke-linejoin="round"/>
+  <circle cx="116" cy="210" r="4.5" fill="#DC2626" stroke="#FFFFFF" stroke-width="1.2"/>
+  <circle cx="164" cy="188" r="4.5" fill="#DC2626" stroke="#FFFFFF" stroke-width="1.2"/>
+  <circle cx="212" cy="166" r="4.5" fill="#DC2626" stroke="#FFFFFF" stroke-width="1.2"/>
+  <circle cx="260" cy="155" r="4.5" fill="#DC2626" stroke="#FFFFFF" stroke-width="1.2"/>
+  <circle cx="308" cy="144" r="4.5" fill="#DC2626" stroke="#FFFFFF" stroke-width="1.2"/>
+  <circle cx="356" cy="111" r="4.5" fill="#DC2626" stroke="#FFFFFF" stroke-width="1.2"/>
+  <circle cx="404" cy="100" r="4.5" fill="#DC2626" stroke="#FFFFFF" stroke-width="1.2"/>
+  <circle cx="452" cy="122" r="4.5" fill="#DC2626" stroke="#FFFFFF" stroke-width="1.2"/>
+  <polyline points="116,243 164,221 212,199 260,188 308,166 356,155 404,133 452,133" fill="none" stroke="#2563EB" stroke-width="2.6" stroke-dasharray="6,4" stroke-linejoin="round"/>
+  <circle cx="116" cy="243" r="4.5" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.2"/>
+  <circle cx="164" cy="221" r="4.5" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.2"/>
+  <circle cx="212" cy="199" r="4.5" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.2"/>
+  <circle cx="260" cy="188" r="4.5" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.2"/>
+  <circle cx="308" cy="166" r="4.5" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.2"/>
+  <circle cx="356" cy="155" r="4.5" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.2"/>
+  <circle cx="404" cy="133" r="4.5" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.2"/>
+  <circle cx="452" cy="133" r="4.5" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.2"/>
+  <rect x="238.39999999999998" y="127.5" width="44" height="20" rx="4" fill="#FFFFFF" fill-opacity="0.9" stroke="#DC2626" stroke-width="1.2"/>
+  <text x="260.4" y="142.5" text-anchor="middle" font-size="13" font-weight="700" fill="#DC2626">気温</text>
+  <rect x="286.4" y="185.8" width="44" height="20" rx="4" fill="#FFFFFF" fill-opacity="0.9" stroke="#2563EB" stroke-width="1.2"/>
+  <text x="308.4" y="200.8" text-anchor="middle" font-size="13" font-weight="700" fill="#2563EB">水温</text>
+</svg>

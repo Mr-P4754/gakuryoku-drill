@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" width="680" height="320">
+  <defs>
+    <linearGradient id="muscleGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FCA5A5"/>
+      <stop offset="50%" stop-color="#EF4444"/>
+      <stop offset="100%" stop-color="#B91C1C"/>
+    </linearGradient>
+    <linearGradient id="muscleRelax" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FECACA"/>
+      <stop offset="50%" stop-color="#F87171"/>
+      <stop offset="100%" stop-color="#DC2626"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="680" height="320" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+
+  <!-- Left Section Title -->
+  <rect x="76" y="16" width="184" height="28" rx="8" fill="#ECFDF5" stroke="#10B981" stroke-width="1.5"/>
+  <text x="168" y="35" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#065F46">うでをのばしたとき</text>
+
+  <!-- Right Section Title -->
+  <rect x="444" y="16" width="176" height="28" rx="8" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.5"/>
+  <text x="532" y="35" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#1E40AF">うでを曲げたとき</text>
+
+  <!-- ===== LEFT: EXTENDED ARM ===== -->
+  <g transform="translate(10, 50)">
+    <!-- Arm outer silhouette & shoulder -->
+    <path d="M352,66 L352,190 L310,190 C306,158 294,148 262,152 L176,174 L66,186 C48,188 34,178 36,162 C38,148 52,144 70,152 L172,142 L262,110 C296,98 318,86 352,66 Z" fill="#FDE68A" fill-opacity="0.45" stroke="#94A3B8" stroke-width="1.8"/>
+    <!-- Shoulder scapula & upper bone (humerus) -->
+    <path d="M346,108 C330,104 316,112 316,128 C316,144 330,158 346,162 Z" fill="#FFFBEB" stroke="#64748B" stroke-width="1.5"/>
+    <!-- Humerus -->
+    <path d="M312,126 L194,154 C188,155 186,163 194,166 L312,138 C318,136 318,125 312,126 Z" fill="#FEFCE8" stroke="#475569" stroke-width="1.8"/>
+    <!-- Forearm bones (radius & ulna) -->
+    <path d="M182,156 L82,172 C76,173 76,179 82,180 L182,164 Z" fill="#FEFCE8" stroke="#475569" stroke-width="1.6"/>
+    <path d="M186,164 L84,180 C78,181 78,186 84,187 L186,172 Z" fill="#FEFCE8" stroke="#475569" stroke-width="1.6"/>
+    <!-- Fist -->
+    <path d="M76,170 C62,164 46,166 44,178 C43,189 58,194 78,186 Z" fill="#FEF3C7" stroke="#64748B" stroke-width="1.6"/>
+
+    <!-- Muscle ア (Biceps - relaxed/thin when extended) -->
+    <path d="M302,118 Q248,112 184,152 Q246,134 302,128 Z" fill="url(#muscleRelax)" stroke="#991B1B" stroke-width="1.4"/>
+    <!-- Muscle イ (Triceps - contracted/bulging when extended) -->
+    <path d="M302,140 Q252,174 196,168 Q250,148 302,136 Z" fill="url(#muscleGrad)" stroke="#991B1B" stroke-width="1.4"/>
+
+    <!-- Elbow Joint circle highlight -->
+    <circle cx="188" cy="161" r="14" fill="none" stroke="#0284C7" stroke-width="2.2" stroke-dasharray="4,2"/>
+
+    <!-- Labels ア, イ -->
+    <line x1="252" y1="122" x2="262" y2="88" stroke="#DC2626" stroke-width="1.6"/>
+    <text x="266" y="84" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="15" font-weight="bold" fill="#DC2626">ア</text>
+    <line x1="256" y1="160" x2="268" y2="202" stroke="#DC2626" stroke-width="1.6"/>
+    <text x="272" y="218" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="15" font-weight="bold" fill="#DC2626">イ</text>
+
+    <!-- Callout (⑨) pointing to BOTH muscles ア and イ -->
+    <line x1="176" y1="52" x2="226" y2="128" stroke="#059669" stroke-width="1.8"/>
+    <line x1="176" y1="52" x2="232" y2="156" stroke="#059669" stroke-width="1.8"/>
+    <rect x="136" y="24" width="68" height="28" rx="8" fill="#ECFDF5" stroke="#059669" stroke-width="1.8"/>
+    <text x="170" y="43" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#065F46">( ⑨ )</text>
+
+    <!-- Callout (⑩) pointing to elbow joint circle -->
+    <line x1="108" y1="112" x2="176" y2="152" stroke="#0284C7" stroke-width="1.8"/>
+    <rect x="44" y="90" width="68" height="28" rx="8" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.8"/>
+    <text x="78" y="109" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#0369A1">( ⑩ )</text>
+
+    <!-- Callout (⑪) pointing to BOTH upper and forearm bones -->
+    <line x1="162" y1="228" x2="132" y2="176" stroke="#B45309" stroke-width="1.8"/>
+    <line x1="162" y1="228" x2="218" y2="152" stroke="#B45309" stroke-width="1.8"/>
+    <rect x="128" y="228" width="68" height="28" rx="8" fill="#FEF3C7" stroke="#D97706" stroke-width="1.8"/>
+    <text x="162" y="247" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#92400E">( ⑪ )</text>
+  </g>
+
+  <!-- Big Arrow in Middle -->
+  <polygon points="374,174 398,174 398,162 420,184 398,206 398,194 374,194" fill="#334155"/>
+
+  <!-- ===== RIGHT: BENT ARM ===== -->
+  <g transform="translate(418, 50)">
+    <!-- Bent arm silhouette -->
+    <path d="M232,68 L232,202 L192,202 C188,168 176,162 148,170 L66,184 C44,186 38,166 48,144 L96,44 C106,24 128,28 134,44 C140,56 126,68 118,74 L88,136 L146,118 C182,106 202,90 232,68 Z" fill="#FDE68A" fill-opacity="0.45" stroke="#94A3B8" stroke-width="1.8"/>
+    <!-- Scapula -->
+    <path d="M226,110 C210,108 198,118 198,134 C198,150 210,162 226,166 Z" fill="#FFFBEB" stroke="#64748B" stroke-width="1.5"/>
+    <!-- Upper bone (humerus) -->
+    <path d="M196,132 L78,156 C70,158 70,168 78,168 L196,144 C202,142 202,130 196,132 Z" fill="#FEFCE8" stroke="#475569" stroke-width="1.8"/>
+    <!-- Forearm bones bent UP -->
+    <path d="M74,158 L108,68 C110,62 118,64 116,70 L82,162 Z" fill="#FEFCE8" stroke="#475569" stroke-width="1.6"/>
+    <path d="M64,158 L98,64 C100,58 106,60 104,66 L72,160 Z" fill="#FEFCE8" stroke="#475569" stroke-width="1.6"/>
+    <!-- Clenched Fist at top -->
+    <path d="M98,58 C94,40 112,26 126,34 C138,40 136,58 118,66 Z" fill="#FEF3C7" stroke="#64748B" stroke-width="1.6"/>
+
+    <!-- Muscle ア (Biceps - CONTRACTED / BULGING!) -->
+    <path d="M188,124 C162,88 116,90 88,144 Q134,136 188,134 Z" fill="url(#muscleGrad)" stroke="#991B1B" stroke-width="1.5"/>
+    <!-- Muscle イ (Triceps - RELAXED / THIN!) -->
+    <path d="M190,146 Q136,168 74,168 Q136,154 190,142 Z" fill="url(#muscleRelax)" stroke="#991B1B" stroke-width="1.4"/>
+
+    <!-- Labels ア, イ -->
+    <line x1="142" y1="108" x2="152" y2="76" stroke="#DC2626" stroke-width="1.6"/>
+    <text x="156" y="72" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="15" font-weight="bold" fill="#DC2626">ア</text>
+    <line x1="140" y1="164" x2="148" y2="206" stroke="#DC2626" stroke-width="1.6"/>
+    <text x="150" y="222" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="15" font-weight="bold" fill="#DC2626">イ</text>
+  </g>
+</svg>

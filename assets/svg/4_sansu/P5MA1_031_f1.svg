@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 410" width="560" height="410" role="img" aria-label="1年間の気温の変わり方の折れ線グラフ">
+  <title>1年間の気温の変わり方の折れ線グラフ</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 14px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 14px; font-weight: 700; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .th { font-size: 13px; font-weight: 700; fill: #1E293B; }
+      .td { font-size: 14px; font-weight: 600; fill: #1E293B; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="560" height="410" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="289.0" y="28" text-anchor="middle" class="title">1年間の気温の変わり方</text>
+  <text x="52" y="42" text-anchor="end" class="lbl-sm">(度)</text>
+  <text x="534" y="374" text-anchor="middle" class="lbl-sm">(月)</text>
+  <text x="58" y="57" text-anchor="end" class="num">30</text>
+  <line x1="68" y1="52" x2="510" y2="52" stroke="#1E293B" stroke-width="1.8"/>
+  <line x1="68" y1="62" x2="510" y2="62" stroke="#CBD5E1" stroke-width="0.7"/>
+  <line x1="68" y1="72" x2="510" y2="72" stroke="#CBD5E1" stroke-width="0.7"/>
+  <line x1="68" y1="82" x2="510" y2="82" stroke="#CBD5E1" stroke-width="0.7"/>
+  <line x1="68" y1="92" x2="510" y2="92" stroke="#CBD5E1" stroke-width="0.7"/>
+  <line x1="68" y1="102" x2="510" y2="102" stroke="#475569" stroke-width="1.2"/>
+  <line x1="68" y1="112" x2="510" y2="112" stroke="#CBD5E1" stroke-width="0.7"/>
+  <line x1="68" y1="122" x2="510" y2="122" stroke="#CBD5E1" stroke-width="0.7"/>
+  <line x1="68" y1="132" x2="510" y2="132" stroke="#CBD5E1" stroke-width="0.7"/>
+  <line x1="68" y1="142" x2="510" y2="142" stroke="#CBD5E1" stroke-width="0.7"/>
+  <text x="58" y="157" text-anchor="end" class="num">20</text>
+  <line x1="68" y1="152" x2="510" y2="152" stroke="#1E293B" stroke-width="1.8"/>
+  <line x1="68" y1="162" x2="510" y2="162" stroke="#CBD5E1" stroke-width="0.7"/>
+  <line x1="68" y1="172" x2="510" y2="172" stroke="#CBD5E1" stroke-width="0.7"/>
+  <line x1="68" y1="182" x2="510" y2="182" stroke="#CBD5E1" stroke-width="0.7"/>
+  <line x1="68" y1="192" x2="510" y2="192" stroke="#CBD5E1" stroke-width="0.7"/>
+  <line x1="68" y1="202" x2="510" y2="202" stroke="#475569" stroke-width="1.2"/>
+  <line x1="68" y1="212" x2="510" y2="212" stroke="#CBD5E1" stroke-width="0.7"/>
+  <line x1="68" y1="222" x2="510" y2="222" stroke="#CBD5E1" stroke-width="0.7"/>
+  <line x1="68" y1="232" x2="510" y2="232" stroke="#CBD5E1" stroke-width="0.7"/>
+  <line x1="68" y1="242" x2="510" y2="242" stroke="#CBD5E1" stroke-width="0.7"/>
+  <text x="58" y="257" text-anchor="end" class="num">10</text>
+  <line x1="68" y1="252" x2="510" y2="252" stroke="#1E293B" stroke-width="1.8"/>
+  <line x1="68" y1="262" x2="510" y2="262" stroke="#CBD5E1" stroke-width="0.7"/>
+  <line x1="68" y1="272" x2="510" y2="272" stroke="#CBD5E1" stroke-width="0.7"/>
+  <line x1="68" y1="282" x2="510" y2="282" stroke="#CBD5E1" stroke-width="0.7"/>
+  <line x1="68" y1="292" x2="510" y2="292" stroke="#CBD5E1" stroke-width="0.7"/>
+  <line x1="68" y1="302" x2="510" y2="302" stroke="#475569" stroke-width="1.2"/>
+  <line x1="68" y1="312" x2="510" y2="312" stroke="#CBD5E1" stroke-width="0.7"/>
+  <line x1="68" y1="322" x2="510" y2="322" stroke="#CBD5E1" stroke-width="0.7"/>
+  <line x1="68" y1="332" x2="510" y2="332" stroke="#CBD5E1" stroke-width="0.7"/>
+  <line x1="68" y1="342" x2="510" y2="342" stroke="#CBD5E1" stroke-width="0.7"/>
+  <text x="58" y="357" text-anchor="end" class="num">0</text>
+  <line x1="68" y1="352" x2="510" y2="352" stroke="#1E293B" stroke-width="1.8"/>
+  <line x1="68" y1="52" x2="68" y2="352" stroke="#1E293B" stroke-width="1.8"/>
+  <line x1="102" y1="52" x2="102" y2="352" stroke="#94A3B8" stroke-width="0.9"/>
+  <text x="102" y="374" text-anchor="middle" class="num">1</text>
+  <line x1="136" y1="52" x2="136" y2="352" stroke="#94A3B8" stroke-width="0.9"/>
+  <text x="136" y="374" text-anchor="middle" class="num">2</text>
+  <line x1="170" y1="52" x2="170" y2="352" stroke="#94A3B8" stroke-width="0.9"/>
+  <text x="170" y="374" text-anchor="middle" class="num">3</text>
+  <line x1="204" y1="52" x2="204" y2="352" stroke="#94A3B8" stroke-width="0.9"/>
+  <text x="204" y="374" text-anchor="middle" class="num">4</text>
+  <line x1="238" y1="52" x2="238" y2="352" stroke="#94A3B8" stroke-width="0.9"/>
+  <text x="238" y="374" text-anchor="middle" class="num">5</text>
+  <line x1="272" y1="52" x2="272" y2="352" stroke="#94A3B8" stroke-width="0.9"/>
+  <text x="272" y="374" text-anchor="middle" class="num">6</text>
+  <line x1="306" y1="52" x2="306" y2="352" stroke="#94A3B8" stroke-width="0.9"/>
+  <text x="306" y="374" text-anchor="middle" class="num">7</text>
+  <line x1="340" y1="52" x2="340" y2="352" stroke="#94A3B8" stroke-width="0.9"/>
+  <text x="340" y="374" text-anchor="middle" class="num">8</text>
+  <line x1="374" y1="52" x2="374" y2="352" stroke="#94A3B8" stroke-width="0.9"/>
+  <text x="374" y="374" text-anchor="middle" class="num">9</text>
+  <line x1="408" y1="52" x2="408" y2="352" stroke="#94A3B8" stroke-width="0.9"/>
+  <text x="408" y="374" text-anchor="middle" class="num">10</text>
+  <line x1="442" y1="52" x2="442" y2="352" stroke="#94A3B8" stroke-width="0.9"/>
+  <text x="442" y="374" text-anchor="middle" class="num">11</text>
+  <line x1="476" y1="52" x2="476" y2="352" stroke="#94A3B8" stroke-width="0.9"/>
+  <text x="476" y="374" text-anchor="middle" class="num">12</text>
+  <line x1="510" y1="52" x2="510" y2="352" stroke="#1E293B" stroke-width="1.8"/>
+  <polyline points="102,292 136,292 170,262 204,212 238,172 272,142 306,102 340,92 374,112 408,172 442,222 476,262" fill="none" stroke="#2563EB" stroke-width="2.8" stroke-linejoin="round"/>
+  <circle cx="102" cy="292" r="4.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.2"/>
+  <circle cx="136" cy="292" r="4.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.2"/>
+  <circle cx="170" cy="262" r="4.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.2"/>
+  <circle cx="204" cy="212" r="4.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.2"/>
+  <circle cx="238" cy="172" r="4.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.2"/>
+  <circle cx="272" cy="142" r="4.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.2"/>
+  <circle cx="306" cy="102" r="4.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.2"/>
+  <circle cx="340" cy="92" r="4.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.2"/>
+  <circle cx="374" cy="112" r="4.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.2"/>
+  <circle cx="408" cy="172" r="4.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.2"/>
+  <circle cx="442" cy="222" r="4.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.2"/>
+  <circle cx="476" cy="262" r="4.2" fill="#2563EB" stroke="#FFFFFF" stroke-width="1.2"/>
+</svg>

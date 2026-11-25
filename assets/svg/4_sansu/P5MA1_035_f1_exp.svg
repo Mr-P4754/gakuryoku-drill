@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 185" width="460" height="185" role="img" aria-label="40本は8本の何倍かの関係図">
+  <title>40本は8本の何倍かの関係図</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 14px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 14px; font-weight: 700; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .th { font-size: 13px; font-weight: 700; fill: #1E293B; }
+      .td { font-size: 14px; font-weight: 600; fill: #1E293B; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="460" height="185" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <rect x="60" y="44" width="320" height="24" fill="#DBEAFE" stroke="#1E293B" stroke-width="1.8"/>
+  <line x1="124" y1="44" x2="124" y2="68" stroke="#64748B" stroke-width="1.2" stroke-dasharray="3,2"/>
+  <line x1="188" y1="44" x2="188" y2="68" stroke="#64748B" stroke-width="1.2" stroke-dasharray="3,2"/>
+  <line x1="252" y1="44" x2="252" y2="68" stroke="#64748B" stroke-width="1.2" stroke-dasharray="3,2"/>
+  <line x1="316" y1="44" x2="316" y2="68" stroke="#64748B" stroke-width="1.2" stroke-dasharray="3,2"/>
+  <path d="M 60.0 44.0 Q 220.0 26.0 380.0 44.0" fill="none" stroke="#475569" stroke-width="1.2" stroke-dasharray="3,2"/>
+  <text x="220.0" y="24.0" text-anchor="middle" font-size="14" font-weight="700" fill="#1E293B">40本</text>
+  <rect x="60" y="94" width="64" height="24" fill="#DCFCE7" stroke="#1E293B" stroke-width="1.8"/>
+  <rect x="70.0" y="71" width="44" height="18" rx="3" fill="#FFFFFF" fill-opacity="0.9"/>
+  <path d="M 60.0 94.0 Q 92.0 84.0 124.0 94.0" fill="none" stroke="#475569" stroke-width="1.2" stroke-dasharray="3,2"/>
+  <text x="92.0" y="84.0" text-anchor="middle" font-size="13" font-weight="700" fill="#1E293B">8本</text>
+  <line x1="60" y1="68" x2="60" y2="144" stroke="#94A3B8" stroke-width="1.2" stroke-dasharray="3,2"/>
+  <line x1="124" y1="68" x2="124" y2="144" stroke="#94A3B8" stroke-width="1.2" stroke-dasharray="3,2"/>
+  <line x1="380" y1="68" x2="380" y2="144" stroke="#94A3B8" stroke-width="1.2" stroke-dasharray="3,2"/>
+  <line x1="60" y1="144" x2="406" y2="144" stroke="#1E293B" stroke-width="2"/>
+  <line x1="60" y1="138" x2="60" y2="150" stroke="#1E293B" stroke-width="1.8"/>
+  <line x1="124" y1="138" x2="124" y2="150" stroke="#1E293B" stroke-width="1.8"/>
+  <line x1="188" y1="138" x2="188" y2="150" stroke="#1E293B" stroke-width="1.8"/>
+  <line x1="252" y1="138" x2="252" y2="150" stroke="#1E293B" stroke-width="1.8"/>
+  <line x1="316" y1="138" x2="316" y2="150" stroke="#1E293B" stroke-width="1.8"/>
+  <line x1="380" y1="138" x2="380" y2="150" stroke="#1E293B" stroke-width="1.8"/>
+  <text x="60" y="168" text-anchor="middle" class="num">0</text>
+  <text x="124" y="168" text-anchor="middle" class="num">1</text>
+  <text x="380" y="168" text-anchor="middle" class="num blue">□倍</text>
+</svg>

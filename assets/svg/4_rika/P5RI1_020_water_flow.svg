@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 230" width="640" height="230">
+  <defs>
+    <linearGradient id="groundSlope" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E7E5E4"/>
+      <stop offset="100%" stop-color="#D6D3D1"/>
+    </linearGradient>
+    <linearGradient id="streamBlue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="230" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+
+  <!-- LEFT: Sloped ground with rainwater stream -->
+  <g transform="translate(18, 22)">
+    <rect width="310" height="176" rx="10" fill="url(#groundSlope)" stroke="#78716C" stroke-width="1.5"/>
+    <!-- Winding rainwater stream (higher back -> lower front) -->
+    <path d="M90,10 C150,18 220,26 232,44 C244,62 190,82 140,106 C100,126 84,150 96,176 L62,176 C50,148 70,118 118,94 C166,70 206,54 196,42 C186,30 120,22 68,14 Z"
+          fill="url(#streamBlue)" opacity="0.85" stroke="#1D4ED8" stroke-width="1.3"/>
+    <!-- Tributary from right -->
+    <path d="M310,92 C256,96 206,104 166,118 L142,110 C190,94 252,86 310,82 Z"
+          fill="#60A5FA" opacity="0.8" stroke="#1D4ED8" stroke-width="1.1"/>
+    <!-- Flow direction arrows -->
+    <path d="M180,32 Q216,42 206,56" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="4,2"/>
+    <path d="M168,86 L124,108" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    <polygon points="116,112 128,112 124,102" fill="#FFFFFF"/>
+    <path d="M96,136 L82,162" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    <polygon points="78,168 88,162 78,156" fill="#FFFFFF"/>
+    <!-- Soil speckles -->
+    <g fill="#78716C" opacity="0.6">
+      <circle cx="34" cy="48" r="2"/><circle cx="52" cy="84" r="1.5"/><circle cx="264" cy="36" r="2"/>
+      <circle cx="242" cy="144" r="2.2"/><circle cx="192" cy="152" r="1.8"/><circle cx="28" cy="134" r="1.6"/>
+    </g>
+    <text x="155" y="196" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#334155">地面を流れる雨水</text>
+  </g>
+
+  <!-- RIGHT: School handwashing trough with drain -->
+  <g transform="translate(352, 22)">
+    <rect width="270" height="176" rx="10" fill="#F8FAFC" stroke="#64748B" stroke-width="1.5"/>
+    <!-- Back wall with tiles -->
+    <rect x="70" y="14" width="186" height="68" fill="#E2E8F0" stroke="#64748B" stroke-width="1.4"/>
+    <!-- Basin sloped tiled floor -->
+    <polygon points="70,82 256,82 256,164 34,164" fill="#F1F5F9" stroke="#475569" stroke-width="1.6"/>
+    <!-- Left rim -->
+    <polygon points="16,120 70,74 70,82 34,164 16,164" fill="#FFFFFF" stroke="#475569" stroke-width="1.6"/>
+    <line x1="42" y1="158" x2="72" y2="82" stroke="#94A3B8" stroke-width="1"/><line x1="62" y1="158" x2="86" y2="82" stroke="#94A3B8" stroke-width="1"/><line x1="82" y1="158" x2="100" y2="82" stroke="#94A3B8" stroke-width="1"/><line x1="102" y1="158" x2="114" y2="82" stroke="#94A3B8" stroke-width="1"/><line x1="122" y1="158" x2="128" y2="82" stroke="#94A3B8" stroke-width="1"/><line x1="142" y1="158" x2="142" y2="82" stroke="#94A3B8" stroke-width="1"/><line x1="162" y1="158" x2="156" y2="82" stroke="#94A3B8" stroke-width="1"/><line x1="182" y1="158" x2="170" y2="82" stroke="#94A3B8" stroke-width="1"/><line x1="202" y1="158" x2="184" y2="82" stroke="#94A3B8" stroke-width="1"/><line x1="222" y1="158" x2="198" y2="82" stroke="#94A3B8" stroke-width="1"/><line x1="242" y1="158" x2="212" y2="82" stroke="#94A3B8" stroke-width="1"/><line x1="56" y1="94" x2="232" y2="94" stroke="#94A3B8" stroke-width="1"/><line x1="56" y1="108" x2="232" y2="108" stroke="#94A3B8" stroke-width="1"/><line x1="56" y1="124" x2="232" y2="124" stroke="#94A3B8" stroke-width="1"/><line x1="56" y1="140" x2="232" y2="140" stroke="#94A3B8" stroke-width="1"/>
+
+    <!-- Water pipes & faucet -->
+    <rect x="200" y="28" width="56" height="7" fill="#94A3B8" stroke="#475569" stroke-width="1.2"/>
+    <path d="M210,35 L210,56 Q210,64 198,64 L184,64 L184,74 L194,74 L194,69 L204,69 Q218,69 218,56 L218,35 Z" fill="#CBD5E1" stroke="#475569" stroke-width="1.4"/>
+    <!-- Handle -->
+    <rect x="200" y="20" width="24" height="5" rx="2" fill="#64748B"/>
+    <!-- Drain at lowest spot -->
+    <ellipse cx="132" cy="144" rx="20" ry="11" fill="#475569" stroke="#1E293B" stroke-width="1.6"/>
+    <ellipse cx="132" cy="144" rx="15" ry="8" fill="#CBD5E1"/>
+    <g stroke="#334155" stroke-width="1.5">
+      <line x1="122" y1="140" x2="122" y2="148"/>
+      <line x1="128" y1="138" x2="128" y2="150"/>
+      <line x1="135" y1="138" x2="135" y2="150"/>
+      <line x1="141" y1="140" x2="141" y2="148"/>
+    </g>
+    <!-- Slope arrows pointing toward drain -->
+    <path d="M188,118 L152,136" stroke="#0284C7" stroke-width="2"/>
+    <polygon points="146,139 156,139 152,131" fill="#0284C7"/>
+    <path d="M84,118 L112,136" stroke="#0284C7" stroke-width="2"/>
+    <polygon points="118,139 114,131 108,139" fill="#0284C7"/>
+    <!-- Label -->
+    <rect x="164" y="138" width="78" height="22" rx="6" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.2"/>
+    <text x="203" y="153" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#0369A1">はい水口</text>
+    <text x="135" y="196" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#334155">手あらい場のつくり</text>
+  </g>
+</svg>

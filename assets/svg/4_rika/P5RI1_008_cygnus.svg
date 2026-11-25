@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 300" width="360" height="300">
+  <defs>
+    <radialGradient id="nightSky" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </radialGradient>
+  </defs>
+  <rect width="360" height="300" rx="18" fill="url(#nightSky)" stroke="#334155" stroke-width="2"/>
+  <circle cx="45" cy="42" r="1.5" fill="#E2E8F0" opacity="0.65"/>
+    <circle cx="90" cy="32" r="1.2" fill="#E2E8F0" opacity="0.65"/>
+    <circle cx="170" cy="36" r="1.4" fill="#E2E8F0" opacity="0.65"/>
+    <circle cx="295" cy="45" r="1.6" fill="#E2E8F0" opacity="0.65"/>
+    <circle cx="318" cy="92" r="1.3" fill="#E2E8F0" opacity="0.65"/>
+    <circle cx="52" cy="118" r="1.3" fill="#E2E8F0" opacity="0.65"/>
+    <circle cx="38" cy="178" r="1.5" fill="#E2E8F0" opacity="0.65"/>
+    <circle cx="62" cy="260" r="1.4" fill="#E2E8F0" opacity="0.65"/>
+    <circle cx="165" cy="255" r="1.3" fill="#E2E8F0" opacity="0.65"/>
+    <circle cx="225" cy="265" r="1.5" fill="#E2E8F0" opacity="0.65"/>
+    <circle cx="308" cy="182" r="1.4" fill="#E2E8F0" opacity="0.65"/>
+    <circle cx="292" cy="134" r="1.2" fill="#E2E8F0" opacity="0.65"/>
+    <circle cx="144" cy="52" r="1.1" fill="#E2E8F0" opacity="0.65"/>
+    <circle cx="204" cy="122" r="1.2" fill="#E2E8F0" opacity="0.65"/>
+
+  <!-- Graceful Swan Silhouette -->
+  <path d="M98,64 C112,50 132,58 148,78 C164,96 176,104 188,88 C202,68 232,38 266,24 C264,46 254,70 238,94 C224,114 210,126 196,144 L268,224 C278,236 284,244 278,248 C272,250 262,242 252,232 L180,162 C164,182 146,204 124,226 C102,248 76,264 56,268 C66,244 82,216 102,190 C122,164 136,148 150,136 C132,120 112,100 98,84 Z"
+        fill="#94A3B8" fill-opacity="0.28" stroke="#CBD5E1" stroke-opacity="0.45" stroke-width="1.5"/>
+
+  <!-- Constellation Lines (Northern Cross) -->
+  <g stroke="#93C5FD" stroke-width="1.8" stroke-opacity="0.85">
+    <line x1="122" y1="82" x2="178" y2="142"/>
+    <line x1="178" y1="142" x2="222" y2="186"/>
+    <line x1="222" y1="186" x2="268" y2="232"/>
+    <line x1="248" y1="52" x2="212" y2="92"/>
+    <line x1="212" y1="92" x2="178" y2="142"/>
+    <line x1="178" y1="142" x2="132" y2="184"/>
+    <line x1="132" y1="184" x2="86" y2="224"/>
+  </g>
+  <circle cx="122" cy="82" r="13.2" fill="#FEF08A" opacity="0.25"/><circle cx="122" cy="82" r="5.5" fill="#FEF08A"/>
+    <circle cx="178" cy="142" r="10.8" fill="#FFFFFF" opacity="0.25"/><circle cx="178" cy="142" r="4.5" fill="#FFFFFF"/>
+    <circle cx="268" cy="232" r="9.6" fill="#FFFFFF" opacity="0.25"/><circle cx="268" cy="232" r="4.0" fill="#FFFFFF"/>
+    <circle cx="212" cy="92" r="9.6" fill="#FFFFFF" opacity="0.25"/><circle cx="212" cy="92" r="4.0" fill="#FFFFFF"/>
+    <circle cx="248" cy="52" r="7.7" fill="#FFFFFF" opacity="0.25"/><circle cx="248" cy="52" r="3.2" fill="#FFFFFF"/>
+    <circle cx="132" cy="184" r="9.6" fill="#FFFFFF" opacity="0.25"/><circle cx="132" cy="184" r="4.0" fill="#FFFFFF"/>
+    <circle cx="86" cy="224" r="7.7" fill="#FFFFFF" opacity="0.25"/><circle cx="86" cy="224" r="3.2" fill="#FFFFFF"/>
+    <circle cx="222" cy="186" r="6.7" fill="#FFFFFF" opacity="0.25"/><circle cx="222" cy="186" r="2.8" fill="#FFFFFF"/>
+
+  <rect x="16" y="256" width="128" height="28" rx="8" fill="#0F172A" fill-opacity="0.75" stroke="#475569"/>
+  <text x="80" y="275" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#F8FAFC">はくちょうざ</text>
+</svg>

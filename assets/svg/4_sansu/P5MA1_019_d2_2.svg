@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 220" width="340" height="220" role="img" aria-label="交わる直線と角う・え（25°）">
+  <title>交わる直線と角う・え（25°）</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .lbl { font-size: 16px; font-weight: 700; }
+      .lbl-sm { font-size: 14px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 15px; font-weight: 700; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="340" height="220" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <line x1="36" y1="115.0" x2="304" y2="115.0" stroke="#1E293B" stroke-width="2.4"/>
+  <line x1="287.8" y1="60.1" x2="52.2" y2="169.9" stroke="#1E293B" stroke-width="2.4"/>
+  <path d="M 206.00 115.00 A 36.00 36.00 0 0 0 202.63 99.79" fill="none" stroke="#1E293B" stroke-width="1.8"/>
+  <text x="234.0" y="105.0" text-anchor="middle" class="num">25°</text>
+  <path d="M 170.00 115.00 L 193.56 104.01 A 26.00 26.00 0 0 0 144.00 115.00 Z" fill="rgba(37,99,235,0.14)" stroke="#2563EB" stroke-width="2.2"/>
+  <circle cx="154.0" cy="71.0" r="12" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="154.0" y="76.0" text-anchor="middle" font-size="14" font-weight="700" fill="#2563EB">う</text>
+  <path d="M 170.00 115.00 L 134.00 115.00 A 36.00 36.00 0 0 0 137.37 130.21 Z" fill="rgba(220,38,38,0.14)" stroke="#DC2626" stroke-width="2.2"/>
+  <circle cx="106.0" cy="135.0" r="12" fill="#FEF2F2" stroke="#DC2626" stroke-width="1.5"/>
+  <text x="106.0" y="140.0" text-anchor="middle" font-size="14" font-weight="700" fill="#DC2626">え</text>
+</svg>

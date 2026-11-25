@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 320" width="960" height="320" role="img" aria-label="特色ある地域のまちづくりや取り組みの3つのイラスト（ア・イ・ウ）">
+  <style>
+    text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans CJK JP', sans-serif; }
+  </style>
+  <rect width="960" height="320" fill="#FFFFFF"/>
+
+  <defs>
+    <clipPath id="rc1"><rect x="20" y="38" width="292" height="262" rx="10"/></clipPath>
+    <clipPath id="rc2"><rect x="334" y="38" width="292" height="262" rx="10"/></clipPath>
+    <clipPath id="rc3"><rect x="648" y="38" width="292" height="262" rx="10"/></clipPath>
+  </defs>
+  <circle cx="38" cy="20" r="14" fill="#FEF3C7" stroke="#B45309" stroke-width="1.8"/>
+  <text x="38" y="25" text-anchor="middle" font-size="15" font-weight="700" fill="#92400E">ア</text>
+  <circle cx="352" cy="20" r="14" fill="#FEF3C7" stroke="#B45309" stroke-width="1.8"/>
+  <text x="352" y="25" text-anchor="middle" font-size="15" font-weight="700" fill="#92400E">イ</text>
+  <circle cx="666" cy="20" r="14" fill="#FEF3C7" stroke="#B45309" stroke-width="1.8"/>
+  <text x="666" y="25" text-anchor="middle" font-size="15" font-weight="700" fill="#92400E">ウ</text>
+  <g id="reg-a">
+    <g clip-path="url(#rc1)">
+      <!-- Sky & distant hills -->
+      <rect x="20" y="38" width="292" height="110" fill="#E0F2FE"/>
+      <path d="M 20,125 Q 90,82 175,112 Q 245,86 312,118 L 312,155 L 20,155 Z" fill="#86EFAC"/>
+      <!-- Street pavement -->
+      <rect x="20" y="150" width="292" height="150" fill="#E2E8F0"/>
+      <!-- Traditional Japanese craft shop buildings on left & background -->
+      <rect x="20" y="92" width="110" height="85" fill="#FEF3C7" stroke="#78350F" stroke-width="1.5"/>
+      <polygon points="15,96 76,68 138,96" fill="#475569" stroke="#1E293B" stroke-width="1.5"/>
+      <!-- Traditional Noren curtain -->
+      <rect x="34" y="102" width="22" height="28" fill="#1E3A8A" stroke="#FFFFFF" stroke-width="1"/>
+      <rect x="58" y="102" width="22" height="28" fill="#1E3A8A" stroke="#FFFFFF" stroke-width="1"/>
+      <rect x="82" y="102" width="22" height="28" fill="#1E3A8A" stroke="#FFFFFF" stroke-width="1"/>
+      <!-- Background shop -->
+      <rect x="175" y="104" width="137" height="72" fill="#FDE68A" stroke="#78350F" stroke-width="1.4"/>
+      <polygon points="168,106 245,78 320,106" fill="#64748B" stroke="#1E293B" stroke-width="1.5"/>
+
+      <!-- Wooden Pottery Display Stall (foreground left-center) -->
+      <polygon points="24,195 198,175 208,215 24,242" fill="#92400E" stroke="#451A03" stroke-width="1.8"/>
+      <polygon points="24,242 208,215 208,295 24,300" fill="#1E3A8A" stroke="#0F172A" stroke-width="1.6"/>
+      <!-- Handcrafted ceramic pottery on display table! -->
+      <!-- Tall blue-glazed ceramic vase -->
+      <path d="M 46,198 Q 38,180 44,162 L 56,162 Q 62,180 54,198 Z" fill="#2563EB" stroke="#1E293B" stroke-width="1.4"/>
+      <ellipse cx="50" cy="162" rx="7" ry="2.5" fill="#93C5FD" stroke="#1E293B" stroke-width="1.2"/>
+      <!-- Earthy ceramic tea bowls (stacked) -->
+      <path d="M 70,192 Q 74,208 88,208 Q 102,208 106,192 Z" fill="#F97316" stroke="#451A03" stroke-width="1.4"/>
+      <ellipse cx="88" cy="192" rx="18" ry="5" fill="#FED7AA" stroke="#451A03" stroke-width="1.3"/>
+      <path d="M 74,178 Q 78,191 88,191 Q 98,191 102,178 Z" fill="#FFFFFF" stroke="#334155" stroke-width="1.4"/>
+      <path d="M 76,184 Q 88,188 100,184" fill="none" stroke="#1D4ED8" stroke-width="2"/>
+      <!-- Ceramic teapot -->
+      <circle cx="128" cy="192" r="13" fill="#B45309" stroke="#451A03" stroke-width="1.4"/>
+      <path d="M 140,188 L 150,182" stroke="#B45309" stroke-width="3.5" stroke-linecap="round"/>
+      <path d="M 116,184 Q 128,166 140,184" fill="none" stroke="#451A03" stroke-width="2"/>
+      <!-- Ceramic decorative plate on stand -->
+      <circle cx="174" cy="182" r="16" fill="#FFFFFF" stroke="#1E3A8A" stroke-width="1.8"/>
+      <circle cx="174" cy="182" r="10" fill="none" stroke="#3B82F6" stroke-width="1.8" stroke-dasharray="3,2"/>
+      <!-- Smaller teacups -->
+      <rect x="38" y="206" width="16" height="16" rx="3" fill="#D97706" stroke="#451A03" stroke-width="1.3"/>
+      <rect x="62" y="210" width="16" height="16" rx="3" fill="#0F766E" stroke="#1E293B" stroke-width="1.3"/>
+      <rect x="112" y="206" width="18" height="14" rx="4" fill="#F8FAFC" stroke="#334155" stroke-width="1.3"/>
+
+      <!-- Visitors browsing pottery (right side) -->
+      <!-- Visitor 1 (holding ceramic cup, smiling) -->
+      <g transform="translate(212, 162)">
+        <circle cx="26" cy="24" r="15" fill="#FDE68A" stroke="#1E293B" stroke-width="1.6"/>
+        <path d="M 11,22 Q 16,6 34,10 Q 42,16 40,26 Q 28,16 11,22 Z" fill="#1E293B"/>
+        <circle cx="21" cy="24" r="1.8" fill="#0F172A"/><circle cx="30" cy="24" r="1.8" fill="#0F172A"/>
+        <path d="M 22,30 Q 26,33 30,30" fill="none" stroke="#0F172A" stroke-width="1.4"/>
+        <path d="M 8,42 Q 26,38 44,42 L 48,108 L 4,108 Z" fill="#EF4444" stroke="#1E293B" stroke-width="1.6"/>
+        <!-- Holding a teacup -->
+        <rect x="-8" y="54" width="14" height="12" rx="3" fill="#2563EB" stroke="#1E293B" stroke-width="1.3"/>
+      </g>
+      <!-- Visitor 2 (elderly/craftsman in back) -->
+      <g transform="translate(256, 174)">
+        <circle cx="22" cy="22" r="14" fill="#FDE68A" stroke="#1E293B" stroke-width="1.6"/>
+        <path d="M 9,20 Q 14,7 30,9 Q 36,14 34,22 Z" fill="#64748B"/>
+        <circle cx="17" cy="22" r="1.7" fill="#0F172A"/><circle cx="25" cy="22" r="1.7" fill="#0F172A"/>
+        <path d="M 6,38 Q 22,35 38,38 L 42,102 L 2,102 Z" fill="#10B981" stroke="#1E293B" stroke-width="1.6"/>
+      </g>
+    </g>
+    <rect x="20" y="38" width="292" height="262" rx="10" fill="none" stroke="#1E293B" stroke-width="1.8"/>
+  </g>
+  <g id="reg-i">
+    <g clip-path="url(#rc2)">
+      <!-- Classroom wall & wood floor -->
+      <rect x="334" y="38" width="292" height="180" fill="#FEFCE8"/>
+      <rect x="334" y="218" width="292" height="82" fill="#FDE68A"/>
+      <!-- Green chalkboard with greetings & globe -->
+      <rect x="358" y="52" width="184" height="88" rx="4" fill="#166534" stroke="#92400E" stroke-width="5"/>
+      <text x="372" y="76" font-size="11.5" font-weight="700" fill="#FFFFFF">こんにちは</text>
+      <text x="372" y="96" font-size="11.5" font-weight="700" fill="#FDE047">Hello!</text>
+      <text x="372" y="116" font-size="11.5" font-weight="700" fill="#93C5FD">Olá! / 你好!</text>
+      <!-- Simple globe drawing on chalkboard -->
+      <circle cx="502" cy="96" r="24" fill="#38BDF8" stroke="#FFFFFF" stroke-width="1.5"/>
+      <path d="M 488,88 Q 498,82 508,92 Q 515,102 502,110 Q 490,104 488,88 Z" fill="#4ADE80"/>
+      <path d="M 508,82 Q 518,86 516,96" fill="none" stroke="#4ADE80" stroke-width="4" stroke-linecap="round"/>
+      <!-- Colorful international bunting flags along wall -->
+      <polyline points="550,56 626,64" fill="none" stroke="#64748B" stroke-width="1.4"/>
+      <polygon points="558,57 572,58 564,74" fill="#EF4444"/>
+      <polygon points="576,59 590,60 582,76" fill="#3B82F6"/>
+      <polygon points="594,61 608,62 600,78" fill="#22C55E"/>
+      <polygon points="610,63 624,64 616,80" fill="#FACC15"/>
+
+      <!-- Teacher smiling at right side -->
+      <g transform="translate(556, 100)">
+        <circle cx="24" cy="22" r="14" fill="#FDE68A" stroke="#1E293B" stroke-width="1.5"/>
+        <path d="M 10,20 Q 14,5 32,9 Q 38,14 38,24 Z" fill="#451A03"/>
+        <circle cx="19" cy="22" r="1.6" fill="#0F172A"/><circle cx="27" cy="22" r="1.6" fill="#0F172A"/>
+        <path d="M 20,27 Q 23,30 27,27" fill="none" stroke="#0F172A" stroke-width="1.3"/>
+        <rect x="10" y="36" width="28" height="48" rx="6" fill="#6366F1" stroke="#1E293B" stroke-width="1.5"/>
+      </g>
+
+      <!-- 3 Diverse Elementary Students at Desks Raising Hands Happily! -->
+      <!-- Student 1 (dark hair, light skin, raising hand) -->
+      <g transform="translate(352, 166)">
+        <line x1="50" y1="48" x2="58" y2="14" stroke="#FDE68A" stroke-width="7" stroke-linecap="round"/>
+        <circle cx="58" cy="12" r="5" fill="#FDE68A" stroke="#1E293B" stroke-width="1.2"/>
+        <circle cx="32" cy="30" r="16" fill="#FDE68A" stroke="#1E293B" stroke-width="1.6"/>
+        <path d="M 16,28 Q 20,10 42,14 Q 48,20 48,30 Q 34,20 16,28 Z" fill="#1E293B"/>
+        <circle cx="27" cy="30" r="1.8" fill="#0F172A"/><circle cx="36" cy="30" r="1.8" fill="#0F172A"/>
+        <path d="M 28,36 Q 32,40 36,36" fill="none" stroke="#0F172A" stroke-width="1.4"/>
+        <rect x="16" y="46" width="32" height="36" rx="6" fill="#3B82F6" stroke="#1E293B" stroke-width="1.6"/>
+        <!-- Desk -->
+        <rect x="4" y="76" width="60" height="44" fill="#F59E0B" stroke="#78350F" stroke-width="1.6"/>
+        <rect x="14" y="80" width="36" height="10" fill="#FFFFFF" stroke="#64748B" stroke-width="1"/>
+      </g>
+      <!-- Student 2 (blonde/brown wavy hair, medium-tan skin, smiling & raising hand) -->
+      <g transform="translate(432, 174)">
+        <line x1="12" y1="46" x2="4" y2="12" stroke="#D9A066" stroke-width="7" stroke-linecap="round"/>
+        <circle cx="4" cy="10" r="5" fill="#D9A066" stroke="#1E293B" stroke-width="1.2"/>
+        <circle cx="34" cy="30" r="16" fill="#D9A066" stroke="#1E293B" stroke-width="1.6"/>
+        <path d="M 17,28 Q 18,9 36,10 Q 52,12 51,32 Q 44,24 34,20 Q 24,22 17,28 Z" fill="#92400E"/>
+        <circle cx="29" cy="30" r="1.8" fill="#0F172A"/><circle cx="39" cy="30" r="1.8" fill="#0F172A"/>
+        <path d="M 30,36 Q 34,40 38,36" fill="none" stroke="#0F172A" stroke-width="1.4"/>
+        <rect x="18" y="46" width="32" height="36" rx="6" fill="#EC4899" stroke="#1E293B" stroke-width="1.6"/>
+        <!-- Desk -->
+        <rect x="6" y="76" width="60" height="44" fill="#F59E0B" stroke="#78350F" stroke-width="1.6"/>
+        <rect x="16" y="80" width="38" height="10" fill="#FFFFFF" stroke="#64748B" stroke-width="1"/>
+      </g>
+      <!-- Student 3 (curly dark hair, warm brown skin, waving/holding notebook) -->
+      <g transform="translate(514, 170)">
+        <line x1="52" y1="46" x2="60" y2="12" stroke="#A16207" stroke-width="7" stroke-linecap="round"/>
+        <circle cx="60" cy="10" r="5" fill="#A16207" stroke="#1E293B" stroke-width="1.2"/>
+        <circle cx="32" cy="30" r="16" fill="#B47B46" stroke="#1E293B" stroke-width="1.6"/>
+        <path d="M 15,28 Q 14,10 32,8 Q 50,10 49,28 Q 42,18 32,18 Q 22,18 15,28 Z" fill="#1E293B"/>
+        <circle cx="27" cy="30" r="1.8" fill="#0F172A"/><circle cx="37" cy="30" r="1.8" fill="#0F172A"/>
+        <path d="M 28,36 Q 32,40 36,36" fill="none" stroke="#0F172A" stroke-width="1.4"/>
+        <rect x="16" y="46" width="32" height="36" rx="6" fill="#22C55E" stroke="#1E293B" stroke-width="1.6"/>
+        <!-- Desk -->
+        <rect x="4" y="76" width="60" height="44" fill="#F59E0B" stroke="#78350F" stroke-width="1.6"/>
+        <rect x="14" y="80" width="36" height="10" fill="#FFFFFF" stroke="#64748B" stroke-width="1"/>
+      </g>
+    </g>
+    <rect x="334" y="38" width="292" height="262" rx="10" fill="none" stroke="#1E293B" stroke-width="1.8"/>
+  </g>
+  <g id="reg-u">
+    <g clip-path="url(#rc3)">
+      <!-- Crisp winter blue sky -->
+      <rect x="648" y="38" width="292" height="125" fill="#BAE6FD"/>
+      <!-- Soft clouds -->
+      <g fill="#FFFFFF" fill-opacity="0.85">
+        <ellipse cx="705" cy="64" rx="28" ry="9"/><ellipse cx="870" cy="70" rx="34" ry="10"/>
+      </g>
+      <!-- Majestic snow-capped mountain range (Shiretoko mountain range style) -->
+      <polygon points="644,162 710,74 758,128 815,62 872,118 914,82 945,162" fill="#475569" stroke="#1E293B" stroke-width="1.4"/>
+      <!-- Snow caps & ridges -->
+      <polygon points="710,74 686,108 704,102 718,112 732,98" fill="#FFFFFF"/>
+      <polygon points="815,62 784,106 804,98 818,110 834,94 846,104" fill="#FFFFFF"/>
+      <polygon points="914,82 894,110 910,104 926,112 934,104" fill="#FFFFFF"/>
+      <!-- Snow slopes highlight -->
+      <path d="M 656,160 L 710,98 L 750,160 M 765,160 L 815,96 L 865,160" fill="none" stroke="#E2E8F0" stroke-width="2" stroke-opacity="0.6"/>
+
+      <!-- Deep Arctic blue sea -->
+      <rect x="648" y="160" width="292" height="140" fill="#0369A1"/>
+      <!-- Distant drift ice horizon band -->
+      <rect x="648" y="162" width="292" height="16" fill="#E0F2FE"/>
+
+      <!-- Drift ice floes (流氷) floating in the sea -->
+      <polygon points="648,195 724,186 762,202 718,218 648,212" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.2"/>
+      <polygon points="784,188 864,182 918,198 882,216 802,212" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.2"/>
+      <!-- Large foreground drift ice floes -->
+      <polygon points="644,232 768,218 824,244 794,296 644,302" fill="#FFFFFF" stroke="#64748B" stroke-width="1.6"/>
+      <polygon points="644,292 794,284 824,244 824,258 794,302 644,302" fill="#CBD5E1"/>
+      <polygon points="812,248 944,228 944,302 820,302" fill="#FFFFFF" stroke="#64748B" stroke-width="1.6"/>
+      <polygon points="820,288 944,274 944,302 820,302" fill="#CBD5E1"/>
+
+      <!-- Wild Steller's Sea Eagle 1 (オオワシ perched on left ice floe) -->
+      <g transform="translate(722, 206)">
+        <!-- Body & dark wings -->
+        <ellipse cx="18" cy="28" rx="11" ry="18" fill="#1E293B" transform="rotate(-12 18 28)"/>
+        <!-- Characteristic white shoulder patch & tail -->
+        <ellipse cx="14" cy="20" rx="5" ry="7" fill="#FFFFFF"/>
+        <polygon points="22,42 30,52 18,50" fill="#FFFFFF" stroke="#334155" stroke-width="0.8"/>
+        <!-- Head & bright yellow hooked beak -->
+        <circle cx="15" cy="9" r="7" fill="#1E293B"/>
+        <polygon points="9,8 1,11 9,14" fill="#FACC15" stroke="#854D0E" stroke-width="0.8"/>
+        <circle cx="13" cy="8" r="1.2" fill="#FFFFFF"/>
+        <!-- Legs -->
+        <line x1="14" y1="45" x2="12" y2="54" stroke="#F59E0B" stroke-width="2.2"/>
+        <line x1="20" y1="45" x2="22" y2="54" stroke="#F59E0B" stroke-width="2.2"/>
+      </g>
+
+      <!-- Wild Sea Eagle 2 (perched on right ice floe) -->
+      <g transform="translate(838, 212)">
+        <ellipse cx="18" cy="26" rx="10" ry="16" fill="#1E293B" transform="rotate(10 18 26)"/>
+        <ellipse cx="22" cy="19" rx="4.5" ry="6.5" fill="#FFFFFF"/>
+        <polygon points="14,39 8,49 19,47" fill="#FFFFFF" stroke="#334155" stroke-width="0.8"/>
+        <circle cx="21" cy="9" r="6.5" fill="#1E293B"/>
+        <polygon points="27,8 34,11 27,13.5" fill="#FACC15" stroke="#854D0E" stroke-width="0.8"/>
+        <circle cx="23" cy="8" r="1.2" fill="#FFFFFF"/>
+        <line x1="16" y1="42" x2="14" y2="50" stroke="#F59E0B" stroke-width="2.2"/>
+        <line x1="22" y1="42" x2="24" y2="50" stroke="#F59E0B" stroke-width="2.2"/>
+      </g>
+    </g>
+    <rect x="648" y="38" width="292" height="262" rx="10" fill="none" stroke="#1E293B" stroke-width="1.8"/>
+  </g>
+</svg>

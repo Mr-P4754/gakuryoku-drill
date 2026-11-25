@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 365 276" width="365" height="276" role="img" aria-label="階段形の複合図形(4)（面積96cm²）">
+  <title>階段形の複合図形(4)（面積96cm²）</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .lbl { font-size: 16px; font-weight: 700; }
+      .lbl-sm { font-size: 14px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 15px; font-weight: 700; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="365" height="276" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <polygon points="88.0,234.0 88.0,170.0 152.0,170.0 152.0,106.0 216.0,106.0 216.0,42.0 280.0,42.0 280.0,234.0" fill="#EFF6FF" stroke="#1E293B" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M 216.0 42.0 Q 248.0 28.0 280.0 42.0" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3,3"/>
+  <text x="248.0" y="26.0" text-anchor="middle" class="dim">4cm</text>
+  <path d="M 216.0 42.0 Q 228.0 74.0 216.0 106.0" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3,3"/>
+  <text x="190.0" y="73.2" text-anchor="middle" class="dim">4cm</text>
+  <path d="M 152.0 106.0 Q 184.0 94.0 216.0 106.0" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3,3"/>
+  <text x="176.0" y="90.0" text-anchor="middle" class="dim">4cm</text>
+  <path d="M 152.0 106.0 Q 164.0 138.0 152.0 170.0" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3,3"/>
+  <text x="126.0" y="137.2" text-anchor="middle" class="dim">4cm</text>
+  <path d="M 88.0 170.0 Q 120.0 158.0 152.0 170.0" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3,3"/>
+  <text x="112.0" y="154.0" text-anchor="middle" class="dim">4cm</text>
+  <path d="M 88.0 170.0 Q 102.0 202.0 88.0 234.0" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3,3"/>
+  <text x="60.0" y="206.0" text-anchor="middle" class="dim">4cm</text>
+  <path d="M 280.0 42.0 Q 262.0 138.0 280.0 234.0" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3,3"/>
+  <text x="312.0" y="142.0" text-anchor="middle" class="dim">12cm</text>
+  <path d="M 88.0 234.0 Q 184.0 252.0 280.0 234.0" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3,3"/>
+  <text x="184.0" y="260.0" text-anchor="middle" class="dim">12cm</text>
+</svg>

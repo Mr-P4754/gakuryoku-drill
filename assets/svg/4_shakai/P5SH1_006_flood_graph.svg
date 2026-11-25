@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 460" width="700" height="460" role="img" aria-label="2005年9月4日〜5日の雨量と川の水位の変化を表すグラフ">
+  <style>
+    text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans CJK JP', sans-serif; }
+  </style>
+  <rect width="700" height="460" fill="#FFFFFF"/>
+
+  <text x="350" y="32" text-anchor="middle" font-size="18" font-weight="700" fill="#0F172A">2005年9月4日〜5日の雨量と川の水位の変化（東京都杉並区）</text>
+  <rect x="95" y="72" width="490" height="300" fill="#FFFFFF" stroke="#1E293B" stroke-width="1.8"/>
+  <line x1="95" y1="372.0" x2="102" y2="372.0" stroke="#1E293B" stroke-width="1.4"/>
+  <text x="85" y="376.5" text-anchor="end" font-size="13.5" font-weight="600" fill="#1E293B">-4</text>
+  <line x1="578" y1="372.0" x2="585" y2="372.0" stroke="#1E293B" stroke-width="1.4"/>
+  <text x="595" y="376.5" text-anchor="start" font-size="13.5" font-weight="600" fill="#1E293B">0</text>
+  <line x1="95" y1="322.0" x2="585" y2="322.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="95" y1="322.0" x2="102" y2="322.0" stroke="#1E293B" stroke-width="1.4"/>
+  <text x="85" y="326.5" text-anchor="end" font-size="13.5" font-weight="600" fill="#1E293B">-3</text>
+  <line x1="578" y1="322.0" x2="585" y2="322.0" stroke="#1E293B" stroke-width="1.4"/>
+  <text x="595" y="326.5" text-anchor="start" font-size="13.5" font-weight="600" fill="#1E293B">20</text>
+  <line x1="95" y1="272.0" x2="585" y2="272.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="95" y1="272.0" x2="102" y2="272.0" stroke="#1E293B" stroke-width="1.4"/>
+  <text x="85" y="276.5" text-anchor="end" font-size="13.5" font-weight="600" fill="#1E293B">-2</text>
+  <line x1="578" y1="272.0" x2="585" y2="272.0" stroke="#1E293B" stroke-width="1.4"/>
+  <text x="595" y="276.5" text-anchor="start" font-size="13.5" font-weight="600" fill="#1E293B">40</text>
+  <line x1="95" y1="222.0" x2="585" y2="222.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="95" y1="222.0" x2="102" y2="222.0" stroke="#1E293B" stroke-width="1.4"/>
+  <text x="85" y="226.5" text-anchor="end" font-size="13.5" font-weight="600" fill="#1E293B">-1</text>
+  <line x1="578" y1="222.0" x2="585" y2="222.0" stroke="#1E293B" stroke-width="1.4"/>
+  <text x="595" y="226.5" text-anchor="start" font-size="13.5" font-weight="600" fill="#1E293B">60</text>
+  <line x1="95" y1="172.0" x2="102" y2="172.0" stroke="#1E293B" stroke-width="1.4"/>
+  <text x="85" y="176.5" text-anchor="end" font-size="13.5" font-weight="600" fill="#1E293B">0</text>
+  <line x1="578" y1="172.0" x2="585" y2="172.0" stroke="#1E293B" stroke-width="1.4"/>
+  <text x="595" y="176.5" text-anchor="start" font-size="13.5" font-weight="600" fill="#1E293B">80</text>
+  <line x1="95" y1="122.0" x2="585" y2="122.0" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="95" y1="122.0" x2="102" y2="122.0" stroke="#1E293B" stroke-width="1.4"/>
+  <text x="85" y="126.5" text-anchor="end" font-size="13.5" font-weight="600" fill="#1E293B">1</text>
+  <line x1="578" y1="122.0" x2="585" y2="122.0" stroke="#1E293B" stroke-width="1.4"/>
+  <text x="595" y="126.5" text-anchor="start" font-size="13.5" font-weight="600" fill="#1E293B">100</text>
+  <line x1="95" y1="72.0" x2="102" y2="72.0" stroke="#1E293B" stroke-width="1.4"/>
+  <text x="85" y="76.5" text-anchor="end" font-size="13.5" font-weight="600" fill="#1E293B">2</text>
+  <line x1="578" y1="72.0" x2="585" y2="72.0" stroke="#1E293B" stroke-width="1.4"/>
+  <text x="595" y="76.5" text-anchor="start" font-size="13.5" font-weight="600" fill="#1E293B">120</text>
+  <text x="85" y="58" text-anchor="end" font-size="13" font-weight="700" fill="#334155">(m)</text>
+  <text x="595" y="58" text-anchor="start" font-size="13" font-weight="700" fill="#334155">(mm)</text>
+  <text x="34" y="175" text-anchor="middle" font-size="15" font-weight="700" fill="#DC2626">川</text>
+  <text x="34" y="197" text-anchor="middle" font-size="15" font-weight="700" fill="#DC2626">の</text>
+  <text x="34" y="219" text-anchor="middle" font-size="15" font-weight="700" fill="#DC2626">水</text>
+  <text x="34" y="241" text-anchor="middle" font-size="15" font-weight="700" fill="#DC2626">位</text>
+  <text x="652" y="205" text-anchor="middle" font-size="15" font-weight="700" fill="#2563EB">雨</text>
+  <text x="652" y="231" text-anchor="middle" font-size="15" font-weight="700" fill="#2563EB">量</text>
+  <rect x="136.8" y="367.2" width="29.4" height="4.8" fill="#93C5FD" stroke="#2563EB" stroke-width="1.3"/>
+  <rect x="174.5" y="287.8" width="29.4" height="84.2" fill="#93C5FD" stroke="#2563EB" stroke-width="1.3"/>
+  <rect x="212.2" y="103.0" width="29.4" height="269.0" fill="#93C5FD" stroke="#2563EB" stroke-width="1.3"/>
+  <rect x="249.9" y="163.8" width="29.4" height="208.2" fill="#93C5FD" stroke="#2563EB" stroke-width="1.3"/>
+  <rect x="287.6" y="315.0" width="29.4" height="57.0" fill="#93C5FD" stroke="#2563EB" stroke-width="1.3"/>
+  <rect x="325.3" y="355.8" width="29.4" height="16.2" fill="#93C5FD" stroke="#2563EB" stroke-width="1.3"/>
+  <rect x="363.0" y="369.5" width="29.4" height="2.5" fill="#93C5FD" stroke="#2563EB" stroke-width="1.3"/>
+  <rect x="438.4" y="363.2" width="29.4" height="8.8" fill="#93C5FD" stroke="#2563EB" stroke-width="1.3"/>
+  <line x1="95" y1="172.0" x2="585" y2="172.0" stroke="#475569" stroke-width="2" stroke-dasharray="6,4"/>
+  <rect x="372" y="159.0" width="114" height="24" rx="4" fill="#FFFFFF" fill-opacity="0.92"/>
+  <text x="429" y="176.0" text-anchor="middle" font-size="14" font-weight="700" fill="#334155">てい防の高さ</text>
+  <path d="M 106.3,343.5 L 198.7,343.5 L 249.5,172.0 L 323.0,172.0 L 338.1,232.0 L 355.1,289.5 L 379.6,317.5 L 406.0,330.0 L 426.7,335.0 L 438.0,338.0 L 455.0,340.5 L 492.7,336.5 L 505.8,336.0 L 530.3,343.5 L 577.5,343.5" fill="none" stroke="#DC2626" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="95.0" y1="372" x2="95.0" y2="367" stroke="#1E293B" stroke-width="1.2"/>
+  <text x="95.0" y="392" text-anchor="middle" font-size="13" font-weight="600" fill="#0F172A">18</text>
+  <line x1="132.7" y1="372" x2="132.7" y2="367" stroke="#1E293B" stroke-width="1.2"/>
+  <text x="132.7" y="392" text-anchor="middle" font-size="13" font-weight="600" fill="#0F172A">19</text>
+  <line x1="170.4" y1="372" x2="170.4" y2="367" stroke="#1E293B" stroke-width="1.2"/>
+  <text x="170.4" y="392" text-anchor="middle" font-size="13" font-weight="600" fill="#0F172A">20</text>
+  <line x1="208.1" y1="372" x2="208.1" y2="367" stroke="#1E293B" stroke-width="1.2"/>
+  <text x="208.1" y="392" text-anchor="middle" font-size="13" font-weight="600" fill="#0F172A">21</text>
+  <line x1="245.8" y1="372" x2="245.8" y2="367" stroke="#1E293B" stroke-width="1.2"/>
+  <text x="245.8" y="392" text-anchor="middle" font-size="13" font-weight="600" fill="#0F172A">22</text>
+  <line x1="283.5" y1="372" x2="283.5" y2="367" stroke="#1E293B" stroke-width="1.2"/>
+  <text x="283.5" y="392" text-anchor="middle" font-size="13" font-weight="600" fill="#0F172A">23</text>
+  <line x1="321.2" y1="372" x2="321.2" y2="367" stroke="#1E293B" stroke-width="1.2"/>
+  <text x="321.2" y="392" text-anchor="middle" font-size="13" font-weight="600" fill="#0F172A">0</text>
+  <line x1="358.8" y1="372" x2="358.8" y2="367" stroke="#1E293B" stroke-width="1.2"/>
+  <text x="358.8" y="392" text-anchor="middle" font-size="13" font-weight="600" fill="#0F172A">1</text>
+  <line x1="396.5" y1="372" x2="396.5" y2="367" stroke="#1E293B" stroke-width="1.2"/>
+  <text x="396.5" y="392" text-anchor="middle" font-size="13" font-weight="600" fill="#0F172A">2</text>
+  <line x1="434.2" y1="372" x2="434.2" y2="367" stroke="#1E293B" stroke-width="1.2"/>
+  <text x="434.2" y="392" text-anchor="middle" font-size="13" font-weight="600" fill="#0F172A">3</text>
+  <line x1="471.9" y1="372" x2="471.9" y2="367" stroke="#1E293B" stroke-width="1.2"/>
+  <text x="471.9" y="392" text-anchor="middle" font-size="13" font-weight="600" fill="#0F172A">4</text>
+  <line x1="509.6" y1="372" x2="509.6" y2="367" stroke="#1E293B" stroke-width="1.2"/>
+  <text x="509.6" y="392" text-anchor="middle" font-size="13" font-weight="600" fill="#0F172A">5</text>
+  <line x1="547.3" y1="372" x2="547.3" y2="367" stroke="#1E293B" stroke-width="1.2"/>
+  <text x="547.3" y="392" text-anchor="middle" font-size="13" font-weight="600" fill="#0F172A">6</text>
+  <line x1="585.0" y1="372" x2="585.0" y2="367" stroke="#1E293B" stroke-width="1.2"/>
+  <text x="585.0" y="392" text-anchor="middle" font-size="13" font-weight="600" fill="#0F172A">7</text>
+  <text x="609" y="392" text-anchor="start" font-size="12.5" font-weight="700" fill="#334155">(時)</text>
+  <line x1="321.2" y1="398" x2="321.2" y2="420" stroke="#94A3B8" stroke-width="1.3"/>
+  <text x="189.2" y="416" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1E293B">2005年9月4日</text>
+  <text x="441.8" y="416" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1E293B">9月5日</text>
+  <g transform="translate(468, 86)">
+    <rect x="0" y="0" width="102" height="58" rx="6" fill="#FFFFFF" stroke="#475569" stroke-width="1.3"/>
+    <rect x="12" y="12" width="24" height="12" fill="#93C5FD" stroke="#2563EB" stroke-width="1.2"/>
+    <text x="44" y="23" font-size="13.5" font-weight="700" fill="#0F172A">雨量</text>
+    <line x1="12" y1="42" x2="36" y2="42" stroke="#DC2626" stroke-width="3.2"/>
+    <text x="44" y="47" font-size="13.5" font-weight="700" fill="#0F172A">水位</text>
+  </g>
+</svg>

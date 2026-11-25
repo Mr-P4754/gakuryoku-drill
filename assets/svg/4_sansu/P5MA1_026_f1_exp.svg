@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 210" width="640" height="210" role="img" aria-label="立方体の展開図①〜③の解説図">
+  <title>立方体の展開図①〜③の解説図</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .lbl { font-size: 16px; font-weight: 700; }
+      .lbl-sm { font-size: 14px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 15px; font-weight: 700; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="640" height="210" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="24" y="34" font-size="15" font-weight="700" fill="#DC2626">① ×（1つの頂点に4つの面）</text>
+  <rect x="76" y="62" width="34" height="34" fill="#F8FAFC" stroke="none"/>
+  <rect x="110" y="62" width="34" height="34" fill="#F8FAFC" stroke="none"/>
+  <rect x="42" y="96" width="34" height="34" fill="#F8FAFC" stroke="none"/>
+  <rect x="76" y="96" width="34" height="34" fill="#F8FAFC" stroke="none"/>
+  <rect x="110" y="96" width="34" height="34" fill="#F8FAFC" stroke="none"/>
+  <rect x="144" y="96" width="34" height="34" fill="#F8FAFC" stroke="none"/>
+  <line x1="76" y1="62" x2="110" y2="62" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="76" y1="96" x2="110" y2="96" stroke="#475569" stroke-width="1.6" stroke-dasharray="4,3"/>
+  <line x1="76" y1="62" x2="76" y2="96" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="110" y1="62" x2="110" y2="96" stroke="#475569" stroke-width="1.6" stroke-dasharray="4,3"/>
+  <line x1="110" y1="62" x2="144" y2="62" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="110" y1="96" x2="144" y2="96" stroke="#475569" stroke-width="1.6" stroke-dasharray="4,3"/>
+  <line x1="144" y1="62" x2="144" y2="96" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="42" y1="96" x2="76" y2="96" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="42" y1="130" x2="76" y2="130" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="42" y1="96" x2="42" y2="130" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="76" y1="96" x2="76" y2="130" stroke="#475569" stroke-width="1.6" stroke-dasharray="4,3"/>
+  <line x1="76" y1="130" x2="110" y2="130" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="110" y1="96" x2="110" y2="130" stroke="#475569" stroke-width="1.6" stroke-dasharray="4,3"/>
+  <line x1="110" y1="130" x2="144" y2="130" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="144" y1="96" x2="144" y2="130" stroke="#475569" stroke-width="1.6" stroke-dasharray="4,3"/>
+  <line x1="144" y1="96" x2="178" y2="96" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="144" y1="130" x2="178" y2="130" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="178" y1="96" x2="178" y2="130" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <circle cx="110" cy="96" r="5.5" fill="#DC2626"/>
+  <text x="228" y="34" font-size="15" font-weight="700" fill="#DC2626">② ×（2つの面が重なる）</text>
+  <rect x="254" y="48" width="34" height="34" fill="#F8FAFC" stroke="none"/>
+  <rect x="254" y="82" width="34" height="34" fill="#F8FAFC" stroke="none"/>
+  <rect x="254" y="116" width="34" height="34" fill="#F8FAFC" stroke="none"/>
+  <rect x="254" y="150" width="34" height="34" fill="#FEF3C7" stroke="none"/>
+  <rect x="288" y="82" width="34" height="34" fill="#F8FAFC" stroke="none"/>
+  <rect x="322" y="82" width="34" height="34" fill="#FEF3C7" stroke="none"/>
+  <line x1="254" y1="48" x2="288" y2="48" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="254" y1="82" x2="288" y2="82" stroke="#475569" stroke-width="1.6" stroke-dasharray="4,3"/>
+  <line x1="254" y1="48" x2="254" y2="82" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="288" y1="48" x2="288" y2="82" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="254" y1="116" x2="288" y2="116" stroke="#475569" stroke-width="1.6" stroke-dasharray="4,3"/>
+  <line x1="254" y1="82" x2="254" y2="116" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="288" y1="82" x2="288" y2="116" stroke="#475569" stroke-width="1.6" stroke-dasharray="4,3"/>
+  <line x1="254" y1="150" x2="288" y2="150" stroke="#475569" stroke-width="1.6" stroke-dasharray="4,3"/>
+  <line x1="254" y1="116" x2="254" y2="150" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="288" y1="116" x2="288" y2="150" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="254" y1="184" x2="288" y2="184" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="254" y1="150" x2="254" y2="184" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="288" y1="150" x2="288" y2="184" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="288" y1="82" x2="322" y2="82" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="288" y1="116" x2="322" y2="116" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="322" y1="82" x2="322" y2="116" stroke="#475569" stroke-width="1.6" stroke-dasharray="4,3"/>
+  <line x1="322" y1="82" x2="356" y2="82" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="322" y1="116" x2="356" y2="116" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="356" y1="82" x2="356" y2="116" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <text x="430" y="34" font-size="15" font-weight="700" fill="#059669">③ ○（正しい展開図）</text>
+  <rect x="432" y="102" width="34" height="34" fill="#F8FAFC" stroke="none"/>
+  <rect x="466" y="102" width="34" height="34" fill="#F8FAFC" stroke="none"/>
+  <rect x="500" y="102" width="34" height="34" fill="#F8FAFC" stroke="none"/>
+  <rect x="500" y="68" width="34" height="34" fill="#F8FAFC" stroke="none"/>
+  <rect x="534" y="68" width="34" height="34" fill="#F8FAFC" stroke="none"/>
+  <rect x="568" y="68" width="34" height="34" fill="#F8FAFC" stroke="none"/>
+  <line x1="432" y1="102" x2="466" y2="102" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="432" y1="136" x2="466" y2="136" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="432" y1="102" x2="432" y2="136" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="466" y1="102" x2="466" y2="136" stroke="#475569" stroke-width="1.6" stroke-dasharray="4,3"/>
+  <line x1="466" y1="102" x2="500" y2="102" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="466" y1="136" x2="500" y2="136" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="500" y1="102" x2="500" y2="136" stroke="#475569" stroke-width="1.6" stroke-dasharray="4,3"/>
+  <line x1="500" y1="102" x2="534" y2="102" stroke="#475569" stroke-width="1.6" stroke-dasharray="4,3"/>
+  <line x1="500" y1="136" x2="534" y2="136" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="534" y1="102" x2="534" y2="136" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="500" y1="68" x2="534" y2="68" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="500" y1="68" x2="500" y2="102" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="534" y1="68" x2="534" y2="102" stroke="#475569" stroke-width="1.6" stroke-dasharray="4,3"/>
+  <line x1="534" y1="68" x2="568" y2="68" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="534" y1="102" x2="568" y2="102" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="568" y1="68" x2="568" y2="102" stroke="#475569" stroke-width="1.6" stroke-dasharray="4,3"/>
+  <line x1="568" y1="68" x2="602" y2="68" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="568" y1="102" x2="602" y2="102" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <line x1="602" y1="68" x2="602" y2="102" stroke="#1E293B" stroke-width="2.2" stroke-linecap="square"/>
+  <circle cx="449.0" cy="119.0" r="12" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="449.0" y="124.0" text-anchor="middle" font-size="14" font-weight="700" fill="#2563EB">あ</text>
+  <circle cx="483.0" cy="119.0" r="12" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="483.0" y="124.0" text-anchor="middle" font-size="14" font-weight="700" fill="#2563EB">い</text>
+  <circle cx="517.0" cy="119.0" r="12" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="517.0" y="124.0" text-anchor="middle" font-size="14" font-weight="700" fill="#2563EB">え</text>
+  <circle cx="517.0" cy="85.0" r="12" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="517.0" y="90.0" text-anchor="middle" font-size="14" font-weight="700" fill="#2563EB">う</text>
+  <circle cx="551.0" cy="85.0" r="12" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="551.0" y="90.0" text-anchor="middle" font-size="14" font-weight="700" fill="#2563EB">お</text>
+  <circle cx="585.0" cy="85.0" r="12" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="585.0" y="90.0" text-anchor="middle" font-size="14" font-weight="700" fill="#2563EB">か</text>
+  <text x="510" y="168" text-anchor="middle" font-size="12" font-weight="700" fill="#059669">向かい合う面：あ↔え、い↔お、う↔か</text>
+</svg>

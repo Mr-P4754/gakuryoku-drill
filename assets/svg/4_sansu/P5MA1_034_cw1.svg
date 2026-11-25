@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 215" width="640" height="215" role="img" aria-label="丸い紙を折って四角形アエイウをつくる手順図">
+  <title>丸い紙を折って四角形アエイウをつくる手順図</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 14px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 14px; font-weight: 700; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .th { font-size: 13px; font-weight: 700; fill: #1E293B; }
+      .td { font-size: 14px; font-weight: 600; fill: #1E293B; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="640" height="215" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <path d="M 142.0 77.0 L 156.0 77.0 L 156.0 72.0 L 166.0 82.0 L 156.0 92.0 L 156.0 87.0 L 142.0 87.0 Z" fill="#475569"/>
+  <path d="M 300.0 77.0 L 314.0 77.0 L 314.0 72.0 L 324.0 82.0 L 314.0 92.0 L 314.0 87.0 L 300.0 87.0 Z" fill="#475569"/>
+  <path d="M 461.0 77.0 L 475.0 77.0 L 475.0 72.0 L 485.0 82.0 L 475.0 92.0 L 475.0 87.0 L 461.0 87.0 Z" fill="#475569"/>
+  <circle cx="76.0" cy="82.0" r="50.0" fill="#F8FAFC" stroke="#1E293B" stroke-width="1.8"/>
+  <circle cx="76.0" cy="82.0" r="3.2" fill="#1E293B"/>
+  <text x="61.0" y="87.0" text-anchor="middle" class="lbl-sm">ア</text>
+  <circle cx="126.0" cy="82.0" r="3.2" fill="#1E293B"/>
+  <text x="140.0" y="87.0" text-anchor="middle" class="lbl-sm">イ</text>
+  <text x="76.0" y="158" text-anchor="middle" font-size="11.5" font-weight="600">点アは中心，</text>
+  <text x="76.0" y="174" text-anchor="middle" font-size="11.5" font-weight="600">点イはまわりの点</text>
+  <circle cx="232.0" cy="82.0" r="50.0" fill="none" stroke="#94A3B8" stroke-width="1.4" stroke-dasharray="3,3"/>
+  <path d="M 257.0 38.7 A 50.0 50.0 0 1 0 257.0 125.3 Z" fill="#F8FAFC" stroke="#1E293B" stroke-width="1.8"/>
+  <path d="M 257.0 38.7 A 50.0 50.0 0 0 0 257.0 125.3 Z" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.8"/>
+  <circle cx="232.0" cy="82.0" r="3.2" fill="#DC2626"/>
+  <text x="214.0" y="80.0" text-anchor="middle" font-size="12" font-weight="700">ア</text>
+  <text x="214.0" y="96.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#2563EB">(イ)</text>
+  <text x="232.0" y="158" text-anchor="middle" font-size="11.5" font-weight="600">点アと点イが重なる</text>
+  <text x="232.0" y="174" text-anchor="middle" font-size="11.5" font-weight="600">ように折る</text>
+  <circle cx="392.0" cy="82.0" r="50.0" fill="#F8FAFC" stroke="#1E293B" stroke-width="1.8"/>
+  <line x1="417.0" y1="38.7" x2="417.0" y2="125.3" stroke="#2563EB" stroke-width="2" stroke-dasharray="4,2"/>
+  <circle cx="392.0" cy="82.0" r="3.2" fill="#1E293B"/>
+  <text x="378.0" y="87.0" text-anchor="middle" class="lbl-sm">ア</text>
+  <circle cx="442.0" cy="82.0" r="3.2" fill="#1E293B"/>
+  <text x="455.0" y="87.0" text-anchor="middle" class="lbl-sm">イ</text>
+  <text x="417.0" y="30.7" text-anchor="middle" class="lbl-sm blue">ウ</text>
+  <text x="417.0" y="141.3" text-anchor="middle" class="lbl-sm blue">エ</text>
+  <text x="392.0" y="158" text-anchor="middle" font-size="11.5" font-weight="600">折りめの線を</text>
+  <text x="392.0" y="174" text-anchor="middle" font-size="11.5" font-weight="600">ウエとする</text>
+  <circle cx="554.0" cy="82.0" r="50.0" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.5"/>
+  <polygon points="554.0,82.0 579.0,38.7 604.0,82.0 579.0,125.3" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.2" stroke-linejoin="round"/>
+  <line x1="579.0" y1="38.7" x2="579.0" y2="125.3" stroke="#64748B" stroke-width="1.2" stroke-dasharray="3,2"/>
+  <text x="540.0" y="87.0" text-anchor="middle" class="lbl-sm">ア</text>
+  <text x="617.0" y="87.0" text-anchor="middle" class="lbl-sm">イ</text>
+  <text x="579.0" y="30.7" text-anchor="middle" class="lbl-sm">ウ</text>
+  <text x="579.0" y="141.3" text-anchor="middle" class="lbl-sm">エ</text>
+  <text x="554.0" y="158" text-anchor="middle" font-size="11.5" font-weight="600">四角形アエイウ</text>
+  <text x="554.0" y="174" text-anchor="middle" font-size="11.5" font-weight="600">をつくる</text>
+</svg>

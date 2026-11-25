@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1020 380" width="1020" height="380" role="img" aria-label="A市のごみの量・燃やすごみの量・資源ごみの量の変化を表す3つの棒グラフ">
+  <style>
+    text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans CJK JP', sans-serif; }
+  </style>
+  <rect width="1020" height="380" fill="#FFFFFF"/>
+
+  <g id="chart-1">
+    <rect x="20" y="14" width="318" height="352" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.4"/>
+    <text x="179" y="40" text-anchor="middle" font-size="16" font-weight="700" fill="#0F172A">A市のごみの量の変化</text>
+    <text x="66" y="58" text-anchor="end" font-size="12.5" font-weight="700" fill="#334155">（万t）</text>
+    <rect x="72" y="66" width="252" height="252" fill="#FFFFFF" stroke="#334155" stroke-width="1.6"/>
+    <text x="64" y="322.5" text-anchor="end" font-size="12.5" font-weight="600" fill="#1E293B">0</text>
+    <line x1="72" y1="282" x2="324" y2="282" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="64" y="286.5" text-anchor="end" font-size="12.5" font-weight="600" fill="#1E293B">2</text>
+    <line x1="72" y1="246" x2="324" y2="246" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="64" y="250.5" text-anchor="end" font-size="12.5" font-weight="600" fill="#1E293B">4</text>
+    <line x1="72" y1="210" x2="324" y2="210" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="64" y="214.5" text-anchor="end" font-size="12.5" font-weight="600" fill="#1E293B">6</text>
+    <line x1="72" y1="174" x2="324" y2="174" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="64" y="178.5" text-anchor="end" font-size="12.5" font-weight="600" fill="#1E293B">8</text>
+    <line x1="72" y1="138" x2="324" y2="138" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="64" y="142.5" text-anchor="end" font-size="12.5" font-weight="600" fill="#1E293B">10</text>
+    <line x1="72" y1="102" x2="324" y2="102" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="64" y="106.5" text-anchor="end" font-size="12.5" font-weight="600" fill="#1E293B">12</text>
+    <text x="64" y="70.5" text-anchor="end" font-size="12.5" font-weight="600" fill="#1E293B">14</text>
+    <rect x="81.0" y="156.0" width="24" height="162.0" fill="#3B82F6" stroke="#1D4ED8" stroke-width="1.3" rx="2"/>
+    <text x="93.0" y="338" text-anchor="middle" font-size="12" font-weight="700" fill="#0F172A">平成10</text>
+    <rect x="123.0" y="159.6" width="24" height="158.4" fill="#3B82F6" stroke="#1D4ED8" stroke-width="1.3" rx="2"/>
+    <text x="135.0" y="338" text-anchor="middle" font-size="12" font-weight="700" fill="#0F172A">15</text>
+    <rect x="165.0" y="156.0" width="24" height="162.0" fill="#3B82F6" stroke="#1D4ED8" stroke-width="1.3" rx="2"/>
+    <text x="177.0" y="338" text-anchor="middle" font-size="12" font-weight="700" fill="#0F172A">20</text>
+    <rect x="207.0" y="67.8" width="24" height="250.2" fill="#3B82F6" stroke="#1D4ED8" stroke-width="1.3" rx="2"/>
+    <text x="219.0" y="338" text-anchor="middle" font-size="12" font-weight="700" fill="#0F172A">25</text>
+    <rect x="249.0" y="103.8" width="24" height="214.2" fill="#3B82F6" stroke="#1D4ED8" stroke-width="1.3" rx="2"/>
+    <text x="261.0" y="338" text-anchor="middle" font-size="12" font-weight="700" fill="#0F172A">30</text>
+    <rect x="291.0" y="136.2" width="24" height="181.8" fill="#3B82F6" stroke="#1D4ED8" stroke-width="1.3" rx="2"/>
+    <text x="303.0" y="338" text-anchor="middle" font-size="12" font-weight="700" fill="#0F172A">令和5</text>
+    <text x="324" y="355" text-anchor="end" font-size="12" font-weight="700" fill="#334155">年</text>
+  </g>
+  <g id="chart-2">
+    <rect x="354" y="14" width="318" height="352" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.4"/>
+    <text x="513" y="40" text-anchor="middle" font-size="16" font-weight="700" fill="#0F172A">A市の燃やすごみの量の変化</text>
+    <text x="400" y="58" text-anchor="end" font-size="12.5" font-weight="700" fill="#334155">（万t）</text>
+    <rect x="406" y="66" width="252" height="252" fill="#FFFFFF" stroke="#334155" stroke-width="1.6"/>
+    <text x="398" y="322.5" text-anchor="end" font-size="12.5" font-weight="600" fill="#1E293B">0</text>
+    <line x1="406" y1="282" x2="658" y2="282" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="398" y="286.5" text-anchor="end" font-size="12.5" font-weight="600" fill="#1E293B">2</text>
+    <line x1="406" y1="246" x2="658" y2="246" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="398" y="250.5" text-anchor="end" font-size="12.5" font-weight="600" fill="#1E293B">4</text>
+    <line x1="406" y1="210" x2="658" y2="210" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="398" y="214.5" text-anchor="end" font-size="12.5" font-weight="600" fill="#1E293B">6</text>
+    <line x1="406" y1="174" x2="658" y2="174" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="398" y="178.5" text-anchor="end" font-size="12.5" font-weight="600" fill="#1E293B">8</text>
+    <line x1="406" y1="138" x2="658" y2="138" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="398" y="142.5" text-anchor="end" font-size="12.5" font-weight="600" fill="#1E293B">10</text>
+    <line x1="406" y1="102" x2="658" y2="102" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="398" y="106.5" text-anchor="end" font-size="12.5" font-weight="600" fill="#1E293B">12</text>
+    <text x="398" y="70.5" text-anchor="end" font-size="12.5" font-weight="600" fill="#1E293B">14</text>
+    <rect x="415.0" y="201.0" width="24" height="117.0" fill="#F59E0B" stroke="#B45309" stroke-width="1.3" rx="2"/>
+    <text x="427.0" y="338" text-anchor="middle" font-size="12" font-weight="700" fill="#0F172A">平成10</text>
+    <rect x="457.0" y="206.4" width="24" height="111.6" fill="#F59E0B" stroke="#B45309" stroke-width="1.3" rx="2"/>
+    <text x="469.0" y="338" text-anchor="middle" font-size="12" font-weight="700" fill="#0F172A">15</text>
+    <rect x="499.0" y="208.2" width="24" height="109.8" fill="#F59E0B" stroke="#B45309" stroke-width="1.3" rx="2"/>
+    <text x="511.0" y="338" text-anchor="middle" font-size="12" font-weight="700" fill="#0F172A">20</text>
+    <rect x="541.0" y="125.4" width="24" height="192.6" fill="#F59E0B" stroke="#B45309" stroke-width="1.3" rx="2"/>
+    <text x="553.0" y="338" text-anchor="middle" font-size="12" font-weight="700" fill="#0F172A">25</text>
+    <rect x="583.0" y="156.0" width="24" height="162.0" fill="#F59E0B" stroke="#B45309" stroke-width="1.3" rx="2"/>
+    <text x="595.0" y="338" text-anchor="middle" font-size="12" font-weight="700" fill="#0F172A">30</text>
+    <rect x="625.0" y="184.8" width="24" height="133.2" fill="#F59E0B" stroke="#B45309" stroke-width="1.3" rx="2"/>
+    <text x="637.0" y="338" text-anchor="middle" font-size="12" font-weight="700" fill="#0F172A">令和5</text>
+    <text x="658" y="355" text-anchor="end" font-size="12" font-weight="700" fill="#334155">年</text>
+  </g>
+  <g id="chart-3">
+    <rect x="688" y="14" width="318" height="352" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.4"/>
+    <text x="847" y="40" text-anchor="middle" font-size="16" font-weight="700" fill="#0F172A">A市の資源ごみの量の変化</text>
+    <text x="734" y="58" text-anchor="end" font-size="12.5" font-weight="700" fill="#047857">（千t）</text>
+    <rect x="740" y="66" width="252" height="252" fill="#FFFFFF" stroke="#334155" stroke-width="1.6"/>
+    <text x="732" y="322.5" text-anchor="end" font-size="12.5" font-weight="600" fill="#1E293B">0</text>
+    <line x1="740" y1="282" x2="992" y2="282" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="732" y="286.5" text-anchor="end" font-size="12.5" font-weight="600" fill="#1E293B">2</text>
+    <line x1="740" y1="246" x2="992" y2="246" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="732" y="250.5" text-anchor="end" font-size="12.5" font-weight="600" fill="#1E293B">4</text>
+    <line x1="740" y1="210" x2="992" y2="210" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="732" y="214.5" text-anchor="end" font-size="12.5" font-weight="600" fill="#1E293B">6</text>
+    <line x1="740" y1="174" x2="992" y2="174" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="732" y="178.5" text-anchor="end" font-size="12.5" font-weight="600" fill="#1E293B">8</text>
+    <line x1="740" y1="138" x2="992" y2="138" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="732" y="142.5" text-anchor="end" font-size="12.5" font-weight="600" fill="#1E293B">10</text>
+    <line x1="740" y1="102" x2="992" y2="102" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="732" y="106.5" text-anchor="end" font-size="12.5" font-weight="600" fill="#1E293B">12</text>
+    <text x="732" y="70.5" text-anchor="end" font-size="12.5" font-weight="600" fill="#1E293B">14</text>
+    <rect x="749.0" y="246.0" width="24" height="72.0" fill="#10B981" stroke="#047857" stroke-width="1.3" rx="2"/>
+    <text x="761.0" y="338" text-anchor="middle" font-size="12" font-weight="700" fill="#0F172A">平成10</text>
+    <rect x="791.0" y="138.0" width="24" height="180.0" fill="#10B981" stroke="#047857" stroke-width="1.3" rx="2"/>
+    <text x="803.0" y="338" text-anchor="middle" font-size="12" font-weight="700" fill="#0F172A">15</text>
+    <rect x="833.0" y="120.0" width="24" height="198.0" fill="#10B981" stroke="#047857" stroke-width="1.3" rx="2"/>
+    <text x="845.0" y="338" text-anchor="middle" font-size="12" font-weight="700" fill="#0F172A">20</text>
+    <rect x="875.0" y="100.2" width="24" height="217.8" fill="#10B981" stroke="#047857" stroke-width="1.3" rx="2"/>
+    <text x="887.0" y="338" text-anchor="middle" font-size="12" font-weight="700" fill="#0F172A">25</text>
+    <rect x="917.0" y="100.2" width="24" height="217.8" fill="#10B981" stroke="#047857" stroke-width="1.3" rx="2"/>
+    <text x="929.0" y="338" text-anchor="middle" font-size="12" font-weight="700" fill="#0F172A">30</text>
+    <rect x="959.0" y="111.0" width="24" height="207.0" fill="#10B981" stroke="#047857" stroke-width="1.3" rx="2"/>
+    <text x="971.0" y="338" text-anchor="middle" font-size="12" font-weight="700" fill="#0F172A">令和5</text>
+    <text x="992" y="355" text-anchor="end" font-size="12" font-weight="700" fill="#334155">年</text>
+  </g>
+</svg>

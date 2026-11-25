@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 250" width="340" height="250" role="img" aria-label="三角じょうぎの組み合わせ（い＝105°）">
+  <title>三角じょうぎの組み合わせ（い＝105°）</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .lbl { font-size: 16px; font-weight: 700; }
+      .lbl-sm { font-size: 14px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 15px; font-weight: 700; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="340" height="250" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <polygon points="68.0,128.0 273.0,128.0 119.3,39.2" fill="rgba(220,252,231,0.7)" stroke="#1E293B" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="133.0" cy="90.5" r="9" fill="#FFFFFF" stroke="#1E293B" stroke-width="1.5"/>
+  <polygon points="68.0,128.0 240.2,128.0 154.1,214.1" fill="rgba(219,234,254,0.7)" stroke="#1E293B" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="154.1" cy="163.7" r="9" fill="#FFFFFF" stroke="#1E293B" stroke-width="1.5"/>
+  <path d="M 68.00 128.00 L 84.97 144.97 A 24.00 24.00 0 0 0 80.00 107.22 Z" fill="rgba(220,38,38,0.14)" stroke="#DC2626" stroke-width="2.4"/>
+  <circle cx="108.0" cy="126.0" r="12" fill="#FEF2F2" stroke="#DC2626" stroke-width="1.5"/>
+  <text x="108.0" y="131.0" text-anchor="middle" font-size="14" font-weight="700" fill="#DC2626">い</text>
+</svg>

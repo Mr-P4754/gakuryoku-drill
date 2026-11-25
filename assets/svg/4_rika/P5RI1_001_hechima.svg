@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 460" width="680" height="460">
+  <defs>
+    <linearGradient id="seasonGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F9A8D4"/>
+      <stop offset="33%" stop-color="#34D399"/>
+      <stop offset="68%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
+    </linearGradient>
+    <linearGradient id="soilGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D6A87C"/>
+      <stop offset="100%" stop-color="#9C6B3E"/>
+    </linearGradient>
+    <linearGradient id="gourdGreen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22C55E"/>
+      <stop offset="50%" stop-color="#4ADE80"/>
+      <stop offset="100%" stop-color="#15803D"/>
+    </linearGradient>
+    <linearGradient id="gourdBrown" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#A16207"/>
+      <stop offset="50%" stop-color="#CA8A04"/>
+      <stop offset="100%" stop-color="#713F12"/>
+    </linearGradient>
+    <marker id="arrowDark" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#475569"/>
+    </marker>
+  </defs>
+
+  <rect width="680" height="460" rx="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <text x="340" y="30" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="16" font-weight="bold" fill="#065F46">１年間のヘチマの成長のようす</text>
+
+  <!-- Left Season Arrow -->
+  <rect x="28" y="48" width="18" height="365" rx="9" fill="url(#seasonGrad)"/>
+  <polygon points="18,408 56,408 37,438" fill="#60A5FA"/>
+  <g font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" text-anchor="middle">
+    <circle cx="37" cy="82" r="15" fill="#FDF2F8" stroke="#EC4899" stroke-width="2"/>
+    <text x="37" y="87" fill="#BE185D">春</text>
+    <circle cx="37" cy="186" r="15" fill="#ECFDF5" stroke="#10B981" stroke-width="2"/>
+    <text x="37" y="191" fill="#047857">夏</text>
+    <circle cx="37" cy="290" r="15" fill="#FFFBEB" stroke="#F59E0B" stroke-width="2"/>
+    <text x="37" y="295" fill="#B45309">秋</text>
+    <circle cx="37" cy="390" r="15" fill="#EFF6FF" stroke="#3B82F6" stroke-width="2"/>
+    <text x="37" y="395" fill="#1D4ED8">冬</text>
+  </g>
+
+  <!-- Panel 1: Spring (芽) -->
+  <g transform="translate(74, 48)">
+    <rect width="230" height="88" rx="10" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.5"/>
+    <rect x="0" y="64" width="230" height="24" rx="0" fill="url(#soilGrad)" opacity="0.5"/>
+    <line x1="12" y1="64" x2="218" y2="64" stroke="#92400E" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <!-- Seedling cotyledons -->
+    <path d="M115,66 L115,40" stroke="#16A34A" stroke-width="4" stroke-linecap="round"/>
+    <path d="M115,42 C102,22 65,24 62,44 C64,53 96,52 115,44 Z" fill="#4ADE80" stroke="#15803D" stroke-width="1.8"/>
+    <path d="M115,42 C128,22 165,24 168,44 C166,53 134,52 115,44 Z" fill="#4ADE80" stroke="#15803D" stroke-width="1.8"/>
+    <path d="M115,42 L74,41 M115,42 L156,41" stroke="#15803D" stroke-width="1"/>
+    <!-- Small seed -->
+    <ellipse cx="42" cy="74" rx="8" ry="5" fill="#78350F" transform="rotate(-15 42 74)"/>
+    <text x="15" y="22" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" fill="#64748B">たねをまく</text>
+  </g>
+  <!-- Pointer ① -->
+  <line x1="230" y1="88" x2="322" y2="88" stroke="#059669" stroke-width="1.8"/>
+  <circle cx="338" cy="88" r="14" fill="#ECFDF5" stroke="#059669" stroke-width="2"/>
+  <text x="338" y="93" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#065F46">①</text>
+  <text x="360" y="93" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" fill="#334155">が出る</text>
+
+  <!-- Panel 2: Summer (くき・葉・花) -->
+  <g transform="translate(74, 148)">
+    <rect width="230" height="88" rx="10" fill="#F0FDF4" stroke="#94A3B8" stroke-width="1.5"/>
+    <!-- Trellis -->
+    <g stroke="#B45309" stroke-width="2" opacity="0.65">
+      <line x1="16" y1="22" x2="214" y2="22"/>
+      <line x1="16" y1="54" x2="214" y2="54"/>
+      <line x1="48" y1="8" x2="36" y2="82"/>
+      <line x1="115" y1="8" x2="108" y2="82"/>
+      <line x1="185" y1="8" x2="180" y2="82"/>
+    </g>
+    <!-- Vines -->
+    <path d="M22,82 Q60,48 92,36 T175,26 T218,44" fill="none" stroke="#15803D" stroke-width="3.5"/>
+    <path d="M55,78 Q88,60 130,62 T200,56" fill="none" stroke="#16A34A" stroke-width="2.5"/>
+    <!-- Leaves -->
+    <g fill="#22C55E" stroke="#14532D" stroke-width="1.2">
+      <path d="M52,32 Q36,14 48,10 Q60,12 66,22 Q78,16 78,28 Q72,38 56,36 Z"/>
+      <path d="M116,44 Q102,26 116,20 Q128,22 132,32 Q144,28 142,40 Q134,48 118,46 Z"/>
+      <path d="M168,36 Q156,16 170,12 Q182,16 186,26 Q196,24 194,34 Q186,42 170,40 Z"/>
+      <path d="M78,72 Q62,56 76,50 Q88,52 94,62 Q104,60 100,72 Q92,78 80,74 Z"/>
+      <path d="M148,74 Q134,58 148,54 Q160,56 164,66 Q174,64 170,74 Q162,80 150,76 Z"/>
+    </g>
+    <!-- Yellow Flowers -->
+    <g transform="translate(88, 28)">
+      <circle cx="0" cy="-7" r="6" fill="#FACC15" stroke="#CA8A04" stroke-width="1"/>
+      <circle cx="7" cy="-2" r="6" fill="#FACC15" stroke="#CA8A04" stroke-width="1"/>
+      <circle cx="4" cy="6" r="6" fill="#FACC15" stroke="#CA8A04" stroke-width="1"/>
+      <circle cx="-4" cy="6" r="6" fill="#FACC15" stroke="#CA8A04" stroke-width="1"/>
+      <circle cx="-7" cy="-2" r="6" fill="#FACC15" stroke="#CA8A04" stroke-width="1"/>
+      <circle cx="0" cy="0" r="3.5" fill="#EAB308"/>
+    </g>
+    <g transform="translate(182, 60)">
+      <circle cx="0" cy="-6" r="5.5" fill="#FACC15" stroke="#CA8A04" stroke-width="1"/>
+      <circle cx="6" cy="-1" r="5.5" fill="#FACC15" stroke="#CA8A04" stroke-width="1"/>
+      <circle cx="4" cy="5" r="5.5" fill="#FACC15" stroke="#CA8A04" stroke-width="1"/>
+      <circle cx="-4" cy="5" r="5.5" fill="#FACC15" stroke="#CA8A04" stroke-width="1"/>
+      <circle cx="-6" cy="-1" r="5.5" fill="#FACC15" stroke="#CA8A04" stroke-width="1"/>
+      <circle cx="0" cy="0" r="3" fill="#EAB308"/>
+    </g>
+  </g>
+  <line x1="258" y1="208" x2="322" y2="208" stroke="#059669" stroke-width="1.8"/>
+  <text x="328" y="176" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" fill="#334155">②がよくのびて、③が多くなる</text>
+  <circle cx="338" cy="208" r="14" fill="#FEF9C3" stroke="#CA8A04" stroke-width="2"/>
+  <text x="338" y="213" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#854D0E">④</text>
+  <text x="360" y="213" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" fill="#334155">がさく</text>
+
+  <!-- Panel 3: Autumn (実) -->
+  <g transform="translate(74, 248)">
+    <rect width="230" height="88" rx="10" fill="#FFFBEB" stroke="#94A3B8" stroke-width="1.5"/>
+    <!-- Overhead trellis -->
+    <g stroke="#92400E" stroke-width="2" opacity="0.6">
+      <line x1="10" y1="18" x2="220" y2="18"/>
+      <line x1="35" y1="6" x2="55" y2="28"/>
+      <line x1="95" y1="6" x2="115" y2="28"/>
+      <line x1="155" y1="6" x2="175" y2="28"/>
+    </g>
+    <!-- Green Leaves along top -->
+    <g fill="#4ADE80" stroke="#15803D" stroke-width="1">
+      <ellipse cx="42" cy="18" rx="16" ry="8"/>
+      <ellipse cx="110" cy="16" rx="18" ry="8"/>
+      <ellipse cx="176" cy="18" rx="16" ry="8"/>
+    </g>
+    <!-- Hanging Green Hechima Gourds -->
+    <g>
+      <path d="M72,22 L72,30" stroke="#15803D" stroke-width="2.5"/>
+      <path d="M64,30 C58,48 58,68 64,80 C70,84 74,84 80,80 C86,68 86,48 80,30 Z" fill="url(#gourdGreen)" stroke="#14532D" stroke-width="1.5"/>
+      <line x1="68" y1="34" x2="67" y2="78" stroke="#15803D" stroke-width="0.9" opacity="0.6"/>
+      <line x1="76" y1="34" x2="77" y2="78" stroke="#15803D" stroke-width="0.9" opacity="0.6"/>
+    </g>
+    <g>
+      <path d="M132,20 L132,28" stroke="#15803D" stroke-width="2.5"/>
+      <path d="M124,28 C118,45 119,64 125,75 C130,79 135,79 139,75 C145,64 146,45 140,28 Z" fill="url(#gourdGreen)" stroke="#14532D" stroke-width="1.5"/>
+      <line x1="132" y1="32" x2="132" y2="73" stroke="#15803D" stroke-width="0.9" opacity="0.6"/>
+    </g>
+    <g>
+      <path d="M180,22 L180,30" stroke="#15803D" stroke-width="2"/>
+      <path d="M174,30 C170,42 170,56 175,65 C179,68 182,68 185,65 C190,56 190,42 186,30 Z" fill="url(#gourdGreen)" stroke="#14532D" stroke-width="1.5"/>
+    </g>
+  </g>
+  <line x1="258" y1="292" x2="322" y2="292" stroke="#059669" stroke-width="1.8"/>
+  <circle cx="338" cy="292" r="14" fill="#DCFCE7" stroke="#16A34A" stroke-width="2"/>
+  <text x="338" y="297" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#166534">⑤</text>
+  <text x="360" y="297" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" fill="#334155">ができて大きくなる</text>
+
+  <!-- Panel 4: Winter (茶色の実・たね・かれる) -->
+  <g transform="translate(74, 348)">
+    <rect width="230" height="88" rx="10" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.5"/>
+    <g stroke="#78716C" stroke-width="2" opacity="0.55">
+      <line x1="10" y1="18" x2="220" y2="18"/>
+      <line x1="45" y1="8" x2="60" y2="28"/>
+      <line x1="125" y1="8" x2="140" y2="28"/>
+    </g>
+    <!-- Withered brown leaves & vines -->
+    <path d="M20,24 Q80,14 140,26 T210,18" fill="none" stroke="#78350F" stroke-width="2"/>
+    <ellipse cx="44" cy="20" rx="12" ry="5" fill="#A16207" stroke="#713F12" stroke-width="1"/>
+    <ellipse cx="112" cy="18" rx="12" ry="5" fill="#92400E" stroke="#713F12" stroke-width="1"/>
+    <!-- Dried Brown Gourd -->
+    <path d="M84,22 L84,28" stroke="#713F12" stroke-width="2"/>
+    <path d="M76,28 C70,45 71,65 77,77 C82,81 86,81 91,77 C97,65 98,45 92,28 Z" fill="url(#gourdBrown)" stroke="#451A03" stroke-width="1.5"/>
+    <line x1="84" y1="31" x2="84" y2="75" stroke="#451A03" stroke-width="0.9" opacity="0.6"/>
+    <!-- Split Gourd showing seeds inside -->
+    <g transform="translate(154, 48)">
+      <ellipse cx="0" cy="0" rx="34" ry="20" fill="#FEF3C7" stroke="#92400E" stroke-width="2"/>
+      <ellipse cx="-12" cy="-5" rx="5" ry="3" fill="#451A03" transform="rotate(-10 -12 -5)"/>
+      <ellipse cx="2" cy="-6" rx="5" ry="3" fill="#451A03" transform="rotate(15 2 -6)"/>
+      <ellipse cx="14" cy="-2" rx="5" ry="3" fill="#451A03" transform="rotate(-20 14 -2)"/>
+      <ellipse cx="-6" cy="6" rx="5" ry="3" fill="#451A03" transform="rotate(8 -6 6)"/>
+      <ellipse cx="9" cy="7" rx="5" ry="3" fill="#451A03" transform="rotate(-8 9 7)"/>
+      <text x="0" y="32" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11" fill="#78350F">実をわった中</text>
+    </g>
+  </g>
+  <line x1="166" y1="392" x2="322" y2="392" stroke="#B45309" stroke-width="1.6" stroke-dasharray="3,2"/>
+  <text x="328" y="382" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" fill="#334155">実が ⑥ になり、中に ⑦</text>
+  <text x="328" y="405" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" fill="#334155">葉もくきも根も ⑧</text>
+  <text x="328" y="427" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" fill="#64748B">たねで冬をこす</text>
+
+  <!-- Right Side Temperature Boxes (⑨〜⑫) -->
+  <g transform="translate(520, 56)">
+    <line x1="0" y1="0" x2="0" y2="174" stroke="#EA580C" stroke-width="2.5" marker-end="url(#arrowDark)"/>
+    <rect x="12" y="44" width="132" height="86" rx="10" fill="#FFF7ED" stroke="#FB923C" stroke-width="1.5"/>
+    <text x="78" y="66" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#C2410C">春〜夏</text>
+    <text x="78" y="88" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" fill="#334155">気温が [⑨]</text>
+    <text x="78" y="110" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" fill="#334155">植物はよく [⑩]</text>
+  </g>
+  <g transform="translate(520, 250)">
+    <line x1="0" y1="0" x2="0" y2="174" stroke="#2563EB" stroke-width="2.5" marker-end="url(#arrowDark)"/>
+    <rect x="12" y="44" width="132" height="86" rx="10" fill="#EFF6FF" stroke="#60A5FA" stroke-width="1.5"/>
+    <text x="78" y="66" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#1D4ED8">秋〜冬</text>
+    <text x="78" y="88" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" fill="#334155">気温が [⑪]</text>
+    <text x="78" y="110" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" fill="#334155">植物は [⑫]</text>
+  </g>
+</svg>

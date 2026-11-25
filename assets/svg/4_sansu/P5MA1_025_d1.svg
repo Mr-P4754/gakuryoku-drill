@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 195" width="640" height="195" role="img" aria-label="立体ア〜オの中から直方体を選ぶ図">
+  <title>立体ア〜オの中から直方体を選ぶ図</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .lbl { font-size: 16px; font-weight: 700; }
+      .lbl-sm { font-size: 14px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 15px; font-weight: 700; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="640" height="195" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <polygon points="22.0,108.0 70.0,60.0 136.0,60.0 88.0,108.0" fill="#DBEAFE" stroke="#1E293B" stroke-width="2" stroke-linejoin="round"/>
+  <polygon points="88.0,108.0 136.0,60.0 136.0,86.0 88.0,134.0" fill="#BFDBFE" stroke="#1E293B" stroke-width="2" stroke-linejoin="round"/>
+  <rect x="22.0" y="108.0" width="66.0" height="26.0" fill="#EFF6FF" stroke="#1E293B" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="66.0" cy="168.0" r="12" fill="#FFFFFF" stroke="#1E293B" stroke-width="1.5"/>
+  <text x="66.0" y="173.0" text-anchor="middle" font-size="14" font-weight="700" fill="#1E293B">ア</text>
+  <polygon points="164.0,62.0 186.0,46.0 228.0,46.0 206.0,62.0" fill="#DBEAFE" stroke="#1E293B" stroke-width="2" stroke-linejoin="round"/>
+  <polygon points="206.0,62.0 228.0,46.0 228.0,118.0 206.0,134.0" fill="#BFDBFE" stroke="#1E293B" stroke-width="2" stroke-linejoin="round"/>
+  <rect x="164.0" y="62.0" width="42.0" height="72.0" fill="#EFF6FF" stroke="#1E293B" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="193.0" cy="168.0" r="12" fill="#FFFFFF" stroke="#1E293B" stroke-width="1.5"/>
+  <text x="193.0" y="173.0" text-anchor="middle" font-size="14" font-weight="700" fill="#1E293B">イ</text>
+  <path d="M 262 52 L 262 126 A 24 9 0 0 0 310 126 L 310 52 Z" fill="#F1F5F9" stroke="#1E293B" stroke-width="2"/>
+  <ellipse cx="286" cy="52" rx="24" ry="9" fill="#E2E8F0" stroke="#1E293B" stroke-width="2"/>
+  <circle cx="286.0" cy="168.0" r="12" fill="#FFFFFF" stroke="#1E293B" stroke-width="1.5"/>
+  <text x="286.0" y="173.0" text-anchor="middle" font-size="14" font-weight="700" fill="#1E293B">ウ</text>
+  <polygon points="360.0,96.0 406.0,52.0 442.0,52.0 396.0,96.0" fill="#DBEAFE" stroke="#1E293B" stroke-width="2" stroke-linejoin="round"/>
+  <polygon points="396.0,96.0 442.0,52.0 442.0,90.0 396.0,134.0" fill="#BFDBFE" stroke="#1E293B" stroke-width="2" stroke-linejoin="round"/>
+  <rect x="360.0" y="96.0" width="36.0" height="38.0" fill="#EFF6FF" stroke="#1E293B" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="395.0" cy="168.0" r="12" fill="#FFFFFF" stroke="#1E293B" stroke-width="1.5"/>
+  <text x="395.0" y="173.0" text-anchor="middle" font-size="14" font-weight="700" fill="#1E293B">エ</text>
+  <polygon points="518,74 536,54 582,54 564,74" fill="#E2E8F0" stroke="#1E293B" stroke-width="2" stroke-linejoin="round"/>
+  <polygon points="564,74 582,54 600,114 582,134" fill="#CBD5E1" stroke="#1E293B" stroke-width="2" stroke-linejoin="round"/>
+  <polygon points="518,74 564,74 582,134 500,134" fill="#F8FAFC" stroke="#1E293B" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="548.0" cy="168.0" r="12" fill="#FFFFFF" stroke="#1E293B" stroke-width="1.5"/>
+  <text x="548.0" y="173.0" text-anchor="middle" font-size="14" font-weight="700" fill="#1E293B">オ</text>
+</svg>

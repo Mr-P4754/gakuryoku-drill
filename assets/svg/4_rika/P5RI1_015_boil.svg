@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 320" width="380" height="320">
+  <rect width="380" height="320" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+
+  <!-- White steam cloud (①) rising higher up above transparent gap -->
+  <g stroke="#94A3B8" stroke-width="2.2" fill="none" stroke-linecap="round">
+    <path d="M116,104 Q108,84 118,64 Q124,48 114,32"/>
+    <path d="M134,102 Q142,80 132,58 Q126,42 136,26"/>
+    <path d="M152,104 Q146,82 156,62 Q162,46 154,32"/>
+  </g>
+  <!-- Soft steam puff fill -->
+  <path d="M104,96 Q94,68 112,42 Q134,18 158,40 Q176,66 164,96 Q134,106 104,96 Z" fill="#E2E8F0" opacity="0.55"/>
+
+  <!-- Transparent gap zone right above hole (②) -->
+  <ellipse cx="134" cy="116" rx="18" ry="12" fill="none" stroke="#0284C7" stroke-width="1.5" stroke-dasharray="3,2"/>
+
+  <!-- Wire gauze & Tripod -->
+  <polygon points="62,218 210,218 228,252 44,252" fill="#E2E8F0" stroke="#475569" stroke-width="1.6"/>
+  <line x1="64" y1="218" x2="46" y2="252" stroke="#64748B" stroke-width="1"/><line x1="78" y1="218" x2="64" y2="252" stroke="#64748B" stroke-width="1"/><line x1="92" y1="218" x2="82" y2="252" stroke="#64748B" stroke-width="1"/><line x1="106" y1="218" x2="100" y2="252" stroke="#64748B" stroke-width="1"/><line x1="120" y1="218" x2="118" y2="252" stroke="#64748B" stroke-width="1"/><line x1="134" y1="218" x2="136" y2="252" stroke="#64748B" stroke-width="1"/><line x1="148" y1="218" x2="154" y2="252" stroke="#64748B" stroke-width="1"/><line x1="162" y1="218" x2="172" y2="252" stroke="#64748B" stroke-width="1"/><line x1="176" y1="218" x2="190" y2="252" stroke="#64748B" stroke-width="1"/><line x1="190" y1="218" x2="208" y2="252" stroke="#64748B" stroke-width="1"/><line x1="204" y1="218" x2="226" y2="252" stroke="#64748B" stroke-width="1"/><line x1="62" y1="222" x2="210" y2="222" stroke="#64748B" stroke-width="1"/><line x1="58" y1="229" x2="214" y2="229" stroke="#64748B" stroke-width="1"/><line x1="54" y1="236" x2="218" y2="236" stroke="#64748B" stroke-width="1"/><line x1="50" y1="243" x2="222" y2="243" stroke="#64748B" stroke-width="1"/><line x1="46" y1="250" x2="226" y2="250" stroke="#64748B" stroke-width="1"/>
+  <ellipse cx="136" cy="234" rx="46" ry="12" fill="#CBD5E1" stroke="#64748B" stroke-width="1.2"/>
+  <!-- Tripod legs -->
+  <line x1="78" y1="252" x2="62" y2="306" stroke="#334155" stroke-width="5" stroke-linecap="round"/>
+  <line x1="194" y1="252" x2="210" y2="306" stroke="#334155" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Alcohol lamp flame under gauze -->
+  <path d="M136,246 C126,260 124,278 136,284 C148,278 146,260 136,246 Z" fill="#F97316"/>
+  <path d="M136,256 C131,264 130,276 136,280 C142,276 141,264 136,256 Z" fill="#FEF08A"/>
+  <rect x="122" y="284" width="28" height="22" rx="4" fill="#94A3B8" stroke="#475569" stroke-width="1.5"/>
+
+  <!-- Beaker -->
+  <path d="M92,136 L92,226 C92,232 98,236 106,236 L166,236 C174,236 180,232 180,226 L180,136" fill="#FFFFFF" stroke="#475569" stroke-width="2"/>
+  <!-- Boiling Water inside -->
+  <rect x="94" y="168" width="84" height="66" rx="4" fill="#BAE6FD" opacity="0.8"/>
+  <ellipse cx="136" cy="168" rx="42" ry="6" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.3"/>
+  <!-- Boiling stones at bottom -->
+  <circle cx="118" cy="226" r="5" fill="#78716C" stroke="#44403C" stroke-width="1"/>
+  <circle cx="132" cy="228" r="4.5" fill="#A8A29E" stroke="#44403C" stroke-width="1"/>
+  <circle cx="144" cy="225" r="5" fill="#78716C" stroke="#44403C" stroke-width="1"/>
+  <!-- Rising bubbles -->
+  <g fill="#FFFFFF" stroke="#0284C7" stroke-width="1.2">
+    <circle cx="116" cy="206" r="4"/>
+    <circle cx="136" cy="194" r="5"/>
+    <circle cx="152" cy="182" r="4.5"/>
+    <circle cx="126" cy="178" r="3.5"/>
+    <circle cx="144" cy="210" r="3.5"/>
+  </g>
+  <!-- Aluminum foil cover with hole -->
+  <path d="M88,136 C88,128 184,128 184,136 L186,148 C168,154 104,154 86,148 Z" fill="#CBD5E1" stroke="#475569" stroke-width="1.6"/>
+  <ellipse cx="134" cy="134" rx="14" ry="4.5" fill="#1E293B"/>
+
+  <!-- Callouts matching PDF page 27 -->
+  <!-- ① (湯気) -->
+  <line x1="164" y1="62" x2="232" y2="54" stroke="#059669" stroke-width="1.8"/>
+  <rect x="234" y="38" width="110" height="30" rx="8" fill="#ECFDF5" stroke="#059669" stroke-width="1.8"/>
+  <text x="289" y="58" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#065F46">( ① )</text>
+
+  <!-- ② (水じょう気) -->
+  <line x1="152" y1="116" x2="232" y2="112" stroke="#0284C7" stroke-width="1.8"/>
+  <rect x="234" y="96" width="110" height="30" rx="8" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.8"/>
+  <text x="289" y="116" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#0369A1">( ② )</text>
+
+  <!-- あな -->
+  <line x1="120" y1="134" x2="64" y2="134" stroke="#475569" stroke-width="1.3"/>
+  <text x="58" y="139" text-anchor="end" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13.5" font-weight="bold" fill="#334155">あな</text>
+
+  <!-- 水 -->
+  <line x1="178" y1="186" x2="226" y2="180" stroke="#0284C7" stroke-width="1.3"/>
+  <text x="232" y="185" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#0369A1">水</text>
+
+  <!-- ふっとう石 -->
+  <line x1="148" y1="226" x2="226" y2="276" stroke="#475569" stroke-width="1.3"/>
+  <text x="232" y="282" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13.5" font-weight="bold" fill="#334155">ふっとう石</text>
+</svg>

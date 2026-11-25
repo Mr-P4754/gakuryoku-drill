@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300">
+  <rect width="600" height="300" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+
+  <!-- LEFT BOX: Before pushing -->
+  <g>
+    <rect x="26" y="22" width="152" height="262" rx="10" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.6"/>
+    <text x="102" y="42" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#334155">おす前の空気</text>
+    <!-- Syringe barrel -->
+    <rect x="64" y="62" width="76" height="8" rx="3" fill="#CBD5E1" stroke="#475569" stroke-width="1.5"/>
+    <rect x="70" y="70" width="64" height="172" rx="4" fill="#FFFFFF" stroke="#475569" stroke-width="2"/>
+    <!-- Plunger rod (high) -->
+    <rect x="94" y="48" width="16" height="30" fill="#E2E8F0" stroke="#475569" stroke-width="1.5"/>
+    <!-- Rubber stopper at y=78..94 -->
+    <rect x="72" y="78" width="60" height="16" rx="2" fill="#475569"/>
+    <!-- Sealed nozzle -->
+    <rect x="92" y="242" width="20" height="16" rx="3" fill="#334155"/>
+    <!-- 10 air particles spread out -->
+    <circle cx="82" cy="114" r="5.5" fill="#FFFFFF" stroke="#334155" stroke-width="1.8"/>
+    <circle cx="122" cy="118" r="5.5" fill="#FFFFFF" stroke="#334155" stroke-width="1.8"/>
+    <circle cx="94" cy="140" r="5.5" fill="#FFFFFF" stroke="#334155" stroke-width="1.8"/>
+    <circle cx="114" cy="152" r="5.5" fill="#FFFFFF" stroke="#334155" stroke-width="1.8"/>
+    <circle cx="78" cy="168" r="5.5" fill="#FFFFFF" stroke="#334155" stroke-width="1.8"/>
+    <circle cx="104" cy="178" r="5.5" fill="#FFFFFF" stroke="#334155" stroke-width="1.8"/>
+    <circle cx="126" cy="188" r="5.5" fill="#FFFFFF" stroke="#334155" stroke-width="1.8"/>
+    <circle cx="88" cy="204" r="5.5" fill="#FFFFFF" stroke="#334155" stroke-width="1.8"/>
+    <circle cx="114" cy="214" r="5.5" fill="#FFFFFF" stroke="#334155" stroke-width="1.8"/>
+    <circle cx="96" cy="230" r="5.5" fill="#FFFFFF" stroke="#334155" stroke-width="1.8"/>
+    <text x="102" y="274" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" fill="#64748B">空気のつぶ（10こ）</text>
+  </g>
+
+  <!-- BIG ARROW -->
+  <polygon points="190,144 214,144 214,132 232,152 214,172 214,160 190,160" fill="#059669"/>
+  <text x="210" y="188" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#065F46">おす</text>
+
+  <!-- MIDDLE/RIGHT DRAWING BOX: After pushing -->
+  <g>
+    <rect x="240" y="22" width="152" height="262" rx="10" fill="#FFFFFF" stroke="#059669" stroke-width="2"/>
+    <text x="316" y="42" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#065F46">おしたときの空気</text>
+    <!-- Syringe barrel (exact same geometry as left!) -->
+    <rect x="278" y="62" width="76" height="8" rx="3" fill="#CBD5E1" stroke="#475569" stroke-width="1.5"/>
+    <rect x="284" y="70" width="64" height="172" rx="4" fill="#FFFFFF" stroke="#475569" stroke-width="2"/>
+    <!-- Plunger rod pushed DOWN -->
+    <rect x="308" y="48" width="16" height="104" fill="#E2E8F0" stroke="#475569" stroke-width="1.5"/>
+    <!-- Rubber stopper pushed DOWN to y=152..168 -->
+    <rect x="286" y="152" width="60" height="16" rx="2" fill="#475569"/>
+    <!-- Sealed nozzle -->
+    <rect x="306" y="242" width="20" height="16" rx="3" fill="#334155"/>
+    <!-- Answer particles OR empty prompt -->
+    <text x="315" y="274" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#059669">上のつつの中につぶをかこう</text>
+  </g>
+
+  <!-- FAR RIGHT: Experiment reference inset -->
+  <g transform="translate(414, 24)">
+    <rect width="166" height="256" rx="10" fill="#F0FDF4" stroke="#A7F3D0" stroke-width="1.5"/>
+    <text x="83" y="24" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12.5" font-weight="bold" fill="#065F46">実験のようす</text>
+    <!-- Push down arrow -->
+    <line x1="108" y1="42" x2="108" y2="74" stroke="#DC2626" stroke-width="2.5"/>
+    <polygon points="108,82 102,70 114,70" fill="#DC2626"/>
+    <text x="120" y="66" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12.5" font-weight="bold" fill="#DC2626">おす</text>
+    <!-- Mini syringe -->
+    <rect x="54" y="46" width="38" height="8" rx="3" fill="#CBD5E1" stroke="#475569" stroke-width="1.5"/>
+    <rect x="66" y="54" width="14" height="66" fill="#E2E8F0" stroke="#475569" stroke-width="1.4"/>
+    <rect x="48" y="102" width="50" height="7" rx="2" fill="#CBD5E1" stroke="#475569" stroke-width="1.4"/>
+    <rect x="58" y="109" width="30" height="106" rx="3" fill="#FFFFFF" stroke="#475569" stroke-width="1.8"/>
+    <rect x="60" y="120" width="26" height="12" rx="2" fill="#334155"/>
+    <rect x="66" y="215" width="14" height="12" rx="2" fill="#334155"/>
+    <rect x="22" y="227" width="122" height="14" rx="4" fill="#CBD5E1"/>
+    <!-- Labels -->
+    <line x1="80" y1="88" x2="104" y2="96" stroke="#475569" stroke-width="1.2"/>
+    <text x="108" y="101" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" fill="#334155">ピストン</text>
+    <line x1="88" y1="176" x2="110" y2="176" stroke="#059669" stroke-width="1.2"/>
+    <text x="114" y="181" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12.5" font-weight="bold" fill="#065F46">空気</text>
+  </g>
+</svg>
