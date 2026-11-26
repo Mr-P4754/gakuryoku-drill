@@ -16,7 +16,7 @@ export const APP_CONFIG = {
    * GAS ウェブアプリURL（設定すると最新スプレッドシート同期＆学習ログ送信が有効になります）
    * 例: 'https://script.google.com/macros/s/AKfycb.../exec'
    */
-  GAS_API_URL: '',
+  GAS_API_URL: 'https://script.google.com/macros/s/AKfycbzj7T-VOi7eStlJCT-pioyBCzuuIr9Zuv3N9jTSt9L64lYf6l9uQKjFC1SPSJzF4pKs/exec',
   /**
    * スプレッドシートの公開gviz直接読込を有効にするか（GAS未設定時、シートがリンク閲覧可の場合に利用可）
    */

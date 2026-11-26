@@ -53,11 +53,12 @@ export function clearDataCache() {
   } catch (_) {}
 }
 
-async function fetchJson(url, timeoutMs = 8000) {
+async function fetchJson(url, timeoutMs = 10000) {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), timeoutMs);
   try {
-    const res = await fetch(url, { signal: controller.signal, cache: 'no-cache' });
+    // GAS Web App は OPTIONS(CORSプリフライト)非対応のため、カスタムヘッダーや cache 制御ヘッダーを付けずシンプルGETにする
+    const res = await fetch(url, { signal: controller.signal });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     return await res.json();
   } finally {

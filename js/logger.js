@@ -222,7 +222,7 @@ export async function flushPendingLogQueue() {
 
 async function postToGas(url, payload) {
   const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), 10000);
+  const timer = setTimeout(() => controller.abort(), 12000);
   try {
     const res = await fetch(url, {
       method: 'POST',
@@ -230,7 +230,13 @@ async function postToGas(url, payload) {
       body: JSON.stringify(payload),
       signal: controller.signal,
     });
-    return { ok: res.ok };
+    if (!res.ok) return { ok: false };
+    try {
+      const data = await res.json();
+      return { ok: data && data.status === 'ok' };
+    } catch (_) {
+      return { ok: false };
+    }
   } finally {
     clearTimeout(timer);
   }

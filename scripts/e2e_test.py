@@ -41,6 +41,27 @@ def run_e2e():
         context = browser.new_context(viewport={"width": 1280, "height": 860})
         page = context.new_page()
 
+        posted_logs = []
+
+        def handle_gas(route):
+            req = route.request
+            if req.method == "POST":
+                body = json.loads(req.post_data or "{}")
+                posted_logs.extend(body.get("logs", []))
+                route.fulfill(
+                    status=200,
+                    content_type="application/json",
+                    body=json.dumps({"status": "ok", "saved": len(body.get("logs", []))}),
+                )
+            else:
+                route.fulfill(
+                    status=200,
+                    content_type="application/json",
+                    body=json.dumps({"status": "noop"}),
+                )
+
+        page.route("**/script.google.com/**", handle_gas)
+
         page.on("console", lambda msg: console_errors.append(msg.text) if msg.type == "error" else None)
         page.on("pageerror", lambda err: console_errors.append(str(err)))
         page.on("response", lambda res: failed_requests.append(f"{res.status} {res.url}") if res.status >= 400 and base_url in res.url else None)
@@ -99,12 +120,11 @@ def run_e2e():
         page.screenshot(path=str(SHOT_DIR / "06_sansu_draw_overlay.png"))
         print("[E2E] Sansu fraction & draw overlay OK")
 
-        # 5. 理科：語群穴埋め + 実験SVG + 1単元完走＆結果画面
+        # 5. 理科：語群穴埋め + 実験SVG + 1単元完走＆結果画面＆GAS POST送信確認
         page.goto(f"{base_url}/#drill?grade=4年&subject=rika&unit=P5RI1_020", wait_until="networkidle")
         page.wait_for_selector(".wb-chips")
         page.screenshot(path=str(SHOT_DIR / "07_rika_wordbank.png"))
 
-        # 単元を最後まで回答して結果画面へ
         for _ in range(30):
             if page.locator(".result-hero-card").count() > 0:
                 break
@@ -127,12 +147,12 @@ def run_e2e():
             page.click("#next-question-btn")
             page.wait_for_timeout(120)
 
-        page.wait_for_selector(".result-hero-card")
+        page.wait_for_selector(".sync-status-bar.status-sent")
         page.screenshot(path=str(SHOT_DIR / "08_result.png"))
-        queue_json = page.evaluate("localStorage.getItem('gakuryoku_log_queue_v1')")
-        queue = json.loads(queue_json or "[]")
-        assert len(queue) >= 1 and queue[-1]["school_code"] == "sakura", f"Log queue invalid: {queue}"
-        print("[E2E] Result screen & score queue OK:", queue[-1]["unit_name"], queue[-1]["school_code"])
+        assert len(posted_logs) == 1, f"Expected 1 posted log, got {posted_logs}"
+        log = posted_logs[0]
+        assert log["school_code"] == "sakura" and log["class_name"] == "2組" and log["student_no"] == 15, f"Unexpected payload: {log}"
+        print("[E2E] Result screen & GAS POST payload OK:", log["unit_name"], log["school_code"], log["class_name"], log["student_no"])
 
         # 6. モバイル幅確認 (390x844)
         page.set_viewport_size({"width": 390, "height": 844})
