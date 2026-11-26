@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 232" width="600" height="232" role="img" aria-label="分数と小数の変換のしかた">
+  <title>分数と小数の変換のしかた</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .sub { font-size: 13px; font-weight: 600; fill: #475569; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 15px; font-weight: 700; }
+      .num-lg { font-size: 17px; font-weight: 700; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .amber { fill: #B45309; }
+      .muted { fill: #64748B; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+    <marker id="arr-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#2563EB"/>
+    </marker>
+    <marker id="arr-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#DC2626"/>
+    </marker>
+    <marker id="arr-dark" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#334155"/>
+    </marker>
+    <marker id="arr-teal" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#0F766E"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="600" height="232" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <rect x="16" y="16" width="276" height="200" rx="10" fill="#EFF6FF" stroke="#93C5FD" stroke-width="1.5"/>
+  <text x="154" y="44" text-anchor="middle" class="title blue">① 分数 → 小数</text>
+  <text x="154" y="70" text-anchor="middle" class="lbl-sm">分子 ÷ 分母 で計算しよう！</text>
+  <text x="72" y="114" text-anchor="middle" font-size="22" font-weight="700" fill="#DC2626">5</text>
+  <line x1="56" y1="122" x2="88" y2="122" stroke="#1E293B" stroke-width="2.4"/>
+  <text x="72" y="146" text-anchor="middle" font-size="22" font-weight="700" fill="#2563EB">4</text>
+  <text x="108" y="130" text-anchor="middle" font-size="20" font-weight="700">＝</text>
+  <text x="136" y="130" text-anchor="middle" font-size="22" font-weight="700" fill="#DC2626">5</text>
+  <text x="158" y="130" text-anchor="middle" font-size="20" font-weight="700">÷</text>
+  <text x="180" y="130" text-anchor="middle" font-size="22" font-weight="700" fill="#2563EB">4</text>
+  <text x="206" y="130" text-anchor="middle" font-size="20" font-weight="700">＝</text>
+  <text x="248" y="130" text-anchor="middle" font-size="22" font-weight="700" fill="#059669">1.25</text>
+  <text x="72" y="178" text-anchor="middle" class="lbl-xs">上(分子) ÷ 下(分母)</text>
+  <text x="154" y="200" text-anchor="middle" class="lbl-xs muted">わり切れるまで筆算するよ</text>
+  <rect x="308" y="16" width="276" height="200" rx="10" fill="#F0FDF4" stroke="#86EFAC" stroke-width="1.5"/>
+  <text x="446" y="44" text-anchor="middle" class="title green">② 小数 → 分数</text>
+  <text x="446" y="70" text-anchor="middle" class="lbl-sm">分母を 10 や 100 にしよう！</text>
+  <text x="376" y="114" text-anchor="middle" font-size="18" font-weight="700">0.7</text>
+  <text x="416" y="114" text-anchor="middle" font-size="16" font-weight="700" class="muted">→</text>
+  <text x="462" y="104" text-anchor="middle" font-size="16" font-weight="700" fill="#059669">7</text>
+  <line x1="444" y1="110" x2="480" y2="110" stroke="#1E293B" stroke-width="2"/>
+  <text x="462" y="128" text-anchor="middle" font-size="16" font-weight="700" fill="#2563EB">10</text>
+  <text x="530" y="114" text-anchor="middle" class="lbl-xs">小数第1位</text>
+  <text x="376" y="176" text-anchor="middle" font-size="18" font-weight="700">0.83</text>
+  <text x="416" y="176" text-anchor="middle" font-size="16" font-weight="700" class="muted">→</text>
+  <text x="462" y="166" text-anchor="middle" font-size="16" font-weight="700" fill="#059669">83</text>
+  <line x1="440" y1="172" x2="484" y2="172" stroke="#1E293B" stroke-width="2"/>
+  <text x="462" y="190" text-anchor="middle" font-size="16" font-weight="700" fill="#2563EB">100</text>
+  <text x="530" y="176" text-anchor="middle" class="lbl-xs">小数第2位</text>
+</svg>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 460" width="960" height="460" role="img" aria-label="ニュース番組がつくられるまでの4段階の図（取材・編集会議・台本づくりと編集作業・本番）と宇宙から情報を伝える通信機器の図">
+  <style>
+    text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans CJK JP', sans-serif; }
+  </style>
+  <rect width="960" height="460" fill="#FFFFFF"/>
+
+  <!-- Top Section: 4-step News Production Flowchart (100% original vector art!) -->
+  <rect x="14" y="14" width="932" height="248" rx="14" fill="#F8FAFC" stroke="#334155" stroke-width="1.8"/>
+  <text x="32" y="42" font-size="17.5" font-weight="700" fill="#0F172A">ニュース番組がつくられるまで</text>
+
+  <!-- Step 1: 取材 (On-site reporter + cameraman) -->
+  <g transform="translate(28, 56)">
+    <rect x="0" y="0" width="204" height="190" rx="10" fill="#FFFFFF" stroke="#0284C7" stroke-width="2"/>
+    <rect x="0" y="0" width="204" height="32" rx="10" fill="#0284C7"/>
+    <rect x="0" y="20" width="204" height="12" fill="#0284C7"/>
+    <text x="102" y="22" text-anchor="middle" font-size="14.5" font-weight="800" fill="#FFFFFF">取　材</text>
+    <!-- Outdoor city scene -->
+    <rect x="10" y="40" width="184" height="138" rx="6" fill="#E0F2FE"/>
+    <!-- City buildings background -->
+    <rect x="18" y="64" width="32" height="74" fill="#CBD5E1" stroke="#64748B" stroke-width="1"/>
+    <rect x="56" y="52" width="38" height="86" fill="#94A3B8" stroke="#475569" stroke-width="1"/>
+    <rect x="148" y="70" width="38" height="68" fill="#CBD5E1" stroke="#64748B" stroke-width="1"/>
+    <!-- Sidewalk -->
+    <rect x="10" y="138" width="184" height="40" fill="#E2E8F0"/>
+    <!-- Cameraman on left -->
+    <g transform="translate(44, 114)">
+      <circle cx="0" cy="-16" r="10" fill="#FDE68A" stroke="#1E293B" stroke-width="1.3"/>
+      <path d="M -10,-19 Q 0,-30 10,-19 Z" fill="#1E293B"/>
+      <rect x="-12" y="-5" width="24" height="38" rx="6" fill="#334155" stroke="#0F172A" stroke-width="1.3"/>
+      <!-- TV Camera on shoulder -->
+      <rect x="-4" y="-22" width="34" height="16" rx="3" fill="#1E293B" stroke="#0F172A" stroke-width="1.2"/>
+      <polygon points="30,-20 42,-25 42,-3 30,-8" fill="#475569" stroke="#0F172A" stroke-width="1.2"/>
+      <circle cx="8" cy="-14" r="3" fill="#EF4444"/>
+    </g>
+    <!-- Reporter with microphone on right -->
+    <g transform="translate(142, 112)">
+      <circle cx="0" cy="-18" r="11" fill="#FDE68A" stroke="#1E293B" stroke-width="1.3"/>
+      <path d="M -11,-20 Q 0,-34 11,-20 Q 13,-8 10,-6 L -10,-6 Q -13,-8 -11,-20 Z" fill="#334155"/>
+      <circle cx="0" cy="-17" r="9.5" fill="#FDE68A"/>
+      <circle cx="-3.5" cy="-18" r="1.2" fill="#0F172A"/><circle cx="3.5" cy="-18" r="1.2" fill="#0F172A"/>
+      <path d="M -2.5,-13 Q 0,-11 2.5,-13" fill="none" stroke="#991B1B" stroke-width="1.2"/>
+      <!-- Jacket -->
+      <path d="M -15,-6 L 15,-6 L 18,40 L -18,40 Z" fill="#1D4ED8" stroke="#1E3A8A" stroke-width="1.3"/>
+      <polygon points="-5,-6 5,-6 0,12" fill="#FFFFFF"/>
+      <!-- Microphone in hand -->
+      <line x1="-14" y1="8" x2="-24" y2="-4" stroke="#1E293B" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="-26" cy="-7" r="5" fill="#475569" stroke="#0F172A" stroke-width="1.2"/>
+      <!-- Notebook in other hand -->
+      <rect x="10" y="6" width="14" height="18" rx="2" fill="#FEF08A" stroke="#A16207" stroke-width="1.2"/>
+    </g>
+  </g>
+
+  <!-- Arrow 1->2 -->
+  <polygon points="236,146 246,146 246,140 256,152 246,164 246,158 236,158" fill="#0284C7"/>
+
+  <!-- Step 2: 編集会議 (Editorial meeting room) -->
+  <g transform="translate(260, 56)">
+    <rect x="0" y="0" width="204" height="190" rx="10" fill="#FFFFFF" stroke="#0D9488" stroke-width="2"/>
+    <rect x="0" y="0" width="204" height="32" rx="10" fill="#0D9488"/>
+    <rect x="0" y="20" width="204" height="12" fill="#0D9488"/>
+    <text x="102" y="22" text-anchor="middle" font-size="14.5" font-weight="800" fill="#FFFFFF">編集会議</text>
+    <rect x="10" y="40" width="184" height="138" rx="6" fill="#F0FDFA"/>
+    <!-- Wall whiteboard & TV screens -->
+    <rect x="22" y="48" width="90" height="38" rx="3" fill="#FFFFFF" stroke="#475569" stroke-width="1.4"/>
+    <line x1="30" y1="58" x2="100" y2="58" stroke="#0D9488" stroke-width="2"/>
+    <line x1="30" y1="68" x2="84" y2="68" stroke="#64748B" stroke-width="1.8"/>
+    <line x1="30" y1="78" x2="94" y2="78" stroke="#64748B" stroke-width="1.8"/>
+    <rect x="122" y="48" width="60" height="36" rx="3" fill="#1E293B" stroke="#475569" stroke-width="1.4"/>
+    <rect x="126" y="52" width="52" height="28" fill="#38BDF8"/>
+    <!-- Conference table -->
+    <ellipse cx="102" cy="134" rx="66" ry="22" fill="#FDE68A" stroke="#B45309" stroke-width="1.6"/>
+    <!-- Papers on table -->
+    <rect x="74" y="126" width="18" height="12" fill="#FFFFFF" stroke="#94A3B8" stroke-width="0.9"/>
+    <rect x="106" y="128" width="20" height="12" fill="#FFFFFF" stroke="#94A3B8" stroke-width="0.9"/>
+    <!-- Staff around table (4 people) -->
+    <g>
+      <circle cx="54" cy="108" r="9" fill="#FDE68A" stroke="#1E293B" stroke-width="1.2"/>
+      <rect x="44" y="117" width="20" height="14" rx="4" fill="#2563EB"/>
+      <circle cx="102" cy="102" r="9" fill="#FDE68A" stroke="#1E293B" stroke-width="1.2"/>
+      <rect x="92" y="111" width="20" height="14" rx="4" fill="#DC2626"/>
+      <circle cx="150" cy="108" r="9" fill="#FDE68A" stroke="#1E293B" stroke-width="1.2"/>
+      <rect x="140" y="117" width="20" height="14" rx="4" fill="#16A34A"/>
+      <circle cx="82" cy="154" r="9" fill="#334155"/>
+      <rect x="70" y="162" width="24" height="14" rx="5" fill="#7C3AED"/>
+      <circle cx="128" cy="154" r="9" fill="#334155"/>
+      <rect x="116" y="162" width="24" height="14" rx="5" fill="#EA580C"/>
+    </g>
+  </g>
+
+  <!-- Arrow 2->3 -->
+  <polygon points="468,146 478,146 478,140 488,152 478,164 478,158 468,158" fill="#0D9488"/>
+
+  <!-- Step 3: 台本づくり・編集作業 (Video editing suite) -->
+  <g transform="translate(492, 56)">
+    <rect x="0" y="0" width="204" height="190" rx="10" fill="#FFFFFF" stroke="#7C3AED" stroke-width="2"/>
+    <rect x="0" y="0" width="204" height="32" rx="10" fill="#7C3AED"/>
+    <rect x="0" y="20" width="204" height="12" fill="#7C3AED"/>
+    <text x="102" y="22" text-anchor="middle" font-size="13.5" font-weight="800" fill="#FFFFFF">台本づくり・編集作業</text>
+    <rect x="10" y="40" width="184" height="138" rx="6" fill="#F5F3FF"/>
+    <!-- Editing desk -->
+    <rect x="16" y="116" width="172" height="16" rx="3" fill="#CBD5E1" stroke="#475569" stroke-width="1.3"/>
+    <!-- Dual Video Monitors -->
+    <rect x="24" y="54" width="70" height="50" rx="4" fill="#1E293B" stroke="#0F172A" stroke-width="1.5"/>
+    <rect x="29" y="59" width="60" height="30" fill="#60A5FA"/>
+    <!-- Video timeline bars -->
+    <rect x="29" y="92" width="38" height="6" rx="1" fill="#FACC15"/>
+    <rect x="70" y="92" width="19" height="6" rx="1" fill="#34D399"/>
+
+    <rect x="104" y="54" width="76" height="50" rx="4" fill="#1E293B" stroke="#0F172A" stroke-width="1.5"/>
+    <rect x="109" y="59" width="66" height="38" fill="#FFFFFF"/>
+    <line x1="115" y1="68" x2="168" y2="68" stroke="#7C3AED" stroke-width="2.2"/>
+    <line x1="115" y1="77" x2="162" y2="77" stroke="#64748B" stroke-width="1.8"/>
+    <line x1="115" y1="86" x2="154" y2="86" stroke="#64748B" stroke-width="1.8"/>
+    <!-- Monitor stands -->
+    <rect x="54" y="104" width="10" height="12" fill="#475569"/>
+    <rect x="137" y="104" width="10" height="12" fill="#475569"/>
+    <!-- Editors working from behind -->
+    <g transform="translate(64, 146)">
+      <circle cx="0" cy="-14" r="12" fill="#334155"/>
+      <path d="M -20,30 L -16,-2 L 16,-2 L 20,30 Z" fill="#0EA5E9" stroke="#0369A1" stroke-width="1.3"/>
+    </g>
+    <g transform="translate(142, 146)">
+      <circle cx="0" cy="-14" r="12" fill="#1E293B"/>
+      <path d="M -20,30 L -16,-2 L 16,-2 L 20,30 Z" fill="#8B5CF6" stroke="#5B21B6" stroke-width="1.3"/>
+    </g>
+  </g>
+
+  <!-- Arrow 3->4 -->
+  <polygon points="700,146 710,146 710,140 720,152 710,164 710,158 700,158" fill="#7C3AED"/>
+
+  <!-- Step 4: 本番 (TV Broadcast Studio with Anchor) -->
+  <g transform="translate(724, 56)">
+    <rect x="0" y="0" width="208" height="190" rx="10" fill="#FFFFFF" stroke="#DC2626" stroke-width="2"/>
+    <rect x="0" y="0" width="208" height="32" rx="10" fill="#DC2626"/>
+    <rect x="0" y="20" width="208" height="12" fill="#DC2626"/>
+    <text x="104" y="22" text-anchor="middle" font-size="14.5" font-weight="800" fill="#FFFFFF">本　番</text>
+    <!-- Studio background -->
+    <rect x="10" y="40" width="188" height="138" rx="6" fill="#1E3A8A"/>
+    <!-- ON AIR sign -->
+    <rect x="18" y="47" width="54" height="18" rx="4" fill="#EF4444" stroke="#FFFFFF" stroke-width="1"/>
+    <text x="45" y="60" text-anchor="middle" font-size="10.5" font-weight="800" fill="#FFFFFF">ON AIR</text>
+    <!-- Studio graphic screen behind anchor -->
+    <rect x="86" y="48" width="102" height="58" rx="4" fill="#3B82F6" stroke="#93C5FD" stroke-width="1.4"/>
+    <text x="137" y="74" text-anchor="middle" font-size="13" font-weight="800" fill="#FFFFFF">NEWS</text>
+    <line x1="98" y1="86" x2="176" y2="86" stroke="#FEF08A" stroke-width="2.5"/>
+    <!-- News Anchor at desk -->
+    <g transform="translate(132, 108)">
+      <circle cx="0" cy="-16" r="11" fill="#FDE68A" stroke="#1E293B" stroke-width="1.3"/>
+      <path d="M -11,-19 Q 0,-30 11,-19 Z" fill="#1E293B"/>
+      <circle cx="-3.5" cy="-16" r="1.2" fill="#0F172A"/><circle cx="3.5" cy="-16" r="1.2" fill="#0F172A"/>
+      <path d="M -2.5,-11 Q 0,-9 2.5,-11" fill="none" stroke="#991B1B" stroke-width="1.2"/>
+      <!-- Suit & tie -->
+      <path d="M -18,-4 L 18,-4 L 22,26 L -22,26 Z" fill="#334155" stroke="#0F172A" stroke-width="1.3"/>
+      <polygon points="-5,-4 5,-4 0,14" fill="#FFFFFF"/>
+      <polygon points="-2,-1 2,-1 0,13" fill="#DC2626"/>
+    </g>
+    <!-- News Anchor Desk -->
+    <polygon points="82,130 184,130 190,174 76,174" fill="#E2E8F0" stroke="#475569" stroke-width="1.5"/>
+    <rect x="114" y="136" width="38" height="10" rx="2" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1"/>
+    <rect x="88" y="150" width="90" height="8" rx="3" fill="#38BDF8"/>
+    <!-- Studio Camera on tripod (left foreground) -->
+    <g transform="translate(26, 114)">
+      <rect x="0" y="0" width="32" height="22" rx="3" fill="#0F172A" stroke="#64748B" stroke-width="1.2"/>
+      <polygon points="32,4 44,0 44,22 32,18" fill="#334155"/>
+      <circle cx="38" cy="11" r="3" fill="#93C5FD"/>
+      <line x1="16" y1="22" x2="6" y2="62" stroke="#94A3B8" stroke-width="3"/>
+      <line x1="16" y1="22" x2="28" y2="62" stroke="#94A3B8" stroke-width="3"/>
+    </g>
+  </g>
+
+  <!-- Bottom Section: Right Satellite illustration (no label spoiler!) + Media Summary -->
+  <rect x="14" y="276" width="538" height="170" rx="14" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.6"/>
+  <text x="32" y="306" font-size="16" font-weight="800" fill="#1E3A8A">テレビ・新聞と情報ネットワークのポイント</text>
+  <text x="32" y="336" font-size="13.5" font-weight="700" fill="#0F172A">● 映像や音声で速く・わかりやすく伝えるメディアがある。</text>
+  <text x="32" y="364" font-size="13.5" font-weight="700" fill="#0F172A">● 文字や写真でくわしく伝え，残して読み返せるメディアもある。</text>
+  <text x="32" y="392" font-size="13.5" font-weight="700" fill="#0F172A">● コンビニでは店・本部・工場・配送センターをネットワークで結ぶ。</text>
+  <text x="32" y="422" font-size="13.5" font-weight="700" fill="#B91C1C">● 情報を利用するときは，正しいかどうかを確かめることが大切！</text>
+
+  <!-- Right Panel: Original Satellite Vector Illustration (図) -->
+  <rect x="566" y="276" width="380" height="170" rx="14" fill="#0F172A" stroke="#334155" stroke-width="1.8"/>
+  <rect x="580" y="288" width="44" height="24" rx="6" fill="#FFFFFF"/>
+  <text x="602" y="305" text-anchor="middle" font-size="14" font-weight="800" fill="#0F172A">図</text>
+  <!-- Stars in space -->
+  <circle cx="644" cy="304" r="1.5" fill="#FEF08A"/><circle cx="712" cy="296" r="1.2" fill="#FFFFFF"/>
+  <circle cx="886" cy="302" r="1.5" fill="#FEF08A"/><circle cx="914" cy="348" r="1.3" fill="#FFFFFF"/>
+  <circle cx="614" cy="396" r="1.3" fill="#FFFFFF"/><circle cx="894" cy="416" r="1.5" fill="#FEF08A"/>
+  <!-- Curved Earth horizon at bottom-right -->
+  <path d="M 790,446 Q 870,398 946,422 L 946,446 Z" fill="#2563EB" opacity="0.65"/>
+  <path d="M 824,432 Q 860,418 898,426" fill="none" stroke="#86EFAC" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Communications Satellite (tilted, matching PDF page 17 diagram!) -->
+  <g transform="translate(756, 362) rotate(-32)">
+    <!-- Left Solar Wing -->
+    <rect x="-124" y="-18" width="90" height="36" rx="2" fill="#1D4ED8" stroke="#93C5FD" stroke-width="1.6"/>
+    <g stroke="#60A5FA" stroke-width="0.9">
+      <line x1="-102" y1="-18" x2="-102" y2="18"/><line x1="-80" y1="-18" x2="-80" y2="18"/>
+      <line x1="-58" y1="-18" x2="-58" y2="18"/>
+      <line x1="-124" y1="-6" x2="-34" y2="-6"/><line x1="-124" y1="6" x2="-34" y2="6"/>
+    </g>
+    <!-- Right Solar Wing -->
+    <rect x="34" y="-18" width="90" height="36" rx="2" fill="#1D4ED8" stroke="#93C5FD" stroke-width="1.6"/>
+    <g stroke="#60A5FA" stroke-width="0.9">
+      <line x1="56" y1="-18" x2="56" y2="18"/><line x1="78" y1="-18" x2="78" y2="18"/>
+      <line x1="100" y1="-18" x2="100" y2="18"/>
+      <line x1="34" y1="-6" x2="124" y2="-6"/><line x1="34" y1="6" x2="124" y2="6"/>
+    </g>
+    <!-- Struts -->
+    <line x1="-34" y1="0" x2="-22" y2="0" stroke="#CBD5E1" stroke-width="4"/>
+    <line x1="22" y1="0" x2="34" y2="0" stroke="#CBD5E1" stroke-width="4"/>
+    <!-- Satellite Main Gold/Silver Body -->
+    <rect x="-24" y="-22" width="48" height="44" rx="5" fill="#F59E0B" stroke="#FEF08A" stroke-width="1.8"/>
+    <rect x="-16" y="-14" width="32" height="28" rx="3" fill="#CBD5E1" stroke="#475569" stroke-width="1.2"/>
+    <!-- Parabolic Dish Antenna -->
+    <ellipse cx="14" cy="30" rx="24" ry="12" fill="#E2E8F0" stroke="#94A3B8" stroke-width="1.6"/>
+    <line x1="14" y1="22" x2="14" y2="38" stroke="#475569" stroke-width="2"/>
+    <circle cx="14" cy="39" r="3" fill="#EF4444"/>
+  </g>
+  <!-- Signal waves toward Earth -->
+  <path d="M 792,396 Q 804,386 814,394 M 802,408 Q 818,394 832,404 M 814,420 Q 834,404 850,416" fill="none" stroke="#38BDF8" stroke-width="2.2" stroke-linecap="round"/>
+</svg>

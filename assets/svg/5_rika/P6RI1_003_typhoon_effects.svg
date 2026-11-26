@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 250" width="620" height="250">
+  <defs>
+    <marker id="arrDark" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#334155"/>
+    </marker>
+    <marker id="arrBlue" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#0284C7"/>
+    </marker>
+    <marker id="arrRed" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#DC2626"/>
+    </marker>
+    <marker id="arrGreen" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#059669"/>
+    </marker>
+    <marker id="arrAmber" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#D97706"/>
+    </marker>
+    
+  </defs>
+  <rect width="620" height="250" rx="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <text x="310" y="27" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="15" font-weight="bold" fill="#065F46">台風がもたらす災害とめぐみ</text>
+
+    <rect x="20" y="42" width="356" height="192" rx="12" fill="#FEF2F2" stroke="#EF4444" stroke-width="1.6"/>
+    <rect x="34" y="52" width="136" height="24" rx="6" fill="#DC2626"/>
+    <text x="102" y="69" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12.5" font-weight="bold" fill="#FFFFFF">台風による災害</text>
+
+    <!-- 3 mini cards inside -->
+    <!-- Flooding -->
+    <g transform="translate(32, 86)">
+      <rect width="104" height="134" rx="8" fill="#FFFFFF" stroke="#FCA5A5" stroke-width="1.3"/>
+      <path d="M10,72 Q30,62 52,72 T94,72 L94,104 L10,104 Z" fill="#60A5FA"/>
+      <path d="M10,82 Q30,74 52,82 T94,82" fill="none" stroke="#1D4ED8" stroke-width="2"/>
+      <!-- Rain -->
+      <g stroke="#2563EB" stroke-width="1.5" stroke-linecap="round">
+        <line x1="24" y1="18" x2="18" y2="34"/><line x1="48" y1="14" x2="42" y2="30"/>
+        <line x1="72" y1="18" x2="66" y2="34"/><line x1="88" y1="24" x2="82" y2="40"/>
+      </g>
+      <path d="M12,68 L28,52 L44,68 Z" fill="#FCA5A5" stroke="#B91C1C" stroke-width="1.3"/>
+      <rect x="18" y="68" width="20" height="12" fill="#FEF3C7" stroke="#B91C1C" stroke-width="1.2"/>
+      <text x="52" y="122" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#991B1B">あふれてこう水</text>
+    </g>
+    <!-- Landslide -->
+    <g transform="translate(146, 86)">
+      <rect width="104" height="134" rx="8" fill="#FFFFFF" stroke="#FCA5A5" stroke-width="1.3"/>
+      <path d="M10,102 L10,36 L44,44 L66,86 L94,102 Z" fill="#A16207" stroke="#713F12" stroke-width="1.3"/>
+      <path d="M10,36 L44,44 L48,54 L10,50 Z" fill="#22C55E"/>
+      <!-- Falling rocks -->
+      <circle cx="62" cy="70" r="6" fill="#D97706" stroke="#78350F" stroke-width="1.2"/>
+      <circle cx="76" cy="84" r="5" fill="#B45309" stroke="#78350F" stroke-width="1.2"/>
+      <circle cx="84" cy="95" r="4" fill="#92400E"/>
+      <path d="M46,54 L70,74" stroke="#DC2626" stroke-width="2" marker-end="url(#arrRed)"/>
+      <text x="52" y="122" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#991B1B">しゃ面がくずれる</text>
+    </g>
+    <!-- Bent tower -->
+    <g transform="translate(260, 86)">
+      <rect width="104" height="134" rx="8" fill="#FFFFFF" stroke="#FCA5A5" stroke-width="1.3"/>
+      <!-- Strong wind arrows -->
+      <path d="M12,30 L42,30" stroke="#0284C7" stroke-width="2" marker-end="url(#arrBlue)"/>
+      <path d="M8,46 L36,46" stroke="#0284C7" stroke-width="2" marker-end="url(#arrBlue)"/>
+      <!-- Tilted steel tower -->
+      <g transform="translate(56, 98) rotate(26)">
+        <line x1="-10" y1="0" x2="-3" y2="-66" stroke="#475569" stroke-width="2.2"/>
+        <line x1="10" y1="0" x2="3" y2="-66" stroke="#475569" stroke-width="2.2"/>
+        <line x1="-8" y1="-18" x2="8" y2="-18" stroke="#475569" stroke-width="1.6"/>
+        <line x1="-6" y1="-38" x2="6" y2="-38" stroke="#475569" stroke-width="1.6"/>
+        <line x1="-16" y1="-50" x2="16" y2="-50" stroke="#475569" stroke-width="2"/>
+        <line x1="-12" y1="-62" x2="12" y2="-62" stroke="#475569" stroke-width="2"/>
+      </g>
+      <line x1="10" y1="100" x2="94" y2="100" stroke="#64748B" stroke-width="2"/>
+      <text x="52" y="122" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#991B1B">強風で鉄とうが…</text>
+    </g>
+    
+    <rect x="392" y="42" width="208" height="192" rx="12" fill="#ECFDF5" stroke="#10B981" stroke-width="1.6"/>
+    <rect x="408" y="52" width="136" height="24" rx="6" fill="#059669"/>
+    <text x="476" y="69" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12.5" font-weight="bold" fill="#FFFFFF">台風のめぐみ</text>
+
+    <g transform="translate(406, 86)">
+      <rect width="180" height="134" rx="8" fill="#FFFFFF" stroke="#6EE7B7" stroke-width="1.3"/>
+      <!-- Rain cloud -->
+      <path d="M34,34 C34,24 48,20 58,25 C66,18 84,22 86,32 C94,34 92,42 82,42 L40,42 C30,42 28,36 34,34 Z" fill="#94A3B8"/>
+      <g stroke="#3B82F6" stroke-width="1.5" stroke-linecap="round">
+        <line x1="44" y1="46" x2="40" y2="58"/><line x1="60" y1="46" x2="56" y2="58"/><line x1="76" y1="46" x2="72" y2="58"/>
+      </g>
+      <!-- Dam reservoir -->
+      <rect x="14" y="66" width="96" height="40" fill="#38BDF8"/>
+      <path d="M14,72 Q38,66 62,72 T110,72" fill="none" stroke="#E0F2FE" stroke-width="1.8"/>
+      <!-- Dam concrete wall -->
+      <polygon points="104,56 122,56 134,106 104,106" fill="#CBD5E1" stroke="#475569" stroke-width="1.5"/>
+      <path d="M126,84 Q142,84 148,106" fill="none" stroke="#38BDF8" stroke-width="5" stroke-linecap="round"/>
+      <rect x="134" y="100" width="34" height="6" fill="#38BDF8"/>
+      <text x="90" y="124" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#065F46">ダムにたまるきちょうなしげん</text>
+    </g>
+    </svg>

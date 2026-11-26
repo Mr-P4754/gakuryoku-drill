@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" width="480" height="360" role="img" aria-label="直角三角形ABCの模範作図（3つの辺・コンパス弧入り）">
+  <title>直角三角形ABCの模範作図（3つの辺・コンパス弧入り）</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .sub { font-size: 13px; font-weight: 600; fill: #475569; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 15px; font-weight: 700; }
+      .num-lg { font-size: 17px; font-weight: 700; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .amber { fill: #B45309; }
+      .muted { fill: #64748B; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+    <marker id="arr-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#2563EB"/>
+    </marker>
+    <marker id="arr-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#DC2626"/>
+    </marker>
+    <marker id="arr-dark" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#334155"/>
+    </marker>
+    <marker id="arr-teal" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#0F766E"/>
+    </marker>
+  </defs>
+  <path d="M 267.02 100.16 A 260.00 260.00 0 0 1 331.89 186.65" fill="none" stroke="#059669" stroke-width="2.3"/>
+  <path d="M 266.26 144.63 A 156.00 156.00 0 0 1 341.74 144.63" fill="none" stroke="#059669" stroke-width="2.3"/>
+  <polygon points="96.0,296.0 304.0,296.0 304.0,140.0" fill="rgba(220,38,38,0.09)" stroke="none"/>
+  <polyline points="96.0,296.0 304.0,140.0 304.0,296.0" fill="none" stroke="#DC2626" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M 96.0 296.0 Q 182.7 195.0 304.0 140.0" fill="none" stroke="#DC2626" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="190.1" y="209.8" text-anchor="middle" font-size="14" font-weight="700" fill="#DC2626" class="halo">5cm</text>
+  <path d="M 304.0 140.0 Q 332.8 218.0 304.0 296.0" fill="none" stroke="#DC2626" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="320.6" y="223.0" text-anchor="middle" font-size="14" font-weight="700" fill="#DC2626" class="halo">3cm</text>
+  <circle cx="304.0" cy="140.0" r="5.0" fill="#DC2626"/>
+  <text x="318.0" y="128.0" text-anchor="middle" font-size="16" font-weight="700" fill="#DC2626" class="halo">A</text>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 232" width="320" height="232" role="img" aria-label="三角形の外角を求める問題図(2)">
+  <title>三角形の外角を求める問題図(2)</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .sub { font-size: 13px; font-weight: 600; fill: #475569; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 15px; font-weight: 700; }
+      .num-lg { font-size: 17px; font-weight: 700; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .amber { fill: #B45309; }
+      .muted { fill: #64748B; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+    <marker id="arr-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#2563EB"/>
+    </marker>
+    <marker id="arr-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#DC2626"/>
+    </marker>
+    <marker id="arr-dark" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#334155"/>
+    </marker>
+    <marker id="arr-teal" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#0F766E"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="320" height="232" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <polygon points="146.0,198.0 248.0,198.0 118.9,44.1" fill="#F8FAFC" stroke="#1E293B" stroke-width="2.4" stroke-linejoin="round"/>
+  <line x1="64" y1="198" x2="146.0" y2="198.0" stroke="#1E293B" stroke-width="2.4"/>
+  <path d="M 118.86 44.10 L 136.86 65.55 A 28.00 28.00 0 0 1 123.73 71.68 Z" fill="rgba(37,99,235,0.12)" stroke="none"/>
+  <path d="M 136.86 65.55 A 28.00 28.00 0 0 1 123.73 71.68" fill="none" stroke="#2563EB" stroke-width="2.0"/>
+  <text x="140.8" y="96.2" text-anchor="middle" class="num halo">30°</text>
+  <path d="M 248.00 198.00 L 224.00 198.00 A 24.00 24.00 0 0 1 232.57 179.61 Z" fill="rgba(37,99,235,0.12)" stroke="none"/>
+  <path d="M 224.00 198.00 A 24.00 24.00 0 0 1 232.57 179.61" fill="none" stroke="#2563EB" stroke-width="2.0"/>
+  <text x="206.3" y="183.6" text-anchor="middle" class="num halo">50°</text>
+  <path d="M 146.00 198.00 L 122.00 198.00 A 24.00 24.00 0 0 1 141.83 174.36 Z" fill="rgba(220,38,38,0.16)" stroke="none"/>
+  <path d="M 122.00 198.00 A 24.00 24.00 0 0 1 141.83 174.36" fill="none" stroke="#DC2626" stroke-width="2.0"/>
+  <circle cx="112.3" cy="169.7" r="12" fill="#FEF2F2" stroke="#DC2626" stroke-width="1.6"/>
+  <text x="112.3" y="174.7" text-anchor="middle" font-size="14" font-weight="700" fill="#DC2626">い</text>
+</svg>

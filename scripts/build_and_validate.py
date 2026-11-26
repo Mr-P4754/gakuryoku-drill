@@ -37,6 +37,10 @@ EXPECTED_UNITS_BY_SHEET = {
     "4年_社会": 10,
     "4年_算数": 36,
     "4年_理科": 20,
+    "5年_国語": 11,
+    "5年_社会": 12,
+    "5年_算数": 29,
+    "5年_理科": 18,
 }
 
 
@@ -54,8 +58,8 @@ def merge_parts():
     src_rank = {"フォローアップ": 1, "たしかめドリル": 2, "チャレンジ": 3}
     subject_order = {"国語": 1, "社会": 2, "算数": 3, "理科": 4}
 
-    # 算数 part1 + part2 結合（3年・4年共通）
-    for grade in ["3年", "4年"]:
+    # 算数 part1 + part2 結合（3年・4年・5年共通）
+    for grade in ["3年", "4年", "5年"]:
         p1 = DATA_DIR / f"{grade}_算数_part1.json"
         p2 = DATA_DIR / f"{grade}_算数_part2.json"
         if p1.exists() and p2.exists():
@@ -86,23 +90,24 @@ def merge_parts():
         save_json(DATA_DIR / "4年_単元ガイド.json", g4)
         print(f"[MERGE] 4年_単元ガイド.json ({len(g4)} unit guides)")
 
-    # 3年 単元ガイド結合
-    g3_files = [
-        "guides_3_kokugo.json",
-        "guides_3_shakai.json",
-        "guides_3_sansu_part1.json",
-        "guides_3_sansu_part2.json",
-        "guides_3_rika.json",
-    ]
-    g3 = []
-    for gf in g3_files:
-        fp = DATA_DIR / gf
-        if fp.exists():
-            g3.extend(load_json(fp))
-    if g3:
-        g3.sort(key=lambda g: (subject_order.get(g.get("subject", ""), 9), int(g.get("unit_order", 0))))
-        save_json(DATA_DIR / "3年_単元ガイド.json", g3)
-        print(f"[MERGE] 3年_単元ガイド.json ({len(g3)} unit guides)")
+    # 3年・5年 単元ガイド結合
+    for gnum, gname in [("3", "3年"), ("5", "5年")]:
+        g_files = [
+            f"guides_{gnum}_kokugo.json",
+            f"guides_{gnum}_shakai.json",
+            f"guides_{gnum}_sansu_part1.json",
+            f"guides_{gnum}_sansu_part2.json",
+            f"guides_{gnum}_rika.json",
+        ]
+        glist = []
+        for gf in g_files:
+            fp = DATA_DIR / gf
+            if fp.exists():
+                glist.extend(load_json(fp))
+        if glist:
+            glist.sort(key=lambda g: (subject_order.get(g.get("subject", ""), 9), int(g.get("unit_order", 0))))
+            save_json(DATA_DIR / f"{gname}_単元ガイド.json", glist)
+            print(f"[MERGE] {gname}_単元ガイド.json ({len(glist)} unit guides)")
 
 
 def validate_svg(rel_path: str, errors: list, ctx: str):

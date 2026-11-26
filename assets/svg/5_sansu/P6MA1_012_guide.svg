@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 234" width="540" height="234" role="img" aria-label="平均と合計の公式・ならすイメージ">
+  <title>平均と合計の公式・ならすイメージ</title>
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 11.5px; font-weight: 600; fill: #475569; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .dim-sm { font-size: 13px; font-weight: 700; fill: #1E293B; }
+      .th { font-size: 13.5px; font-weight: 700; fill: #1E293B; }
+      .td { font-size: 15px; font-weight: 600; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="540" height="234" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="270" y="28" text-anchor="middle" class="title">平均の意味と求め方（ならして等しくする）</text>
+  <rect x="18" y="44" width="252" height="176" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.2"/>
+  <text x="144" y="66" text-anchor="middle" class="lbl-sm" fill="#D97706">3個のみかんをならすと…</text>
+  <rect x="34" y="130.8" width="40" height="61.2" rx="4" fill="#FDE68A" stroke="#D97706" stroke-width="1.8"/>
+  <text x="54" y="124.8" text-anchor="middle" class="dim-sm">85g</text>
+  <text x="54" y="208" text-anchor="middle" class="lbl-xs">1個め</text>
+  <rect x="94" y="96.8" width="40" height="95.2" rx="4" fill="#FDE68A" stroke="#D97706" stroke-width="1.8"/>
+  <text x="114" y="90.8" text-anchor="middle" class="dim-sm">90g</text>
+  <text x="114" y="208" text-anchor="middle" class="lbl-xs">2個め</text>
+  <rect x="154" y="103.6" width="40" height="88.4" rx="4" fill="#FDE68A" stroke="#D97706" stroke-width="1.8"/>
+  <text x="174" y="97.6" text-anchor="middle" class="dim-sm">89g</text>
+  <text x="174" y="208" text-anchor="middle" class="lbl-xs">3個め</text>
+  <line x1="26.0" y1="110.4" x2="260.0" y2="110.4" stroke="#DC2626" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="5,3"/>
+  <rect x="206" y="99.4" width="58" height="22" rx="5" fill="#FEF2F2" stroke="#DC2626" stroke-width="1.1"/>
+  <text x="235" y="114.4" text-anchor="middle" font-size="11.5" font-weight="700" fill="#DC2626">平均88g</text>
+  <rect x="284" y="44" width="238" height="82" rx="10" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.2"/>
+  <text x="403" y="68" text-anchor="middle" class="lbl" fill="#1D4ED8">平均 ＝ 合計 ÷ 個数</text>
+  <text x="403" y="92" text-anchor="middle" class="lbl-xs">(85＋90＋89) ÷ 3 ＝ 88g</text>
+  <text x="403" y="112" text-anchor="middle" class="lbl-xs" fill="#475569">0がある日も個数にふくめるよ！</text>
+  <rect x="284" y="138" width="238" height="82" rx="10" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1.2"/>
+  <text x="403" y="162" text-anchor="middle" class="lbl" fill="#0F766E">合計 ＝ 平均 × 個数</text>
+  <text x="403" y="186" text-anchor="middle" class="lbl-xs">平均86gが20個なら…</text>
+  <text x="403" y="206" text-anchor="middle" class="lbl-xs" fill="#DC2626">86 × 20 ＝ 1720g</text>
+</svg>

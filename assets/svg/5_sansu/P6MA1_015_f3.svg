@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 214" width="350" height="214" role="img" aria-label="ひし形（対角線4m，9m）">
+  <title>ひし形（対角線4m，9m）</title>
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 11.5px; font-weight: 600; fill: #475569; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .dim-sm { font-size: 13px; font-weight: 700; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="350" height="214" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <polygon points="175.0,56.0 301.0,112.0 175.0,168.0 49.0,112.0" fill="#FEF3C7" stroke="#1E293B" stroke-width="2.2" stroke-linejoin="round"/>
+  <line x1="49.0" y1="112.0" x2="301.0" y2="112.0" stroke="#2563EB" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="5,3"/>
+  <line x1="175.0" y1="56.0" x2="175.0" y2="168.0" stroke="#2563EB" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="5,3"/>
+  <path d="M 49.0 112.0 Q 175.0 136.0 301.0 112.0" fill="none" stroke="#2563EB" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="131.0" y="133.0" text-anchor="middle" class="dim halo" fill="#2563EB">9m</text>
+  <path d="M 175.0 56.0 Q 207.0 112.0 175.0 168.0" fill="none" stroke="#2563EB" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="203.0" y="99.0" text-anchor="middle" class="dim halo" fill="#2563EB">4m</text>
+</svg>

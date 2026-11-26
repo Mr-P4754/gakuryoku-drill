@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 310" width="600" height="310">
+  <defs>
+    <marker id="arrDark" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#334155"/>
+    </marker>
+    <marker id="arrBlue" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#0284C7"/>
+    </marker>
+    <marker id="arrRed" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#DC2626"/>
+    </marker>
+    <marker id="arrGreen" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#059669"/>
+    </marker>
+    <marker id="arrAmber" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#D97706"/>
+    </marker>
+    
+  </defs>
+  <rect width="600" height="310" rx="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <text x="300" y="27" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="15" font-weight="bold" fill="#065F46">アサガオの花のつくり</text>
+
+    <rect x="24" y="42" width="552" height="252" rx="12" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.5"/>
+
+    <!-- Morning glory cross-section centered at (290, 195) -->
+    <g transform="translate(290, 196)">
+      <!-- Stem -->
+      <rect x="-5" y="44" width="10" height="34" fill="#16A34A" stroke="#15803D" stroke-width="1.4"/>
+      <!-- Sepals (がく) -->
+      <path d="M-12,44 L-26,4 L-14,16 L-4,44 Z" fill="#22C55E" stroke="#15803D" stroke-width="1.3"/>
+      <path d="M12,44 L26,4 L14,16 L4,44 Z" fill="#22C55E" stroke="#15803D" stroke-width="1.3"/>
+      <!-- Funnel petals (花びら) -->
+      <path d="M-14,38 C-26,-6 -48,-42 -104,-54 C-92,-76 -48,-82 -14,-74 C-12,-46 -10,-16 -8,38 Z"
+            fill="#C4B5FD" stroke="#6D28D9" stroke-width="1.8"/>
+      <path d="M14,38 C26,-6 48,-42 104,-54 C92,-76 48,-82 14,-74 C12,-46 10,-16 8,38 Z"
+            fill="#C4B5FD" stroke="#6D28D9" stroke-width="1.8"/>
+      <path d="M-14,-74 Q0,-86 14,-74 L10,38 L-10,38 Z" fill="#EDE9FE" stroke="#7C3AED" stroke-width="1.3"/>
+
+      <!-- Central pistil (めしべ) with round ovary at base -->
+      <ellipse cx="0" cy="30" rx="10" ry="11" fill="#86EFAC" stroke="#15803D" stroke-width="1.6"/>
+      <line x1="0" y1="20" x2="0" y2="-46" stroke="#16A34A" stroke-width="3.2"/>
+      <circle cx="0" cy="-48" r="5.5" fill="#FDE047" stroke="#CA8A04" stroke-width="1.5"/>
+
+      <!-- 4 visible stamens (おしべ) around pistil -->
+      <g stroke="#B45309" stroke-width="2">
+        <line x1="-10" y1="28" x2="-22" y2="-32"/>
+        <line x1="-6" y1="28" x2="-11" y2="-38"/>
+        <line x1="6" y1="28" x2="12" y2="-36"/>
+        <line x1="10" y1="28" x2="22" y2="-30"/>
+      </g>
+      <!-- Anthers & pollen -->
+      <g fill="#F59E0B" stroke="#B45309" stroke-width="1.1">
+        <ellipse cx="-22" cy="-35" rx="3.2" ry="5.5"/>
+        <ellipse cx="-11" cy="-41" rx="3.2" ry="5.5"/>
+        <ellipse cx="12" cy="-39" rx="3.2" ry="5.5"/>
+        <ellipse cx="22" cy="-33" rx="3.2" ry="5.5"/>
+      </g>
+      <!-- Tiny pollen dots -->
+      <g fill="#EA580C">
+        <circle cx="-11" cy="-50" r="1.8"/><circle cx="-17" cy="-47" r="1.8"/><circle cx="12" cy="-48" r="1.8"/>
+      </g>
+    </g>
+
+    <!-- Badge ①: おしべ (PDF ⑥) -->
+    <line x1="268" y1="166" x2="178" y2="80" stroke="#2563EB" stroke-width="1.6"/>
+    <circle cx="164" cy="74" r="12" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/><text x="164" y="78.5" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#1D4ED8">①</text>
+    <text x="92" y="79" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#1D4ED8">（まわりにある）</text>
+
+    <!-- Badge ②: 花粉が出る (PDF ⑦) -->
+    <line x1="302" y1="150" x2="366" y2="86" stroke="#EA580C" stroke-width="1.6"/>
+    <circle cx="384" cy="78" r="12" fill="#FFF7ED" stroke="#EA580C" stroke-width="2"/><text x="384" y="82.5" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#C2410C">②</text>
+    <text x="434" y="83" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#C2410C">が出る。</text>
+
+    <!-- Badge ③: めしべ (PDF ⑧) -->
+    <line x1="286" y1="226" x2="180" y2="256" stroke="#059669" stroke-width="1.6"/>
+    <circle cx="166" cy="260" r="12" fill="#ECFDF5" stroke="#059669" stroke-width="2"/><text x="166" y="264.5" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#065F46">③</text>
+    <text x="90" y="265" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#065F46">（まん中の1本）</text>
+
+    <!-- Standard labels 花びら & がく -->
+    <line x1="210" y1="146" x2="138" y2="162" stroke="#475569" stroke-width="1.3"/>
+    <text x="110" y="167" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#5B21B6">花びら</text>
+
+    <line x1="312" y1="214" x2="394" y2="214" stroke="#475569" stroke-width="1.3"/>
+    <text x="418" y="219" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#15803D">がく</text>
+
+    <!-- Note on base of pistil -->
+    <rect x="404" y="242" width="156" height="40" rx="8" fill="#ECFDF5" stroke="#10B981" stroke-width="1.3"/>
+    <text x="482" y="260" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11" font-weight="bold" fill="#065F46">めしべのもとの部分が</text>
+    <text x="482" y="275" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11" font-weight="bold" fill="#065F46">ふくらんで育つ！</text>
+    </svg>

@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 265" width="620" height="265">
+  <defs>
+    <marker id="arrDark" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#334155"/>
+    </marker>
+    <marker id="arrBlue" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#0284C7"/>
+    </marker>
+    <marker id="arrRed" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#DC2626"/>
+    </marker>
+    <marker id="arrGreen" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#059669"/>
+    </marker>
+    <marker id="arrAmber" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#D97706"/>
+    </marker>
+    
+  </defs>
+  <rect width="620" height="265" rx="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <text x="310" y="27" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="15" font-weight="bold" fill="#065F46">水よう液の水を熱してとり出す実験</text>
+
+    <rect x="20" y="42" width="580" height="208" rx="12" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.5"/>
+
+    <!-- Electric lab stove / burner (faithful to PDF p.27) -->
+    <g transform="translate(88, 128)">
+      <!-- Stove body -->
+      <rect x="14" y="44" width="212" height="58" rx="10" fill="#E2E8F0" stroke="#475569" stroke-width="1.8"/>
+      <rect x="26" y="102" width="24" height="8" rx="2" fill="#475569"/>
+      <rect x="190" y="102" width="24" height="8" rx="2" fill="#475569"/>
+      <!-- Dial & vents -->
+      <circle cx="192" cy="74" r="14" fill="#FFFFFF" stroke="#334155" stroke-width="1.8"/>
+      <line x1="192" y1="74" x2="200" y2="64" stroke="#DC2626" stroke-width="2.5" stroke-linecap="round"/>
+      <!-- Heating coil glow -->
+      <ellipse cx="102" cy="40" rx="54" ry="12" fill="#FCA5A5" stroke="#DC2626" stroke-width="1.6"/>
+      <ellipse cx="102" cy="40" rx="34" ry="7" fill="#EF4444" opacity="0.8"/>
+      <!-- Wire gauze (金あみ) -->
+      <polygon points="8,36 32,16 176,16 196,36" fill="#F8FAFC" fill-opacity="0.7" stroke="#475569" stroke-width="1.6"/>
+      <g stroke="#94A3B8" stroke-width="0.8">
+        <line x1="36" y1="16" x2="22" y2="36"/><line x1="64" y1="16" x2="54" y2="36"/>
+        <line x1="92" y1="16" x2="86" y2="36"/><line x1="120" y1="16" x2="118" y2="36"/>
+        <line x1="148" y1="16" x2="152" y2="36"/><line x1="20" y1="26" x2="186" y2="26"/>
+      </g>
+      <!-- Evaporating dish (じょう発皿) -->
+      <path d="M54,-8 L150,-8 C148,14 134,26 102,26 C70,26 56,14 54,-8 Z" fill="#FFFFFF" stroke="#334155" stroke-width="2"/>
+      <ellipse cx="102" cy="-8" rx="48" ry="10" fill="#BAE6FD" stroke="#0284C7" stroke-width="1.5"/>
+      <!-- Rising steam waves -->
+      <g fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round">
+        <path d="M78,-22 Q72,-36 80,-48 Q86,-58 78,-66"/>
+        <path d="M102,-26 Q96,-40 104,-52 Q110,-62 102,-70"/>
+        <path d="M126,-22 Q120,-36 128,-48 Q134,-58 126,-66"/>
+      </g>
+    </g>
+
+    <!-- Label じょう発皿 -->
+    <line x1="242" y1="122" x2="294" y2="88" stroke="#475569" stroke-width="1.4"/>
+    <text x="300" y="92" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#0F172A">じょう発皿</text>
+
+    <!-- Arrow right to dry crystal residue -->
+    <polygon points="348,148 380,148 380,138 400,156 380,174 380,164 348,164" fill="#F59E0B" stroke="#B45309" stroke-width="1.3"/>
+    <text x="372" y="130" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#B45309">水がなくなる</text>
+
+    <!-- Result dish with white crystal solids -->
+    <g transform="translate(418, 72)">
+      <rect width="164" height="156" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.4"/>
+      <text x="82" y="24" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12.5" font-weight="bold" fill="#065F46">のこった白いつぶ</text>
+      <!-- Overhead dish view -->
+      <circle cx="82" cy="84" r="44" fill="#FFFFFF" stroke="#475569" stroke-width="2"/>
+      <circle cx="82" cy="84" r="36" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+      <!-- Sparkling white crystals -->
+      <g fill="#FFFFFF" stroke="#0284C7" stroke-width="1.2">
+        <rect x="64" y="68" width="10" height="10" transform="rotate(15 69 73)"/>
+        <rect x="82" y="64" width="12" height="12" transform="rotate(-12 88 70)"/>
+        <rect x="74" y="84" width="11" height="11" transform="rotate(28 79 89)"/>
+        <rect x="92" y="84" width="9" height="9" transform="rotate(-20 96 88)"/>
+        <rect x="60" y="88" width="8" height="8" transform="rotate(8 64 92)"/>
+      </g>
+      <text x="82" y="144" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#1D4ED8">とけていた物が出てくる！</text>
+    </g>
+    </svg>

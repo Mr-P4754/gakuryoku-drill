@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 240" width="640" height="240">
+  <defs>
+    <marker id="arrDark" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#334155"/>
+    </marker>
+    <marker id="arrBlue" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#0284C7"/>
+    </marker>
+    <marker id="arrRed" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#DC2626"/>
+    </marker>
+    <marker id="arrGreen" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#059669"/>
+    </marker>
+    <marker id="arrAmber" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#D97706"/>
+    </marker>
+    
+  </defs>
+  <rect width="640" height="240" rx="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <text x="320" y="27" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="15" font-weight="bold" fill="#065F46">ピントの合わせ方（手順3と手順4のちがい）</text>
+
+    <rect x="20" y="42" width="290" height="184" rx="12" fill="#FFFFFF" stroke="#EF4444" stroke-width="1.6"/>
+    <rect x="34" y="52" width="262" height="24" rx="6" fill="#FEE2E2"/>
+    <text x="165" y="69" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12.5" font-weight="bold" fill="#B91C1C">手順3：レンズとプレパラートを近づける</text>
+    <!-- Mini objective + stage -->
+    <rect x="168" y="96" width="24" height="36" rx="3" fill="#CBD5E1" stroke="#334155" stroke-width="1.6"/>
+    <rect x="134" y="156" width="92" height="10" rx="2" fill="#334155"/>
+    <rect x="150" y="150" width="60" height="6" fill="#BAE6FD" stroke="#0284C7" stroke-width="1.2"/>
+    <!-- Up arrow moving stage closer -->
+    <line x1="242" y1="168" x2="242" y2="122" stroke="#DC2626" stroke-width="3" marker-end="url(#arrRed)"/>
+    <text x="272" y="150" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11" font-weight="bold" fill="#B91C1C">近づける</text>
+    <!-- Eye looking from SIDE -->
+    <g transform="translate(76, 138)">
+      <path d="M-20,0 Q0,-12 20,0 Q0,12 -20,0 Z" fill="#FFFFFF" stroke="#1E293B" stroke-width="1.8"/>
+      <circle cx="4" cy="0" r="5" fill="#1E293B"/>
+      <line x1="24" y1="0" x2="78" y2="0" stroke="#DC2626" stroke-width="1.8" stroke-dasharray="4,3"/>
+    </g>
+    <text x="165" y="194" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#0F172A">レンズとプレパラートの間を見て近づける</text>
+    <text x="165" y="213" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11" fill="#64748B">（ぶつけてわらないようにするため！）</text>
+    
+    <rect x="330" y="42" width="290" height="184" rx="12" fill="#FFFFFF" stroke="#10B981" stroke-width="1.6"/>
+    <rect x="344" y="52" width="262" height="24" rx="6" fill="#DCFCE7"/>
+    <text x="475" y="69" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12.5" font-weight="bold" fill="#065F46">手順4：少しずつはなしてピントを合わせる</text>
+    <!-- Eye looking down from TOP -->
+    <g transform="translate(464, 98)">
+      <path d="M-18,0 Q0,-10 18,0 Q0,10 -18,0 Z" fill="#FFFFFF" stroke="#1E293B" stroke-width="1.8"/>
+      <circle cx="0" cy="2" r="4.5" fill="#1E293B"/>
+    </g>
+    <line x1="464" y1="108" x2="464" y2="122" stroke="#059669" stroke-width="1.6" stroke-dasharray="3,2"/>
+    <!-- Objective + stage moving away -->
+    <rect x="452" y="122" width="24" height="26" rx="3" fill="#CBD5E1" stroke="#334155" stroke-width="1.6"/>
+    <rect x="418" y="168" width="92" height="10" rx="2" fill="#334155"/>
+    <rect x="434" y="162" width="60" height="6" fill="#BAE6FD" stroke="#0284C7" stroke-width="1.2"/>
+    <!-- Down arrow moving stage away -->
+    <line x1="532" y1="126" x2="532" y2="174" stroke="#059669" stroke-width="3" marker-end="url(#arrGreen)"/>
+    <text x="568" y="154" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11" font-weight="bold" fill="#065F46">はなす</text>
+    <text x="475" y="200" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#0F172A">上のレンズをのぞきながら</text>
+    <text x="475" y="217" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11" fill="#065F46">手順3とぎゃくに回して止める</text>
+    </svg>

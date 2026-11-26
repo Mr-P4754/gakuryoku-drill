@@ -64,6 +64,17 @@ export function normalizeText(str, { stripSpaces = false, stripPunctuation = tru
 /**
  * 単位ラベルが末尾についている場合に除去した候補も生成
  */
+function normalizeUnitToken(u) {
+  return normalizeText(u, { stripSpaces: true, stripPunctuation: false })
+    .toLowerCase()
+    .replace(/cm2/g, 'cm²')
+    .replace(/m2/g, 'm²')
+    .replace(/cm3/g, 'cm³')
+    .replace(/m3/g, 'm³')
+    .replace(/°/g, '度')
+    .replace(/％/g, '%');
+}
+
 function stripUnitLabel(val, unitLabel) {
   const v = normalizeText(val, { stripSpaces: true, stripPunctuation: false });
   if (!unitLabel) return v;
@@ -71,10 +82,13 @@ function stripUnitLabel(val, unitLabel) {
   if (u && v.endsWith(u) && v.length > u.length) {
     return v.slice(0, v.length - u.length);
   }
-  // よくある単位の揺れ (cm2/cm², m2/m², 度/°, l/L, 時・分・秒等)
-  const stripped = v.replace(/(cm2|cm²|m2|m²|km|mm|cm|m|kg|g|mL|ml|dl|dL|l|L|℃|度|°|時間|時|分間|分|秒|人|こ|個|本|まい|枚|さつ|冊|文字|つ|画|県|日間|日|円|倍|点)$/i, '');
-  if (stripped && u && v.toLowerCase().endsWith(u.toLowerCase())) {
-    return v.slice(0, v.length - u.length);
+  // よくある単位の揺れ (cm2/cm², cm3/cm³, m2/m², m3/m³, 度/°, l/L, 時・分・秒, % 等)
+  const stripped = v.replace(/(cm3|cm³|m3|m³|cm2|cm²|m2|m²|km|mm|cm|m|kg|g|mL|ml|dl|dL|l|L|℃|度|°|%|％|割|厘|時間|時|分間|分|秒|人|こ|個|本|まい|枚|さつ|冊|文字|つ|画|県|日間|日|円|倍|点)$/i, '');
+  if (stripped && stripped !== v && u) {
+    const suffix = v.slice(stripped.length);
+    if (normalizeUnitToken(suffix) === normalizeUnitToken(u)) {
+      return stripped;
+    }
   }
   return v;
 }
@@ -242,16 +256,61 @@ export function scoreAnswer(problem, userAnswer) {
     };
   }
 
-  // 4. 語群穴埋め
+  // 4. 語群穴埋め（順不同グループ unordered:0,1,2 にも対応）
   if (type === 'word_bank') {
     const expected = answerStr.split('|').map((s) => s.trim());
     const uaList = Array.isArray(userAnswer) ? userAnswer : [userAnswer];
-    const altPerSlot = parseAcceptedForSlots(acceptedStr, expected.length);
+
+    // accepted_answers から unordered:0,1,2 指定を抽出（複数グループ可）
+    const unorderedGroups = [];
+    const cleanedAccepted = acceptedStr
+      .replace(/unordered:([0-9,\s]+)/gi, (_, idxs) => {
+        const group = idxs
+          .split(',')
+          .map((n) => parseInt(n.trim(), 10))
+          .filter((n) => !Number.isNaN(n) && n >= 0 && n < expected.length);
+        if (group.length >= 2) unorderedGroups.push(group);
+        return '';
+      })
+      .replace(/^[;|]+|[;|]+$/g, '')
+      .trim();
+
+    const altPerSlot = parseAcceptedForSlots(cleanedAccepted, expected.length);
     const slotResults = expected.map((exp, idx) => {
       const u = normalizeText(uaList[idx] || '', { stripSpaces: true });
       const candidates = [exp, ...altPerSlot[idx]].map((c) => normalizeText(c, { stripSpaces: true }));
       return candidates.includes(u);
     });
+
+    // 順不同グループ（重複不可の多重集合一致）を判定
+    for (const group of unorderedGroups) {
+      const expMultiset = group
+        .map((i) => normalizeText(expected[i] || '', { stripSpaces: true }))
+        .sort();
+      const userMultiset = group
+        .map((i) => normalizeText(uaList[i] || '', { stripSpaces: true }))
+        .sort();
+      const groupMatched =
+        expMultiset.length === userMultiset.length &&
+        expMultiset.every((v, k) => v !== '' && v === userMultiset[k]);
+      if (groupMatched) {
+        group.forEach((i) => { slotResults[i] = true; });
+      } else {
+        // 順不同グループ内で部分一致の個数を消費して正誤表示
+        const remaining = [...expMultiset];
+        group.forEach((i) => {
+          const u = normalizeText(uaList[i] || '', { stripSpaces: true });
+          const pos = remaining.indexOf(u);
+          if (u && pos !== -1) {
+            remaining.splice(pos, 1);
+            slotResults[i] = true;
+          } else {
+            slotResults[i] = false;
+          }
+        });
+      }
+    }
+
     return {
       isCorrect: slotResults.every(Boolean),
       slotResults,
@@ -410,6 +469,18 @@ export function scoreAnswer(problem, userAnswer) {
   const uaList = Array.isArray(userAnswer) ? userAnswer : [userAnswer];
   const altPerSlot = parseAcceptedForSlots(acceptedStr, expected.length);
 
+  const normalizeIntList = (raw) => {
+    const half = toHalfWidth(String(raw || '')).trim();
+    // 2個以上の非負整数がカンマ・読点・中点・空白で区切られた列挙（約数列挙など）
+    if (!/^\d+(?:[\s,、・]+\d+)+$/.test(half)) return '';
+    return half
+      .split(/[\s,、・]+/)
+      .filter(Boolean)
+      .map((n) => String(Number(n)))
+      .sort((a, b) => Number(a) - Number(b))
+      .join(',');
+  };
+
   const slotResults = expected.map((exp, idx) => {
     const rawU = String(uaList[idx] ?? '').trim();
     if (!rawU) return false;
@@ -418,16 +489,19 @@ export function scoreAnswer(problem, userAnswer) {
     const uCleanLower = uClean.toLowerCase();
     const uRawLower = uRawNorm.toLowerCase();
     const uNum = kanjiToArabic(uClean);
+    const uIntList = normalizeIntList(rawU);
 
     const candidates = [exp, ...altPerSlot[idx]];
     return candidates.some((cand) => {
       const cClean = normalizeText(stripUnitLabel(cand, unitLabel), { stripSpaces: true });
       const cRawNorm = normalizeText(cand, { stripSpaces: true });
       const cNum = kanjiToArabic(cClean);
+      const cIntList = normalizeIntList(cand);
       return (
         uCleanLower === cClean.toLowerCase() ||
         uRawLower === cRawNorm.toLowerCase() ||
-        (uNum !== '' && uNum === cNum)
+        (uNum !== '' && uNum === cNum) ||
+        (uIntList !== '' && cIntList !== '' && uIntList === cIntList)
       );
     });
   });

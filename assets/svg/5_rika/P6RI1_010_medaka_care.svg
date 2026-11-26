@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 245" width="600" height="245">
+  <defs>
+    <marker id="arrDark" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#334155"/>
+    </marker>
+    <marker id="arrBlue" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#0284C7"/>
+    </marker>
+    <marker id="arrRed" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#DC2626"/>
+    </marker>
+    <marker id="arrGreen" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#059669"/>
+    </marker>
+    <marker id="arrAmber" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#D97706"/>
+    </marker>
+    
+  </defs>
+  <rect width="600" height="245" rx="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <text x="300" y="27" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="15" font-weight="bold" fill="#065F46">メダカを元気に飼うためのポイント</text>
+
+    <!-- Aquarium -->
+    <rect x="24" y="44" width="320" height="184" rx="12" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.5"/>
+    <!-- Tank -->
+    <rect x="52" y="76" width="224" height="122" rx="6" fill="#E0F2FE" stroke="#0284C7" stroke-width="2.2"/>
+    <path d="M52,96 Q108,90 164,96 T276,96 L276,198 L52,198 Z" fill="#BAE6FD" opacity="0.7"/>
+    <!-- Sand bottom -->
+    <path d="M52,180 Q130,174 200,182 T276,178 L276,198 L52,198 Z" fill="#FDE68A" stroke="#D97706" stroke-width="1"/>
+    <!-- Water plants -->
+    <g stroke="#16A34A" stroke-width="2.2" fill="none">
+      <path d="M84,182 Q78,148 88,116"/>
+      <path d="M98,182 Q104,152 96,124"/>
+      <path d="M238,182 Q232,146 244,114"/>
+    </g>
+    <g fill="#4ADE80">
+      <ellipse cx="78" cy="144" rx="7" ry="3" transform="rotate(-25 78 144)"/>
+      <ellipse cx="92" cy="134" rx="7" ry="3" transform="rotate(25 92 134)"/>
+      <ellipse cx="232" cy="146" rx="7" ry="3" transform="rotate(-25 232 146)"/>
+      <ellipse cx="246" cy="132" rx="7" ry="3" transform="rotate(25 246 132)"/>
+    </g>
+    <!-- Medaka fish 1 (male) -->
+    <g transform="translate(150, 134)">
+      <path d="M-24,0 C-14,-8 12,-7 22,0 C12,7 -14,8 -24,0 Z" fill="#FED7AA" stroke="#C2410C" stroke-width="1.4"/>
+      <polygon points="22,0 32,-8 30,0 32,8" fill="#FDBA74" stroke="#C2410C" stroke-width="1.2"/>
+      <circle cx="-15" cy="-1.5" r="2.2" fill="#0F172A"/>
+    </g>
+    <!-- Medaka fish 2 (female) -->
+    <g transform="translate(194, 158) scale(-0.9, 0.9)">
+      <path d="M-24,0 C-14,-9 12,-7 22,0 C12,8 -14,10 -24,0 Z" fill="#FED7AA" stroke="#C2410C" stroke-width="1.4"/>
+      <polygon points="22,0 32,-7 30,0 32,7" fill="#FDBA74" stroke="#C2410C" stroke-width="1.2"/>
+      <circle cx="-15" cy="-1.5" r="2.2" fill="#0F172A"/>
+    </g>
+    <!-- Window curtain shading light -->
+    <circle cx="298" cy="64" r="10" fill="#FACC15" stroke="#EA580C" stroke-width="1.3"/>
+    <path d="M286,74 L268,86" stroke="#F59E0B" stroke-width="2" stroke-dasharray="3,2"/>
+    <text x="164" y="67" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#0369A1">明るく、すずしい場所におく</text>
+    <text x="164" y="217" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" fill="#475569">水草を入れると、たまごをうみつけやすい</text>
+
+    <!-- Right panel: Water & Food icons (no answer leaks!) -->
+    <rect x="360" y="44" width="216" height="184" rx="12" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.5"/>
+    <!-- Bucket of standing water -->
+    <g transform="translate(384, 62)">
+      <path d="M6,10 L58,10 L50,58 L14,58 Z" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.6"/>
+      <ellipse cx="32" cy="10" rx="26" ry="5" fill="#93C5FD" stroke="#2563EB" stroke-width="1.3"/>
+      <path d="M6,10 Q32,-8 58,10" fill="none" stroke="#64748B" stroke-width="1.8"/>
+    </g>
+    <text x="456" y="84" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#1D4ED8">水のかえ方</text>
+    <text x="456" y="102" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11" fill="#334155">1日以上おいた水を</text>
+    <text x="456" y="118" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11" fill="#334155">半分ぐらい入れかえる</text>
+
+    <line x1="376" y1="138" x2="560" y2="138" stroke="#E2E8F0" stroke-width="1.4"/>
+
+    <!-- Food bottle -->
+    <g transform="translate(394, 152)">
+      <rect x="6" y="12" width="32" height="44" rx="4" fill="#FEF3C7" stroke="#D97706" stroke-width="1.5"/>
+      <rect x="10" y="4" width="24" height="9" rx="2" fill="#D97706"/>
+      <text x="22" y="40" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11" font-weight="bold" fill="#92400E">えさ</text>
+    </g>
+    <text x="456" y="172" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#B45309">えさのやり方</text>
+    <text x="456" y="190" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11" fill="#334155">2〜3回にわけて、</text>
+    <text x="456" y="206" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11" fill="#334155">少しずつあたえる</text>
+    </svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 234" width="440" height="234" role="img" aria-label="合同な2つの三角形ABCとDEF">
+  <title>合同な2つの三角形ABCとDEF</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .sub { font-size: 13px; font-weight: 600; fill: #475569; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 15px; font-weight: 700; }
+      .num-lg { font-size: 17px; font-weight: 700; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .amber { fill: #B45309; }
+      .muted { fill: #64748B; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+    <marker id="arr-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#2563EB"/>
+    </marker>
+    <marker id="arr-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#DC2626"/>
+    </marker>
+    <marker id="arr-dark" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#334155"/>
+    </marker>
+    <marker id="arr-teal" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#0F766E"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="440" height="234" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <polygon points="74.0,56.0 154.0,56.0 74.0,194.6" fill="#EFF6FF" stroke="#1E293B" stroke-width="2.4" stroke-linejoin="round"/>
+  <polyline points="88.0,56.0 88.0,70.0 74.0,70.0" fill="none" stroke="#1E293B" stroke-width="1.8"/>
+  <path d="M 154.00 56.00 L 143.00 75.05 A 22.00 22.00 0 0 1 132.00 56.00 Z" fill="rgba(37,99,235,0.12)" stroke="none"/>
+  <path d="M 143.00 75.05 A 22.00 22.00 0 0 1 132.00 56.00" fill="none" stroke="#2563EB" stroke-width="2.0"/>
+  <text x="121.1" y="80.0" text-anchor="middle" class="lbl-xs halo">60°</text>
+  <path d="M 74.00 194.56 L 74.00 166.56 A 28.00 28.00 0 0 1 88.00 170.32 Z" fill="rgba(37,99,235,0.12)" stroke="none"/>
+  <path d="M 74.00 166.56 A 28.00 28.00 0 0 1 88.00 170.32" fill="none" stroke="#2563EB" stroke-width="2.0"/>
+  <text x="86.9" y="151.3" text-anchor="middle" class="lbl-xs halo">30°</text>
+  <path d="M 74.0 56.0 Q 114.0 32.0 154.0 56.0" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="114.0" y="47.2" text-anchor="middle" font-size="14" font-weight="700" fill="#1E293B" class="halo">2cm</text>
+  <path d="M 154.0 56.0 Q 138.9 139.7 74.0 194.6" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="128.3" y="138.6" text-anchor="middle" font-size="14" font-weight="700" fill="#1E293B" class="halo">4cm</text>
+  <text x="60.0" y="60.0" text-anchor="middle" class="lbl">A</text>
+  <text x="168.0" y="60.0" text-anchor="middle" class="lbl">C</text>
+  <text x="74.0" y="214.56406460551017" text-anchor="middle" class="lbl">B</text>
+  <polygon points="240.0,194.6 240.0,114.6 378.6,194.6" fill="#F0FDF4" stroke="#1E293B" stroke-width="2.4" stroke-linejoin="round"/>
+  <text x="226.0" y="110.6" text-anchor="middle" class="lbl">D</text>
+  <text x="226.0" y="208.6" text-anchor="middle" class="lbl">E</text>
+  <text x="392.56406460551017" y="200.6" text-anchor="middle" class="lbl">F</text>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 248" width="540" height="248" role="img" aria-label="比例の表と倍の関係">
+  <title>比例の表と倍の関係</title>
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 11.5px; font-weight: 600; fill: #475569; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .dim-sm { font-size: 13px; font-weight: 700; fill: #1E293B; }
+      .th { font-size: 13.5px; font-weight: 700; fill: #1E293B; }
+      .td { font-size: 15px; font-weight: 600; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="540" height="248" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="270" y="28" text-anchor="middle" class="title">比例のしくみ（2倍・3倍になると，もう一方も2倍・3倍）</text>
+  <rect x="36" y="90" width="154" height="38" fill="#EFF6FF" stroke="#94A3B8" stroke-width="1.1"/>
+  <text x="113.0" y="114.0" text-anchor="middle" class="th">高さ □ (cm)</text>
+  <rect x="190" y="90" width="68" height="38" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.1"/>
+  <text x="224.0" y="114.0" text-anchor="middle" class="td">1</text>
+  <rect x="258" y="90" width="68" height="38" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.1"/>
+  <text x="292.0" y="114.0" text-anchor="middle" class="td">2</text>
+  <rect x="326" y="90" width="68" height="38" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.1"/>
+  <text x="360.0" y="114.0" text-anchor="middle" class="td">3</text>
+  <rect x="394" y="90" width="68" height="38" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.1"/>
+  <text x="428.0" y="114.0" text-anchor="middle" class="td">4</text>
+  <rect x="36" y="128" width="154" height="38" fill="#EFF6FF" stroke="#94A3B8" stroke-width="1.1"/>
+  <text x="113.0" y="152.0" text-anchor="middle" class="th">体積 ○ (cm³)</text>
+  <rect x="190" y="128" width="68" height="38" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.1"/>
+  <text x="224.0" y="152.0" text-anchor="middle" class="td">5</text>
+  <rect x="258" y="128" width="68" height="38" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.1"/>
+  <text x="292.0" y="152.0" text-anchor="middle" class="td">10</text>
+  <rect x="326" y="128" width="68" height="38" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.1"/>
+  <text x="360.0" y="152.0" text-anchor="middle" class="td">15</text>
+  <rect x="394" y="128" width="68" height="38" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.1"/>
+  <text x="428.0" y="152.0" text-anchor="middle" class="td">20</text>
+  <rect x="462" y="90" width="34" height="76" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.1" stroke-dasharray="3,2"/>
+  <line x1="462.0" y1="128.0" x2="496.0" y2="128.0" stroke="#94A3B8" stroke-width="1.1" stroke-linecap="round" stroke-dasharray="3,2"/>
+  <text x="479.0" y="114.0" text-anchor="middle" class="lbl-xs">…</text>
+  <text x="479.0" y="152.0" text-anchor="middle" class="lbl-xs">…</text>
+  <rect x="36" y="90" width="426" height="76" fill="none" stroke="#1E293B" stroke-width="1.6"/>
+  <path d="M 224.0 88 Q 258.0 66 292.0 88" fill="none" stroke="#2563EB" stroke-width="1.8"/>
+  <text x="258.0" y="75" text-anchor="middle" class="lbl-xs halo" fill="#2563EB">2倍</text>
+  <path d="M 224.0 88 Q 292.0 46 360.0 88" fill="none" stroke="#DC2626" stroke-width="1.8"/>
+  <text x="292.0" y="58" text-anchor="middle" class="lbl-xs halo" fill="#DC2626">3倍</text>
+  <path d="M 224.0 168 Q 258.0 190 292.0 168" fill="none" stroke="#2563EB" stroke-width="1.8"/>
+  <text x="258.0" y="189" text-anchor="middle" class="lbl-xs halo" fill="#2563EB">2倍</text>
+  <path d="M 224.0 168 Q 292.0 210 360.0 168" fill="none" stroke="#DC2626" stroke-width="1.8"/>
+  <text x="292.0" y="208" text-anchor="middle" class="lbl-xs halo" fill="#DC2626">3倍</text>
+  <text x="270" y="232" text-anchor="middle" class="lbl-sm" fill="#1D4ED8">高さが20cm（1cmの20倍）なら，体積も 5×20 ＝ 100cm³！</text>
+</svg>

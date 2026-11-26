@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 510" width="540" height="510" role="img" aria-label="円グラフ完成の模範解答オーバーレイ（山下町・緑川町・中町）">
+  <title>円グラフ完成の模範解答オーバーレイ（山下町・緑川町・中町）</title>
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 11.5px; font-weight: 600; fill: #475569; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .dim-sm { font-size: 13px; font-weight: 700; fill: #1E293B; }
+      .th { font-size: 13.5px; font-weight: 700; fill: #1E293B; }
+      .td { font-size: 15px; font-weight: 600; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <path d="M 270.00 342.00 L 373.55 417.24 A 128.00 128.00 0 0 1 194.76 445.55 Z" fill="rgba(5,150,105,0.18)" stroke="none"/>
+  <path d="M 270.00 342.00 L 194.76 445.55 A 128.00 128.00 0 0 1 148.26 302.45 Z" fill="rgba(217,119,6,0.18)" stroke="none"/>
+  <path d="M 270.00 342.00 L 148.26 302.45 A 128.00 128.00 0 0 1 230.45 220.26 Z" fill="rgba(219,39,119,0.15)" stroke="none"/>
+  <line x1="270.0" y1="342.0" x2="194.8" y2="445.6" stroke="#DC2626" stroke-width="3.2" stroke-linecap="round"/>
+  <line x1="270.0" y1="342.0" x2="148.3" y2="302.4" stroke="#DC2626" stroke-width="3.2" stroke-linecap="round"/>
+  <circle cx="194.8" cy="445.6" r="4.5" fill="#DC2626"/>
+  <circle cx="148.3" cy="302.4" r="4.5" fill="#DC2626"/>
+  <text x="281.2" y="414.8" text-anchor="middle" font-size="15" font-weight="700" fill="#DC2626" class="halo">山下町</text>
+  <text x="281.2" y="431.8" text-anchor="middle" font-size="12" font-weight="700" fill="#DC2626" class="halo">(25%)</text>
+  <text x="199.4" y="366.9" text-anchor="middle" font-size="15" font-weight="700" fill="#DC2626" class="halo">緑川町</text>
+  <text x="199.4" y="383.9" text-anchor="middle" font-size="12" font-weight="700" fill="#DC2626" class="halo">(20%)</text>
+  <text x="215.7" y="289.7" text-anchor="middle" font-size="15" font-weight="700" fill="#DC2626" class="halo">中町</text>
+  <text x="215.7" y="306.7" text-anchor="middle" font-size="12" font-weight="700" fill="#DC2626" class="halo">(15%)</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" width="360" height="240" role="img" aria-label="段のある立体（9m，6m，5m，5m，6m）">
+  <title>段のある立体（9m，6m，5m，5m，6m）</title>
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 11.5px; font-weight: 600; fill: #475569; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .dim-sm { font-size: 13px; font-weight: 700; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="360" height="240" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <polygon points="192.0,100.0 72.0,100.0 127.0,58.0 247.0,58.0" fill="#EFF6FF" stroke="#1E293B" stroke-width="2.0" stroke-linejoin="round"/>
+  <polygon points="252.0,200.0 252.0,80.0 307.0,38.0 307.0,158.0" fill="#BFDBFE" stroke="#1E293B" stroke-width="2.0" stroke-linejoin="round"/>
+  <polygon points="252.0,80.0 192.0,80.0 247.0,38.0 307.0,38.0" fill="#EFF6FF" stroke="#1E293B" stroke-width="2.0" stroke-linejoin="round"/>
+  <polygon points="72.0,200.0 252.0,200.0 252.0,80.0 192.0,80.0 192.0,100.0 72.0,100.0" fill="#DBEAFE" stroke="#1E293B" stroke-width="2.0" stroke-linejoin="round"/>
+  <path d="M 72.0 200.0 Q 28.0 150.0 72.0 100.0" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="50.0" y="155.0" text-anchor="middle" class="dim halo" fill="#1E293B">5m</text>
+  <path d="M 72.0 100.0 Q 132.0 136.0 192.0 100.0" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="132.0" y="123.0" text-anchor="middle" class="dim halo" fill="#1E293B">6m</text>
+  <path d="M 72.0 200.0 Q 162.0 240.0 252.0 200.0" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="162.0" y="225.0" text-anchor="middle" class="dim halo" fill="#1E293B">9m</text>
+  <path d="M 252.0 200.0 Q 306.2 214.0 307.0 158.0" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="298.9" y="201.5" text-anchor="middle" class="dim halo" fill="#1E293B">5m</text>
+  <path d="M 307.0 158.0 Q 351.0 98.0 307.0 38.0" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="329.0" y="103.0" text-anchor="middle" class="dim halo" fill="#1E293B">6m</text>
+</svg>

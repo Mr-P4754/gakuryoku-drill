@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 568 238" width="568" height="238" role="img" aria-label="方眼上の4つの三角形（①〜④）">
+  <title>方眼上の4つの三角形（①〜④）</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .sub { font-size: 13px; font-weight: 600; fill: #475569; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 15px; font-weight: 700; }
+      .num-lg { font-size: 17px; font-weight: 700; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .amber { fill: #B45309; }
+      .muted { fill: #64748B; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+    <marker id="arr-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#2563EB"/>
+    </marker>
+    <marker id="arr-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#DC2626"/>
+    </marker>
+    <marker id="arr-dark" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#334155"/>
+    </marker>
+    <marker id="arr-teal" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#0F766E"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="568" height="238" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <line x1="20" y1="20" x2="20" y2="218" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="42" y1="20" x2="42" y2="218" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="64" y1="20" x2="64" y2="218" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="86" y1="20" x2="86" y2="218" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="108" y1="20" x2="108" y2="218" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="130" y1="20" x2="130" y2="218" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="152" y1="20" x2="152" y2="218" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="174" y1="20" x2="174" y2="218" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="196" y1="20" x2="196" y2="218" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="218" y1="20" x2="218" y2="218" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="240" y1="20" x2="240" y2="218" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="262" y1="20" x2="262" y2="218" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="284" y1="20" x2="284" y2="218" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="306" y1="20" x2="306" y2="218" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="328" y1="20" x2="328" y2="218" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="350" y1="20" x2="350" y2="218" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="372" y1="20" x2="372" y2="218" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="394" y1="20" x2="394" y2="218" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="416" y1="20" x2="416" y2="218" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="438" y1="20" x2="438" y2="218" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="460" y1="20" x2="460" y2="218" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="482" y1="20" x2="482" y2="218" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="504" y1="20" x2="504" y2="218" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="526" y1="20" x2="526" y2="218" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="548" y1="20" x2="548" y2="218" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="20" y1="20" x2="548" y2="20" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="20" y1="42" x2="548" y2="42" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="20" y1="64" x2="548" y2="64" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="20" y1="86" x2="548" y2="86" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="20" y1="108" x2="548" y2="108" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="20" y1="130" x2="548" y2="130" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="20" y1="152" x2="548" y2="152" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="20" y1="174" x2="548" y2="174" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="20" y1="196" x2="548" y2="196" stroke="#CBD5E1" stroke-width="1"/>
+  <line x1="20" y1="218" x2="548" y2="218" stroke="#CBD5E1" stroke-width="1"/>
+  <rect x="20" y="20" width="528" height="198" fill="none" stroke="#64748B" stroke-width="1.5"/>
+  <polygon points="42.0,64.0 42.0,152.0 152.0,152.0" fill="rgba(37,99,235,0.16)" stroke="#2563EB" stroke-width="2.4" stroke-linejoin="round"/>
+  <circle cx="77.2" cy="123.4" r="11" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="77.2" y="128.4" text-anchor="middle" font-size="13" font-weight="700" fill="#2563EB">①</text>
+  <polygon points="174.0,42.0 262.0,42.0 262.0,152.0" fill="rgba(15,118,110,0.12)" stroke="#1E293B" stroke-width="2.4" stroke-linejoin="round"/>
+  <circle cx="231.2" cy="79.4" r="11" fill="#FFFFFF" stroke="#1E293B" stroke-width="1.5"/>
+  <text x="231.2" y="84.4" text-anchor="middle" font-size="13" font-weight="700" fill="#1E293B">②</text>
+  <polygon points="284.0,174.0 372.0,174.0 372.0,86.0" fill="rgba(15,118,110,0.12)" stroke="#1E293B" stroke-width="2.4" stroke-linejoin="round"/>
+  <circle cx="341.2" cy="143.2" r="11" fill="#FFFFFF" stroke="#1E293B" stroke-width="1.5"/>
+  <text x="341.2" y="148.2" text-anchor="middle" font-size="13" font-weight="700" fill="#1E293B">③</text>
+  <polygon points="416.0,86.0 416.0,196.0 504.0,130.0" fill="rgba(15,118,110,0.12)" stroke="#1E293B" stroke-width="2.4" stroke-linejoin="round"/>
+  <circle cx="449.0" cy="141.0" r="11" fill="#FFFFFF" stroke="#1E293B" stroke-width="1.5"/>
+  <text x="449.0" y="146.0" text-anchor="middle" font-size="13" font-weight="700" fill="#1E293B">④</text>
+</svg>

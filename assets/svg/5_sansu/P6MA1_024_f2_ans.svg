@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 616 300" width="616" height="300" role="img" aria-label="三角柱の展開図（模範解答オーバーレイ）">
+  <title>三角柱の展開図（模範解答オーバーレイ）</title>
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 11.5px; font-weight: 600; fill: #475569; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .dim-sm { font-size: 13px; font-weight: 700; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <polygon points="229.0,126.0 517.0,126.0 517.0,174.0 229.0,174.0" fill="rgba(220,38,38,0.10)" stroke="none" stroke-width="2.2" stroke-linejoin="round"/>
+  <polygon points="301.0,126.0 301.0,54.0 397.0,126.0" fill="rgba(37,99,235,0.14)" stroke="none" stroke-width="2.2" stroke-linejoin="round"/>
+  <polygon points="301.0,174.0 301.0,246.0 397.0,174.0" fill="rgba(37,99,235,0.14)" stroke="none" stroke-width="2.2" stroke-linejoin="round"/>
+  <polygon points="229.0,126.0 301.0,126.0 301.0,54.0 397.0,126.0 517.0,126.0 517.0,174.0 397.0,174.0 301.0,246.0 301.0,174.0 229.0,174.0" fill="none" stroke="#DC2626" stroke-width="3.0" stroke-linejoin="round"/>
+  <line x1="301.0" y1="126.0" x2="397.0" y2="126.0" stroke="#DC2626" stroke-width="2.0" stroke-linecap="round" stroke-dasharray="5,3"/>
+  <line x1="301.0" y1="174.0" x2="397.0" y2="174.0" stroke="#DC2626" stroke-width="2.0" stroke-linecap="round" stroke-dasharray="5,3"/>
+  <line x1="301.0" y1="126.0" x2="301.0" y2="174.0" stroke="#DC2626" stroke-width="2.0" stroke-linecap="round" stroke-dasharray="5,3"/>
+  <line x1="397.0" y1="126.0" x2="397.0" y2="174.0" stroke="#DC2626" stroke-width="2.0" stroke-linecap="round" stroke-dasharray="5,3"/>
+  <polyline points="301.0,117.0 310.0,117.0 310.0,126.0" fill="none" stroke="#DC2626" stroke-width="1.5"/>
+  <polyline points="301.0,183.0 310.0,183.0 310.0,174.0" fill="none" stroke="#DC2626" stroke-width="1.5"/>
+  <text x="265.0" y="155.0" text-anchor="middle" class="dim-sm halo" fill="#DC2626">3cm</text>
+  <text x="349.0" y="155.0" text-anchor="middle" class="dim-sm halo" fill="#DC2626">4cm</text>
+  <text x="457.0" y="155.0" text-anchor="middle" class="dim-sm halo" fill="#DC2626">5cm</text>
+  <text x="212.2" y="155.0" text-anchor="middle" class="lbl-xs halo" fill="#DC2626">2cm</text>
+  <text x="284.2" y="95.0" text-anchor="middle" class="lbl-xs halo" fill="#DC2626">3cm</text>
+  <text x="363.4" y="85.4" text-anchor="middle" class="lbl-xs halo" fill="#DC2626">5cm</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 330" width="720" height="330" role="img" aria-label="同音異字と同訓異字の見分け方">
+  <defs>
+    <style>
+      .t { font-family: 'Noto Sans CJK JP', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="720" height="330" rx="14" fill="#F0F9FF" stroke="#BAE6FD" stroke-width="2"/>
+  <text x="360" y="34" text-anchor="middle" class="t" font-size="18.5" font-weight="700" fill="#0C4A6E">同音異字・同訓異字は「意味のちがい」で使い分けよう</text>
+
+  <!-- Left: 同音異字 -->
+  <g transform="translate(24, 52)">
+    <rect x="0" y="0" width="326" height="218" rx="12" fill="#FFFFFF" stroke="#0284C7" stroke-width="2.2"/>
+    <rect x="0" y="0" width="326" height="36" rx="12" fill="#0284C7"/>
+    <text x="163" y="24" text-anchor="middle" class="t" font-size="15.5" font-weight="700" fill="#FFFFFF">同音異字（同じ音読みの漢字）</text>
+
+    <text x="16" y="64" class="t" font-size="13.5" font-weight="700" fill="#0369A1">【カンシン】感心 と 関心</text>
+    <text x="24" y="84" class="t" font-size="12.5" fill="#334155">・感心：心に深く感じること</text>
+    <text x="24" y="102" class="t" font-size="12.5" fill="#334155">・関心：興味をもつこと</text>
+
+    <line x1="14" y1="114" x2="312" y2="114" stroke="#E2E8F0"/>
+    <text x="16" y="136" class="t" font-size="13.5" font-weight="700" fill="#0369A1">【イガイ】意外 と 以外</text>
+    <text x="24" y="156" class="t" font-size="12.5" fill="#334155">・意外：思いのほか（予想外）</text>
+    <text x="24" y="174" class="t" font-size="12.5" fill="#334155">・以外：それよりほか</text>
+
+    <line x1="14" y1="184" x2="312" y2="184" stroke="#E2E8F0"/>
+    <text x="16" y="206" class="t" font-size="12.5" font-weight="700" fill="#475569">ほか：得意・協力・団結・報告・習慣</text>
+  </g>
+
+  <!-- Right: 同訓異字 -->
+  <g transform="translate(370, 52)">
+    <rect x="0" y="0" width="326" height="218" rx="12" fill="#FFFFFF" stroke="#EA580C" stroke-width="2.2"/>
+    <rect x="0" y="0" width="326" height="36" rx="12" fill="#EA580C"/>
+    <text x="163" y="24" text-anchor="middle" class="t" font-size="15.5" font-weight="700" fill="#FFFFFF">同訓異字（同じ訓読みの漢字）</text>
+
+    <text x="16" y="64" class="t" font-size="13.5" font-weight="700" fill="#C2410C">【なおる】治る と 直る</text>
+    <text x="24" y="84" class="t" font-size="12.5" fill="#334155">・治る：病気やけががいえる</text>
+    <text x="24" y="102" class="t" font-size="12.5" fill="#334155">・直る：故障やまちがいが元に戻る</text>
+
+    <line x1="14" y1="114" x2="312" y2="114" stroke="#E2E8F0"/>
+    <text x="16" y="136" class="t" font-size="13.5" font-weight="700" fill="#C2410C">【とめる】止める と 留める</text>
+    <text x="24" y="156" class="t" font-size="12.5" fill="#334155">・止める：動きをとめる（車を止める）</text>
+    <text x="24" y="174" class="t" font-size="12.5" fill="#334155">・留める：固定する（ブローチを留める）</text>
+
+    <line x1="14" y1="184" x2="312" y2="184" stroke="#E2E8F0"/>
+    <text x="16" y="206" class="t" font-size="12.5" font-weight="700" fill="#475569">ほか：速い/早い・暑い/熱い・効く/聞く</text>
+  </g>
+
+  <!-- Bottom tip -->
+  <rect x="24" y="284" width="672" height="34" rx="8" fill="#E0F2FE" stroke="#7DD3FC"/>
+  <text x="360" y="306" text-anchor="middle" class="t" font-size="14" font-weight="700" fill="#0C4A6E">コツ：それぞれの漢字の「もとの意味」を思い出し、文の内容に合うか確かめよう！</text>
+</svg>

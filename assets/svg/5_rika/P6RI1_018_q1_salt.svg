@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 250" width="620" height="250">
+  <defs>
+    <marker id="arrDark" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#334155"/>
+    </marker>
+    <marker id="arrBlue" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#0284C7"/>
+    </marker>
+    <marker id="arrRed" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#DC2626"/>
+    </marker>
+    <marker id="arrGreen" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#059669"/>
+    </marker>
+    <marker id="arrAmber" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#D97706"/>
+    </marker>
+    
+  </defs>
+  <rect width="620" height="250" rx="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <text x="310" y="27" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="15" font-weight="bold" fill="#065F46">ごみが混ざった食塩から食塩を取り出す手順</text>
+
+    <rect x="18" y="42" width="584" height="194" rx="12" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.5"/>
+
+    <!-- Left: Salt pile mixed with specks on weighing paper -->
+    <g transform="translate(34, 62)">
+      <polygon points="8,118 32,68 156,68 180,118" fill="#F8FAFC" stroke="#64748B" stroke-width="1.6"/>
+      <path d="M28,108 Q94,30 160,108 Z" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.6"/>
+      <!-- Mixed dirt / debris specks -->
+      <g fill="#475569">
+        <circle cx="64" cy="92" r="2.6"/><circle cx="88" cy="74" r="3"/><circle cx="112" cy="88" r="2.2"/>
+        <circle cx="76" cy="100" r="2"/><circle cx="102" cy="98" r="2.8"/><circle cx="132" cy="100" r="2.4"/>
+        <circle cx="94" cy="86" r="1.8"/><circle cx="56" cy="102" r="2"/><circle cx="122" cy="80" r="2"/>
+      </g>
+      <text x="94" y="142" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12.5" font-weight="bold" fill="#0F172A">ごみが混ざった食塩</text>
+      <text x="94" y="160" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#1D4ED8">はじめの重さ：30g</text>
+    </g>
+
+    <!-- Right: Clean 5-step process flow -->
+    <g transform="translate(238, 56)">
+      <rect x="0" y="0" width="344" height="30" rx="6" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.2"/>
+      <text x="12" y="20" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#1E40AF">① はじめの重さをはかる → 30g</text>
+
+      <rect x="0" y="36" width="344" height="30" rx="6" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.2"/>
+      <text x="12" y="56" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" fill="#334155">② ふるいでこした後の重さ → 26g（大きなごみを除去）</text>
+
+      <rect x="0" y="72" width="344" height="30" rx="6" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.2"/>
+      <text x="12" y="92" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" fill="#334155">③ 水100mLを加えてよくかき混ぜ、食塩を全部とかす</text>
+
+      <rect x="0" y="108" width="344" height="30" rx="6" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.2"/>
+      <text x="12" y="128" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" fill="#334155">④ その液をろ過して、細かいごみを取りのぞく</text>
+
+      <rect x="0" y="144" width="344" height="30" rx="6" fill="#ECFDF5" stroke="#10B981" stroke-width="1.5"/>
+      <text x="12" y="164" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#065F46">⑤ ろ過した液から食塩をすべて取り出す → 23g</text>
+    </g>
+    </svg>

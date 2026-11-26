@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 275" width="580" height="275">
+  <defs>
+    <marker id="arrDark" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#334155"/>
+    </marker>
+    <marker id="arrBlue" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#0284C7"/>
+    </marker>
+    <marker id="arrRed" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#DC2626"/>
+    </marker>
+    <marker id="arrGreen" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#059669"/>
+    </marker>
+    <marker id="arrAmber" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#D97706"/>
+    </marker>
+    
+  </defs>
+  <rect width="580" height="275" rx="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <text x="290" y="27" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="15" font-weight="bold" fill="#065F46">金ぞくのふりこを使った「ふりこ時計」</text>
+
+    <rect x="20" y="42" width="540" height="218" rx="12" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.5"/>
+
+    <!-- Classic wall pendulum clock -->
+    <g transform="translate(88, 52)">
+      <!-- Wooden body -->
+      <path d="M22,42 C22,6 108,6 108,42 L114,48 L114,178 L122,186 L8,186 L16,178 L16,48 Z"
+            fill="#92400E" stroke="#451A03" stroke-width="2"/>
+      <rect x="24" y="106" width="82" height="68" rx="6" fill="#1E293B" stroke="#78350F" stroke-width="2"/>
+      <!-- Clock dial -->
+      <circle cx="65" cy="54" r="36" fill="#FFFBEB" stroke="#78350F" stroke-width="2.2"/>
+      <text x="65" y="30" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="10" font-weight="bold" fill="#1E293B">12</text>
+      <text x="91" y="58" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="10" font-weight="bold" fill="#1E293B">3</text>
+      <text x="65" y="84" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="10" font-weight="bold" fill="#1E293B">6</text>
+      <text x="39" y="58" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="10" font-weight="bold" fill="#1E293B">9</text>
+      <!-- Hands -->
+      <line x1="65" y1="54" x2="65" y2="33" stroke="#1E293B" stroke-width="2.4" stroke-linecap="round"/>
+      <line x1="65" y1="54" x2="77" y2="66" stroke="#1E293B" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="65" cy="54" r="3" fill="#DC2626"/>
+      <!-- Metallic pendulum inside window -->
+      <line x1="65" y1="106" x2="65" y2="148" stroke="#FCD34D" stroke-width="3.2"/>
+      <circle cx="65" cy="148" r="14" fill="#FBBF24" stroke="#B45309" stroke-width="2"/>
+      <circle cx="65" cy="148" r="8" fill="#FEF08A" opacity="0.7"/>
+      <!-- Swing arc -->
+      <path d="M40,146 Q65,160 90,146" fill="none" stroke="#94A3B8" stroke-width="1.2" stroke-dasharray="3,2"/>
+    </g>
+
+    <!-- Callout line to metal pendulum -->
+    <line x1="168" y1="202" x2="256" y2="202" stroke="#D97706" stroke-width="1.8"/>
+    <circle cx="168" cy="202" r="3.5" fill="#D97706"/>
+    <text x="264" y="207" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#B45309">金ぞくでできたふりこ</text>
+
+    <!-- Right thinking box (without leaking answer!) -->
+    <rect x="264" y="64" width="272" height="114" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.4"/>
+    <text x="400" y="88" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#065F46">考えるヒント</text>
+    <text x="282" y="114" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" fill="#1E293B">● 金ぞくは、温度によって</text>
+    <text x="296" y="132" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" fill="#1E293B">体積（長さ）がどう変わるかな？</text>
+    <text x="282" y="156" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" fill="#1E293B">● ふりこの長さが変わると、</text>
+    <text x="296" y="172" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" fill="#1E293B">1往復する時間はどうなるかな？</text>
+    </svg>

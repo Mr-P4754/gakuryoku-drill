@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="720" height="420" role="img" aria-label="敬語の3種類と対応表">
+  <defs>
+    <style>
+      .t { font-family: 'Noto Sans CJK JP', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="720" height="420" rx="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="360" y="34" text-anchor="middle" class="t" font-size="18.5" font-weight="700" fill="#0F172A">敬語の3つの種類と、覚えておきたい対応表</text>
+
+  <!-- 3 Cards for types -->
+  <!-- ていねい語 -->
+  <rect x="24" y="48" width="214" height="84" rx="10" fill="#ECFDF5" stroke="#10B981" stroke-width="2"/>
+  <rect x="24" y="48" width="214" height="28" rx="10" fill="#10B981"/>
+  <text x="131" y="67" text-anchor="middle" class="t" font-size="14" font-weight="700" fill="#FFFFFF">① ていねい語</text>
+  <text x="131" y="96" text-anchor="middle" class="t" font-size="12.5" font-weight="700" fill="#065F46">ていねいに言う</text>
+  <text x="131" y="118" text-anchor="middle" class="t" font-size="12" fill="#334155">「です・ます」「お・ご」</text>
+
+  <!-- 尊敬語 -->
+  <rect x="253" y="48" width="214" height="84" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+  <rect x="253" y="48" width="214" height="28" rx="10" fill="#2563EB"/>
+  <text x="360" y="67" text-anchor="middle" class="t" font-size="14" font-weight="700" fill="#FFFFFF">② 尊敬語（そんけいご）</text>
+  <text x="360" y="96" text-anchor="middle" class="t" font-size="12.5" font-weight="700" fill="#1E40AF">相手や話の人を高める</text>
+  <text x="360" y="118" text-anchor="middle" class="t" font-size="12" fill="#334155">れる・られる／お〜になる</text>
+
+  <!-- けんじょう語 -->
+  <rect x="482" y="48" width="214" height="84" rx="10" fill="#FFF7ED" stroke="#EA580C" stroke-width="2"/>
+  <rect x="482" y="48" width="214" height="28" rx="10" fill="#EA580C"/>
+  <text x="589" y="67" text-anchor="middle" class="t" font-size="14" font-weight="700" fill="#FFFFFF">③ けんじょう語</text>
+  <text x="589" y="96" text-anchor="middle" class="t" font-size="12.5" font-weight="700" fill="#9A3412">自分側をへりくだる</text>
+  <text x="589" y="118" text-anchor="middle" class="t" font-size="12" fill="#334155">お〜する／特別な言葉</text>
+
+  <!-- Table -->
+  <g transform="translate(24, 146)">
+    <!-- Header -->
+    <rect x="0" y="0" width="160" height="34" fill="#334155"/>
+    <rect x="160" y="0" width="256" height="34" fill="#1D4ED8"/>
+    <rect x="416" y="0" width="256" height="34" fill="#C2410C"/>
+    <text x="80" y="22" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#FFFFFF">もとの言葉</text>
+    <text x="288" y="22" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#FFFFFF">尊敬語（相手がする）</text>
+    <text x="544" y="22" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#FFFFFF">けんじょう語（自分がする）</text>
+
+    <!-- Row 1: 行く・来る・いる -->
+    <rect x="0" y="34" width="672" height="32" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="80" y="55" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">行く・来る・いる</text>
+    <text x="288" y="55" text-anchor="middle" class="t" font-size="13" fill="#1E3A8A">いらっしゃる・おいでになる</text>
+    <text x="544" y="55" text-anchor="middle" class="t" font-size="13" fill="#9A3412">まいる・うかがう・おる</text>
+
+    <!-- Row 2: 言う -->
+    <rect x="0" y="66" width="672" height="32" fill="#F8FAFC" stroke="#E2E8F0"/>
+    <text x="80" y="87" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">言う</text>
+    <text x="288" y="87" text-anchor="middle" class="t" font-size="13" fill="#1E3A8A">おっしゃる</text>
+    <text x="544" y="87" text-anchor="middle" class="t" font-size="13" fill="#9A3412">申し上げる・申す</text>
+
+    <!-- Row 3: 見る -->
+    <rect x="0" y="98" width="672" height="32" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="80" y="119" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">見る</text>
+    <text x="288" y="119" text-anchor="middle" class="t" font-size="13" fill="#1E3A8A">ご覧（ごらん）になる</text>
+    <text x="544" y="119" text-anchor="middle" class="t" font-size="13" fill="#9A3412">拝見（はいけん）する</text>
+
+    <!-- Row 4: 食べる・飲む -->
+    <rect x="0" y="130" width="672" height="32" fill="#F8FAFC" stroke="#E2E8F0"/>
+    <text x="80" y="151" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">食べる・飲む</text>
+    <text x="288" y="151" text-anchor="middle" class="t" font-size="13" fill="#1E3A8A">めしあがる（召し上がる）</text>
+    <text x="544" y="151" text-anchor="middle" class="t" font-size="13" fill="#9A3412">いただく</text>
+
+    <!-- Row 5: する -->
+    <rect x="0" y="162" width="672" height="32" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="80" y="183" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">する</text>
+    <text x="288" y="183" text-anchor="middle" class="t" font-size="13" fill="#1E3A8A">なさる・される</text>
+    <text x="544" y="183" text-anchor="middle" class="t" font-size="13" fill="#9A3412">いたす</text>
+
+    <!-- Row 6: くれる／あたえる -->
+    <rect x="0" y="194" width="672" height="32" fill="#F8FAFC" stroke="#E2E8F0"/>
+    <text x="80" y="215" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">くれる／あたえる</text>
+    <text x="288" y="215" text-anchor="middle" class="t" font-size="13" fill="#1E3A8A">くださる</text>
+    <text x="544" y="215" text-anchor="middle" class="t" font-size="13" fill="#9A3412">さしあげる</text>
+
+    <!-- Row 7: 会う -->
+    <rect x="0" y="226" width="672" height="32" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <text x="80" y="247" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">会う</text>
+    <text x="288" y="247" text-anchor="middle" class="t" font-size="13" fill="#1E3A8A">お会いになる</text>
+    <text x="544" y="247" text-anchor="middle" class="t" font-size="13" fill="#9A3412">お目にかかる・お会いする</text>
+
+    <!-- Vertical column dividers -->
+    <line x1="160" y1="34" x2="160" y2="258" stroke="#CBD5E1" stroke-width="1.5"/>
+    <line x1="416" y1="34" x2="416" y2="258" stroke="#CBD5E1" stroke-width="1.5"/>
+    <rect x="0" y="0" width="672" height="258" fill="none" stroke="#94A3B8" stroke-width="1.5"/>
+  </g>
+</svg>

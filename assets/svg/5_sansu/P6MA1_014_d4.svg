@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 214" width="350" height="214" role="img" aria-label="直角三角形（12cm，5cm，13cm）">
+  <title>直角三角形（12cm，5cm，13cm）</title>
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 11.5px; font-weight: 600; fill: #475569; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .dim-sm { font-size: 13px; font-weight: 700; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="350" height="214" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <polygon points="260.0,76.0 44.0,166.0 297.5,166.0" fill="#EFF6FF" stroke="#1E293B" stroke-width="2.2" stroke-linejoin="round"/>
+  <polyline points="250.8,79.8 254.6,89.1 263.8,85.2" fill="none" stroke="#1E293B" stroke-width="1.5"/>
+  <path d="M 44.0 166.0 Q 136.6 84.1 260.0 76.0" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="144.3" y="107.5" text-anchor="middle" class="dim halo" fill="#1E293B">12cm</text>
+  <path d="M 260.0 76.0 Q 319.4 104.1 297.5 166.0" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="303.1" y="117.5" text-anchor="middle" class="dim halo" fill="#1E293B">5cm</text>
+  <path d="M 44.0 166.0 Q 170.8 206.0 297.5 166.0" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="170.8" y="191.0" text-anchor="middle" class="dim halo" fill="#1E293B">13cm</text>
+</svg>

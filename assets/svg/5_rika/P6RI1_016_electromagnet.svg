@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 290" width="640" height="290">
+  <defs>
+    <marker id="arrDark" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#334155"/>
+    </marker>
+    <marker id="arrBlue" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#0284C7"/>
+    </marker>
+    <marker id="arrRed" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#DC2626"/>
+    </marker>
+    <marker id="arrGreen" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#059669"/>
+    </marker>
+    <marker id="arrAmber" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#D97706"/>
+    </marker>
+    
+  </defs>
+  <rect width="640" height="290" rx="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <text x="320" y="27" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="15" font-weight="bold" fill="#065F46">電磁石のつくりと極（きょく）</text>
+
+    <rect x="20" y="42" width="600" height="234" rx="12" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.5"/>
+
+    <!-- Compass on left (center 134, 128) -->
+    <g transform="translate(134, 128)">
+      <circle cx="0" cy="0" r="30" fill="#F8FAFC" stroke="#334155" stroke-width="2"/>
+      <circle cx="0" cy="0" r="24" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+      <!-- Needle pointing RIGHT: Red N-tip on RIGHT facing coil! -->
+      <polygon points="0,-7 22,0 0,7" fill="#DC2626" stroke="#991B1B" stroke-width="1"/>
+      <polygon points="0,-7 -22,0 0,7" fill="#E2E8F0" stroke="#475569" stroke-width="1"/>
+      <circle cx="0" cy="0" r="3.2" fill="#1E293B"/>
+      <text x="12" y="46" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#DC2626">N極</text>
+      <line x1="12" y1="30" x2="12" y2="8" stroke="#DC2626" stroke-width="1.3"/>
+      <text x="0" y="-37" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#475569">方位じしん</text>
+    </g>
+
+    <!-- Iron core (鉄しん) horizontal from x=212 to x=398, y=128 -->
+    <rect x="212" y="121" width="186" height="14" rx="5" fill="#94A3B8" stroke="#334155" stroke-width="1.8"/>
+    <!-- Tightly wound copper coil loops (x=236..374) -->
+    <g stroke="#B45309" stroke-width="3.2" fill="none">
+      <path d="M236,117 C240,114 240,142 236,139"/><path d="M244,117 C248,114 248,142 244,139"/><path d="M252,117 C256,114 256,142 252,139"/><path d="M260,117 C264,114 264,142 260,139"/><path d="M268,117 C272,114 272,142 268,139"/><path d="M276,117 C280,114 280,142 276,139"/><path d="M284,117 C288,114 288,142 284,139"/><path d="M292,117 C296,114 296,142 292,139"/><path d="M300,117 C304,114 304,142 300,139"/><path d="M308,117 C312,114 312,142 308,139"/><path d="M316,117 C320,114 320,142 316,139"/><path d="M324,117 C328,114 328,142 324,139"/><path d="M332,117 C336,114 336,142 332,139"/><path d="M340,117 C344,114 344,142 340,139"/><path d="M348,117 C352,114 352,142 348,139"/><path d="M356,117 C360,114 360,142 356,139"/><path d="M364,117 C368,114 368,142 364,139"/><path d="M372,117 C376,114 376,142 372,139"/>
+    </g>
+
+    <!-- Label 鉄しん -->
+    <line x1="398" y1="128" x2="424" y2="140" stroke="#475569" stroke-width="1.3"/>
+    <text x="428" y="144" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#334155">鉄しん</text>
+
+    <!-- Badges ① 極 (left end) and ② 極 (right end) -->
+    <line x1="216" y1="118" x2="216" y2="86" stroke="#2563EB" stroke-width="1.6"/>
+    <circle cx="202" cy="74" r="13" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/><text x="202" y="78.5" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#1D4ED8">①</text>
+    <text x="228" y="79" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#1D4ED8">極</text>
+
+    <line x1="394" y1="118" x2="394" y2="86" stroke="#DC2626" stroke-width="1.6"/>
+    <circle cx="380" cy="74" r="13" fill="#FEF2F2" stroke="#DC2626" stroke-width="2"/><text x="380" y="78.5" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#B91C1C">②</text>
+    <text x="406" y="79" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#B91C1C">極</text>
+
+    <!-- Circuit wires: Left end of coil -> Battery (+) on left; Battery (-) on right -> Switch -> Right end of coil -->
+    <path d="M236,136 C214,174 202,216 238,228" fill="none" stroke="#1E293B" stroke-width="2.2"/>
+    <path d="M372,136 C410,164 468,164 484,180" fill="none" stroke="#1E293B" stroke-width="2.2"/>
+    <path d="M484,226 C460,248 400,248 358,228" fill="none" stroke="#1E293B" stroke-width="2.2"/>
+
+    <!-- Battery holder & Dry cell (+ on LEFT, - on RIGHT matching PDF p.29!) -->
+    <g transform="translate(238, 206)">
+      <rect x="0" y="0" width="120" height="44" rx="6" fill="#F1F5F9" stroke="#475569" stroke-width="1.6"/>
+      <!-- Positive nub on LEFT -->
+      <rect x="6" y="15" width="8" height="14" rx="2" fill="#DC2626" stroke="#991B1B" stroke-width="1.2"/>
+      <!-- Cell body -->
+      <rect x="14" y="8" width="94" height="28" rx="4" fill="#FEF08A" stroke="#CA8A04" stroke-width="1.6"/>
+      <rect x="14" y="8" width="26" height="28" rx="3" fill="#EF4444"/>
+      <text x="27" y="27" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="16" font-weight="bold" fill="#FFFFFF">＋</text>
+      <text x="92" y="27" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="16" font-weight="bold" fill="#1E293B">－</text>
+      <text x="60" y="59" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#475569">かん電池</text>
+    </g>
+
+    <!-- Switch (closed) on right -->
+    <g transform="translate(468, 174)">
+      <rect width="36" height="60" rx="5" fill="#F8FAFC" stroke="#475569" stroke-width="1.6"/>
+      <circle cx="18" cy="12" r="4" fill="#475569"/>
+      <circle cx="18" cy="48" r="4" fill="#475569"/>
+      <line x1="18" y1="12" x2="18" y2="48" stroke="#059669" stroke-width="3.5" stroke-linecap="round"/>
+      <text x="72" y="34" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#1E293B">スイッチ</text>
+    </g>
+
+    <!-- Helper hint note -->
+    <rect x="444" y="62" width="160" height="58" rx="8" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1.3"/>
+    <text x="524" y="84" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#92400E">方位じしんの「N極」が</text>
+    <text x="524" y="102" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#92400E">①極の方を向いているよ！</text>
+    </svg>

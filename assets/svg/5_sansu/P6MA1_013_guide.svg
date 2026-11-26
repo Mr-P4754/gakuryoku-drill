@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 218" width="540" height="218" role="img" aria-label="こみぐあいの比べ方（にわとり小屋AとB）">
+  <title>こみぐあいの比べ方（にわとり小屋AとB）</title>
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 11.5px; font-weight: 600; fill: #475569; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .dim-sm { font-size: 13px; font-weight: 700; fill: #1E293B; }
+      .th { font-size: 13.5px; font-weight: 700; fill: #1E293B; }
+      .td { font-size: 15px; font-weight: 600; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="540" height="218" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="270" y="30" text-anchor="middle" class="title">こみぐあいの比べ方（単位量あたりの大きさ）</text>
+  <rect x="22" y="46" width="66" height="34" fill="#EFF6FF" stroke="#94A3B8" stroke-width="1.1"/>
+  <line x1="22.0" y1="46.0" x2="88.0" y2="80.0" stroke="#94A3B8" stroke-width="1.1" stroke-linecap="round"/>
+  <rect x="88" y="46" width="92" height="34" fill="#EFF6FF" stroke="#94A3B8" stroke-width="1.1"/>
+  <text x="134.0" y="68.0" text-anchor="middle" class="th">面積 (m²)</text>
+  <rect x="180" y="46" width="86" height="34" fill="#EFF6FF" stroke="#94A3B8" stroke-width="1.1"/>
+  <text x="223.0" y="68.0" text-anchor="middle" class="th">数 (羽)</text>
+  <rect x="22" y="80" width="66" height="34" fill="#EFF6FF" stroke="#94A3B8" stroke-width="1.1"/>
+  <text x="55.0" y="102.0" text-anchor="middle" class="th">A</text>
+  <rect x="88" y="80" width="92" height="34" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.1"/>
+  <text x="134.0" y="102.0" text-anchor="middle" class="td">15</text>
+  <rect x="180" y="80" width="86" height="34" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.1"/>
+  <text x="223.0" y="102.0" text-anchor="middle" class="td">6</text>
+  <rect x="22" y="114" width="66" height="34" fill="#EFF6FF" stroke="#94A3B8" stroke-width="1.1"/>
+  <text x="55.0" y="136.0" text-anchor="middle" class="th">B</text>
+  <rect x="88" y="114" width="92" height="34" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.1"/>
+  <text x="134.0" y="136.0" text-anchor="middle" class="td">12</text>
+  <rect x="180" y="114" width="86" height="34" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.1"/>
+  <text x="223.0" y="136.0" text-anchor="middle" class="td">5</text>
+  <rect x="22" y="46" width="244" height="102" fill="none" stroke="#1E293B" stroke-width="1.6"/>
+  <rect x="282" y="46" width="240" height="72" rx="8" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.2"/>
+  <text x="294" y="68" class="lbl-sm" fill="#1D4ED8">① 1m²あたりの数（数÷面積）</text>
+  <text x="294" y="88" class="lbl-xs">A: 6÷15＝0.4羽 ／ B: 5÷12＝0.416…羽</text>
+  <text x="294" y="108" class="lbl-xs" fill="#DC2626">→ 数が多い B のほうがこんでいる！</text>
+  <rect x="282" y="128" width="240" height="72" rx="8" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1.2"/>
+  <text x="294" y="150" class="lbl-sm" fill="#0F766E">② 1羽あたりの面積（面積÷数）</text>
+  <text x="294" y="170" class="lbl-xs">A: 15÷6＝2.5m² ／ B: 12÷5＝2.4m²</text>
+  <text x="294" y="190" class="lbl-xs" fill="#DC2626">→ 面積がせまい B のほうがこんでいる！</text>
+  <text x="144" y="174" text-anchor="middle" class="lbl-xs">ふつうは「1m²あたりの数」</text>
+  <text x="144" y="192" text-anchor="middle" class="lbl-xs">（大きいほどこんでいる）で比べるよ</text>
+</svg>

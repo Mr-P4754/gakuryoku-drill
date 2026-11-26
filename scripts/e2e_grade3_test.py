@@ -110,7 +110,7 @@ def run():
                 page.click("#prof-skip-btn")
 
             tabs = page.locator(".grade-tab").all_inner_texts()
-            assert tabs == ["3年", "4年"], f"Expected grade tabs ['3年', '4年'], got {tabs}"
+            assert "3年" in tabs and "4年" in tabs and tabs.index("3年") < tabs.index("4年"), f"Unexpected grade tabs: {tabs}"
             assert "4年" in page.locator(".home-hero h1").inner_text()
 
             # 2. 3年タブクリック → 3年4教科・61単元・524問が表示

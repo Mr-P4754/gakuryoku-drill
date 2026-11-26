@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 320" width="620" height="320">
+  <defs>
+    <marker id="arrDark" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#334155"/>
+    </marker>
+    <marker id="arrBlue" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#0284C7"/>
+    </marker>
+    <marker id="arrRed" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#DC2626"/>
+    </marker>
+    <marker id="arrGreen" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#059669"/>
+    </marker>
+    <marker id="arrAmber" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#D97706"/>
+    </marker>
+    
+    <clipPath id="tpClip"><rect x="24" y="42" width="380" height="258" rx="10"/></clipPath>
+    <marker id="arrTp1" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,1 L9,5 L0,9 z" fill="#0284C7"/></marker>
+    <marker id="arrTp2" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,1 L9,5 L0,9 z" fill="#059669"/></marker>
+    <marker id="arrTp3" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,1 L9,5 L0,9 z" fill="#D97706"/></marker>
+    <marker id="arrTp4" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,1 L9,5 L0,9 z" fill="#DC2626"/></marker>
+    <marker id="arrTp5" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,1 L9,5 L0,9 z" fill="#7C3AED"/></marker>
+    
+  </defs>
+  <rect width="620" height="320" rx="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <text x="310" y="27" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="15" font-weight="bold" fill="#065F46">過去に発生した台風の月ごとの主な進路</text>
+
+    <g clip-path="url(#tpClip)">
+      <rect x="24" y="42" width="380" height="258" fill="#E0F2FE"/>
+      <!-- Lat/lon grid -->
+      <g stroke="#93C5FD" stroke-width="0.9" fill="none">
+        <path d="M24,95 Q214,112 404,95"/>
+        <path d="M24,155 Q214,172 404,155"/>
+        <path d="M24,215 Q214,232 404,215"/>
+        <path d="M24,270 Q214,282 404,270"/>
+        <path d="M95,42 Q82,170 64,300"/>
+        <path d="M185,42 Q180,170 175,300"/>
+        <path d="M275,42 Q280,170 288,300"/>
+        <path d="M355,42 Q364,170 375,300"/>
+      </g>
+      <!-- East Asia / China / Korea -->
+      <path d="M24,42 L152,42 L156,66 L142,88 L154,108 L162,126 L148,134 L138,118 L126,114 L118,140 L108,170 L84,205 L56,225 L24,225 Z"
+            fill="#BBF7D0" stroke="#15803D" stroke-width="1.2"/>
+      <!-- Taiwan -->
+      <ellipse cx="100" cy="218" rx="6" ry="13" transform="rotate(15 100 218)" fill="#BBF7D0" stroke="#15803D" stroke-width="1.1"/>
+      <!-- Philippines -->
+      <path d="M84,254 L98,252 L102,272 L96,294 L82,290 L80,268 Z" fill="#BBF7D0" stroke="#15803D" stroke-width="1.1"/>
+      <!-- Hokkaido -->
+      <path d="M278,56 L296,52 L316,66 L310,78 L292,84 L276,78 Z" fill="#BBF7D0" stroke="#15803D" stroke-width="1.2"/>
+      <!-- Honshu -->
+      <path d="M276,88 L288,88 L294,112 L286,138 L272,146 L248,148 L226,152 L198,150 L204,140 L226,134 L250,124 L268,106 Z"
+            fill="#BBF7D0" stroke="#15803D" stroke-width="1.2"/>
+      <!-- Shikoku -->
+      <path d="M214,155 L230,153 L232,163 L216,166 Z" fill="#BBF7D0" stroke="#15803D" stroke-width="1.1"/>
+      <!-- Kyushu -->
+      <path d="M192,155 L206,157 L204,175 L194,185 L186,178 L188,164 Z" fill="#BBF7D0" stroke="#15803D" stroke-width="1.1"/>
+      <!-- Okinawa -->
+      <ellipse cx="164" cy="204" rx="5" ry="2.5" transform="rotate(-40 164 204)" fill="#BBF7D0" stroke="#15803D" stroke-width="1"/>
+
+      <!-- Monthly Typhoon Tracks (faithful to PDF p.1) -->
+      <!-- 7月: goes west toward Kyushu/Korea then curves N-NE -->
+      <path d="M328,274 C248,266 176,240 162,192 C152,154 174,118 228,84"
+            fill="none" stroke="#059669" stroke-width="3" marker-end="url(#arrTp2)"/>
+      <!-- 8月: curves through Kyushu / Sea of Japan / Honshu -->
+      <path d="M336,262 C258,256 196,226 196,178 C196,140 226,110 278,86"
+            fill="none" stroke="#D97706" stroke-width="3" marker-end="url(#arrTp3)"/>
+      <!-- 9月: sweeps across Honshu -->
+      <path d="M342,248 C272,244 224,218 226,172 C228,142 262,118 326,98"
+            fill="none" stroke="#DC2626" stroke-width="3.2" marker-end="url(#arrTp4)"/>
+      <!-- 10月: curves earlier along Pacific coast -->
+      <path d="M300,286 C236,266 238,214 256,184 C272,160 302,148 344,136"
+            fill="none" stroke="#7C3AED" stroke-width="2.8" marker-end="url(#arrTp5)"/>
+      <!-- 6月: westward to China/Taiwan or south of Japan -->
+      <path d="M312,280 C226,272 138,244 74,200"
+            fill="none" stroke="#0284C7" stroke-width="2.8" marker-end="url(#arrTp1)"/>
+
+      <!-- Month labels on tracks -->
+      <text x="348" y="252" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#DC2626">9月</text>
+      <text x="344" y="267" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#D97706">8月</text>
+      <text x="336" y="282" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#059669">7月</text>
+      <text x="278" y="294" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#7C3AED">10月</text>
+      <text x="128" y="262" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#0284C7">6月</text>
+      <text x="255" y="138" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11" font-weight="bold" fill="#14532D">日本</text>
+    </g>
+    <rect x="24" y="42" width="380" height="258" rx="10" fill="none" stroke="#64748B" stroke-width="1.5"/>
+    
+    <g transform="translate(368,86) scale(0.82)">
+      <circle cx="0" cy="0" r="17" fill="#FFFFFF" fill-opacity="0.94" stroke="#64748B" stroke-width="1.3"/>
+      <polygon points="0,-12 3,-2 0,-4 -3,-2" fill="#DC2626"/>
+      <polygon points="0,12 3,2 0,4 -3,2" fill="#94A3B8"/>
+      <line x1="-10" y1="0" x2="10" y2="0" stroke="#64748B" stroke-width="1.1"/>
+      <text x="0" y="-20" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#1E293B">北</text>
+      <text x="0" y="29" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#475569">南</text>
+      <text x="24" y="4" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#475569">東</text>
+      <text x="-24" y="4" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#475569">西</text>
+    </g>
+    
+    <rect x="420" y="42" width="180" height="258" rx="12" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.4"/>
+    <rect x="434" y="54" width="152" height="26" rx="6" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.2"/>
+    <text x="510" y="72" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#1D4ED8">進路の見方</text>
+    <text x="434" y="104" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#0F172A">1. 発生する場所</text>
+    <text x="440" y="122" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" fill="#334155">あたたかい海の上で発生</text>
+    <text x="434" y="150" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#0F172A">2. 進み方の見方</text>
+    <text x="440" y="168" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" fill="#334155">矢印の向きと方位じしんを</text>
+    <text x="440" y="185" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" fill="#334155">見て、はじめの向きと</text>
+    <text x="440" y="202" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" fill="#334155">曲がった後の向きを調べよう</text>
+    <g transform="translate(436, 220)">
+      <line x1="0" y1="6" x2="26" y2="6" stroke="#0284C7" stroke-width="3"/><text x="34" y="10" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11" fill="#334155">6月</text>
+      <line x1="72" y1="6" x2="98" y2="6" stroke="#059669" stroke-width="3"/><text x="106" y="10" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11" fill="#334155">7月</text>
+      <line x1="0" y1="26" x2="26" y2="26" stroke="#D97706" stroke-width="3"/><text x="34" y="30" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11" fill="#334155">8月</text>
+      <line x1="72" y1="26" x2="98" y2="26" stroke="#DC2626" stroke-width="3"/><text x="106" y="30" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11" fill="#334155">9月</text>
+      <line x1="0" y1="46" x2="26" y2="46" stroke="#7C3AED" stroke-width="3"/><text x="34" y="50" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11" fill="#334155">10月</text>
+    </g>
+    </svg>

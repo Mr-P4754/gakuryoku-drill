@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 260" width="600" height="260">
+  <defs>
+    <marker id="arrDark" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#334155"/>
+    </marker>
+    <marker id="arrBlue" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#0284C7"/>
+    </marker>
+    <marker id="arrRed" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#DC2626"/>
+    </marker>
+    <marker id="arrGreen" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#059669"/>
+    </marker>
+    <marker id="arrAmber" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#D97706"/>
+    </marker>
+    
+  </defs>
+  <rect width="600" height="260" rx="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <text x="300" y="27" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="15" font-weight="bold" fill="#065F46">植物の成長に必要な条件</text>
+
+    <rect x="22" y="42" width="330" height="202" rx="12" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.5"/>
+
+    <!-- Sunlight arrow & sun icon -->
+    <circle cx="88" cy="72" r="14" fill="#FACC15" stroke="#EA580C" stroke-width="1.6"/>
+    <path d="M108,82 L134,100" stroke="#F59E0B" stroke-width="4" marker-end="url(#arrAmber)"/>
+    <text x="148" y="84" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#D97706">日光</text>
+
+    <!-- Glass of fertilizer water -->
+    <g transform="translate(52, 140)">
+      <path d="M5,0 L43,0 L39,62 L9,62 Z" fill="#FEF9C3" stroke="#475569" stroke-width="1.5"/>
+      <path d="M7,18 L41,18 L39,62 L9,62 Z" fill="#93C5FD" opacity="0.8"/>
+      <ellipse cx="24" cy="18" rx="17" ry="3.5" fill="#BFDBFE" stroke="#2563EB" stroke-width="1"/>
+      <ellipse cx="24" cy="0" rx="19" ry="4" fill="#F8FAFC" stroke="#475569" stroke-width="1.3"/>
+    </g>
+    <text x="36" y="220" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#1D4ED8">肥料を入れた水</text>
+    <path d="M84,136 Q114,114 146,136" fill="none" stroke="#2563EB" stroke-width="2.2" marker-end="url(#arrBlue)"/>
+
+    <!-- Potted plant -->
+    <g transform="translate(152, 92)">
+      <!-- Stem & leaves -->
+      <path d="M46,66 L46,24" stroke="#16A34A" stroke-width="3.5" stroke-linecap="round"/>
+      <path d="M46,38 C28,22 10,28 16,42 C24,48 38,44 46,38 Z" fill="#22C55E" stroke="#15803D" stroke-width="1.5"/>
+      <path d="M46,34 C66,18 86,26 78,40 C68,46 54,42 46,34 Z" fill="#22C55E" stroke="#15803D" stroke-width="1.5"/>
+      <path d="M46,24 C38,8 52,4 54,18 Z" fill="#4ADE80" stroke="#15803D" stroke-width="1.3"/>
+      <!-- Pot -->
+      <path d="M12,68 L80,68 L72,130 L20,130 Z" fill="#C2410C" stroke="#7C2D12" stroke-width="1.8"/>
+      <rect x="7" y="60" width="78" height="12" rx="4" fill="#EA580C" stroke="#7C2D12" stroke-width="1.6"/>
+      <ellipse cx="46" cy="64" rx="34" ry="7" fill="#A8A29E" stroke="#57534E" stroke-width="1.2"/>
+    </g>
+    <line x1="230" y1="162" x2="254" y2="152" stroke="#475569" stroke-width="1.2"/>
+    <text x="258" y="150" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#334155">バーミキュ</text>
+    <text x="258" y="167" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#334155">ライト</text>
+
+    <!-- Right panel: Fair test principle -->
+    <rect x="370" y="42" width="208" height="202" rx="12" fill="#ECFDF5" stroke="#10B981" stroke-width="1.5"/>
+    <rect x="388" y="54" width="172" height="26" rx="6" fill="#059669"/>
+    <text x="474" y="72" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">実験のしかたのポイント</text>
+    <text x="386" y="108" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12.5" font-weight="bold" fill="#065F46">● 調べる条件だけを</text>
+    <text x="404" y="128" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12.5" font-weight="bold" fill="#065F46">変える！</text>
+    <text x="386" y="160" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12.5" font-weight="bold" fill="#065F46">● それ以外の条件は</text>
+    <text x="404" y="180" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12.5" font-weight="bold" fill="#B45309">そろえておく！</text>
+    <text x="386" y="212" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11" fill="#334155">（例）水との関係を調べるなら、</text>
+    <text x="386" y="229" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11" fill="#334155">温度と空気の条件はそろえる</text>
+    </svg>

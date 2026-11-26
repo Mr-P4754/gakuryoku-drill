@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 224" width="300" height="224" role="img" aria-label="七角形を5つの三角形に分けた解説図">
+  <title>七角形を5つの三角形に分けた解説図</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .sub { font-size: 13px; font-weight: 600; fill: #475569; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 15px; font-weight: 700; }
+      .num-lg { font-size: 17px; font-weight: 700; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .amber { fill: #B45309; }
+      .muted { fill: #64748B; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+    <marker id="arr-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#2563EB"/>
+    </marker>
+    <marker id="arr-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#DC2626"/>
+    </marker>
+    <marker id="arr-dark" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#334155"/>
+    </marker>
+    <marker id="arr-teal" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#0F766E"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="300" height="224" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <polygon points="128.0,42.0 218.0,42.0 254.0,128.0 192.0,186.0 104.0,186.0 48.0,134.0 74.0,72.0" fill="#EFF6FF" stroke="#1E293B" stroke-width="2.4" stroke-linejoin="round"/>
+  <line x1="104" y1="186" x2="74" y2="72" stroke="#DC2626" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="104" y1="186" x2="128" y2="42" stroke="#DC2626" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="104" y1="186" x2="218" y2="42" stroke="#DC2626" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="104" y1="186" x2="254" y2="128" stroke="#DC2626" stroke-width="2" stroke-dasharray="5,3"/>
+  <circle cx="104" cy="186" r="5" fill="#DC2626"/>
+  <text x="76" y="132" text-anchor="middle" class="lbl-sm red">①</text>
+  <text x="102" y="100" text-anchor="middle" class="lbl-sm red">②</text>
+  <text x="148" y="92" text-anchor="middle" class="lbl-sm red">③</text>
+  <text x="186" y="118" text-anchor="middle" class="lbl-sm red">④</text>
+  <text x="184" y="166" text-anchor="middle" class="lbl-sm red">⑤</text>
+  <text x="150" y="212" text-anchor="middle" class="lbl-sm red">5つの三角形 → 180°×5 ＝ 900°</text>
+</svg>

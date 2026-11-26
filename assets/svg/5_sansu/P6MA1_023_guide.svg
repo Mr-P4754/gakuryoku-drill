@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 232" width="600" height="232" role="img" aria-label="合同な三角形の3つのかき方ガイド">
+  <title>合同な三角形の3つのかき方ガイド</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .sub { font-size: 13px; font-weight: 600; fill: #475569; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 15px; font-weight: 700; }
+      .num-lg { font-size: 17px; font-weight: 700; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .amber { fill: #B45309; }
+      .muted { fill: #64748B; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+    <marker id="arr-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#2563EB"/>
+    </marker>
+    <marker id="arr-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#DC2626"/>
+    </marker>
+    <marker id="arr-dark" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#334155"/>
+    </marker>
+    <marker id="arr-teal" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#0F766E"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="600" height="232" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="20" y="28" class="title">合同な三角形の 3つのかき方</text>
+  <rect x="16" y="44" width="180" height="174" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.5"/>
+  <polygon points="44.0,152.0 170.0,152.0 128.0,74.0" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.8" stroke-linejoin="round"/>
+  <line x1="44" y1="152" x2="170" y2="152" stroke="#2563EB" stroke-width="3.2"/>
+  <line x1="44" y1="152" x2="128" y2="74" stroke="#2563EB" stroke-width="3.2"/>
+  <path d="M 44.00 152.00 L 60.12 137.03 A 22.00 22.00 0 0 1 66.00 152.00 Z" fill="rgba(37,99,235,0.22)" stroke="none"/>
+  <path d="M 60.12 137.03 A 22.00 22.00 0 0 1 66.00 152.00" fill="none" stroke="#2563EB" stroke-width="2.0"/>
+  <text x="106" y="180" text-anchor="middle" class="lbl-sm blue">① 2つの辺と</text>
+  <text x="106" y="200" text-anchor="middle" class="lbl-sm blue">その間の角</text>
+  <rect x="210" y="44" width="180" height="174" rx="10" fill="#F0FDF4" stroke="#059669" stroke-width="1.5"/>
+  <polygon points="238.0,152.0 364.0,152.0 322.0,74.0" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.8" stroke-linejoin="round"/>
+  <line x1="238" y1="152" x2="364" y2="152" stroke="#059669" stroke-width="3.2"/>
+  <path d="M 238.00 152.00 L 254.12 137.03 A 22.00 22.00 0 0 1 260.00 152.00 Z" fill="rgba(5,150,105,0.22)" stroke="none"/>
+  <path d="M 254.12 137.03 A 22.00 22.00 0 0 1 260.00 152.00" fill="none" stroke="#059669" stroke-width="2.0"/>
+  <path d="M 364.00 152.00 L 344.00 152.00 A 20.00 20.00 0 0 1 354.52 134.39 Z" fill="rgba(5,150,105,0.22)" stroke="none"/>
+  <path d="M 344.00 152.00 A 20.00 20.00 0 0 1 354.52 134.39" fill="none" stroke="#059669" stroke-width="2.0"/>
+  <text x="300" y="180" text-anchor="middle" class="lbl-sm green">② 1つの辺と</text>
+  <text x="300" y="200" text-anchor="middle" class="lbl-sm green">その両はしの角</text>
+  <rect x="404" y="44" width="180" height="174" rx="10" fill="#FEF2F2" stroke="#DC2626" stroke-width="1.5"/>
+  <polygon points="432.0,152.0 558.0,152.0 516.0,74.0" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.8" stroke-linejoin="round"/>
+  <polygon points="432.0,152.0 558.0,152.0 516.0,74.0" fill="none" stroke="#DC2626" stroke-width="3.2" stroke-linejoin="round"/>
+  <text x="494" y="180" text-anchor="middle" class="lbl-sm red">③ 3つの辺の長さ</text>
+  <text x="494" y="200" text-anchor="middle" class="lbl-xs">（コンパスを使うよ）</text>
+</svg>

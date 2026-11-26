@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 210" width="240" height="210" role="img" aria-label="立体②（円柱）">
+  <title>立体②（円柱）</title>
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 11.5px; font-weight: 600; fill: #475569; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .dim-sm { font-size: 13px; font-weight: 700; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="240" height="210" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <path d="M 68 62 L 68 158 A 52 18 0 0 0 172 158 L 172 62 Z" fill="#ECFDF5" stroke="#1E293B" stroke-width="2.2"/>
+  <path d="M 68 158 A 52 18 0 0 1 172 158" fill="none" stroke="#94A3B8" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <ellipse cx="120" cy="62" rx="52" ry="18" fill="#A7F3D0" stroke="#1E293B" stroke-width="2.2"/>
+</svg>

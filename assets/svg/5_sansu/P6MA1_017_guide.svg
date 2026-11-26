@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 234" width="540" height="234" role="img" aria-label="いろいろな形の体積の求め方">
+  <title>いろいろな形の体積の求め方</title>
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 11.5px; font-weight: 600; fill: #475569; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .dim-sm { font-size: 13px; font-weight: 700; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="540" height="234" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="270" y="30" text-anchor="middle" class="title">直方体や立方体に分けて体積を求めよう</text>
+  <rect x="14" y="44" width="164" height="176" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.2"/>
+  <text x="96" y="66" text-anchor="middle" class="lbl-sm" fill="#2563EB">① 左右に分ける</text>
+  <polygon points="97.0,115.5 34.0,115.5 57.1,97.9 120.1,97.9" fill="#EFF6FF" stroke="#1E293B" stroke-width="2.0" stroke-linejoin="round"/>
+  <polygon points="97.0,147.0 97.0,115.5 120.1,97.9 120.1,129.4" fill="#BFDBFE" stroke="#1E293B" stroke-width="2.0" stroke-linejoin="round"/>
+  <polygon points="139.0,147.0 97.0,147.0 120.1,129.4 162.1,129.4" fill="#EFF6FF" stroke="#1E293B" stroke-width="2.0" stroke-linejoin="round"/>
+  <polygon points="139.0,168.0 139.0,147.0 162.1,129.4 162.1,150.4" fill="#BFDBFE" stroke="#1E293B" stroke-width="2.0" stroke-linejoin="round"/>
+  <polygon points="34.0,168.0 139.0,168.0 139.0,147.0 97.0,147.0 97.0,115.5 34.0,115.5" fill="#DBEAFE" stroke="#1E293B" stroke-width="2.0" stroke-linejoin="round"/>
+  <line x1="97.0" y1="168.0" x2="97.0" y2="147.0" stroke="#DC2626" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="4,2"/>
+  <text x="96" y="196" text-anchor="middle" class="lbl-xs">左＋右 ＝ 120＋32</text>
+  <text x="96" y="212" text-anchor="middle" class="lbl-xs" fill="#DC2626">＝ 152cm³</text>
+  <rect x="188" y="44" width="164" height="176" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.2"/>
+  <text x="270" y="66" text-anchor="middle" class="lbl-sm" fill="#0F766E">② 上下に分ける</text>
+  <polygon points="271.0,115.5 208.0,115.5 231.1,97.9 294.1,97.9" fill="#ECFDF5" stroke="#1E293B" stroke-width="2.0" stroke-linejoin="round"/>
+  <polygon points="271.0,147.0 271.0,115.5 294.1,97.9 294.1,129.4" fill="#A7F3D0" stroke="#1E293B" stroke-width="2.0" stroke-linejoin="round"/>
+  <polygon points="313.0,147.0 271.0,147.0 294.1,129.4 336.1,129.4" fill="#ECFDF5" stroke="#1E293B" stroke-width="2.0" stroke-linejoin="round"/>
+  <polygon points="313.0,168.0 313.0,147.0 336.1,129.4 336.1,150.4" fill="#A7F3D0" stroke="#1E293B" stroke-width="2.0" stroke-linejoin="round"/>
+  <polygon points="208.0,168.0 313.0,168.0 313.0,147.0 271.0,147.0 271.0,115.5 208.0,115.5" fill="#D1FAE5" stroke="#1E293B" stroke-width="2.0" stroke-linejoin="round"/>
+  <line x1="208.0" y1="147.0" x2="271.0" y2="147.0" stroke="#DC2626" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="4,2"/>
+  <text x="270" y="196" text-anchor="middle" class="lbl-xs">上＋下 ＝ 72＋80</text>
+  <text x="270" y="212" text-anchor="middle" class="lbl-xs" fill="#DC2626">＝ 152cm³</text>
+  <rect x="362" y="44" width="164" height="176" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.2"/>
+  <text x="444" y="66" text-anchor="middle" class="lbl-sm" fill="#D97706">③ 一部を取り除く</text>
+  <polygon points="445.0,115.5 382.0,115.5 405.1,97.9 468.1,97.9" fill="#FEFCE8" stroke="#1E293B" stroke-width="2.0" stroke-linejoin="round"/>
+  <polygon points="445.0,147.0 445.0,115.5 468.1,97.9 468.1,129.4" fill="#FDE68A" stroke="#1E293B" stroke-width="2.0" stroke-linejoin="round"/>
+  <polygon points="487.0,147.0 445.0,147.0 468.1,129.4 510.1,129.4" fill="#FEFCE8" stroke="#1E293B" stroke-width="2.0" stroke-linejoin="round"/>
+  <polygon points="487.0,168.0 487.0,147.0 510.1,129.4 510.1,150.4" fill="#FDE68A" stroke="#1E293B" stroke-width="2.0" stroke-linejoin="round"/>
+  <polygon points="382.0,168.0 487.0,168.0 487.0,147.0 445.0,147.0 445.0,115.5 382.0,115.5" fill="#FEF3C7" stroke="#1E293B" stroke-width="2.0" stroke-linejoin="round"/>
+  <line x1="445.0" y1="115.5" x2="487.0" y2="115.5" stroke="#DC2626" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="4,3"/>
+  <line x1="487.0" y1="115.5" x2="487.0" y2="147.0" stroke="#DC2626" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="4,3"/>
+  <line x1="487.0" y1="115.5" x2="510.1" y2="97.9" stroke="#DC2626" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="4,3"/>
+  <line x1="468.1" y1="97.9" x2="510.1" y2="97.9" stroke="#DC2626" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="4,3"/>
+  <line x1="510.1" y1="97.9" x2="510.1" y2="129.4" stroke="#DC2626" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="4,3"/>
+  <text x="444" y="196" text-anchor="middle" class="lbl-xs">大－欠け ＝ 200－48</text>
+  <text x="444" y="212" text-anchor="middle" class="lbl-xs" fill="#DC2626">＝ 152cm³</text>
+</svg>

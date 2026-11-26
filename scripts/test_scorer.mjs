@@ -85,6 +85,25 @@ assert.equal(
   true
 );
 
+// 9c. 5年生向け (体積 cm³/m³・割合 %・約数列挙区切り・順不同 word_bank)
+assert.equal(scoreAnswer({ question_type: 'number_input', answer: '60', unit_label: 'cm³' }, '60cm3').isCorrect, true);
+assert.equal(scoreAnswer({ question_type: 'number_input', answer: '72', unit_label: 'm³' }, '７２ｍ³').isCorrect, true);
+assert.equal(scoreAnswer({ question_type: 'number_input', answer: '30', unit_label: '%' }, '30％').isCorrect, true);
+assert.equal(scoreAnswer({ question_type: 'text_input', answer: '1，2，4，8' }, '1, 2, 4, 8').isCorrect, true);
+assert.equal(scoreAnswer({ question_type: 'text_input', answer: '1，2，4，8' }, '1、2、4、8').isCorrect, true);
+assert.equal(scoreAnswer({ question_type: 'text_input', answer: '1，2，4，8' }, '1 2 4 8').isCorrect, true);
+assert.equal(scoreAnswer({ question_type: 'text_input', answer: '1，2，4，8' }, '8・4・2・1').isCorrect, true);
+assert.equal(scoreAnswer({ question_type: 'text_input', answer: '1，2，4，8' }, '1, 2, 4').isCorrect, false);
+
+const unorderedProb = {
+  question_type: 'word_bank',
+  answer: '水|空気|適当な温度|発芽|日光|肥料',
+  accepted_answers: 'unordered:0,1,2;unordered:4,5',
+};
+assert.equal(scoreAnswer(unorderedProb, ['適当な温度', '水', '空気', '発芽', '肥料', '日光']).isCorrect, true);
+assert.equal(scoreAnswer(unorderedProb, ['水', '水', '空気', '発芽', '日光', '肥料']).isCorrect, false);
+assert.equal(scoreAnswer(unorderedProb, ['水', '空気', '適当な温度', '日光', '発芽', '肥料']).isCorrect, false);
+
 // 10. self_check
 assert.equal(scoreAnswer({ question_type: 'self_check_draw', answer: '働' }, { selfJudgedCorrect: true }).isCorrect, true);
 assert.equal(scoreAnswer({ question_type: 'self_check_text', answer: '模範解答' }, { selfJudgedCorrect: false, text: 'てすと' }).isCorrect, false);

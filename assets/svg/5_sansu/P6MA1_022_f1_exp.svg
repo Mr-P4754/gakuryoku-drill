@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 550 258" width="550" height="258" role="img" aria-label="合同な三角形ABCとEDFの対応解説図">
+  <title>合同な三角形ABCとEDFの対応解説図</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .sub { font-size: 13px; font-weight: 600; fill: #475569; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 15px; font-weight: 700; }
+      .num-lg { font-size: 17px; font-weight: 700; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .amber { fill: #B45309; }
+      .muted { fill: #64748B; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+    <marker id="arr-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#2563EB"/>
+    </marker>
+    <marker id="arr-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#DC2626"/>
+    </marker>
+    <marker id="arr-dark" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#334155"/>
+    </marker>
+    <marker id="arr-teal" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#0F766E"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="550" height="258" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="20" y="28" class="title">向きをそろえると、対応する頂点・辺・角がすぐわかる！</text>
+  <polygon points="66.0,74.0 146.0,74.0 66.0,206.0" fill="#EFF6FF" stroke="#1E293B" stroke-width="2.2" stroke-linejoin="round"/>
+  <polyline points="78.0,74.0 78.0,86.0 66.0,86.0" fill="none" stroke="#1E293B" stroke-width="1.8"/>
+  <line x1="66.0" y1="74.0" x2="146.0" y2="74.0" stroke="#DC2626" stroke-width="3.4"/>
+  <text x="52.0" y="79.0" text-anchor="middle" class="lbl blue">A</text>
+  <text x="174.0" y="79.0" text-anchor="middle" class="lbl-sm red">C(60°)</text>
+  <text x="66.0" y="226.0" text-anchor="middle" class="lbl-sm">B(30°)</text>
+  <text x="106.0" y="66.0" text-anchor="middle" class="lbl-xs red">2cm</text>
+  <polygon points="268.0,74.0 348.0,74.0 268.0,206.0" fill="#F0FDF4" stroke="#1E293B" stroke-width="2.2" stroke-linejoin="round"/>
+  <polyline points="280.0,74.0 280.0,86.0 268.0,86.0" fill="none" stroke="#1E293B" stroke-width="1.8"/>
+  <line x1="268.0" y1="74.0" x2="348.0" y2="74.0" stroke="#DC2626" stroke-width="3.4"/>
+  <text x="254.0" y="79.0" text-anchor="middle" class="lbl blue">E</text>
+  <text x="376.0" y="79.0" text-anchor="middle" class="lbl-sm red">D(60°)</text>
+  <text x="268.0" y="226.0" text-anchor="middle" class="lbl-sm">F(30°)</text>
+  <text x="308.0" y="66.0" text-anchor="middle" class="lbl-xs red">2cm</text>
+  <path d="M 78 58 Q 167 34 256 58" fill="none" stroke="#2563EB" stroke-width="1.6" marker-start="url(#arr-blue)" marker-end="url(#arr-blue)"/>
+  <text x="167" y="45" text-anchor="middle" class="lbl-xs blue halo">A ↔ E（90°）</text>
+  <path d="M 94 214 Q 167 230 240 214" fill="none" stroke="#059669" stroke-width="1.6" marker-start="url(#arr-teal)" marker-end="url(#arr-teal)"/>
+  <text x="167" y="244" text-anchor="middle" class="lbl-xs green">B ↔ F（30°）　C ↔ D（60°）</text>
+  <text x="424" y="116" class="lbl red">辺AC ↔ 辺ED</text>
+  <text x="424" y="144" class="lbl-sm">長さ ＝ 2cm</text>
+  <text x="424" y="172" class="lbl red">角D ＝ 60°</text>
+</svg>

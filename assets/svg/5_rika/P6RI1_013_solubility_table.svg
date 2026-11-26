@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 290" width="660" height="290">
+  <defs>
+    <marker id="arrDark" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#334155"/>
+    </marker>
+    <marker id="arrBlue" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#0284C7"/>
+    </marker>
+    <marker id="arrRed" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#DC2626"/>
+    </marker>
+    <marker id="arrGreen" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#059669"/>
+    </marker>
+    <marker id="arrAmber" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#D97706"/>
+    </marker>
+    
+  </defs>
+  <rect width="660" height="290" rx="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <text x="330" y="27" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="15" font-weight="bold" fill="#065F46">食塩とミョウバンのとけ方・とり出し方のまとめ</text>
+
+    <rect x="18" y="42" width="624" height="234" rx="10" fill="#FFFFFF" stroke="#64748B" stroke-width="1.5"/>
+
+    <!-- Header backgrounds -->
+    <rect x="148" y="42" width="246" height="28" fill="#EFF6FF"/>
+    <rect x="394" y="42" width="248" height="28" rx="0" fill="#ECFDF5"/>
+    <rect x="18" y="42" width="130" height="72" fill="#F1F5F9"/>
+
+    <!-- Grid lines -->
+    <line x1="148" y1="42" x2="148" y2="276" stroke="#64748B" stroke-width="1.4"/>
+    <line x1="271" y1="70" x2="271" y2="276" stroke="#94A3B8" stroke-width="1.1"/>
+    <line x1="394" y1="42" x2="394" y2="276" stroke="#64748B" stroke-width="1.4"/>
+    <line x1="518" y1="70" x2="518" y2="276" stroke="#94A3B8" stroke-width="1.1"/>
+    <line x1="148" y1="70" x2="642" y2="70" stroke="#94A3B8" stroke-width="1.2"/>
+    <line x1="18" y1="114" x2="642" y2="114" stroke="#64748B" stroke-width="1.4"/>
+    <line x1="18" y1="195" x2="642" y2="195" stroke="#94A3B8" stroke-width="1.2"/>
+
+    <!-- Top headers -->
+    <text x="271" y="61" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#1D4ED8">とかす場合</text>
+    <text x="518" y="61" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#065F46">とり出す場合</text>
+
+    <!-- Subheaders -->
+    <text x="209" y="90" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#1E293B">水の量を</text>
+    <text x="209" y="106" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#1E293B">ふやす</text>
+
+    <text x="332" y="90" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#1E293B">水の温度を</text>
+    <text x="332" y="106" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#1E293B">上げる</text>
+
+    <text x="456" y="90" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#065F46">水を [ ⑤ ]</text>
+    <text x="456" y="106" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#065F46">させる</text>
+
+    <text x="580" y="90" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#065F46">水よう液を</text>
+    <text x="580" y="106" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#065F46">[ ⑥ ]</text>
+
+    <!-- Row 1: 食塩の水よう液 -->
+    <text x="83" y="138" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#0F172A">食塩の水よう液</text>
+    <!-- Mini beaker icon -->
+    <rect x="64" y="148" width="38" height="36" rx="3" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.3"/>
+    <rect x="65" y="164" width="36" height="19" fill="#93C5FD"/>
+
+    <text x="209" y="146" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" fill="#334155">水にとける量が、</text>
+    <text x="209" y="168" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#1D4ED8">[ ⑦ ]</text>
+
+    <text x="332" y="146" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" fill="#334155">とける量は、ほとんど</text>
+    <text x="332" y="168" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#1D4ED8">[ ⑧ ]</text>
+
+    <text x="456" y="148" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#059669">とけている物を</text>
+    <text x="456" y="166" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#059669">とり出せる。</text>
+
+    <text x="580" y="148" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" fill="#B91C1C">とけている物を</text>
+    <text x="580" y="166" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="10.5" fill="#B91C1C">ほとんどとり出せない。</text>
+
+    <!-- Row 2: ミョウバンの水よう液 -->
+    <text x="83" y="216" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#0F172A">ミョウバンの</text>
+    <text x="83" y="232" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#0F172A">水よう液</text>
+    <rect x="64" y="238" width="38" height="30" rx="3" fill="#ECFDF5" stroke="#059669" stroke-width="1.3"/>
+    <rect x="65" y="250" width="36" height="17" fill="#6EE7B7"/>
+
+    <text x="209" y="226" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" fill="#334155">水にとける量が、</text>
+    <text x="209" y="248" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#1D4ED8">[ ⑨ ]</text>
+
+    <text x="332" y="226" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" fill="#334155">水にとける量が、</text>
+    <text x="332" y="248" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#1D4ED8">[ ⑩ ]</text>
+
+    <text x="456" y="228" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#059669">とけている物を</text>
+    <text x="456" y="246" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#059669">とり出せる。</text>
+
+    <text x="580" y="228" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#059669">とけている物を</text>
+    <text x="580" y="246" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#059669">とり出せる。</text>
+    </svg>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 440" width="760" height="440" role="img" aria-label="図1 日本の主な地形（山脈・高地・高原・盆地・台地・平野）の立体模式図">
+  <style>
+    text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans CJK JP', sans-serif; }
+  </style>
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#BAE6FD"/>
+      <stop offset="100%" stop-color="#F0F9FF"/>
+    </linearGradient>
+    <linearGradient id="seaGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+    <linearGradient id="mtnGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#64748B"/>
+      <stop offset="45%" stop-color="#4D7C0F"/>
+      <stop offset="100%" stop-color="#3F6212"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="760" height="440" fill="#FFFFFF"/>
+  <rect x="12" y="12" width="736" height="416" rx="14" fill="#F8FAFC" stroke="#334155" stroke-width="1.8"/>
+  <text x="30" y="42" font-size="18" font-weight="700" fill="#0F172A">図１　山地と平地のいろいろな地形</text>
+
+  <!-- Main 3D Landscape Frame -->
+  <g transform="translate(28, 56)">
+    <clipPath id="sceneClip"><rect x="0" y="0" width="704" height="354" rx="10"/></clipPath>
+    <g clip-path="url(#sceneClip)">
+      <!-- Sky -->
+      <rect x="0" y="0" width="704" height="120" fill="url(#skyGrad)"/>
+      <!-- Distant Mountain Range (山脈) -->
+      <path d="M 0,108 L 55,66 L 96,86 L 146,42 L 194,76 L 248,36 L 298,64 L 352,26 L 410,60 L 458,34 L 516,66 L 568,46 L 622,74 L 672,54 L 704,76 L 704,170 L 0,170 Z" fill="url(#mtnGrad)" stroke="#334155" stroke-width="1.4"/>
+      <!-- Snow peaks on 山脈 -->
+      <polygon points="146,42 132,57 146,53 158,57" fill="#FFFFFF" opacity="0.9"/>
+      <polygon points="248,36 232,54 248,49 262,54" fill="#FFFFFF" opacity="0.9"/>
+      <polygon points="352,26 334,48 352,42 368,48" fill="#FFFFFF" opacity="0.92"/>
+      <polygon points="458,34 442,52 458,47 472,52" fill="#FFFFFF" opacity="0.9"/>
+
+      <!-- Left broad rolling Highland (高地) -->
+      <path d="M 0,98 Q 62,74 132,96 Q 178,112 204,132 L 154,174 L 0,180 Z" fill="#65A30D" stroke="#365314" stroke-width="1.5"/>
+      <path d="M 20,114 Q 72,96 128,114" fill="none" stroke="#84CC16" stroke-width="2" opacity="0.7"/>
+
+      <!-- Right high flat Plateau (高原) -->
+      <path d="M 480,102 L 566,86 L 680,92 L 704,104 L 704,190 L 520,196 L 456,162 Z" fill="#84CC16" stroke="#365314" stroke-width="1.5"/>
+      <!-- Flat green top of 高原 -->
+      <polygon points="502,108 576,94 676,100 662,124 532,128" fill="#BEF264" stroke="#4D7C0F" stroke-width="1.2"/>
+      <!-- Small grazing cows / trees on 高原 -->
+      <circle cx="540" cy="112" r="4" fill="#15803D"/>
+      <circle cx="552" cy="110" r="4.5" fill="#15803D"/>
+      <circle cx="642" cy="112" r="4" fill="#15803D"/>
+
+      <!-- Surrounding hills around Basin (盆地) -->
+      <path d="M 0,164 L 84,154 L 138,194 L 222,202 L 328,194 L 392,158 L 468,144 L 520,188 L 430,236 L 260,250 L 90,234 L 0,248 Z" fill="#4D7C0F" stroke="#365314" stroke-width="1.4"/>
+
+      <!-- Flat Basin floor surrounded by mountains (盆地) -->
+      <ellipse cx="242" cy="176" rx="116" ry="30" fill="#FEF08A" stroke="#A16207" stroke-width="1.4"/>
+      <!-- Little town & orchard in 盆地 -->
+      <rect x="192" y="166" width="12" height="9" fill="#F97316" stroke="#7C2D12" stroke-width="0.9"/>
+      <rect x="208" y="170" width="14" height="9" fill="#FB923C" stroke="#7C2D12" stroke-width="0.9"/>
+      <rect x="256" y="168" width="12" height="9" fill="#F97316" stroke="#7C2D12" stroke-width="0.9"/>
+      <rect x="274" y="172" width="14" height="8" fill="#FDBA74" stroke="#7C2D12" stroke-width="0.9"/>
+      <line x1="156" y1="184" x2="220" y2="184" stroke="#CA8A04" stroke-width="1.2"/>
+      <line x1="164" y1="191" x2="232" y2="191" stroke="#CA8A04" stroke-width="1.2"/>
+
+      <!-- Foreground hills flanking Plain -->
+      <path d="M 0,192 Q 72,184 148,224 L 204,260 L 0,286 Z" fill="#65A30D" stroke="#365314" stroke-width="1.4"/>
+      <path d="M 520,182 Q 618,162 704,174 L 704,354 L 490,354 L 502,256 Z" fill="#4D7C0F" stroke="#365314" stroke-width="1.4"/>
+
+      <!-- Elevated Terrace / Tableland (台地) -->
+      <path d="M 382,196 L 516,184 L 558,208 L 546,242 L 424,250 L 382,226 Z" fill="#D97706" stroke="#78350F" stroke-width="1.5"/>
+      <polygon points="382,196 516,184 558,208 424,220" fill="#FDE68A" stroke="#92400E" stroke-width="1.3"/>
+      <!-- Cliff face vertical strokes on 台地 -->
+      <line x1="404" y1="210" x2="404" y2="236" stroke="#92400E" stroke-width="1.2"/>
+      <line x1="436" y1="220" x2="436" y2="248" stroke="#92400E" stroke-width="1.2"/>
+      <line x1="472" y1="216" x2="472" y2="244" stroke="#92400E" stroke-width="1.2"/>
+      <line x1="510" y1="213" x2="510" y2="242" stroke="#92400E" stroke-width="1.2"/>
+
+      <!-- Coastal Flat Plain (平野) -->
+      <path d="M 88,266 L 236,246 L 424,250 L 544,242 L 502,318 L 368,314 L 182,306 L 88,284 Z" fill="#D9F99D" stroke="#4D7C0F" stroke-width="1.4"/>
+      <!-- Rice fields grid on 平野 -->
+      <g stroke="#65A30D" stroke-width="1" opacity="0.75">
+        <line x1="140" y1="274" x2="250" y2="274"/>
+        <line x1="152" y1="286" x2="262" y2="286"/>
+        <line x1="180" y1="262" x2="174" y2="296"/>
+        <line x1="216" y1="260" x2="210" y2="298"/>
+      </g>
+      <!-- City houses & buildings on 平野 -->
+      <g stroke="#334155" stroke-width="0.9">
+        <rect x="424" y="268" width="14" height="18" fill="#E2E8F0"/>
+        <rect x="442" y="260" width="16" height="26" fill="#CBD5E1"/>
+        <rect x="462" y="272" width="12" height="14" fill="#FDBA74"/>
+        <rect x="406" y="276" width="12" height="12" fill="#93C5FD"/>
+      </g>
+
+      <!-- Sea (海) at bottom -->
+      <path d="M 0,282 Q 110,276 218,302 Q 326,314 446,306 Q 536,304 590,354 L 0,354 Z" fill="url(#seaGrad)" stroke="#0369A1" stroke-width="1.5"/>
+      <!-- Waves -->
+      <path d="M 60,322 Q 74,316 88,322 M 180,334 Q 196,328 212,334 M 330,336 Q 346,330 362,336 M 440,328 Q 456,322 472,328" fill="none" stroke="#E0F2FE" stroke-width="2" stroke-linecap="round"/>
+      <text x="86" y="344" font-size="14" font-weight="700" fill="#FFFFFF">海</text>
+
+      <!-- River flowing from mountains -> basin -> around terrace -> plain -> sea -->
+      <path d="M 382,116 Q 368,144 338,164 Q 312,180 342,202 Q 374,224 358,256 Q 344,284 328,312" fill="none" stroke="#0EA5E9" stroke-width="9" stroke-linecap="round"/>
+      <path d="M 382,116 Q 368,144 338,164 Q 312,180 342,202 Q 374,224 358,256 Q 344,284 328,312" fill="none" stroke="#BAE6FD" stroke-width="2.5" stroke-linecap="round"/>
+
+      <!-- Clean pill badges for all 6 landforms (matching PDF 図1 exactly!) -->
+      <g font-weight="800" font-size="15">
+        <!-- 山脈 -->
+        <rect x="318" y="8" width="68" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.94" stroke="#334155" stroke-width="1.6"/>
+        <text x="352" y="27" text-anchor="middle" fill="#0F172A">山脈</text>
+        <!-- 高地 -->
+        <rect x="24" y="102" width="68" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.94" stroke="#365314" stroke-width="1.6"/>
+        <text x="58" y="121" text-anchor="middle" fill="#1A2E05">高地</text>
+        <!-- 高原 -->
+        <rect x="572" y="96" width="68" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.94" stroke="#365314" stroke-width="1.6"/>
+        <text x="606" y="115" text-anchor="middle" fill="#1A2E05">高原</text>
+        <!-- 盆地 -->
+        <rect x="200" y="156" width="84" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.95" stroke="#B45309" stroke-width="1.8"/>
+        <text x="242" y="178" text-anchor="middle" fill="#92400E">盆地</text>
+        <!-- 台地 -->
+        <rect x="434" y="188" width="68" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.95" stroke="#B45309" stroke-width="1.8"/>
+        <text x="468" y="207" text-anchor="middle" fill="#92400E">台地</text>
+        <!-- 平野 -->
+        <rect x="260" y="264" width="68" height="28" rx="14" fill="#FFFFFF" fill-opacity="0.95" stroke="#15803D" stroke-width="1.8"/>
+        <text x="294" y="283" text-anchor="middle" fill="#14532D">平野</text>
+      </g>
+    </g>
+    <rect x="0" y="0" width="704" height="354" rx="10" fill="none" stroke="#334155" stroke-width="1.6"/>
+  </g>
+</svg>

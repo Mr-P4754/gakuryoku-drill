@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 390" width="920" height="390" role="img" aria-label="自動車工場の2つの作業（絵1：ロボットによる車体つなぎ合わせ、絵2：ベルトコンベヤーでの部品取り付け）">
+  <style>
+    text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans CJK JP', sans-serif; }
+  </style>
+  <defs>
+    <radialGradient id="sparkGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="35%" stop-color="#FEF08A"/>
+      <stop offset="70%" stop-color="#F97316" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#F97316" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="920" height="390" fill="#FFFFFF"/>
+
+  <!-- ================= 絵1: Robotic Welding (100% original vector) ================= -->
+  <rect x="14" y="14" width="438" height="362" rx="14" fill="#F8FAFC" stroke="#334155" stroke-width="1.8"/>
+  <rect x="28" y="26" width="66" height="30" rx="8" fill="#EA580C"/>
+  <text x="61" y="47" text-anchor="middle" font-size="16" font-weight="800" fill="#FFFFFF">絵１</text>
+  <text x="106" y="47" font-size="14" font-weight="700" fill="#334155">プレスした部品をつなぎ合わせる作業</text>
+
+  <g transform="translate(28, 66)">
+    <!-- Factory interior background -->
+    <rect x="0" y="0" width="410" height="292" rx="10" fill="#E2E8F0" stroke="#475569" stroke-width="1.6"/>
+    <!-- Steel floor & safety stripes -->
+    <polygon points="0,210 410,210 410,292 0,292" fill="#94A3B8"/>
+    <line x1="0" y1="210" x2="410" y2="210" stroke="#475569" stroke-width="2"/>
+    <rect x="110" y="220" width="190" height="58" rx="6" fill="#64748B" stroke="#334155" stroke-width="1.6"/>
+    <!-- Conveyor track rails -->
+    <line x1="138" y1="220" x2="112" y2="292" stroke="#334155" stroke-width="3"/>
+    <line x1="272" y1="220" x2="298" y2="292" stroke="#334155" stroke-width="3"/>
+    <!-- Overhead steel beams -->
+    <rect x="0" y="0" width="410" height="18" fill="#64748B"/>
+    <rect x="14" y="18" width="16" height="192" fill="#CBD5E1" stroke="#64748B" stroke-width="1.2"/>
+    <rect x="380" y="18" width="16" height="192" fill="#CBD5E1" stroke="#64748B" stroke-width="1.2"/>
+
+    <!-- Unpainted metal car body shell (front-3/4 view) -->
+    <g transform="translate(122, 118)">
+      <!-- Lower body -->
+      <path d="M 10,82 L 156,82 L 164,54 L 146,42 L 20,42 L 4,56 Z" fill="#CBD5E1" stroke="#1E293B" stroke-width="2"/>
+      <!-- Cabin pillars & roof frame -->
+      <path d="M 24,42 L 44,4 L 122,4 L 142,42 Z" fill="#94A3B8" stroke="#1E293B" stroke-width="2"/>
+      <!-- Hollow windshield opening -->
+      <polygon points="36,38 50,12 116,12 130,38" fill="#F1F5F9" stroke="#334155" stroke-width="1.6"/>
+      <!-- Hood seams & grille cutout -->
+      <path d="M 24,46 L 142,46" stroke="#475569" stroke-width="1.4"/>
+      <rect x="52" y="56" width="62" height="16" rx="4" fill="#64748B" stroke="#334155" stroke-width="1.3"/>
+      <rect x="18" y="55" width="24" height="12" rx="3" fill="#F8FAFC" stroke="#334155" stroke-width="1.2"/>
+      <rect x="124" y="55" width="24" height="12" rx="3" fill="#F8FAFC" stroke="#334155" stroke-width="1.2"/>
+    </g>
+
+    <!-- Left Orange Industrial Robot Arm -->
+    <g>
+      <rect x="26" y="218" width="52" height="44" rx="6" fill="#475569" stroke="#1E293B" stroke-width="1.8"/>
+      <rect x="36" y="198" width="32" height="22" rx="4" fill="#F97316" stroke="#9A3412" stroke-width="1.8"/>
+      <!-- Arm segment 1 -->
+      <line x1="52" y1="202" x2="72" y2="128" stroke="#EA580C" stroke-width="16" stroke-linecap="round"/>
+      <line x1="52" y1="202" x2="72" y2="128" stroke="#FDBA74" stroke-width="4" stroke-linecap="round"/>
+      <!-- Arm segment 2 -->
+      <line x1="72" y1="128" x2="152" y2="144" stroke="#F97316" stroke-width="12" stroke-linecap="round"/>
+      <!-- Joints -->
+      <circle cx="52" cy="202" r="9" fill="#334155" stroke="#0F172A" stroke-width="1.5"/>
+      <circle cx="72" cy="128" r="9" fill="#334155" stroke="#0F172A" stroke-width="1.5"/>
+      <!-- Welding gun tip -->
+      <path d="M 148,140 L 166,148 L 154,158" fill="none" stroke="#1E293B" stroke-width="4" stroke-linecap="round"/>
+    </g>
+
+    <!-- Right Orange Industrial Robot Arm -->
+    <g>
+      <rect x="332" y="218" width="52" height="44" rx="6" fill="#475569" stroke="#1E293B" stroke-width="1.8"/>
+      <rect x="342" y="198" width="32" height="22" rx="4" fill="#F97316" stroke="#9A3412" stroke-width="1.8"/>
+      <line x1="358" y1="202" x2="338" y2="118" stroke="#EA580C" stroke-width="16" stroke-linecap="round"/>
+      <line x1="358" y1="202" x2="338" y2="118" stroke="#FDBA74" stroke-width="4" stroke-linecap="round"/>
+      <line x1="338" y1="118" x2="264" y2="140" stroke="#F97316" stroke-width="12" stroke-linecap="round"/>
+      <circle cx="358" cy="202" r="9" fill="#334155" stroke="#0F172A" stroke-width="1.5"/>
+      <circle cx="338" cy="118" r="9" fill="#334155" stroke="#0F172A" stroke-width="1.5"/>
+      <path d="M 268,136 L 250,148 L 262,158" fill="none" stroke="#1E293B" stroke-width="4" stroke-linecap="round"/>
+    </g>
+
+    <!-- Bright Welding Sparks at both joints! -->
+    <g>
+      <circle cx="164" cy="150" r="24" fill="url(#sparkGlow)"/>
+      <circle cx="250" cy="148" r="28" fill="url(#sparkGlow)"/>
+      <g stroke="#FACC15" stroke-width="2" stroke-linecap="round">
+        <line x1="250" y1="148" x2="226" y2="120"/>
+        <line x1="250" y1="148" x2="278" y2="122"/>
+        <line x1="250" y1="148" x2="284" y2="156"/>
+        <line x1="250" y1="148" x2="232" y2="178"/>
+        <line x1="250" y1="148" x2="262" y2="182"/>
+        <line x1="164" y1="150" x2="142" y2="124"/>
+        <line x1="164" y1="150" x2="184" y2="126"/>
+        <line x1="164" y1="150" x2="140" y2="172"/>
+      </g>
+      <circle cx="250" cy="148" r="6" fill="#FFFFFF"/>
+      <circle cx="164" cy="150" r="5" fill="#FFFFFF"/>
+    </g>
+  </g>
+
+  <!-- ================= 絵2: Overhead Conveyor Assembly (100% original vector) ================= -->
+  <rect x="468" y="14" width="438" height="362" rx="14" fill="#F8FAFC" stroke="#334155" stroke-width="1.8"/>
+  <rect x="482" y="26" width="66" height="30" rx="8" fill="#2563EB"/>
+  <text x="515" y="47" text-anchor="middle" font-size="16" font-weight="800" fill="#FFFFFF">絵２</text>
+  <text x="560" y="47" font-size="14" font-weight="700" fill="#334155">車体にさまざまな部品を取り付ける作業</text>
+
+  <g transform="translate(482, 66)">
+    <rect x="0" y="0" width="410" height="292" rx="10" fill="#F0F9FF" stroke="#475569" stroke-width="1.6"/>
+    <!-- Overhead Conveyor Rail (diagonal) -->
+    <line x1="0" y1="24" x2="410" y2="62" stroke="#475569" stroke-width="12"/>
+    <line x1="0" y1="24" x2="410" y2="62" stroke="#CBD5E1" stroke-width="4" stroke-dasharray="12,8"/>
+    <!-- Steel hanger arms holding car -->
+    <path d="M 106,36 L 86,162 M 310,54 L 304,166" stroke="#334155" stroke-width="7" stroke-linecap="round"/>
+    <path d="M 78,162 L 116,162 M 286,166 L 322,166" stroke="#1E293B" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- Elevated Painted Car Body (blue sedan lifted up) -->
+    <g transform="translate(68, 52)">
+      <!-- Car underbody / chassis -->
+      <path d="M 16,104 L 256,112 L 252,126 L 20,118 Z" fill="#475569" stroke="#1E293B" stroke-width="1.6"/>
+      <!-- Painted body -->
+      <path d="M 10,104 L 20,66 L 68,54 L 116,18 L 210,20 L 248,58 L 268,72 L 262,110 Z" fill="#3B82F6" stroke="#1E3A8A" stroke-width="2"/>
+      <!-- Windows -->
+      <polygon points="84,54 120,26 164,26 164,56" fill="#E0F2FE" stroke="#1E3A8A" stroke-width="1.5"/>
+      <polygon points="172,56 172,26 206,27 236,57" fill="#E0F2FE" stroke="#1E3A8A" stroke-width="1.5"/>
+      <!-- Wheel arches & tires -->
+      <circle cx="64" cy="106" r="24" fill="#1E293B" stroke="#0F172A" stroke-width="2"/>
+      <circle cx="64" cy="106" r="11" fill="#CBD5E1"/>
+      <circle cx="218" cy="112" r="24" fill="#1E293B" stroke="#0F172A" stroke-width="2"/>
+      <circle cx="218" cy="112" r="11" fill="#CBD5E1"/>
+    </g>
+
+    <!-- Factory floor -->
+    <rect x="0" y="254" width="410" height="38" fill="#CBD5E1"/>
+    <line x1="0" y1="254" x2="410" y2="254" stroke="#64748B" stroke-width="1.8"/>
+
+    <!-- Parts cart on left -->
+    <g transform="translate(20, 206)">
+      <rect x="0" y="10" width="66" height="34" rx="4" fill="#FDE68A" stroke="#B45309" stroke-width="1.5"/>
+      <circle cx="14" cy="46" r="5" fill="#334155"/><circle cx="52" cy="46" r="5" fill="#334155"/>
+      <rect x="10" y="0" width="20" height="12" rx="2" fill="#94A3B8" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="48" cy="6" r="7" fill="#475569"/>
+    </g>
+
+    <!-- Worker 1 (left, attaching engine/underbody part) -->
+    <g transform="translate(154, 198)">
+      <!-- Hard hat -->
+      <path d="M -12,-14 Q 0,-28 12,-14 Z" fill="#FACC15" stroke="#A16207" stroke-width="1.4"/>
+      <circle cx="0" cy="-8" r="10" fill="#FDE68A" stroke="#1E293B" stroke-width="1.4"/>
+      <!-- Body (blue factory uniform) -->
+      <rect x="-14" y="2" width="28" height="38" rx="6" fill="#0284C7" stroke="#0C4A6E" stroke-width="1.5"/>
+      <!-- Raised arms working underneath car -->
+      <path d="M -12,10 L -24,-22 M 12,10 L 18,-26" stroke="#0284C7" stroke-width="7" stroke-linecap="round"/>
+      <!-- Legs -->
+      <line x1="-6" y1="40" x2="-8" y2="62" stroke="#1E3A8A" stroke-width="8" stroke-linecap="round"/>
+      <line x1="6" y1="40" x2="8" y2="62" stroke="#1E3A8A" stroke-width="8" stroke-linecap="round"/>
+    </g>
+
+    <!-- Worker 2 (right, tightening bolts with tool) -->
+    <g transform="translate(278, 200)">
+      <path d="M -12,-14 Q 0,-28 12,-14 Z" fill="#FFFFFF" stroke="#475569" stroke-width="1.4"/>
+      <circle cx="0" cy="-8" r="10" fill="#FDE68A" stroke="#1E293B" stroke-width="1.4"/>
+      <rect x="-14" y="2" width="28" height="38" rx="6" fill="#0284C7" stroke="#0C4A6E" stroke-width="1.5"/>
+      <path d="M -12,10 L -26,-20 M 12,10 L 2,-24" stroke="#0284C7" stroke-width="7" stroke-linecap="round"/>
+      <!-- Tool -->
+      <line x1="-26" y1="-20" x2="-18" y2="-34" stroke="#475569" stroke-width="4" stroke-linecap="round"/>
+      <line x1="-6" y1="40" x2="-8" y2="60" stroke="#1E3A8A" stroke-width="8" stroke-linecap="round"/>
+      <line x1="6" y1="40" x2="8" y2="60" stroke="#1E3A8A" stroke-width="8" stroke-linecap="round"/>
+    </g>
+
+    <!-- Conveyor direction arrow -->
+    <g transform="translate(310, 22)">
+      <polygon points="0,4 36,7 36,1 50,10 35,17 35,12 0,9" fill="#22C55E" stroke="#15803D" stroke-width="1.1"/>
+    </g>
+  </g>
+</svg>

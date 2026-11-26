@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 400" width="920" height="400" role="img" aria-label="日本の南のはし・沖ノ鳥島の護岸工事と周囲200海里の排他的経済水域（EEZ）のしくみ図">
+  <style>
+    text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans CJK JP', sans-serif; }
+  </style>
+  <rect width="920" height="400" fill="#FFFFFF"/>
+  <rect x="12" y="12" width="896" height="376" rx="14" fill="#EFF6FF" stroke="#0284C7" stroke-width="2"/>
+  <text x="460" y="44" text-anchor="middle" font-size="19" font-weight="700" fill="#0F172A">沖ノ鳥島を守る工事と排他的経済水域（EEZ）</text>
+
+  <!-- Left: 200 Nautical Mile Circular EEZ around Okinotorishima -->
+  <g transform="translate(30, 62)">
+    <rect x="0" y="0" width="388" height="308" rx="12" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.6"/>
+    <!-- Big EEZ Circle -->
+    <circle cx="194" cy="158" r="126" fill="#38BDF8" fill-opacity="0.32" stroke="#1D4ED8" stroke-width="2.6" stroke-dasharray="8,4"/>
+    <!-- Radius arrow -->
+    <line x1="194" y1="158" x2="318" y2="158" stroke="#DC2626" stroke-width="2.2"/>
+    <polygon points="318,158 308,153 308,163" fill="#DC2626"/>
+    <rect x="200" y="128" width="108" height="22" rx="6" fill="#FFFFFF" stroke="#DC2626" stroke-width="1.2"/>
+    <text x="254" y="143" text-anchor="middle" font-size="10.5" font-weight="800" fill="#B91C1C">200海里(約370km)</text>
+
+    <!-- Center Island (Okinotorishima) -->
+    <circle cx="194" cy="158" r="12" fill="#CBD5E1" stroke="#334155" stroke-width="2"/>
+    <circle cx="194" cy="158" r="5" fill="#84CC16" stroke="#365314" stroke-width="1.2"/>
+    <rect x="132" y="176" width="124" height="24" rx="6" fill="#FEF2F2" stroke="#DC2626" stroke-width="1.5"/>
+    <text x="194" y="193" text-anchor="middle" font-size="12.5" font-weight="800" fill="#991B1B">沖ノ鳥島（南のはし）</text>
+
+    <!-- Fish icons (水産資源) inside EEZ -->
+    <g transform="translate(124, 118)" fill="#0284C7">
+      <ellipse cx="0" cy="0" rx="10" ry="4.5"/><polygon points="-10,0 -16,-4.5 -16,4.5"/>
+      <ellipse cx="18" cy="10" rx="8.5" ry="3.8"/><polygon points="9.5,10 4.5,6.2 4.5,13.8"/>
+    </g>
+    <rect x="108" y="76" width="118" height="22" rx="6" fill="#FFFFFF" fill-opacity="0.9" stroke="#0284C7" stroke-width="1.1"/>
+    <text x="167" y="91" text-anchor="middle" font-size="11.5" font-weight="800" fill="#0369A1">魚などの水産資源</text>
+
+    <!-- Seabed resources badge -->
+    <rect x="92" y="226" width="204" height="36" rx="8" fill="#FEF3C7" stroke="#D97706" stroke-width="1.4"/>
+    <text x="194" y="242" text-anchor="middle" font-size="12" font-weight="800" fill="#92400E">天然ガス・レアメタルなどの</text>
+    <text x="194" y="257" text-anchor="middle" font-size="12" font-weight="800" fill="#92400E">海底資源もふくまれる！</text>
+
+    <text x="194" y="24" text-anchor="middle" font-size="14" font-weight="800" fill="#1E3A8A">排他的経済水域（約40万km²）</text>
+    <text x="194" y="298" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1E3A8A">※日本の陸地面積（約38万km²）より広い！</text>
+  </g>
+
+  <!-- Right: Cross-section of Seawall Construction + Reason Summary -->
+  <g transform="translate(436, 62)">
+    <rect x="0" y="0" width="454" height="170" rx="12" fill="#FFFFFF" stroke="#0369A1" stroke-width="1.6"/>
+    <text x="227" y="24" text-anchor="middle" font-size="14.5" font-weight="800" fill="#0F172A">護岸工事のようす（断面イメージ）</text>
+    <!-- Sky & Ocean -->
+    <rect x="16" y="34" width="422" height="122" rx="8" fill="#E0F2FE"/>
+    <rect x="16" y="92" width="422" height="64" fill="#38BDF8" opacity="0.65"/>
+    <!-- Wave erosion arrows -->
+    <path d="M 38,88 Q 56,78 74,88" fill="none" stroke="#0369A1" stroke-width="2.5"/>
+    <text x="72" y="54" text-anchor="middle" font-size="11.5" font-weight="700" fill="#0369A1">波のしん食・</text>
+    <text x="72" y="69" text-anchor="middle" font-size="11.5" font-weight="700" fill="#0369A1">海面の上昇</text>
+    <!-- Concrete seawall ring protecting tiny rock islet -->
+    <path d="M 140,156 L 154,84 L 300,84 L 314,156 Z" fill="#94A3B8" stroke="#334155" stroke-width="2"/>
+    <!-- Concrete blocks -->
+    <rect x="150" y="76" width="24" height="14" rx="2" fill="#CBD5E1" stroke="#334155" stroke-width="1.4"/>
+    <rect x="280" y="76" width="24" height="14" rx="2" fill="#CBD5E1" stroke="#334155" stroke-width="1.4"/>
+    <!-- Protected natural rock above sea level -->
+    <path d="M 192,90 Q 227,62 262,90 Z" fill="#D97706" stroke="#78350F" stroke-width="1.6"/>
+    <text x="227" y="54" text-anchor="middle" font-size="12" font-weight="800" fill="#92400E">海面から出た島を守る！</text>
+    <text x="372" y="74" text-anchor="middle" font-size="11.5" font-weight="700" fill="#334155">コンクリート等で</text>
+    <text x="372" y="88" text-anchor="middle" font-size="11.5" font-weight="700" fill="#334155">護岸工事</text>
+
+    <!-- Bottom reason card -->
+    <rect x="0" y="184" width="454" height="124" rx="12" fill="#FEF2F2" stroke="#EF4444" stroke-width="1.8"/>
+    <text x="18" y="212" font-size="14.5" font-weight="800" fill="#991B1B">なぜ工事を行うの？（記述のポイント）</text>
+    <text x="18" y="238" font-size="13" font-weight="700" fill="#1E293B">① 風化・波のしん食や温暖化による海面上昇で，</text>
+    <text x="30" y="258" font-size="13" fill="#1E293B">島が海面から出なくなるおそれがある。</text>
+    <text x="18" y="282" font-size="13" font-weight="700" fill="#B91C1C">② 島がなくなると周囲の排他的経済水域も失われ，</text>
+    <text x="30" y="300" font-size="13" font-weight="700" fill="#B91C1C">水域内の水産資源・海底資源の権利が認められなくなるから！</text>
+  </g>
+</svg>

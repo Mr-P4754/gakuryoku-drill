@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 136" width="480" height="136" role="img" aria-label="今週の5日間に拾った空きかんの数表">
+  <title>今週の5日間に拾った空きかんの数表</title>
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 11.5px; font-weight: 600; fill: #475569; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .dim-sm { font-size: 13px; font-weight: 700; fill: #1E293B; }
+      .th { font-size: 13.5px; font-weight: 700; fill: #1E293B; }
+      .td { font-size: 15px; font-weight: 600; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="480" height="136" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="240" y="28" text-anchor="middle" class="lbl">今週の5日間に拾った空きかんの数</text>
+  <rect x="22" y="42" width="76" height="36" fill="#EFF6FF" stroke="#94A3B8" stroke-width="1.1"/>
+  <text x="60.0" y="65.0" text-anchor="middle" class="th">曜日</text>
+  <rect x="98" y="42" width="72" height="36" fill="#EFF6FF" stroke="#94A3B8" stroke-width="1.1"/>
+  <text x="134.0" y="65.0" text-anchor="middle" class="th">月</text>
+  <rect x="170" y="42" width="72" height="36" fill="#EFF6FF" stroke="#94A3B8" stroke-width="1.1"/>
+  <text x="206.0" y="65.0" text-anchor="middle" class="th">火</text>
+  <rect x="242" y="42" width="72" height="36" fill="#EFF6FF" stroke="#94A3B8" stroke-width="1.1"/>
+  <text x="278.0" y="65.0" text-anchor="middle" class="th">水</text>
+  <rect x="314" y="42" width="72" height="36" fill="#EFF6FF" stroke="#94A3B8" stroke-width="1.1"/>
+  <text x="350.0" y="65.0" text-anchor="middle" class="th">木</text>
+  <rect x="386" y="42" width="72" height="36" fill="#EFF6FF" stroke="#94A3B8" stroke-width="1.1"/>
+  <text x="422.0" y="65.0" text-anchor="middle" class="th">金</text>
+  <rect x="22" y="78" width="76" height="38" fill="#EFF6FF" stroke="#94A3B8" stroke-width="1.1"/>
+  <text x="60.0" y="102.0" text-anchor="middle" class="th">個数</text>
+  <rect x="98" y="78" width="72" height="38" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.1"/>
+  <text x="134.0" y="102.0" text-anchor="middle" class="td">8</text>
+  <rect x="170" y="78" width="72" height="38" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.1"/>
+  <text x="206.0" y="102.0" text-anchor="middle" class="td">14</text>
+  <rect x="242" y="78" width="72" height="38" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.1"/>
+  <text x="278.0" y="102.0" text-anchor="middle" class="td">5</text>
+  <rect x="314" y="78" width="72" height="38" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.1"/>
+  <text x="350.0" y="102.0" text-anchor="middle" class="td">7</text>
+  <rect x="386" y="78" width="72" height="38" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.1"/>
+  <text x="422.0" y="102.0" text-anchor="middle" class="td">10</text>
+  <rect x="22" y="42" width="436" height="74" fill="none" stroke="#1E293B" stroke-width="1.6"/>
+</svg>

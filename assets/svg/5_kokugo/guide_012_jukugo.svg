@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" width="720" height="320" role="img" aria-label="熟語の組み立てと同音異義熟語の使い分け">
+  <defs>
+    <style>
+      .t { font-family: 'Noto Sans CJK JP', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="720" height="320" rx="14" fill="#F0FDF4" stroke="#BBF7D0" stroke-width="2"/>
+  <text x="360" y="34" text-anchor="middle" class="t" font-size="18" font-weight="700" fill="#14532D">二字熟語の組み立て と まちがえやすい同音異義語</text>
+
+  <!-- Top Left: 似た意味 -->
+  <g transform="translate(24, 52)">
+    <rect x="0" y="0" width="326" height="122" rx="12" fill="#FFFFFF" stroke="#16A34A" stroke-width="2.2"/>
+    <rect x="0" y="0" width="326" height="32" rx="12" fill="#16A34A"/>
+    <text x="163" y="21" text-anchor="middle" class="t" font-size="14.5" font-weight="700" fill="#FFFFFF">似た意味の漢字を組み合わせた熟語</text>
+    <text x="20" y="60" class="t" font-size="14" font-weight="700" fill="#15803D">回転・海洋・永久（永遠）</text>
+    <text x="20" y="84" class="t" font-size="14" font-weight="700" fill="#15803D">学習・思考（思想）・希望</text>
+    <text x="20" y="108" class="t" font-size="12" fill="#475569">例：「学」も「習」も、まなぶ・ならうという意味！</text>
+  </g>
+
+  <!-- Top Right: 反対の意味 -->
+  <g transform="translate(370, 52)">
+    <rect x="0" y="0" width="326" height="122" rx="12" fill="#FFFFFF" stroke="#DC2626" stroke-width="2.2"/>
+    <rect x="0" y="0" width="326" height="32" rx="12" fill="#DC2626"/>
+    <text x="163" y="21" text-anchor="middle" class="t" font-size="14.5" font-weight="700" fill="#FFFFFF">反対の意味の漢字を組み合わせた熟語</text>
+    <text x="20" y="60" class="t" font-size="14" font-weight="700" fill="#B91C1C">売買・強弱・勝負（勝敗）</text>
+    <text x="20" y="84" class="t" font-size="14" font-weight="700" fill="#B91C1C">遠近・高低・発着</text>
+    <text x="20" y="108" class="t" font-size="12" fill="#475569">例：「発（出発）」⇔「着（到着）」でペア！</text>
+  </g>
+
+  <!-- Bottom: まちがえやすい同音異義熟語 -->
+  <g transform="translate(24, 188)">
+    <rect x="0" y="0" width="672" height="114" rx="12" fill="#FFFFFF" stroke="#0284C7" stroke-width="2"/>
+    <rect x="0" y="0" width="672" height="30" rx="12" fill="#0284C7"/>
+    <text x="336" y="20" text-anchor="middle" class="t" font-size="14" font-weight="700" fill="#FFFFFF">注意！読みが同じで意味がちがう熟語</text>
+
+    <text x="20" y="56" class="t" font-size="13" font-weight="700" fill="#0369A1">・計量（重さをはかる） ⇔ 軽量（軽いこと）</text>
+    <text x="352" y="56" class="t" font-size="13" font-weight="700" fill="#0369A1">・再会（また会う） ⇔ 再開（また始める）</text>
+    <text x="20" y="88" class="t" font-size="13" font-weight="700" fill="#0369A1">・以外（それよりほか） ⇔ 意外（思いのほか）</text>
+    <text x="352" y="88" class="t" font-size="13" font-weight="700" fill="#0369A1">・公正（かたよりない） ⇔ 構成（組み立て）</text>
+  </g>
+</svg>

@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 248" width="540" height="248" role="img" aria-label="帯グラフと円グラフの読み方とかき方">
+  <title>帯グラフと円グラフの読み方とかき方</title>
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 11.5px; font-weight: 600; fill: #475569; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .dim-sm { font-size: 13px; font-weight: 700; fill: #1E293B; }
+      .th { font-size: 13.5px; font-weight: 700; fill: #1E293B; }
+      .td { font-size: 15px; font-weight: 600; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="540" height="248" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="270" y="26" text-anchor="middle" class="title">帯グラフ・円グラフの読み方とかき方</text>
+  <text x="270.0" y="46.0" text-anchor="middle" class="lbl">例：町別の児童数の割合（全体400人）</text>
+  <rect x="42.00" y="58" width="182.40" height="46" fill="#DBEAFE" stroke="#1E293B" stroke-width="1.6"/>
+  <text x="133.2" y="86.0" text-anchor="middle" font-size="13.5" font-weight="700">東町</text>
+  <rect x="224.40" y="58" width="136.80" height="46" fill="#DCFCE7" stroke="#1E293B" stroke-width="1.6"/>
+  <text x="292.8" y="86.0" text-anchor="middle" font-size="13.5" font-weight="700">中町</text>
+  <rect x="361.20" y="58" width="68.40" height="46" fill="#FEF3C7" stroke="#1E293B" stroke-width="1.6"/>
+  <text x="395.4" y="86.0" text-anchor="middle" font-size="13.5" font-weight="700">南町</text>
+  <rect x="429.60" y="58" width="45.60" height="46" fill="#FCE7F3" stroke="#1E293B" stroke-width="1.6"/>
+  <text x="452.4" y="78.5" text-anchor="middle" font-size="13" font-weight="700">北</text>
+  <text x="452.4" y="93.5" text-anchor="middle" font-size="13" font-weight="700">町</text>
+  <rect x="475.20" y="58" width="22.80" height="46" fill="#E0E7FF" stroke="#1E293B" stroke-width="1.6"/>
+  <text x="486.6" y="78.5" text-anchor="middle" font-size="13" font-weight="700">西</text>
+  <text x="486.6" y="93.5" text-anchor="middle" font-size="13" font-weight="700">町</text>
+  <line x1="42.0" y1="120.0" x2="498.0" y2="120.0" stroke="#1E293B" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="42.0" y1="120.0" x2="42.0" y2="110.0" stroke="#1E293B" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="42.0" y="138.0" text-anchor="middle" font-size="12.5" font-weight="700">0</text>
+  <line x1="46.6" y1="120.0" x2="46.6" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="51.1" y1="120.0" x2="51.1" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="55.7" y1="120.0" x2="55.7" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="60.2" y1="120.0" x2="60.2" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="64.8" y1="120.0" x2="64.8" y2="113.0" stroke="#475569" stroke-width="1.1" stroke-linecap="round"/>
+  <line x1="69.4" y1="120.0" x2="69.4" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="73.9" y1="120.0" x2="73.9" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="78.5" y1="120.0" x2="78.5" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="83.0" y1="120.0" x2="83.0" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="87.6" y1="120.0" x2="87.6" y2="110.0" stroke="#1E293B" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="87.6" y="138.0" text-anchor="middle" font-size="12.5" font-weight="700">10</text>
+  <line x1="92.2" y1="120.0" x2="92.2" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="96.7" y1="120.0" x2="96.7" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="101.3" y1="120.0" x2="101.3" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="105.8" y1="120.0" x2="105.8" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="110.4" y1="120.0" x2="110.4" y2="113.0" stroke="#475569" stroke-width="1.1" stroke-linecap="round"/>
+  <line x1="115.0" y1="120.0" x2="115.0" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="119.5" y1="120.0" x2="119.5" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="124.1" y1="120.0" x2="124.1" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="128.6" y1="120.0" x2="128.6" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="133.2" y1="120.0" x2="133.2" y2="110.0" stroke="#1E293B" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="133.2" y="138.0" text-anchor="middle" font-size="12.5" font-weight="700">20</text>
+  <line x1="137.8" y1="120.0" x2="137.8" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="142.3" y1="120.0" x2="142.3" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="146.9" y1="120.0" x2="146.9" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="151.4" y1="120.0" x2="151.4" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="156.0" y1="120.0" x2="156.0" y2="113.0" stroke="#475569" stroke-width="1.1" stroke-linecap="round"/>
+  <line x1="160.6" y1="120.0" x2="160.6" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="165.1" y1="120.0" x2="165.1" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="169.7" y1="120.0" x2="169.7" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="174.2" y1="120.0" x2="174.2" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="178.8" y1="120.0" x2="178.8" y2="110.0" stroke="#1E293B" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="178.8" y="138.0" text-anchor="middle" font-size="12.5" font-weight="700">30</text>
+  <line x1="183.4" y1="120.0" x2="183.4" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="187.9" y1="120.0" x2="187.9" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="192.5" y1="120.0" x2="192.5" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="197.0" y1="120.0" x2="197.0" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="201.6" y1="120.0" x2="201.6" y2="113.0" stroke="#475569" stroke-width="1.1" stroke-linecap="round"/>
+  <line x1="206.2" y1="120.0" x2="206.2" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="210.7" y1="120.0" x2="210.7" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="215.3" y1="120.0" x2="215.3" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="219.8" y1="120.0" x2="219.8" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="224.4" y1="120.0" x2="224.4" y2="110.0" stroke="#1E293B" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="224.4" y="138.0" text-anchor="middle" font-size="12.5" font-weight="700">40</text>
+  <line x1="229.0" y1="120.0" x2="229.0" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="233.5" y1="120.0" x2="233.5" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="238.1" y1="120.0" x2="238.1" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="242.6" y1="120.0" x2="242.6" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="247.2" y1="120.0" x2="247.2" y2="113.0" stroke="#475569" stroke-width="1.1" stroke-linecap="round"/>
+  <line x1="251.8" y1="120.0" x2="251.8" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="256.3" y1="120.0" x2="256.3" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="260.9" y1="120.0" x2="260.9" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="265.4" y1="120.0" x2="265.4" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="270.0" y1="120.0" x2="270.0" y2="110.0" stroke="#1E293B" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="270.0" y="138.0" text-anchor="middle" font-size="12.5" font-weight="700">50</text>
+  <line x1="274.6" y1="120.0" x2="274.6" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="279.1" y1="120.0" x2="279.1" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="283.7" y1="120.0" x2="283.7" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="288.2" y1="120.0" x2="288.2" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="292.8" y1="120.0" x2="292.8" y2="113.0" stroke="#475569" stroke-width="1.1" stroke-linecap="round"/>
+  <line x1="297.4" y1="120.0" x2="297.4" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="301.9" y1="120.0" x2="301.9" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="306.5" y1="120.0" x2="306.5" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="311.0" y1="120.0" x2="311.0" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="315.6" y1="120.0" x2="315.6" y2="110.0" stroke="#1E293B" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="315.6" y="138.0" text-anchor="middle" font-size="12.5" font-weight="700">60</text>
+  <line x1="320.2" y1="120.0" x2="320.2" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="324.7" y1="120.0" x2="324.7" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="329.3" y1="120.0" x2="329.3" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="333.8" y1="120.0" x2="333.8" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="338.4" y1="120.0" x2="338.4" y2="113.0" stroke="#475569" stroke-width="1.1" stroke-linecap="round"/>
+  <line x1="343.0" y1="120.0" x2="343.0" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="347.5" y1="120.0" x2="347.5" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="352.1" y1="120.0" x2="352.1" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="356.6" y1="120.0" x2="356.6" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="361.2" y1="120.0" x2="361.2" y2="110.0" stroke="#1E293B" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="361.2" y="138.0" text-anchor="middle" font-size="12.5" font-weight="700">70</text>
+  <line x1="365.8" y1="120.0" x2="365.8" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="370.3" y1="120.0" x2="370.3" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="374.9" y1="120.0" x2="374.9" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="379.4" y1="120.0" x2="379.4" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="384.0" y1="120.0" x2="384.0" y2="113.0" stroke="#475569" stroke-width="1.1" stroke-linecap="round"/>
+  <line x1="388.6" y1="120.0" x2="388.6" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="393.1" y1="120.0" x2="393.1" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="397.7" y1="120.0" x2="397.7" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="402.2" y1="120.0" x2="402.2" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="406.8" y1="120.0" x2="406.8" y2="110.0" stroke="#1E293B" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="406.8" y="138.0" text-anchor="middle" font-size="12.5" font-weight="700">80</text>
+  <line x1="411.4" y1="120.0" x2="411.4" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="415.9" y1="120.0" x2="415.9" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="420.5" y1="120.0" x2="420.5" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="425.0" y1="120.0" x2="425.0" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="429.6" y1="120.0" x2="429.6" y2="113.0" stroke="#475569" stroke-width="1.1" stroke-linecap="round"/>
+  <line x1="434.2" y1="120.0" x2="434.2" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="438.7" y1="120.0" x2="438.7" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="443.3" y1="120.0" x2="443.3" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="447.8" y1="120.0" x2="447.8" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="452.4" y1="120.0" x2="452.4" y2="110.0" stroke="#1E293B" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="452.4" y="138.0" text-anchor="middle" font-size="12.5" font-weight="700">90</text>
+  <line x1="457.0" y1="120.0" x2="457.0" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="461.5" y1="120.0" x2="461.5" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="466.1" y1="120.0" x2="466.1" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="470.6" y1="120.0" x2="470.6" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="475.2" y1="120.0" x2="475.2" y2="113.0" stroke="#475569" stroke-width="1.1" stroke-linecap="round"/>
+  <line x1="479.8" y1="120.0" x2="479.8" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="484.3" y1="120.0" x2="484.3" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="488.9" y1="120.0" x2="488.9" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="493.4" y1="120.0" x2="493.4" y2="116.0" stroke="#94A3B8" stroke-width="0.8" stroke-linecap="round"/>
+  <line x1="498.0" y1="120.0" x2="498.0" y2="110.0" stroke="#1E293B" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="498.0" y="138.0" text-anchor="middle" font-size="12.5" font-weight="700">100%</text>
+  <rect x="24" y="150" width="492" height="84" rx="8" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.2"/>
+  <text x="38" y="172" class="lbl-sm" fill="#1D4ED8">① 100等分された目もりから割合（％）を読む</text>
+  <text x="52" y="192" class="lbl-xs">東町：0→40 なので 40% ／ 中町：40→70 なので 70−40＝30%</text>
+  <text x="38" y="212" class="lbl-sm" fill="#0F766E">② 人数 ＝ 全体の数 × 割合（小数）</text>
+  <text x="52" y="228" class="lbl-xs">東町：400×0.4＝160人 ／ 中町：400×0.3＝120人</text>
+</svg>

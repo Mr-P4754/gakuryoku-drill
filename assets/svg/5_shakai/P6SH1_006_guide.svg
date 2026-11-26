@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 886 350" width="886" height="350" role="img" aria-label="自動車づくりの工程・関連工場・ハイブリッドカーのまとめ図">
+  <style>
+    text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans CJK JP', sans-serif; }
+  </style>
+  <rect width="886" height="350" fill="#FFFFFF"/>
+  <rect x="12" y="12" width="862" height="326" rx="14" fill="#F8FAFC" stroke="#1E3A8A" stroke-width="2"/>
+  <text x="443" y="46" text-anchor="middle" font-size="19" font-weight="700" fill="#0F172A">自動車をつくる工業のしくみ</text>
+  
+    <rect x="28" y="70" width="150" height="106" rx="10" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="2"/>
+    <text x="103" y="100" text-anchor="middle" font-size="15.5" font-weight="800" fill="#1D4ED8">① プレス</text>
+    <text x="103" y="130" text-anchor="middle" font-size="12.5" font-weight="600" fill="#1E293B">鉄板をおして</text>
+    <text x="103" y="150" text-anchor="middle" font-size="12.5" font-weight="600" fill="#1E293B">形をつくる</text><polygon points="182,117 188,117 188,111 196,123 188,135 188,129 182,129" fill="#64748B"/>
+    <rect x="198" y="70" width="150" height="106" rx="10" fill="#FFEDD5" stroke="#C2410C" stroke-width="2"/>
+    <text x="273" y="100" text-anchor="middle" font-size="15.5" font-weight="800" fill="#C2410C">② ようせつ</text>
+    <text x="273" y="130" text-anchor="middle" font-size="12.5" font-weight="600" fill="#1E293B">ロボットで部品を</text>
+    <text x="273" y="150" text-anchor="middle" font-size="12.5" font-weight="600" fill="#1E293B">つなぎ合わせる</text><polygon points="352,117 358,117 358,111 366,123 358,135 358,129 352,129" fill="#64748B"/>
+    <rect x="368" y="70" width="150" height="106" rx="10" fill="#FEF3C7" stroke="#B45309" stroke-width="2"/>
+    <text x="443" y="100" text-anchor="middle" font-size="15.5" font-weight="800" fill="#B45309">③ とそう</text>
+    <text x="443" y="130" text-anchor="middle" font-size="12.5" font-weight="600" fill="#1E293B">さびを防ぎ</text>
+    <text x="443" y="150" text-anchor="middle" font-size="12.5" font-weight="600" fill="#1E293B">色をぬる</text><polygon points="522,117 528,117 528,111 536,123 528,135 528,129 522,129" fill="#64748B"/>
+    <rect x="538" y="70" width="150" height="106" rx="10" fill="#DCFCE7" stroke="#15803D" stroke-width="2"/>
+    <text x="613" y="100" text-anchor="middle" font-size="15.5" font-weight="800" fill="#15803D">④ 組み立て</text>
+    <text x="613" y="130" text-anchor="middle" font-size="12.5" font-weight="600" fill="#1E293B">ベルトコンベヤーで</text>
+    <text x="613" y="150" text-anchor="middle" font-size="12.5" font-weight="600" fill="#1E293B">部品を取り付ける</text><polygon points="692,117 698,117 698,111 706,123 698,135 698,129 692,129" fill="#64748B"/>
+    <rect x="708" y="70" width="150" height="106" rx="10" fill="#F3E8FF" stroke="#7E22CE" stroke-width="2"/>
+    <text x="783" y="100" text-anchor="middle" font-size="15.5" font-weight="800" fill="#7E22CE">⑤ 検査・出荷</text>
+    <text x="783" y="130" text-anchor="middle" font-size="12.5" font-weight="600" fill="#1E293B">安全を確かめ</text>
+    <text x="783" y="150" text-anchor="middle" font-size="12.5" font-weight="600" fill="#1E293B">各地・海外へ</text>
+
+  <!-- Bottom 2 info boxes: 関連工場 & ハイブリッドカー -->
+  <g transform="translate(28, 198)">
+    <rect x="0" y="0" width="404" height="122" rx="10" fill="#FFFFFF" stroke="#0284C7" stroke-width="1.8"/>
+    <text x="18" y="28" font-size="15.5" font-weight="800" fill="#0369A1">関連工場の働き</text>
+    <text x="18" y="54" font-size="13" fill="#1E293B">・1台の自動車にはおよそ３万点の部品が使われている。</text>
+    <text x="18" y="78" font-size="13" fill="#1E293B">・タイヤ・ガラス・シート・電気部品などを<tspan font-weight="800" fill="#0369A1">関連工場</tspan>でつくり，</text>
+    <text x="18" y="102" font-size="13" fill="#1E293B">　必要なときに自動車工場へ運んで効率よく生産する。</text>
+  </g>
+
+  <g transform="translate(454, 198)">
+    <rect x="0" y="0" width="404" height="122" rx="10" fill="#F0FDF4" stroke="#16A34A" stroke-width="1.8"/>
+    <text x="18" y="28" font-size="15.5" font-weight="800" fill="#15803D">環境にやさしい車と海外生産</text>
+    <text x="18" y="54" font-size="13" fill="#1E293B">・<tspan font-weight="800" fill="#15803D">ハイブリッドカー</tspan>：ガソリンエンジン＋<tspan font-weight="800" fill="#15803D">電気</tspan>モーター</text>
+    <text x="18" y="78" font-size="13" fill="#1E293B">　→ ガソリン使用量や二酸化炭素の排出量を減らす！</text>
+    <text x="18" y="102" font-size="13" fill="#1E293B">・海外生産：アメリカへの輸出は減り，現地生産が増加。</text>
+  </g>
+</svg>

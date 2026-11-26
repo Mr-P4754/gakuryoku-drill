@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" width="900" height="380" role="img" aria-label="日本の貿易のしくみ（輸入・港と空港・輸出・最大の貿易相手国の変化）まとめ図">
+  <style>
+    text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans CJK JP', sans-serif; }
+  </style>
+  <rect width="900" height="380" fill="#FFFFFF"/>
+  <rect x="12" y="12" width="876" height="356" rx="14" fill="#F8FAFC" stroke="#0369A1" stroke-width="2"/>
+  <text x="450" y="44" text-anchor="middle" font-size="19" font-weight="700" fill="#0F172A">日本の工業生産と貿易のしくみ（2023年）</text>
+
+  <!-- Box 1: 輸入 -->
+  <g transform="translate(28, 66)">
+    <rect x="0" y="0" width="262" height="206" rx="12" fill="#FFF7ED" stroke="#EA580C" stroke-width="2"/>
+    <rect x="0" y="0" width="262" height="36" rx="12" fill="#EA580C"/>
+    <rect x="0" y="22" width="262" height="14" fill="#EA580C"/>
+    <text x="131" y="24" text-anchor="middle" font-size="15.5" font-weight="800" fill="#FFFFFF">輸入（110.4兆円）</text>
+    <text x="16" y="64" font-size="13.5" font-weight="800" fill="#9A3412">1位 機械類（28.6%）</text>
+    <text x="24" y="84" font-size="12" fill="#334155">安くて品質のよいアジア地域が多い</text>
+    <text x="16" y="112" font-size="13.5" font-weight="800" fill="#9A3412">2位 原油などの燃料（24.8%）</text>
+    <text x="24" y="132" font-size="12" fill="#334155">サウジアラビア・アラブ首長国連邦</text>
+    <text x="24" y="148" font-size="12" fill="#334155">など西アジアから主に輸入</text>
+    <text x="16" y="176" font-size="13.5" font-weight="800" fill="#9A3412">食料品（8.5%）・原料品（6.5%）</text>
+    <text x="24" y="194" font-size="12" fill="#334155">穀物・野菜・魚かい類など</text>
+  </g>
+
+  <!-- Arrow 1->2 -->
+  <polygon points="296,162 314,162 314,154 330,170 314,186 314,178 296,178" fill="#EA580C"/>
+
+  <!-- Box 2: 日本の窓口（港・空港）と加工 -->
+  <g transform="translate(336, 66)">
+    <rect x="0" y="0" width="228" height="206" rx="12" fill="#EFF6FF" stroke="#1D4ED8" stroke-width="2"/>
+    <rect x="0" y="0" width="228" height="36" rx="12" fill="#1D4ED8"/>
+    <rect x="0" y="22" width="228" height="14" fill="#1D4ED8"/>
+    <text x="114" y="24" text-anchor="middle" font-size="15.5" font-weight="800" fill="#FFFFFF">日本（窓口：港・空港）</text>
+    <!-- Ship & Airplane icons -->
+    <g transform="translate(26, 54)">
+      <polygon points="4,32 72,32 62,46 12,46" fill="#0284C7" stroke="#0F172A" stroke-width="1.3"/>
+      <rect x="16" y="16" width="18" height="16" fill="#FFFFFF" stroke="#0F172A" stroke-width="1.2"/>
+      <rect x="38" y="20" width="24" height="12" fill="#F59E0B" stroke="#92400E" stroke-width="1.1"/>
+      <text x="38" y="64" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0369A1">港（船）</text>
+    </g>
+    <g transform="translate(122, 54)">
+      <path d="M 8,32 L 42,24 L 66,12 L 72,16 L 52,30 L 72,42 L 64,46 L 40,36 L 14,42 Z" fill="#60A5FA" stroke="#1E3A8A" stroke-width="1.3"/>
+      <text x="40" y="64" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1E40AF">空港（飛行機）</text>
+    </g>
+    <rect x="16" y="132" width="196" height="60" rx="8" fill="#FFFFFF" stroke="#93C5FD" stroke-width="1.4"/>
+    <text x="114" y="156" text-anchor="middle" font-size="13" font-weight="700" fill="#1E3A8A">燃料・原料を輸入し，</text>
+    <text x="114" y="178" text-anchor="middle" font-size="13" font-weight="700" fill="#1E3A8A">工業製品をつくって輸出！</text>
+  </g>
+
+  <!-- Arrow 2->3 -->
+  <polygon points="570,162 588,162 588,154 604,170 588,186 588,178 570,178" fill="#2563EB"/>
+
+  <!-- Box 3: 輸出 -->
+  <g transform="translate(610, 66)">
+    <rect x="0" y="0" width="262" height="206" rx="12" fill="#ECFDF5" stroke="#059669" stroke-width="2"/>
+    <rect x="0" y="0" width="262" height="36" rx="12" fill="#059669"/>
+    <rect x="0" y="22" width="262" height="14" fill="#059669"/>
+    <text x="131" y="24" text-anchor="middle" font-size="15.5" font-weight="800" fill="#FFFFFF">輸出（100.9兆円）</text>
+    <text x="16" y="66" font-size="14" font-weight="800" fill="#065F46">1位 機械類（58.3%）</text>
+    <text x="24" y="88" font-size="12.5" fill="#334155">自動車・電気機械・産業機械など</text>
+    <text x="24" y="106" font-size="12.5" fill="#334155">が輸出の約６割をしめる！</text>
+    <text x="16" y="140" font-size="13.5" font-weight="700" fill="#065F46">2位 化学製品（10.9%）</text>
+    <text x="16" y="168" font-size="13.5" font-weight="700" fill="#065F46">3位 鉄鋼（4.5%）</text>
+    <text x="16" y="194" font-size="12.5" fill="#475569">その他（26.3%）</text>
+  </g>
+
+  <!-- Bottom ribbon: Trade Partner Shift -->
+  <rect x="28" y="292" width="844" height="58" rx="10" fill="#FEF3C7" stroke="#D97706" stroke-width="1.6"/>
+  <text x="450" y="317" text-anchor="middle" font-size="15" font-weight="800" fill="#92400E">最大の貿易相手国の変化</text>
+  <text x="450" y="340" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1E293B">アジアの国々との貿易が増え，日本の最大の貿易相手国は「アメリカ」から「中国」へ変わりました。</text>
+</svg>

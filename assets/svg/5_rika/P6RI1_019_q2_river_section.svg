@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 275" width="640" height="275">
+  <defs>
+    <marker id="arrDark" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#334155"/>
+    </marker>
+    <marker id="arrBlue" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#0284C7"/>
+    </marker>
+    <marker id="arrRed" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#DC2626"/>
+    </marker>
+    <marker id="arrGreen" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#059669"/>
+    </marker>
+    <marker id="arrAmber" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#D97706"/>
+    </marker>
+    
+  </defs>
+  <rect width="640" height="275" rx="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <text x="320" y="27" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="15" font-weight="bold" fill="#065F46">川が曲がっている部分の断面（だんめん）</text>
+
+    <rect x="20" y="42" width="600" height="218" rx="12" fill="#F0F9FF" stroke="#94A3B8" stroke-width="1.5"/>
+
+    <!-- Water body (川の断面) -->
+    <path d="M104,116 L518,116 L502,216 L334,216 C250,192 178,136 104,116 Z" fill="#38BDF8" opacity="0.72"/>
+    <!-- Water surface line -->
+    <line x1="100" y1="116" x2="520" y2="116" stroke="#0284C7" stroke-width="2.2"/>
+    <path d="M140,126 Q220,121 300,126 T470,126" fill="none" stroke="#BAE6FD" stroke-width="1.6"/>
+    <text x="366" y="168" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="15" font-weight="bold" fill="#0C4A6E">川の断面</text>
+
+    <!-- Left gentle bank: 川原 -->
+    <path d="M21,92 L92,92 L114,116 C182,138 252,192 334,216 L504,216 L504,259 L21,259 Z" fill="#E2E8F0" stroke="#64748B" stroke-width="1.5"/>
+    <path d="M21,92 L92,92 L114,116 L21,116 Z" fill="#FDE68A" stroke="#CA8A04" stroke-width="1.2"/>
+    <text x="64" y="82" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#92400E">川原</text>
+
+    <!-- Right steep cliff: がけ -->
+    <path d="M500,259 L500,214 L516,158 L522,110 L534,64 L619,64 L619,259 Z" fill="#D6D3D1" stroke="#57534E" stroke-width="1.8"/>
+    <path d="M534,64 L619,64 L619,74 L530,74 Z" fill="#4ADE80"/>
+    <!-- Cliff rock lines -->
+    <path d="M524,112 Q546,120 538,142 M546,162 Q564,180 550,206 M574,104 Q594,118 584,148" fill="none" stroke="#78716C" stroke-width="1.4"/>
+    <text x="576" y="102" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#44403C">がけ</text>
+
+    <!-- Progressively larger stones along riverbed from left (tiny sand/pebbles) to right (big boulders)! -->
+    <!-- Fine sand & tiny pebbles on shallow left (x=40..170) -->
+    <g fill="#64748B">
+      <circle cx="34" cy="104" r="1.8"/><circle cx="43" cy="108" r="1.8"/><circle cx="52" cy="112" r="1.8"/><circle cx="61" cy="104" r="1.8"/><circle cx="70" cy="108" r="1.8"/><circle cx="79" cy="112" r="1.8"/><circle cx="88" cy="104" r="1.8"/><circle cx="97" cy="108" r="1.8"/><circle cx="106" cy="112" r="1.8"/><circle cx="115" cy="104" r="1.8"/>
+      <circle cx="118" cy="120.0" r="2.5"/><circle cx="126" cy="122.5" r="2.5"/><circle cx="134" cy="125.0" r="2.5"/><circle cx="142" cy="127.5" r="2.5"/><circle cx="150" cy="130.0" r="2.5"/><circle cx="158" cy="132.5" r="2.5"/><circle cx="166" cy="135.0" r="2.5"/><circle cx="174" cy="137.5" r="2.5"/>
+    </g>
+    <!-- Small-to-medium stones along slope (x=180..320) -->
+    <g fill="#CBD5E1" stroke="#475569" stroke-width="1.3">
+      <ellipse cx="192" cy="144" rx="6" ry="4"/><ellipse cx="208" cy="152" rx="7" ry="4.5"/>
+      <ellipse cx="224" cy="162" rx="8" ry="5"/><ellipse cx="242" cy="172" rx="9" ry="5.5"/>
+      <ellipse cx="262" cy="182" rx="10" ry="6"/><ellipse cx="284" cy="194" rx="11" ry="7"/>
+      <ellipse cx="308" cy="204" rx="12" ry="7.5"/>
+      <!-- Second layer underneath -->
+      <ellipse cx="200" cy="158" rx="6" ry="4"/><ellipse cx="232" cy="178" rx="8" ry="5"/>
+      <ellipse cx="272" cy="200" rx="10" ry="6"/><ellipse cx="298" cy="214" rx="11" ry="6.5"/>
+    </g>
+    <!-- Large boulders on deep right riverbed (x=330..495) -->
+    <g fill="#94A3B8" stroke="#334155" stroke-width="1.6">
+      <ellipse cx="338" cy="214" rx="16" ry="11"/>
+      <ellipse cx="372" cy="216" rx="19" ry="12"/>
+      <ellipse cx="410" cy="216" rx="20" ry="13"/>
+      <ellipse cx="450" cy="216" rx="21" ry="13"/>
+      <ellipse cx="486" cy="216" rx="17" ry="12"/>
+      <!-- Deeper sub-layer -->
+      <ellipse cx="354" cy="232" rx="17" ry="10" fill="#CBD5E1"/>
+      <ellipse cx="392" cy="234" rx="18" ry="10" fill="#CBD5E1"/>
+      <ellipse cx="432" cy="234" rx="19" ry="10" fill="#CBD5E1"/>
+      <ellipse cx="472" cy="234" rx="18" ry="10" fill="#CBD5E1"/>
+    </g>
+
+    <!-- Left / Right orientation markers -->
+    <rect x="34" y="226" width="68" height="24" rx="6" fill="#FFFFFF" stroke="#64748B" stroke-width="1.2"/>
+    <text x="68" y="242" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#334155">左側</text>
+    <rect x="536" y="226" width="68" height="24" rx="6" fill="#FFFFFF" stroke="#DC2626" stroke-width="1.3"/>
+    <text x="570" y="242" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#B91C1C">右側</text>
+    </svg>

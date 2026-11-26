@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 266" width="600" height="266" role="img" aria-label="小数のかけ算とわり算の小数点のうつし方">
+  <title>小数のかけ算とわり算の小数点のうつし方</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .sub { font-size: 13px; font-weight: 600; fill: #475569; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 15px; font-weight: 700; }
+      .num-lg { font-size: 17px; font-weight: 700; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .amber { fill: #B45309; }
+      .muted { fill: #64748B; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+    <marker id="arr-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#2563EB"/>
+    </marker>
+    <marker id="arr-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#DC2626"/>
+    </marker>
+    <marker id="arr-dark" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#334155"/>
+    </marker>
+    <marker id="arr-teal" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#0F766E"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="600" height="266" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <rect x="14" y="14" width="280" height="238" rx="10" fill="#EFF6FF" stroke="#93C5FD" stroke-width="1.5"/>
+  <text x="154" y="40" text-anchor="middle" class="title blue">小数のかけ算（小数点のうつし方）</text>
+  <text x="136" y="72" text-anchor="end" font-size="20" font-weight="700" font-family="monospace">4.72</text>
+  <text x="136" y="100" text-anchor="end" font-size="20" font-weight="700" font-family="monospace">× 3.5</text>
+  <line x1="46" y1="108" x2="142" y2="108" stroke="#1E293B" stroke-width="2"/>
+  <text x="136" y="132" text-anchor="end" font-size="18" font-weight="600" font-family="monospace">2360</text>
+  <text x="124" y="156" text-anchor="end" font-size="18" font-weight="600" font-family="monospace">1416</text>
+  <line x1="46" y1="164" x2="142" y2="164" stroke="#1E293B" stroke-width="2"/>
+  <text x="136" y="188" text-anchor="end" font-size="20" font-weight="700" font-family="monospace">16.520</text>
+  <line x1="124" y1="172" x2="137" y2="191" stroke="#DC2626" stroke-width="2.4"/>
+  <rect x="164" y="54" width="114" height="24" rx="12" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.3"/>
+  <text x="221" y="71" text-anchor="middle" class="lbl-xs blue">右に 2けた</text>
+  <rect x="164" y="84" width="114" height="24" rx="12" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.3"/>
+  <text x="221" y="101" text-anchor="middle" class="lbl-xs blue">右に 1けた</text>
+  <line x1="221" y1="112" x2="221" y2="156" stroke="#DC2626" stroke-width="2" marker-end="url(#arr-red)"/>
+  <rect x="156" y="162" width="126" height="30" rx="8" fill="#FEF2F2" stroke="#DC2626" stroke-width="1.5"/>
+  <text x="219" y="182" text-anchor="middle" class="lbl-sm red">左へ 3けたうつす</text>
+  <text x="154" y="232" text-anchor="middle" class="lbl-xs">さいごの 0 は消す → 16.52</text>
+  <rect x="306" y="14" width="280" height="238" rx="10" fill="#F0FDF4" stroke="#86EFAC" stroke-width="1.5"/>
+  <text x="446" y="40" text-anchor="middle" class="title green">小数のわり算（両方同じけた右へ）</text>
+  <text x="476" y="78" text-anchor="middle" font-size="20" font-weight="700" fill="#059669" font-family="monospace">3.4</text>
+  <line x1="404" y1="86" x2="516" y2="86" stroke="#1E293B" stroke-width="2"/>
+  <path d="M 404 86 Q 414 102 402 118" fill="none" stroke="#1E293B" stroke-width="2"/>
+  <text x="372" y="112" text-anchor="middle" font-size="20" font-weight="700" font-family="monospace">2.6</text>
+  <text x="462" y="112" text-anchor="middle" font-size="20" font-weight="700" font-family="monospace">8.84</text>
+  <path d="M 372 117 Q 382 128 392 117" fill="none" stroke="#DC2626" stroke-width="2" marker-end="url(#arr-red)"/>
+  <path d="M 456 117 Q 466 128 476 117" fill="none" stroke="#DC2626" stroke-width="2" marker-end="url(#arr-red)"/>
+  <circle cx="476" cy="112" r="2.6" fill="#DC2626"/>
+  <line x1="476" y1="106" x2="476" y2="82" stroke="#DC2626" stroke-width="1.6" stroke-dasharray="3,2"/>
+  <text x="454" y="144" text-anchor="middle" font-size="18" font-weight="600" font-family="monospace">78</text>
+  <line x1="418" y1="151" x2="500" y2="151" stroke="#1E293B" stroke-width="1.6"/>
+  <text x="464" y="172" text-anchor="middle" font-size="18" font-weight="600" font-family="monospace">104</text>
+  <text x="464" y="194" text-anchor="middle" font-size="18" font-weight="600" font-family="monospace">104</text>
+  <line x1="418" y1="201" x2="500" y2="201" stroke="#1E293B" stroke-width="1.6"/>
+  <text x="480" y="220" text-anchor="middle" font-size="18" font-weight="700" font-family="monospace">0</text>
+  <text x="446" y="242" text-anchor="middle" class="lbl-xs red">わる数・わられる数の両方を10倍！</text>
+</svg>

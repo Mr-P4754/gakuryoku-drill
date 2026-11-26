@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 430" width="940" height="430" role="img" aria-label="メディアの特徴・情報通信技術の医療活用と安全対策・日本の森林と森林環境税まとめ図">
+  <style>
+    text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans CJK JP', sans-serif; }
+  </style>
+  <rect width="940" height="430" fill="#FFFFFF"/>
+  <rect x="12" y="12" width="916" height="406" rx="14" fill="#F8FAFC" stroke="#4F46E5" stroke-width="2"/>
+  <text x="470" y="44" text-anchor="middle" font-size="19" font-weight="700" fill="#1E1B4B">情報メディア・医療ICT・森林環境のポイント</text>
+
+  <!-- Panel 1: 4 Media Comparison -->
+  <g transform="translate(26, 62)">
+    <rect x="0" y="0" width="286" height="338" rx="12" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.8"/>
+    <rect x="0" y="0" width="286" height="34" rx="12" fill="#2563EB"/>
+    <rect x="0" y="20" width="286" height="14" fill="#2563EB"/>
+    <text x="143" y="23" text-anchor="middle" font-size="14.5" font-weight="800" fill="#FFFFFF">① ニュースを伝える４つのメディア</text>
+
+    <rect x="12" y="46" width="262" height="64" rx="8" fill="#EFF6FF" stroke="#93C5FD" stroke-width="1.2"/>
+    <text x="22" y="66" font-size="13.5" font-weight="800" fill="#1E40AF">ラジオ（音のみ）</text>
+    <text x="22" y="86" font-size="11.5" fill="#1E293B">作業しながら聞け，災害時も活用しやすい</text>
+    <text x="22" y="102" font-size="11.5" fill="#475569">（電池で動く・情報が速い）</text>
+
+    <rect x="12" y="118" width="262" height="64" rx="8" fill="#FEF2F2" stroke="#FCA5A5" stroke-width="1.2"/>
+    <text x="22" y="138" font-size="13.5" font-weight="800" fill="#991B1B">テレビ（音＋映像）</text>
+    <text x="22" y="158" font-size="11.5" fill="#1E293B">わかりやすく速いが，編集や演出によって</text>
+    <text x="22" y="174" font-size="11.5" font-weight="700" fill="#B91C1C">事実と異なって伝わる心配もある！</text>
+
+    <rect x="12" y="190" width="262" height="64" rx="8" fill="#F0FDF4" stroke="#86EFAC" stroke-width="1.2"/>
+    <text x="22" y="210" font-size="13.5" font-weight="800" fill="#166534">新聞（文字＋写真）</text>
+    <text x="22" y="230" font-size="11.5" fill="#1E293B">くわしくていねい・読み返せる一方，</text>
+    <text x="22" y="246" font-size="11.5" fill="#1E293B">情報を届けるまでに時間がかかる</text>
+
+    <rect x="12" y="262" width="262" height="64" rx="8" fill="#FFFBEB" stroke="#FCD34D" stroke-width="1.2"/>
+    <text x="22" y="282" font-size="13.5" font-weight="800" fill="#92400E">インターネット</text>
+    <text x="22" y="302" font-size="11.5" fill="#1E293B">いつでも調べられるが，情報の正確さを</text>
+    <text x="22" y="318" font-size="11.5" font-weight="700" fill="#B45309">しんちょうに確かめる必要がある！</text>
+  </g>
+
+  <!-- Panel 2: ICT in Medical Care -->
+  <g transform="translate(326, 62)">
+    <rect x="0" y="0" width="286" height="338" rx="12" fill="#FFFFFF" stroke="#0D9488" stroke-width="1.8"/>
+    <rect x="0" y="0" width="286" height="34" rx="12" fill="#0D9488"/>
+    <rect x="0" y="20" width="286" height="14" fill="#0D9488"/>
+    <text x="143" y="23" text-anchor="middle" font-size="14.5" font-weight="800" fill="#FFFFFF">② 情報通信技術（ICT）と医療</text>
+
+    <!-- Network icon: Hospital <-> Cloud <-> Remote Doctor -->
+    <g transform="translate(20, 48)">
+      <rect x="0" y="18" width="66" height="58" rx="6" fill="#CCFBF1" stroke="#0F766E" stroke-width="1.5"/>
+      <rect x="27" y="28" width="12" height="4" fill="#DC2626"/>
+      <rect x="31" y="24" width="4" height="12" fill="#DC2626"/>
+      <text x="33" y="54" text-anchor="middle" font-size="11" font-weight="800" fill="#115E59">医療機関</text>
+      <text x="33" y="68" text-anchor="middle" font-size="10" fill="#0F766E">電子カルテ</text>
+
+      <!-- Cloud / Network center -->
+      <ellipse cx="123" cy="46" rx="34" ry="22" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.6"/>
+      <text x="123" y="44" text-anchor="middle" font-size="11" font-weight="800" fill="#1E40AF">データ</text>
+      <text x="123" y="57" text-anchor="middle" font-size="11" font-weight="800" fill="#1E40AF">共有</text>
+      <line x1="66" y1="46" x2="89" y2="46" stroke="#2563EB" stroke-width="2.5" stroke-dasharray="4,2"/>
+      <line x1="157" y1="46" x2="180" y2="46" stroke="#2563EB" stroke-width="2.5" stroke-dasharray="4,2"/>
+
+      <rect x="180" y="18" width="66" height="58" rx="6" fill="#E0F2FE" stroke="#0369A1" stroke-width="1.5"/>
+      <rect x="192" y="26" width="42" height="24" rx="3" fill="#FFFFFF" stroke="#0369A1" stroke-width="1.2"/>
+      <circle cx="213" cy="36" r="5" fill="#0EA5E9"/>
+      <text x="213" y="65" text-anchor="middle" font-size="10.5" font-weight="800" fill="#0C4A6E">テレビ診察</text>
+    </g>
+
+    <rect x="14" y="140" width="258" height="104" rx="8" fill="#F0FDFA" stroke="#5EEAD4" stroke-width="1.4"/>
+    <text x="24" y="162" font-size="13" font-weight="800" fill="#0F766E">良い点（メリット）</text>
+    <text x="24" y="184" font-size="12" fill="#1E293B">・医師の足りない地域でも，必要な</text>
+    <text x="34" y="200" font-size="12" fill="#1E293B">ときにすぐ診察を受けられる。</text>
+    <text x="24" y="220" font-size="12" fill="#1E293B">・災害で被災しても，共有電子カルテ</text>
+    <text x="34" y="236" font-size="12" fill="#1E293B">をもとに適切な対応ができる。</text>
+
+    <rect x="14" y="256" width="258" height="70" rx="8" fill="#FEF2F2" stroke="#F87171" stroke-width="1.4"/>
+    <text x="24" y="278" font-size="13" font-weight="800" fill="#991B1B">気をつける点（安全対策）</text>
+    <text x="24" y="298" font-size="12" fill="#1E293B">・大切な個人情報の<tspan font-weight="700" fill="#B91C1C">情報流出</tspan>を防ぐ</text>
+    <text x="34" y="316" font-size="12" fill="#1E293B">セキュリティ対策が欠かせない！</text>
+  </g>
+
+  <!-- Panel 3: Japan's Forests & Forest Environment Tax -->
+  <g transform="translate(626, 62)">
+    <rect x="0" y="0" width="286" height="338" rx="12" fill="#FFFFFF" stroke="#15803D" stroke-width="1.8"/>
+    <rect x="0" y="0" width="286" height="34" rx="12" fill="#15803D"/>
+    <rect x="0" y="20" width="286" height="14" fill="#15803D"/>
+    <text x="143" y="23" text-anchor="middle" font-size="14.5" font-weight="800" fill="#FFFFFF">③ 日本の森林と森林環境税</text>
+
+    <!-- 2/3 Pie icon -->
+    <g transform="translate(60, 102)">
+      <circle cx="0" cy="0" r="40" fill="#E2E8F0" stroke="#334155" stroke-width="1.5"/>
+      <path d="M 0.00,0.00 L 0.00,-40.00 A 40.00,40.00 0 1,1 -34.64,20.00 Z" fill="#22C55E" stroke="#14532D" stroke-width="1.5"/>
+      <text x="14" y="13" text-anchor="middle" font-size="12.5" font-weight="800" fill="#FFFFFF">3分の2</text>
+    </g>
+    <text x="112" y="84" font-size="12.5" font-weight="800" fill="#14532D">国土の約３分の２が森林！</text>
+    <text x="112" y="106" font-size="12" fill="#1E293B">・自然の「<tspan font-weight="700" fill="#15803D">天然林</tspan>」</text>
+    <text x="112" y="126" font-size="12" fill="#1E293B">・人が植えた「<tspan font-weight="700" fill="#15803D">人工林</tspan>」</text>
+
+    <rect x="14" y="162" width="258" height="74" rx="8" fill="#F0FDF4" stroke="#86EFAC" stroke-width="1.4"/>
+    <text x="24" y="184" font-size="13" font-weight="800" fill="#166534">森林の大切な働き</text>
+    <text x="24" y="206" font-size="12" fill="#1E293B">・雨水をたくわえる「<tspan font-weight="700" fill="#0369A1">水源</tspan>」の働き</text>
+    <text x="24" y="226" font-size="12" fill="#1E293B">・地球温暖化の原因「<tspan font-weight="700" fill="#B91C1C">温室効果ガス</tspan>」を吸収</text>
+
+    <rect x="14" y="248" width="258" height="78" rx="8" fill="#FFFBEB" stroke="#F59E0B" stroke-width="1.4"/>
+    <text x="24" y="270" font-size="13" font-weight="800" fill="#92400E">2024年度〜 森林環境税の導入</text>
+    <text x="24" y="292" font-size="12" fill="#1E293B">手入れ不足の森林の整備や，</text>
+    <text x="24" y="312" font-size="12" fill="#1E293B">林業の人々の「<tspan font-weight="700" fill="#C2410C">高れい化</tspan>」対策に活用！</text>
+  </g>
+</svg>

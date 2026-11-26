@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" width="480" height="360" role="img" aria-label="三角形ABCと合同な三角形の作図下絵（1辺と両はしの角）">
+  <title>三角形ABCと合同な三角形の作図下絵（1辺と両はしの角）</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .sub { font-size: 13px; font-weight: 600; fill: #475569; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 15px; font-weight: 700; }
+      .num-lg { font-size: 17px; font-weight: 700; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .amber { fill: #B45309; }
+      .muted { fill: #64748B; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+    <marker id="arr-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#2563EB"/>
+    </marker>
+    <marker id="arr-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#DC2626"/>
+    </marker>
+    <marker id="arr-dark" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#334155"/>
+    </marker>
+    <marker id="arr-teal" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#0F766E"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="480" height="360" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <g stroke="#E2E8F0" stroke-width="1.0">
+    <line x1="116.0" y1="18" x2="116.0" y2="342"/>
+    <line x1="64.0" y1="18" x2="64.0" y2="342"/>
+    <line x1="168.0" y1="18" x2="168.0" y2="342"/>
+    <line x1="220.0" y1="18" x2="220.0" y2="342"/>
+    <line x1="272.0" y1="18" x2="272.0" y2="342"/>
+    <line x1="324.0" y1="18" x2="324.0" y2="342"/>
+    <line x1="376.0" y1="18" x2="376.0" y2="342"/>
+    <line x1="428.0" y1="18" x2="428.0" y2="342"/>
+    <line x1="18" y1="296.0" x2="462" y2="296.0"/>
+    <line x1="18" y1="244.0" x2="462" y2="244.0"/>
+    <line x1="18" y1="192.0" x2="462" y2="192.0"/>
+    <line x1="18" y1="140.0" x2="462" y2="140.0"/>
+    <line x1="18" y1="88.0" x2="462" y2="88.0"/>
+    <line x1="18" y1="36.0" x2="462" y2="36.0"/>
+  </g>
+  <rect x="18" y="18" width="444" height="324" rx="6" fill="none" stroke="#CBD5E1" stroke-width="1.2"/>
+  <rect x="356" y="24" width="98" height="24" rx="6" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="405" y="40" text-anchor="middle" font-size="11.5" font-weight="700" fill="#475569">1めもり＝1cm</text>
+  <text x="28" y="40" font-size="12" font-weight="600" fill="#64748B">下の辺BC（4cm）の両はしから60°・30°をひこう</text>
+  <g transform="translate(314,56)">
+    <rect x="0" y="0" width="140" height="94" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.2"/>
+    <text x="8" y="15" font-size="10.5" font-weight="700" fill="#64748B">もとの三角形ABC</text>
+    <polygon points="24,78 120,78 48,36.4" fill="#EFF6FF" stroke="#1E293B" stroke-width="1.6" stroke-linejoin="round"/>
+    <text x="48" y="31" text-anchor="middle" font-size="11" font-weight="700">A</text>
+    <text x="15" y="82" text-anchor="middle" font-size="11" font-weight="700">B</text>
+    <text x="128" y="82" text-anchor="middle" font-size="11" font-weight="700">C</text>
+    <text x="72" y="90" text-anchor="middle" font-size="10.5" font-weight="700" fill="#2563EB">4cm</text>
+    <text x="22" y="54" text-anchor="middle" font-size="10" font-weight="600" fill="#475569">2cm</text>
+    <text x="41" y="74" text-anchor="middle" font-size="10" font-weight="700" fill="#DC2626">60°</text>
+    <text x="96" y="74" text-anchor="middle" font-size="10" font-weight="700" fill="#DC2626">30°</text>
+  </g>
+  <line x1="116.0" y1="296.0" x2="324.0" y2="296.0" stroke="#1E293B" stroke-width="3.0" stroke-linecap="round"/>
+  <circle cx="116.0" cy="296.0" r="4.2" fill="#2563EB"/>
+  <circle cx="324.0" cy="296.0" r="4.2" fill="#2563EB"/>
+  <text x="101.0" y="302.0" text-anchor="middle" class="lbl">B</text>
+  <text x="339.0" y="302.0" text-anchor="middle" class="lbl">C</text>
+  <path d="M 324.0 296.0 Q 220.0 324.8 116.0 296.0" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="220.0" y="317.6" text-anchor="middle" font-size="14" font-weight="700" fill="#1E293B" class="halo">4cm</text>
+</svg>

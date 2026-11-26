@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 410" width="960" height="410" role="img" aria-label="都道府県別の米の生産量（2023年・上位10道県）の表と、米の消費量の移り変わりグラフ">
+  <style>
+    text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans CJK JP', sans-serif; }
+  </style>
+  <rect width="960" height="410" fill="#FFFFFF"/>
+
+  <!-- Left panel: Table -->
+  <rect x="14" y="14" width="440" height="382" rx="12" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <text x="234" y="42" text-anchor="middle" font-size="16.5" font-weight="700" fill="#0F172A">都道府県別の米の生産量（上位10道県）</text>
+  <text x="440" y="64" text-anchor="end" font-size="12.5" font-weight="600" fill="#475569">（2023年）（単位 t）</text>
+
+  <!-- Table Header -->
+  <rect x="26" y="74" width="416" height="40" fill="#15803D" stroke="#14532D" stroke-width="1.2"/>
+  <text x="80" y="100" text-anchor="middle" font-size="14.5" font-weight="700" fill="#FFFFFF">道県名</text>
+  <text x="184" y="100" text-anchor="middle" font-size="14.5" font-weight="700" fill="#FFFFFF">生産量</text>
+  <text x="288" y="100" text-anchor="middle" font-size="14.5" font-weight="700" fill="#FFFFFF">道県名</text>
+  <text x="392" y="100" text-anchor="middle" font-size="14.5" font-weight="700" fill="#FFFFFF">生産量</text>
+  
+    <rect x="26" y="114" width="416" height="44" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1"/>
+    <text x="80" y="142" text-anchor="middle" font-size="15.5" font-weight="700" fill="#0F172A">北海道</text>
+    <text x="184" y="142" text-anchor="middle" font-size="15" font-weight="600" fill="#1E293B">540200</text>
+    <text x="288" y="142" text-anchor="middle" font-size="15.5" font-weight="700" fill="#0F172A">福島県</text>
+    <text x="392" y="142" text-anchor="middle" font-size="15" font-weight="600" fill="#1E293B">327600</text>
+    <rect x="26" y="158" width="416" height="44" fill="#F0FDF4" stroke="#94A3B8" stroke-width="1"/>
+    <text x="80" y="186" text-anchor="middle" font-size="15.5" font-weight="700" fill="#0F172A">岩手県</text>
+    <text x="184" y="186" text-anchor="middle" font-size="15" font-weight="600" fill="#1E293B">249100</text>
+    <text x="288" y="186" text-anchor="middle" font-size="15.5" font-weight="700" fill="#0F172A">茨城県</text>
+    <text x="392" y="186" text-anchor="middle" font-size="15" font-weight="600" fill="#1E293B">316400</text>
+    <rect x="26" y="202" width="416" height="44" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1"/>
+    <text x="80" y="230" text-anchor="middle" font-size="15.5" font-weight="700" fill="#0F172A">宮城県</text>
+    <text x="184" y="230" text-anchor="middle" font-size="15" font-weight="600" fill="#1E293B">344700</text>
+    <text x="288" y="230" text-anchor="middle" font-size="15.5" font-weight="700" fill="#0F172A">栃木県</text>
+    <text x="392" y="230" text-anchor="middle" font-size="15" font-weight="600" fill="#1E293B">284200</text>
+    <rect x="26" y="246" width="416" height="44" fill="#F0FDF4" stroke="#94A3B8" stroke-width="1"/>
+    <text x="80" y="274" text-anchor="middle" font-size="15.5" font-weight="700" fill="#0F172A">秋田県</text>
+    <text x="184" y="274" text-anchor="middle" font-size="15" font-weight="600" fill="#1E293B">458200</text>
+    <text x="288" y="274" text-anchor="middle" font-size="15.5" font-weight="700" fill="#0F172A">千葉県</text>
+    <text x="392" y="274" text-anchor="middle" font-size="15" font-weight="600" fill="#1E293B">265700</text>
+    <rect x="26" y="290" width="416" height="44" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1"/>
+    <text x="80" y="318" text-anchor="middle" font-size="15.5" font-weight="700" fill="#0F172A">山形県</text>
+    <text x="184" y="318" text-anchor="middle" font-size="15" font-weight="600" fill="#1E293B">359300</text>
+    <text x="288" y="318" text-anchor="middle" font-size="15.5" font-weight="700" fill="#0F172A">新潟県</text>
+    <text x="392" y="318" text-anchor="middle" font-size="15" font-weight="600" fill="#1E293B">591700</text>
+  <!-- Vertical dividers -->
+  <line x1="132" y1="74" x2="132" y2="334" stroke="#64748B" stroke-width="1.1"/>
+  <line x1="234" y1="74" x2="234" y2="334" stroke="#14532D" stroke-width="2"/>
+  <line x1="340" y1="74" x2="340" y2="334" stroke="#64748B" stroke-width="1.1"/>
+  <rect x="26" y="74" width="416" height="260" fill="none" stroke="#14532D" stroke-width="1.6"/>
+  <text x="28" y="360" font-size="12" fill="#475569">※1t＝1000kg</text>
+  <text x="440" y="360" text-anchor="end" font-size="12" fill="#475569">（農林水産省資料）</text>
+
+  <!-- Right panel: Line Graph -->
+  <rect x="468" y="14" width="478" height="382" rx="12" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <text x="707" y="44" text-anchor="middle" font-size="17" font-weight="700" fill="#0F172A">米の消費量の移り変わり</text>
+  <text x="516" y="84" text-anchor="end" font-size="12.5" font-weight="700" fill="#334155">（万t）</text>
+
+  <rect x="524" y="96" width="396" height="240" fill="#FFFFFF" stroke="#334155" stroke-width="1.5"/>
+  <line x1="524.0" y1="96" x2="524.0" y2="336" stroke="#E2E8F0" stroke-width="1"/><text x="524.0" y="354" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1E293B">1960</text><line x1="555.9" y1="96" x2="555.9" y2="336" stroke="#E2E8F0" stroke-width="1"/><text x="555.9" y="354" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1E293B">65</text><line x1="587.9" y1="96" x2="587.9" y2="336" stroke="#E2E8F0" stroke-width="1"/><text x="587.9" y="354" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1E293B">70</text><line x1="619.8" y1="96" x2="619.8" y2="336" stroke="#E2E8F0" stroke-width="1"/><text x="619.8" y="354" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1E293B">75</text><line x1="651.7" y1="96" x2="651.7" y2="336" stroke="#E2E8F0" stroke-width="1"/><text x="651.7" y="354" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1E293B">80</text><line x1="683.7" y1="96" x2="683.7" y2="336" stroke="#E2E8F0" stroke-width="1"/><text x="683.7" y="354" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1E293B">85</text><line x1="715.6" y1="96" x2="715.6" y2="336" stroke="#E2E8F0" stroke-width="1"/><text x="715.6" y="354" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1E293B">90</text><line x1="747.5" y1="96" x2="747.5" y2="336" stroke="#E2E8F0" stroke-width="1"/><text x="747.5" y="354" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1E293B">95</text><line x1="779.5" y1="96" x2="779.5" y2="336" stroke="#E2E8F0" stroke-width="1"/><text x="779.5" y="354" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1E293B">2000</text><line x1="811.4" y1="96" x2="811.4" y2="336" stroke="#E2E8F0" stroke-width="1"/><text x="811.4" y="354" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1E293B">05</text><line x1="843.4" y1="96" x2="843.4" y2="336" stroke="#E2E8F0" stroke-width="1"/><text x="843.4" y="354" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1E293B">10</text><line x1="875.3" y1="96" x2="875.3" y2="336" stroke="#E2E8F0" stroke-width="1"/><text x="875.3" y="354" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1E293B">15</text><line x1="907.2" y1="96" x2="907.2" y2="336" stroke="#E2E8F0" stroke-width="1"/><text x="907.2" y="354" text-anchor="middle" font-size="11.5" font-weight="600" fill="#1E293B">20</text>
+  <line x1="524" y1="336.0" x2="920" y2="336.0" stroke="#94A3B8" stroke-width="1"/><text x="516" y="341.0" text-anchor="end" font-size="12.5" font-weight="700" fill="#1E293B">0</text><line x1="524" y1="256.0" x2="920" y2="256.0" stroke="#94A3B8" stroke-width="1"/><text x="516" y="261.0" text-anchor="end" font-size="12.5" font-weight="700" fill="#1E293B">500</text><line x1="524" y1="176.0" x2="920" y2="176.0" stroke="#94A3B8" stroke-width="1"/><text x="516" y="181.0" text-anchor="end" font-size="12.5" font-weight="700" fill="#1E293B">1000</text><line x1="524" y1="96.0" x2="920" y2="96.0" stroke="#94A3B8" stroke-width="1"/><text x="516" y="101.0" text-anchor="end" font-size="12.5" font-weight="700" fill="#1E293B">1500</text>
+  <polygon points="524.0,336 524.0,134.1 536.8,122.9 543.2,121.4 555.9,128.2 575.1,140.0 587.9,144.8 607.0,142.7 619.8,144.6 639.0,154.2 651.7,156.6 683.7,162.4 715.6,168.3 734.8,168.3 741.2,175.7 747.5,172.8 779.5,179.4 811.4,188.5 824.2,188.5 830.6,194.9 843.4,191.7 856.1,196.0 875.3,198.1 888.1,200.8 907.2,209.3 920.0,205.4 920.0,336" fill="#FEF08A" opacity="0.45"/>
+  <polyline points="524.0,134.1 536.8,122.9 543.2,121.4 555.9,128.2 575.1,140.0 587.9,144.8 607.0,142.7 619.8,144.6 639.0,154.2 651.7,156.6 683.7,162.4 715.6,168.3 734.8,168.3 741.2,175.7 747.5,172.8 779.5,179.4 811.4,188.5 824.2,188.5 830.6,194.9 843.4,191.7 856.1,196.0 875.3,198.1 888.1,200.8 907.2,209.3 920.0,205.4" fill="none" stroke="#D97706" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <text x="524.0" y="370" text-anchor="middle" font-size="10.5" fill="#475569">(昭和35)</text>
+  <text x="715.6" y="370" text-anchor="middle" font-size="10.5" fill="#475569">(平成2)</text>
+  <text x="934" y="354" text-anchor="middle" font-size="11.5" font-weight="700" fill="#334155">(年)</text>
+  <text x="932" y="386" text-anchor="end" font-size="11.5" fill="#475569">（「食料需給表 令和4年度版」）</text>
+</svg>

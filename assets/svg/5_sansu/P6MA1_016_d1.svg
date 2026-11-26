@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 220" width="330" height="220" role="img" aria-label="直方体（縦3m，横6m，高さ4m）">
+  <title>直方体（縦3m，横6m，高さ4m）</title>
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 11.5px; font-weight: 600; fill: #475569; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .dim-sm { font-size: 13px; font-weight: 700; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="330" height="220" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <polygon points="78.0,88.0 222.0,88.0 261.6,57.8 117.6,57.8" fill="#EFF6FF" stroke="#1E293B" stroke-width="2.0" stroke-linejoin="round"/>
+  <polygon points="78.0,184.0 222.0,184.0 222.0,88.0 78.0,88.0" fill="#DBEAFE" stroke="#1E293B" stroke-width="2.0" stroke-linejoin="round"/>
+  <polygon points="222.0,184.0 261.6,153.8 261.6,57.8 222.0,88.0" fill="#BFDBFE" stroke="#1E293B" stroke-width="2.0" stroke-linejoin="round"/>
+  <path d="M 78.0 88.0 Q 76.0 44.3 117.6 57.8" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="86.9" y="63.6" text-anchor="middle" class="dim halo" fill="#1E293B">3m</text>
+  <path d="M 78.0 88.0 Q 150.0 124.0 222.0 88.0" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="150.0" y="111.0" text-anchor="middle" class="dim halo" fill="#1E293B">6m</text>
+  <path d="M 78.0 184.0 Q 34.0 136.0 78.0 88.0" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="56.0" y="141.0" text-anchor="middle" class="dim halo" fill="#1E293B">4m</text>
+</svg>

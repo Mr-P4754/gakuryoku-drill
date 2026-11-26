@@ -1,0 +1,208 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 420" width="660" height="420">
+  <defs>
+    <marker id="arrDark" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#334155"/>
+    </marker>
+    <marker id="arrBlue" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#0284C7"/>
+    </marker>
+    <marker id="arrRed" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#DC2626"/>
+    </marker>
+    <marker id="arrGreen" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#059669"/>
+    </marker>
+    <marker id="arrAmber" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#D97706"/>
+    </marker>
+    
+  </defs>
+  <rect width="660" height="420" rx="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <text x="330" y="27" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="15" font-weight="bold" fill="#065F46">ふりこの条件を変えた実験（ア〜カ）</text>
+
+    <rect x="18" y="40" width="624" height="118" rx="10" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.4"/>
+    <rect x="470" y="54" width="156" height="26" rx="6" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.3"/>
+    <text x="548" y="72" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12.5" font-weight="bold" fill="#1D4ED8">ふりこの長さを変える</text>
+    <text x="548" y="102" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" fill="#334155">重さ(20g)・ふれはば(30°)は同じ</text>
+    <text x="548" y="122" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#0369A1">長さ：50cm と 100cm</text>
+    
+    <g transform="translate(128,56)">
+      <!-- Label badge -->
+      <rect x="-74" y="-6" width="24" height="22" rx="5" fill="#0284C7"/>
+      <text x="-62" y="9" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">ア</text>
+      <!-- Ceiling bar -->
+      <rect x="-44" y="-4" width="88" height="8" rx="2" fill="#CBD5E1" stroke="#475569" stroke-width="1.2"/>
+      <circle cx="0" cy="4" r="2.8" fill="#1E293B"/>
+      <!-- Vertical center dashed line -->
+      <line x1="0" y1="4" x2="0" y2="58.0" stroke="#94A3B8" stroke-width="1.2" stroke-dasharray="3,3"/>
+      <!-- Swing path arc -->
+      <path d="M-24.0,45.6 A48.0,48.0 0 0,0 24.0,45.6"
+            fill="none" stroke="#CBD5E1" stroke-width="1.4"/>
+      <!-- Angle arc -->
+      <path d="M0,30.0 A26,26 0 0,0 13.0,26.5"
+            fill="none" stroke="#D97706" stroke-width="1.5"/>
+      <text x="22.4" y="31.5" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11" font-weight="bold" fill="#B45309">30°</text>
+      <!-- Right ghost pendulum string + bob -->
+      <line x1="0" y1="4" x2="24.0" y2="45.6" stroke="#94A3B8" stroke-width="1.5" stroke-dasharray="3,2"/>
+      <circle cx="24.0" cy="45.6" r="9" fill="#E2E8F0" stroke="#64748B" stroke-width="1.4"/>
+      <!-- Left solid pendulum string + bob -->
+      <line x1="0" y1="4" x2="-24.0" y2="45.6" stroke="#1E293B" stroke-width="2"/>
+      <circle cx="-24.0" cy="45.6" r="9" fill="#64748B" stroke="#1E293B" stroke-width="1.6"/>
+      <!-- Length label -->
+      <text x="-37.2" y="24.0" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#0369A1">50cm</text>
+      <!-- Mass label -->
+      <text x="-44.0" y="49.6" text-anchor="end" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#334155">20g</text>
+    </g>
+    
+    <g transform="translate(334,56)">
+      <!-- Label badge -->
+      <rect x="-74" y="-6" width="24" height="22" rx="5" fill="#0284C7"/>
+      <text x="-62" y="9" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">イ</text>
+      <!-- Ceiling bar -->
+      <rect x="-44" y="-4" width="88" height="8" rx="2" fill="#CBD5E1" stroke="#475569" stroke-width="1.2"/>
+      <circle cx="0" cy="4" r="2.8" fill="#1E293B"/>
+      <!-- Vertical center dashed line -->
+      <line x1="0" y1="4" x2="0" y2="92.0" stroke="#94A3B8" stroke-width="1.2" stroke-dasharray="3,3"/>
+      <!-- Swing path arc -->
+      <path d="M-41.0,75.0 A82.0,82.0 0 0,0 41.0,75.0"
+            fill="none" stroke="#CBD5E1" stroke-width="1.4"/>
+      <!-- Angle arc -->
+      <path d="M0,30.0 A26,26 0 0,0 13.0,26.5"
+            fill="none" stroke="#D97706" stroke-width="1.5"/>
+      <text x="22.4" y="31.5" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11" font-weight="bold" fill="#B45309">30°</text>
+      <!-- Right ghost pendulum string + bob -->
+      <line x1="0" y1="4" x2="41.0" y2="75.0" stroke="#94A3B8" stroke-width="1.5" stroke-dasharray="3,2"/>
+      <circle cx="41.0" cy="75.0" r="9" fill="#E2E8F0" stroke="#64748B" stroke-width="1.4"/>
+      <!-- Left solid pendulum string + bob -->
+      <line x1="0" y1="4" x2="-41.0" y2="75.0" stroke="#1E293B" stroke-width="2"/>
+      <circle cx="-41.0" cy="75.0" r="9" fill="#64748B" stroke="#1E293B" stroke-width="1.6"/>
+      <!-- Length label -->
+      <text x="-46.5" y="38.1" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#0369A1">100cm</text>
+      <!-- Mass label -->
+      <text x="-61.0" y="79.0" text-anchor="end" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#334155">20g</text>
+    </g>
+    
+    <rect x="18" y="166" width="624" height="118" rx="10" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.4"/>
+    <rect x="470" y="180" width="156" height="26" rx="6" fill="#ECFDF5" stroke="#10B981" stroke-width="1.3"/>
+    <text x="548" y="198" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12.5" font-weight="bold" fill="#065F46">おもりの重さを変える</text>
+    <text x="548" y="228" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" fill="#334155">長さ(100cm)・ふれはば(30°)は同じ</text>
+    <text x="548" y="248" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#059669">重さ：10g と 20g</text>
+    
+    <g transform="translate(128,182)">
+      <!-- Label badge -->
+      <rect x="-74" y="-6" width="24" height="22" rx="5" fill="#059669"/>
+      <text x="-62" y="9" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">ウ</text>
+      <!-- Ceiling bar -->
+      <rect x="-44" y="-4" width="88" height="8" rx="2" fill="#CBD5E1" stroke="#475569" stroke-width="1.2"/>
+      <circle cx="0" cy="4" r="2.8" fill="#1E293B"/>
+      <!-- Vertical center dashed line -->
+      <line x1="0" y1="4" x2="0" y2="92.0" stroke="#94A3B8" stroke-width="1.2" stroke-dasharray="3,3"/>
+      <!-- Swing path arc -->
+      <path d="M-41.0,75.0 A82.0,82.0 0 0,0 41.0,75.0"
+            fill="none" stroke="#CBD5E1" stroke-width="1.4"/>
+      <!-- Angle arc -->
+      <path d="M0,30.0 A26,26 0 0,0 13.0,26.5"
+            fill="none" stroke="#D97706" stroke-width="1.5"/>
+      <text x="22.4" y="31.5" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11" font-weight="bold" fill="#B45309">30°</text>
+      <!-- Right ghost pendulum string + bob -->
+      <line x1="0" y1="4" x2="41.0" y2="75.0" stroke="#94A3B8" stroke-width="1.5" stroke-dasharray="3,2"/>
+      <circle cx="41.0" cy="75.0" r="6.5" fill="#E2E8F0" stroke="#64748B" stroke-width="1.4"/>
+      <!-- Left solid pendulum string + bob -->
+      <line x1="0" y1="4" x2="-41.0" y2="75.0" stroke="#1E293B" stroke-width="2"/>
+      <circle cx="-41.0" cy="75.0" r="6.5" fill="#94A3B8" stroke="#1E293B" stroke-width="1.6"/>
+      <!-- Length label -->
+      <text x="-46.5" y="38.1" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#0369A1">100cm</text>
+      <!-- Mass label -->
+      <text x="-61.0" y="79.0" text-anchor="end" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#334155">10g</text>
+    </g>
+    
+    <g transform="translate(334,182)">
+      <!-- Label badge -->
+      <rect x="-74" y="-6" width="24" height="22" rx="5" fill="#059669"/>
+      <text x="-62" y="9" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">エ</text>
+      <!-- Ceiling bar -->
+      <rect x="-44" y="-4" width="88" height="8" rx="2" fill="#CBD5E1" stroke="#475569" stroke-width="1.2"/>
+      <circle cx="0" cy="4" r="2.8" fill="#1E293B"/>
+      <!-- Vertical center dashed line -->
+      <line x1="0" y1="4" x2="0" y2="92.0" stroke="#94A3B8" stroke-width="1.2" stroke-dasharray="3,3"/>
+      <!-- Swing path arc -->
+      <path d="M-41.0,75.0 A82.0,82.0 0 0,0 41.0,75.0"
+            fill="none" stroke="#CBD5E1" stroke-width="1.4"/>
+      <!-- Angle arc -->
+      <path d="M0,30.0 A26,26 0 0,0 13.0,26.5"
+            fill="none" stroke="#D97706" stroke-width="1.5"/>
+      <text x="22.4" y="31.5" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11" font-weight="bold" fill="#B45309">30°</text>
+      <!-- Right ghost pendulum string + bob -->
+      <line x1="0" y1="4" x2="41.0" y2="75.0" stroke="#94A3B8" stroke-width="1.5" stroke-dasharray="3,2"/>
+      <circle cx="41.0" cy="75.0" r="9" fill="#E2E8F0" stroke="#64748B" stroke-width="1.4"/>
+      <!-- Left solid pendulum string + bob -->
+      <line x1="0" y1="4" x2="-41.0" y2="75.0" stroke="#1E293B" stroke-width="2"/>
+      <circle cx="-41.0" cy="75.0" r="9" fill="#64748B" stroke="#1E293B" stroke-width="1.6"/>
+      <!-- Length label -->
+      <text x="-46.5" y="38.1" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#0369A1">100cm</text>
+      <!-- Mass label -->
+      <text x="-61.0" y="79.0" text-anchor="end" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#334155">20g</text>
+    </g>
+    
+    <rect x="18" y="292" width="624" height="118" rx="10" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.4"/>
+    <rect x="470" y="306" width="156" height="26" rx="6" fill="#FFFBEB" stroke="#F59E0B" stroke-width="1.3"/>
+    <text x="548" y="324" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#B45309">ふれはばを変える</text>
+    <text x="548" y="354" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" fill="#334155">長さ(100cm)・重さ(10g)は同じ</text>
+    <text x="548" y="374" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#B45309">ふれはば：30° と 50°</text>
+    
+    <g transform="translate(128,308)">
+      <!-- Label badge -->
+      <rect x="-74" y="-6" width="24" height="22" rx="5" fill="#D97706"/>
+      <text x="-62" y="9" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">オ</text>
+      <!-- Ceiling bar -->
+      <rect x="-44" y="-4" width="88" height="8" rx="2" fill="#CBD5E1" stroke="#475569" stroke-width="1.2"/>
+      <circle cx="0" cy="4" r="2.8" fill="#1E293B"/>
+      <!-- Vertical center dashed line -->
+      <line x1="0" y1="4" x2="0" y2="92.0" stroke="#94A3B8" stroke-width="1.2" stroke-dasharray="3,3"/>
+      <!-- Swing path arc -->
+      <path d="M-41.0,75.0 A82.0,82.0 0 0,0 41.0,75.0"
+            fill="none" stroke="#CBD5E1" stroke-width="1.4"/>
+      <!-- Angle arc -->
+      <path d="M0,30.0 A26,26 0 0,0 13.0,26.5"
+            fill="none" stroke="#D97706" stroke-width="1.5"/>
+      <text x="22.4" y="31.5" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11" font-weight="bold" fill="#B45309">30°</text>
+      <!-- Right ghost pendulum string + bob -->
+      <line x1="0" y1="4" x2="41.0" y2="75.0" stroke="#94A3B8" stroke-width="1.5" stroke-dasharray="3,2"/>
+      <circle cx="41.0" cy="75.0" r="6.5" fill="#E2E8F0" stroke="#64748B" stroke-width="1.4"/>
+      <!-- Left solid pendulum string + bob -->
+      <line x1="0" y1="4" x2="-41.0" y2="75.0" stroke="#1E293B" stroke-width="2"/>
+      <circle cx="-41.0" cy="75.0" r="6.5" fill="#94A3B8" stroke="#1E293B" stroke-width="1.6"/>
+      <!-- Length label -->
+      <text x="-46.5" y="38.1" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#0369A1">100cm</text>
+      <!-- Mass label -->
+      <text x="-61.0" y="79.0" text-anchor="end" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#334155">10g</text>
+    </g>
+    
+    <g transform="translate(342,308)">
+      <!-- Label badge -->
+      <rect x="-74" y="-6" width="24" height="22" rx="5" fill="#D97706"/>
+      <text x="-62" y="9" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">カ</text>
+      <!-- Ceiling bar -->
+      <rect x="-44" y="-4" width="88" height="8" rx="2" fill="#CBD5E1" stroke="#475569" stroke-width="1.2"/>
+      <circle cx="0" cy="4" r="2.8" fill="#1E293B"/>
+      <!-- Vertical center dashed line -->
+      <line x1="0" y1="4" x2="0" y2="92.0" stroke="#94A3B8" stroke-width="1.2" stroke-dasharray="3,3"/>
+      <!-- Swing path arc -->
+      <path d="M-62.8,56.7 A82.0,82.0 0 0,0 62.8,56.7"
+            fill="none" stroke="#CBD5E1" stroke-width="1.4"/>
+      <!-- Angle arc -->
+      <path d="M0,30.0 A26,26 0 0,0 19.9,20.7"
+            fill="none" stroke="#D97706" stroke-width="1.5"/>
+      <text x="30.9" y="34.7" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11" font-weight="bold" fill="#B45309">50°</text>
+      <!-- Right ghost pendulum string + bob -->
+      <line x1="0" y1="4" x2="62.8" y2="56.7" stroke="#94A3B8" stroke-width="1.5" stroke-dasharray="3,2"/>
+      <circle cx="62.8" cy="56.7" r="6.5" fill="#E2E8F0" stroke="#64748B" stroke-width="1.4"/>
+      <!-- Left solid pendulum string + bob -->
+      <line x1="0" y1="4" x2="-62.8" y2="56.7" stroke="#1E293B" stroke-width="2"/>
+      <circle cx="-62.8" cy="56.7" r="6.5" fill="#94A3B8" stroke="#1E293B" stroke-width="1.6"/>
+      <!-- Length label -->
+      <text x="-58.5" y="29.3" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#0369A1">100cm</text>
+      <!-- Mass label -->
+      <text x="-82.8" y="60.7" text-anchor="end" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#334155">10g</text>
+    </g>
+    </svg>

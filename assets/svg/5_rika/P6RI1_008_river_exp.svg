@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 320" width="620" height="320">
+  <defs>
+    <marker id="arrDark" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#334155"/>
+    </marker>
+    <marker id="arrBlue" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#0284C7"/>
+    </marker>
+    <marker id="arrRed" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#DC2626"/>
+    </marker>
+    <marker id="arrGreen" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#059669"/>
+    </marker>
+    <marker id="arrAmber" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#D97706"/>
+    </marker>
+    
+  </defs>
+  <rect width="620" height="320" rx="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <text x="310" y="27" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="15" font-weight="bold" fill="#065F46">流れる水のはたらきを調べる実験（土のしゃ面）</text>
+
+    <rect x="20" y="42" width="380" height="262" rx="12" fill="#FEF3C7" stroke="#94A3B8" stroke-width="1.5"/>
+    <!-- Soil mound slope -->
+    <path d="M20,164 Q120,86 218,88 Q314,90 400,162 L400,304 L20,304 Z" fill="#FDE68A" stroke="#92400E" stroke-width="1.6"/>
+    <!-- Gentle hill contour lines -->
+    <path d="M74,174 Q102,166 126,174" fill="none" stroke="#B45309" stroke-width="1.2" opacity="0.7"/>
+    <path d="M294,142 Q324,134 348,144" fill="none" stroke="#B45309" stroke-width="1.2" opacity="0.7"/>
+    <path d="M286,258 Q318,248 352,258" fill="none" stroke="#B45309" stroke-width="1.2" opacity="0.7"/>
+
+    <!-- Hose pouring water at top -->
+    <path d="M214,48 L224,84 L236,82 L228,48 Z" fill="#64748B" stroke="#1E293B" stroke-width="1.4"/>
+    <rect x="242" y="48" width="144" height="24" rx="6" fill="#FFFFFF" stroke="#0284C7" stroke-width="1.3"/>
+    <text x="314" y="65" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#0369A1">ホースで水を流す。</text>
+
+    <!-- Winding stream carving down the slope (matches PDF p.17!) -->
+    <!-- Curve bends right at イ so right bank = 外側, left bank = 内側, then sweeps left to fan ア -->
+    <path d="M226,84 C228,118 256,154 252,184 C248,214 192,240 120,256 C86,264 60,276 82,288 C114,296 154,280 176,264 C222,232 268,208 266,180 C264,150 236,118 234,84 Z"
+          fill="#7DD3FC" stroke="#0284C7" stroke-width="1.6"/>
+    <!-- Deposited sand fan at ア and inner bank of イ -->
+    <ellipse cx="102" cy="272" rx="34" ry="14" fill="#FCD34D" opacity="0.7" stroke="#D97706" stroke-width="1.1" stroke-dasharray="3,2"/>
+    <path d="M236,162 Q242,178 232,196" fill="none" stroke="#D97706" stroke-width="4" opacity="0.65"/>
+
+    <!-- Flow arrows inside stream -->
+    <path d="M234,110 L246,144" stroke="#0369A1" stroke-width="2" marker-end="url(#arrBlue)"/>
+    <path d="M254,184 Q240,208 212,226" fill="none" stroke="#0369A1" stroke-width="2" marker-end="url(#arrBlue)"/>
+
+    <!-- Labels: 土のしゃ面, イ (内側/外側), ア -->
+    <text x="72" y="114" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12.5" font-weight="bold" fill="#78350F">土のしゃ面</text>
+    <line x1="104" y1="112" x2="128" y2="122" stroke="#78350F" stroke-width="1.2"/>
+
+    <!-- イ point labels -->
+    <rect x="176" y="168" width="46" height="22" rx="5" fill="#FFFFFF" stroke="#059669" stroke-width="1.3"/>
+    <text x="199" y="184" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#065F46">内側</text>
+
+    <rect x="276" y="168" width="46" height="22" rx="5" fill="#FFFFFF" stroke="#DC2626" stroke-width="1.3"/>
+    <text x="299" y="184" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#B91C1C">外側</text>
+
+    <circle cx="266" cy="212" r="14" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+    <text x="266" y="217" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#1D4ED8">イ</text>
+
+    <!-- ア point label -->
+    <line x1="130" y1="274" x2="164" y2="286" stroke="#D97706" stroke-width="1.6"/>
+    <circle cx="180" cy="286" r="14" fill="#FFFBEB" stroke="#D97706" stroke-width="2"/>
+    <text x="180" y="291" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#B45309">ア</text>
+
+    <!-- Right key legend box (no answer leaks!) -->
+    <rect x="414" y="42" width="186" height="262" rx="12" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.5"/>
+    <rect x="428" y="54" width="158" height="26" rx="6" fill="#065F46"/>
+    <text x="507" y="72" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12.5" font-weight="bold" fill="#FFFFFF">観察する地点</text>
+
+    <circle cx="446" cy="112" r="13" fill="#FFFBEB" stroke="#D97706" stroke-width="2"/>
+    <text x="446" y="117" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#B45309">ア</text>
+    <text x="466" y="110" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#0F172A">しゃ面の下</text>
+    <text x="466" y="128" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11" fill="#475569">かたむきが平らに</text>
+    <text x="466" y="144" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11" fill="#475569">なるところ</text>
+
+    <line x1="428" y1="164" x2="586" y2="164" stroke="#E2E8F0" stroke-width="1.3"/>
+
+    <circle cx="446" cy="194" r="13" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+    <text x="446" y="199" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#1D4ED8">イ</text>
+    <text x="466" y="192" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#0F172A">曲がっている所</text>
+    <text x="434" y="226" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#B91C1C">● 外側：</text>
+    <text x="484" y="226" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11" fill="#334155">水がぶつかる側</text>
+    <text x="434" y="252" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#065F46">● 内側：</text>
+    <text x="484" y="252" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11" fill="#334155">カーブの内側</text>
+    <text x="507" y="286" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11" fill="#64748B">流れの速さと土のようすに注目</text>
+    </svg>

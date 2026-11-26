@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 228" width="320" height="228" role="img" aria-label="直角をもつ四角形の角おを求める図">
+  <title>直角をもつ四角形の角おを求める図</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .sub { font-size: 13px; font-weight: 600; fill: #475569; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 15px; font-weight: 700; }
+      .num-lg { font-size: 17px; font-weight: 700; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .amber { fill: #B45309; }
+      .muted { fill: #64748B; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+    <marker id="arr-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#2563EB"/>
+    </marker>
+    <marker id="arr-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#DC2626"/>
+    </marker>
+    <marker id="arr-dark" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#334155"/>
+    </marker>
+    <marker id="arr-teal" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#0F766E"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="320" height="228" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <polygon points="66.0,198.0 242.0,198.0 242.0,78.8 110.8,101.9" fill="#F8FAFC" stroke="#1E293B" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M 110.80 101.93 L 132.46 98.11 A 22.00 22.00 0 0 1 101.50 121.87 Z" fill="rgba(37,99,235,0.12)" stroke="none"/>
+  <path d="M 132.46 98.11 A 22.00 22.00 0 0 1 101.50 121.87" fill="none" stroke="#2563EB" stroke-width="2.0"/>
+  <text x="136.4" y="140.3" text-anchor="middle" class="num halo">125°</text>
+  <path d="M 242.00 78.80 L 242.00 100.80 A 22.00 22.00 0 0 1 220.33 82.62 Z" fill="rgba(37,99,235,0.12)" stroke="none"/>
+  <path d="M 242.00 100.80 A 22.00 22.00 0 0 1 220.33 82.62" fill="none" stroke="#2563EB" stroke-width="2.0"/>
+  <text x="215.0" y="116.0" text-anchor="middle" class="num halo">80°</text>
+  <polyline points="226.0,198.0 226.0,182.0 242.0,182.0" fill="none" stroke="#1E293B" stroke-width="1.8"/>
+  <path d="M 66.00 198.00 L 76.14 176.25 A 24.00 24.00 0 0 1 90.00 198.00 Z" fill="rgba(220,38,38,0.16)" stroke="none"/>
+  <path d="M 76.14 176.25 A 24.00 24.00 0 0 1 90.00 198.00" fill="none" stroke="#DC2626" stroke-width="2.0"/>
+  <circle cx="103.1" cy="174.4" r="12" fill="#FEF2F2" stroke="#DC2626" stroke-width="1.6"/>
+  <text x="103.1" y="179.4" text-anchor="middle" font-size="14" font-weight="700" fill="#DC2626">お</text>
+</svg>

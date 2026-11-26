@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="720" height="380" role="img" aria-label="漢字の成り立ち4分類の図解">
+  <defs>
+    <style>
+      .t { font-family: 'Noto Sans CJK JP', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="720" height="380" rx="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="360" y="34" text-anchor="middle" class="t" font-size="18.5" font-weight="700" fill="#0F172A">漢字の成り立ち（4つの分類）</text>
+
+  <!-- Card 1: 象形文字 -->
+  <g transform="translate(24, 52)">
+    <rect x="0" y="0" width="326" height="148" rx="12" fill="#FFFFFF" stroke="#059669" stroke-width="2.2"/>
+    <rect x="0" y="0" width="326" height="34" rx="12" fill="#059669"/>
+    <text x="163" y="22" text-anchor="middle" class="t" font-size="15" font-weight="700" fill="#FFFFFF">① 象形文字（しょうけいもじ）</text>
+    <text x="16" y="56" class="t" font-size="13" font-weight="700" fill="#065F46">目に見える物の形を具体的にえがいたもの</text>
+    <!-- Mountain pictogram -> 山 -->
+    <g transform="translate(24, 70)">
+      <path d="M6,44 L22,18 L34,36 L48,8 L62,36 L74,18 L90,44 Z" fill="#D1FAE5" stroke="#059669" stroke-width="2.2" stroke-linejoin="round"/>
+      <path d="M104,28 L130,28 M123,21 L131,28 L123,35" fill="none" stroke="#059669" stroke-width="2.5" stroke-linecap="round"/>
+      <text x="160" y="42" text-anchor="middle" class="t" font-size="38" font-weight="700" fill="#065F46">山</text>
+    </g>
+    <text x="16" y="136" class="t" font-size="12.5" fill="#475569">例：山・火・馬・魚・鳥・人・手・矢</text>
+  </g>
+
+  <!-- Card 2: 指事文字 -->
+  <g transform="translate(370, 52)">
+    <rect x="0" y="0" width="326" height="148" rx="12" fill="#FFFFFF" stroke="#D97706" stroke-width="2.2"/>
+    <rect x="0" y="0" width="326" height="34" rx="12" fill="#D97706"/>
+    <text x="163" y="22" text-anchor="middle" class="t" font-size="15" font-weight="700" fill="#FFFFFF">② 指事文字（しじもじ）</text>
+    <text x="16" y="56" class="t" font-size="13" font-weight="700" fill="#92400E">場所・数などを印や記号で表したもの</text>
+    <!-- Up/Down/Root diagram -->
+    <g transform="translate(22, 70)">
+      <line x1="8" y1="36" x2="72" y2="36" stroke="#64748B" stroke-width="3"/>
+      <circle cx="40" cy="20" r="6" fill="#D97706"/>
+      <text x="40" y="52" text-anchor="middle" class="t" font-size="11" fill="#92400E">基準より上</text>
+      <path d="M84,28 L108,28 M101,21 L109,28 L101,35" fill="none" stroke="#D97706" stroke-width="2.5" stroke-linecap="round"/>
+      <text x="136" y="42" text-anchor="middle" class="t" font-size="36" font-weight="700" fill="#92400E">上</text>
+      <text x="234" y="26" text-anchor="middle" class="t" font-size="12" fill="#78350F">木＋根元の印</text>
+      <text x="234" y="48" text-anchor="middle" class="t" font-size="22" font-weight="700" fill="#92400E">→ 本</text>
+    </g>
+    <text x="16" y="136" class="t" font-size="12.5" fill="#475569">例：上・下・中・本・一・二・三</text>
+  </g>
+
+  <!-- Card 3: 会意文字 -->
+  <g transform="translate(24, 214)">
+    <rect x="0" y="0" width="326" height="148" rx="12" fill="#FFFFFF" stroke="#7C3AED" stroke-width="2.2"/>
+    <rect x="0" y="0" width="326" height="34" rx="12" fill="#7C3AED"/>
+    <text x="163" y="22" text-anchor="middle" class="t" font-size="15" font-weight="700" fill="#FFFFFF">③ 会意文字（かいいもじ）</text>
+    <text x="16" y="56" class="t" font-size="13" font-weight="700" fill="#5B21B6">漢字の「意味」と「意味」を組み合わせたもの</text>
+    <g transform="translate(20, 72)">
+      <rect x="0" y="2" width="54" height="38" rx="7" fill="#F3E8FF" stroke="#7C3AED"/>
+      <text x="27" y="28" text-anchor="middle" class="t" font-size="22" font-weight="700" fill="#5B21B6">日</text>
+      <text x="68" y="28" text-anchor="middle" class="t" font-size="20" font-weight="700" fill="#7C3AED">＋</text>
+      <rect x="82" y="2" width="54" height="38" rx="7" fill="#F3E8FF" stroke="#7C3AED"/>
+      <text x="109" y="28" text-anchor="middle" class="t" font-size="22" font-weight="700" fill="#5B21B6">月</text>
+      <text x="154" y="28" text-anchor="middle" class="t" font-size="20" font-weight="700" fill="#7C3AED">＝</text>
+      <rect x="172" y="0" width="110" height="42" rx="8" fill="#7C3AED"/>
+      <text x="227" y="22" text-anchor="middle" class="t" font-size="20" font-weight="700" fill="#FFFFFF">明</text>
+      <text x="227" y="37" text-anchor="middle" class="t" font-size="10.5" fill="#F3E8FF">（あかるい）</text>
+    </g>
+    <text x="16" y="136" class="t" font-size="12.5" fill="#475569">例：明・岩・林・森・鳴・男・信・世</text>
+  </g>
+
+  <!-- Card 4: 形声文字 -->
+  <g transform="translate(370, 214)">
+    <rect x="0" y="0" width="326" height="148" rx="12" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.2"/>
+    <rect x="0" y="0" width="326" height="34" rx="12" fill="#2563EB"/>
+    <text x="163" y="22" text-anchor="middle" class="t" font-size="15" font-weight="700" fill="#FFFFFF">④ 形声文字（けいせいもじ）</text>
+    <text x="16" y="56" class="t" font-size="13" font-weight="700" fill="#1E40AF">「意味を表す部分」＋「音を表す部分」</text>
+    <g transform="translate(18, 70)">
+      <rect x="0" y="2" width="72" height="42" rx="7" fill="#DBEAFE" stroke="#2563EB"/>
+      <text x="36" y="22" text-anchor="middle" class="t" font-size="18" font-weight="700" fill="#1E3A8A">王</text>
+      <text x="36" y="38" text-anchor="middle" class="t" font-size="10.5" fill="#1D4ED8">意味（たま）</text>
+      <text x="84" y="30" text-anchor="middle" class="t" font-size="18" font-weight="700" fill="#2563EB">＋</text>
+      <rect x="96" y="2" width="84" height="42" rx="7" fill="#FEE2E2" stroke="#DC2626"/>
+      <text x="138" y="22" text-anchor="middle" class="t" font-size="18" font-weight="700" fill="#991B1B">求</text>
+      <text x="138" y="38" text-anchor="middle" class="t" font-size="10.5" fill="#DC2626">音（キュウ）</text>
+      <text x="193" y="30" text-anchor="middle" class="t" font-size="18" font-weight="700" fill="#2563EB">＝</text>
+      <rect x="206" y="2" width="82" height="42" rx="8" fill="#2563EB"/>
+      <text x="247" y="24" text-anchor="middle" class="t" font-size="20" font-weight="700" fill="#FFFFFF">球</text>
+      <text x="247" y="39" text-anchor="middle" class="t" font-size="10.5" fill="#DBEAFE">音：キュウ</text>
+    </g>
+    <text x="16" y="136" class="t" font-size="12.5" fill="#475569">例：球・晴・粉・持・横・課・板</text>
+  </g>
+</svg>

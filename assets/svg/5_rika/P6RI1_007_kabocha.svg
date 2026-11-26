@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 310" width="640" height="310">
+  <defs>
+    <marker id="arrDark" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#334155"/>
+    </marker>
+    <marker id="arrBlue" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#0284C7"/>
+    </marker>
+    <marker id="arrRed" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#DC2626"/>
+    </marker>
+    <marker id="arrGreen" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#059669"/>
+    </marker>
+    <marker id="arrAmber" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#D97706"/>
+    </marker>
+    
+  </defs>
+  <rect width="640" height="310" rx="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <text x="320" y="27" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="15" font-weight="bold" fill="#065F46">カボチャの花のつくり</text>
+
+    <rect x="20" y="42" width="292" height="252" rx="12" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.5"/>
+    <circle cx="68" cy="66" r="12" fill="#ECFDF5" stroke="#059669" stroke-width="2"/><text x="68" y="70.5" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#065F46">①</text>
+    <text x="132" y="71" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#065F46">（左の花の名前）</text>
+
+    <!-- Female flower cross-section -->
+    <g transform="translate(162, 180)">
+      <!-- Swollen round baby pumpkin (ovary) -->
+      <ellipse cx="0" cy="40" rx="22" ry="19" fill="#4ADE80" stroke="#15803D" stroke-width="1.8"/>
+      <path d="M-8,23 Q-10,40 -6,58 M8,23 Q10,40 6,58" fill="none" stroke="#15803D" stroke-width="1" opacity="0.6"/>
+      <rect x="-5" y="58" width="10" height="20" fill="#16A34A" stroke="#15803D" stroke-width="1.4"/>
+      <!-- Sepals (がく) -->
+      <path d="M-20,24 Q-38,16 -46,8 Q-34,12 -18,16 Z" fill="#22C55E" stroke="#15803D" stroke-width="1.3"/>
+      <path d="M20,24 Q38,16 46,8 Q34,12 18,16 Z" fill="#22C55E" stroke="#15803D" stroke-width="1.3"/>
+      <!-- Yellow petals (花びら) -->
+      <path d="M-18,22 C-52,8 -84,-16 -90,-44 C-66,-44 -50,-56 -36,-72 C-24,-54 -12,-66 0,-78 C12,-66 24,-54 36,-72 C50,-56 66,-44 90,-44 C84,-16 52,8 18,22 Z"
+            fill="#FEF08A" stroke="#CA8A04" stroke-width="1.8"/>
+      <!-- Inner petal creases -->
+      <path d="M-14,16 L-48,-46 M14,16 L48,-46 M0,12 L0,-56" stroke="#EAB308" stroke-width="1.1" stroke-dasharray="3,2"/>
+      <!-- Pistil (めしべ): thick lobed stigma + style -->
+      <path d="M-10,20 L-8,-4 C-18,-8 -18,-22 -6,-22 C-4,-28 4,-28 6,-22 C18,-22 18,-8 8,-4 L10,20 Z"
+            fill="#FACC15" stroke="#B45309" stroke-width="1.8"/>
+    </g>
+
+    <!-- Bracket for ③ (めしべ including swollen base!) -->
+    <path d="M192,158 L204,158 L204,236 L192,236" fill="none" stroke="#D97706" stroke-width="1.8"/>
+    <line x1="204" y1="210" x2="226" y2="256" stroke="#D97706" stroke-width="1.6"/>
+    <circle cx="234" cy="266" r="12" fill="#FFFBEB" stroke="#D97706" stroke-width="2"/><text x="234" y="270.5" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#B45309">③</text>
+    <text x="274" y="271" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#B45309">（つくり）</text>
+
+    <!-- Shared labels for 花びら and がく -->
+    <line x1="242" y1="142" x2="278" y2="128" stroke="#475569" stroke-width="1.2"/>
+    <text x="320" y="132" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#334155">花びら</text>
+    <line x1="204" y1="196" x2="286" y2="196" stroke="#475569" stroke-width="1.2"/>
+    <text x="320" y="200" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#15803D">がく</text>
+    
+    <rect x="352" y="42" width="268" height="252" rx="12" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.5"/>
+    <circle cx="402" cy="66" r="12" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/><text x="402" y="70.5" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#1D4ED8">②</text>
+    <text x="468" y="71" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#1D4ED8">（右の花の名前）</text>
+
+    <!-- Male flower cross-section (NO swelling at base!) -->
+    <g transform="translate(486, 186)">
+      <!-- Slender stem (no swelling!) -->
+      <rect x="-5" y="16" width="10" height="54" fill="#16A34A" stroke="#15803D" stroke-width="1.4"/>
+      <!-- Sepals -->
+      <path d="M-8,18 Q-30,12 -38,4 Q-26,8 -10,12 Z" fill="#22C55E" stroke="#15803D" stroke-width="1.3"/>
+      <path d="M8,18 Q30,12 38,4 Q26,8 10,12 Z" fill="#22C55E" stroke="#15803D" stroke-width="1.3"/>
+      <!-- Yellow petals -->
+      <path d="M-14,16 C-48,2 -76,-20 -82,-46 C-58,-46 -44,-56 -32,-70 C-20,-54 -10,-64 0,-74 C10,-64 20,-54 32,-70 C44,-56 58,-46 82,-46 C76,-20 48,2 14,16 Z"
+            fill="#FEF08A" stroke="#CA8A04" stroke-width="1.8"/>
+      <!-- Central stamen (おしべ) -->
+      <rect x="-6" y="-22" width="12" height="36" rx="5" fill="#F59E0B" stroke="#B45309" stroke-width="1.6"/>
+      <!-- Pollen grains (花粉) -->
+      <g fill="#EA580C">
+        <circle cx="-8" cy="-26" r="2.2"/><circle cx="0" cy="-30" r="2.5"/><circle cx="8" cy="-25" r="2.2"/>
+        <circle cx="-13" cy="-18" r="1.8"/><circle cx="12" cy="-18" r="1.8"/>
+      </g>
+    </g>
+
+    <!-- Lines from 花びら and がく to right flower -->
+    <line x1="354" y1="128" x2="412" y2="144" stroke="#475569" stroke-width="1.2"/>
+    <line x1="348" y1="196" x2="454" y2="196" stroke="#475569" stroke-width="1.2"/>
+
+    <!-- Badge ④ (花粉が出る) -->
+    <line x1="482" y1="154" x2="444" y2="108" stroke="#EA580C" stroke-width="1.6"/>
+    <circle cx="420" cy="102" r="12" fill="#FFF7ED" stroke="#EA580C" stroke-width="2"/><text x="420" y="106.5" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#C2410C">④</text>
+    <text x="466" y="106" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#C2410C">が出る。</text>
+
+    <!-- Badge ⑤ (おしべ) -->
+    <line x1="494" y1="184" x2="528" y2="252" stroke="#2563EB" stroke-width="1.6"/>
+    <circle cx="534" cy="264" r="12" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/><text x="534" y="268.5" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#1D4ED8">⑤</text>
+    <text x="580" y="269" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#1D4ED8">（つくり）</text>
+    </svg>

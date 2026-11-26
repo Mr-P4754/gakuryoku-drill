@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360">
+  <defs>
+    <marker id="arrDark" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#334155"/>
+    </marker>
+    <marker id="arrBlue" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#0284C7"/>
+    </marker>
+    <marker id="arrRed" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#DC2626"/>
+    </marker>
+    <marker id="arrGreen" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#059669"/>
+    </marker>
+    <marker id="arrAmber" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#D97706"/>
+    </marker>
+    
+  </defs>
+  <rect width="640" height="360" rx="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <text x="320" y="27" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="15" font-weight="bold" fill="#065F46">のせ台が動くけんび鏡のつくり</text>
+
+    <rect x="20" y="40" width="600" height="306" rx="12" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.5"/>
+
+    <!-- Microscope drawing centered around x=310 -->
+    <g transform="translate(188, 56)">
+      <!-- Base (台) -->
+      <path d="M52,248 L194,248 L210,270 L38,270 Z" fill="#CBD5E1" stroke="#334155" stroke-width="2"/>
+      <rect x="38" y="270" width="172" height="12" rx="4" fill="#94A3B8" stroke="#334155" stroke-width="1.8"/>
+      <!-- Curved Arm (うで/アーム) -->
+      <path d="M84,248 L72,190 C54,142 74,88 134,82 L144,104 C104,110 96,144 106,184 L120,248 Z"
+            fill="#E2E8F0" stroke="#334155" stroke-width="2"/>
+      <!-- Upper body head -->
+      <path d="M126,76 C144,62 172,68 182,92 L182,114 L126,114 Z" fill="#F1F5F9" stroke="#334155" stroke-width="2"/>
+      <!-- Tilted body tube (つつ) + Eyepiece (接眼レンズ) -->
+      <g transform="translate(132, 82) rotate(-38)">
+        <rect x="-13" y="-68" width="26" height="68" rx="3" fill="#E2E8F0" stroke="#334155" stroke-width="1.8"/>
+        <!-- Eyepiece collar & top -->
+        <rect x="-15" y="-84" width="30" height="16" rx="3" fill="#475569" stroke="#1E293B" stroke-width="1.6"/>
+        <ellipse cx="0" cy="-84" rx="15" ry="4" fill="#60A5FA" stroke="#1E293B" stroke-width="1.4"/>
+      </g>
+
+      <!-- Revolving nosepiece (レボルバー: 倍りつを変えるときに回す) -->
+      <ellipse cx="164" cy="118" rx="28" ry="9" fill="#94A3B8" stroke="#334155" stroke-width="1.8"/>
+      <!-- Objective lenses (対物レンズ) -->
+      <rect x="148" y="124" width="16" height="24" rx="2" fill="#CBD5E1" stroke="#334155" stroke-width="1.6"/>
+      <rect x="148" y="142" width="16" height="5" fill="#2563EB"/>
+      <g transform="translate(176, 124) rotate(-26)">
+        <rect x="-7" y="0" width="14" height="32" rx="2" fill="#CBD5E1" stroke="#334155" stroke-width="1.6"/>
+        <rect x="-7" y="25" width="14" height="5" fill="#DC2626"/>
+      </g>
+
+      <!-- Stage (のせ台/ステージ) -->
+      <polygon points="94,174 202,174 218,194 110,194" fill="#334155" stroke="#0F172A" stroke-width="1.8"/>
+      <polygon points="94,174 202,174 202,180 94,180" fill="#475569"/>
+      <!-- Stage aperture -->
+      <ellipse cx="156" cy="182" rx="12" ry="4" fill="#F8FAFC"/>
+      <!-- Clips (とめ金/クリップ) -->
+      <path d="M124,178 L142,174 M186,178 L168,174" stroke="#CBD5E1" stroke-width="3" stroke-linecap="round"/>
+
+      <!-- Focusing knob (調節ねじ) on lower arm -->
+      <circle cx="82" cy="212" r="20" fill="#F8FAFC" stroke="#334155" stroke-width="2"/>
+      <circle cx="82" cy="212" r="12" fill="#E2E8F0" stroke="#475569" stroke-width="1.5"/>
+      <circle cx="82" cy="212" r="4" fill="#64748B"/>
+
+      <!-- Mirror (鏡/反しゃ鏡) -->
+      <line x1="156" y1="248" x2="156" y2="230" stroke="#475569" stroke-width="4"/>
+      <ellipse cx="156" cy="222" rx="22" ry="12" transform="rotate(-24 156 222)" fill="#BAE6FD" stroke="#0284C7" stroke-width="2"/>
+    </g>
+
+    <!-- Callout badges ①, ②, ③ and all PDF labels -->
+    <!-- ① レンズ (Eyepiece) -->
+    <line x1="278" y1="76" x2="334" y2="68" stroke="#059669" stroke-width="1.6"/>
+    <circle cx="350" cy="68" r="13" fill="#ECFDF5" stroke="#059669" stroke-width="2"/><text x="350" y="72.5" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#065F46">①</text>
+    <text x="394" y="73" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13.5" font-weight="bold" fill="#065F46">レンズ</text>
+
+    <!-- つつ -->
+    <line x1="286" y1="104" x2="210" y2="104" stroke="#475569" stroke-width="1.3"/>
+    <text x="184" y="108" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12.5" font-weight="bold" fill="#334155">つつ</text>
+
+    <!-- 倍りつを変えるときに回す -->
+    <line x1="372" y1="170" x2="430" y2="124" stroke="#475569" stroke-width="1.3"/>
+    <text x="436" y="114" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#334155">倍りつを変える</text>
+    <text x="436" y="131" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#334155">ときに回す。</text>
+
+    <!-- ② レンズ (Objective) -->
+    <line x1="382" y1="194" x2="432" y2="180" stroke="#2563EB" stroke-width="1.6"/>
+    <circle cx="448" cy="178" r="13" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/><text x="448" y="182.5" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#1D4ED8">②</text>
+    <text x="492" y="183" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13.5" font-weight="bold" fill="#1D4ED8">レンズ</text>
+
+    <!-- うで（アーム） -->
+    <line x1="258" y1="184" x2="186" y2="184" stroke="#475569" stroke-width="1.3"/>
+    <text x="132" y="189" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12.5" font-weight="bold" fill="#334155">うで（アーム）</text>
+
+    <!-- ③ (調節ねじ) -->
+    <line x1="250" y1="268" x2="180" y2="268" stroke="#D97706" stroke-width="1.6"/>
+    <circle cx="162" cy="268" r="13" fill="#FFFBEB" stroke="#D97706" stroke-width="2"/><text x="162" y="272.5" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#B45309">③</text>
+    <text x="88" y="273" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#B45309">（ピント合わせ）</text>
+
+    <!-- とめ金（クリップ） -->
+    <line x1="376" y1="230" x2="444" y2="222" stroke="#475569" stroke-width="1.3"/>
+    <text x="450" y="226" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#334155">とめ金（クリップ）</text>
+
+    <!-- のせ台（ステージ） -->
+    <line x1="398" y1="246" x2="444" y2="254" stroke="#475569" stroke-width="1.3"/>
+    <text x="450" y="259" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#334155">のせ台（ステージ）</text>
+
+    <!-- 鏡（反しゃ鏡） -->
+    <line x1="368" y1="280" x2="444" y2="290" stroke="#475569" stroke-width="1.3"/>
+    <text x="450" y="294" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#334155">鏡（反しゃ鏡）</text>
+
+    <!-- 台 -->
+    <line x1="398" y1="324" x2="444" y2="324" stroke="#475569" stroke-width="1.3"/>
+    <text x="458" y="328" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12.5" font-weight="bold" fill="#334155">台</text>
+    </svg>

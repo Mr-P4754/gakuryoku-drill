@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 194" width="540" height="194" role="img" aria-label="チャレンジ②の解き方ポイント">
+  <title>チャレンジ②の解き方ポイント</title>
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 11.5px; font-weight: 600; fill: #475569; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .dim-sm { font-size: 13px; font-weight: 700; fill: #1E293B; }
+      .th { font-size: 13.5px; font-weight: 700; fill: #1E293B; }
+      .td { font-size: 15px; font-weight: 600; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="540" height="194" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="270" y="28" text-anchor="middle" class="title">チャレンジ② 図形と数のひらめきポイント</text>
+  <rect x="16" y="44" width="162" height="132" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.3"/>
+  <text x="97" y="70" text-anchor="middle" class="lbl-sm" fill="#2563EB">① 三角形に分ける</text>
+  <text x="97" y="98" text-anchor="middle" class="lbl-xs">四角形に対角線を引くと、</text>
+  <text x="97" y="122" text-anchor="middle" class="lbl-xs">底辺と高さがわかる2つの</text>
+  <text x="97" y="146" text-anchor="middle" class="lbl-xs">三角形に分けて計算できる！</text>
+  <rect x="190" y="44" width="162" height="132" rx="10" fill="#ECFDF5" stroke="#0F766E" stroke-width="1.3"/>
+  <text x="271" y="70" text-anchor="middle" class="lbl-sm" fill="#0F766E">② 等積変形（よせる）</text>
+  <text x="271" y="98" text-anchor="middle" class="lbl-xs">底辺と高さが同じなら、</text>
+  <text x="271" y="122" text-anchor="middle" class="lbl-xs">頂点を平行な線の上で動かして</text>
+  <text x="271" y="146" text-anchor="middle" class="lbl-xs">も面積は変わらない！</text>
+  <rect x="364" y="44" width="162" height="132" rx="10" fill="#FEF3C7" stroke="#D97706" stroke-width="1.3"/>
+  <text x="445" y="70" text-anchor="middle" class="lbl-sm" fill="#D97706">③ くりぬいた立体</text>
+  <text x="445" y="98" text-anchor="middle" class="lbl-xs">重なって引く部分に注意！</text>
+  <text x="445" y="122" text-anchor="middle" class="lbl-xs">同じ大きさの小さな立方体に</text>
+  <text x="445" y="146" text-anchor="middle" class="lbl-xs">分けて数える方法も便利！</text>
+</svg>

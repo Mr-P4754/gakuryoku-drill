@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 250" width="360" height="250" role="img" aria-label="コの字形の立体（10m，8m，7m，みぞ深さ3m）">
+  <title>コの字形の立体（10m，8m，7m，みぞ深さ3m）</title>
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 11.5px; font-weight: 600; fill: #475569; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .dim-sm { font-size: 13px; font-weight: 700; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="360" height="250" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <polygon points="62.0,95.0 113.0,95.0 187.8,37.9 136.8,37.9" fill="#EFF6FF" stroke="#1E293B" stroke-width="2.2" stroke-linejoin="round"/>
+  <polygon points="113.0,146.0 187.8,88.9 187.8,37.9 113.0,95.0" fill="#BFDBFE" stroke="#1E293B" stroke-width="2.2" stroke-linejoin="round"/>
+  <polygon points="113.0,146.0 181.0,146.0 255.8,88.9 187.8,88.9" fill="#EFF6FF" stroke="#1E293B" stroke-width="2.2" stroke-linejoin="round"/>
+  <polygon points="181.0,95.0 232.0,95.0 306.8,37.9 255.8,37.9" fill="#EFF6FF" stroke="#1E293B" stroke-width="2.2" stroke-linejoin="round"/>
+  <polygon points="232.0,214.0 306.8,156.9 306.8,37.9 232.0,95.0" fill="#BFDBFE" stroke="#1E293B" stroke-width="2.2" stroke-linejoin="round"/>
+  <polygon points="62.0,214.0 232.0,214.0 232.0,95.0 181.0,95.0 181.0,146.0 113.0,146.0 113.0,95.0 62.0,95.0" fill="#DBEAFE" stroke="#1E293B" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M 62.0 95.0 Q 87.5 65.0 113.0 95.0" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="87.5" y="85.0" text-anchor="middle" class="dim-sm halo" fill="#1E293B">3m</text>
+  <path d="M 181.0 95.0 Q 206.5 65.0 232.0 95.0" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="206.5" y="85.0" text-anchor="middle" class="dim-sm halo" fill="#1E293B">3m</text>
+  <path d="M 113.0 146.0 Q 77.0 120.5 113.0 95.0" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="95.0" y="125.5" text-anchor="middle" class="dim-sm halo" fill="#1E293B">3m</text>
+  <path d="M 62.0 214.0 Q 147.0 254.0 232.0 214.0" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="147.0" y="239.0" text-anchor="middle" class="dim halo" fill="#1E293B">10m</text>
+  <path d="M 232.0 214.0 Q 296.1 220.4 306.8 156.9" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="288.8" y="207.9" text-anchor="middle" class="dim halo" fill="#1E293B">8m</text>
+  <path d="M 306.8 156.9 Q 350.8 97.4 306.8 37.9" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="328.8" y="102.4" text-anchor="middle" class="dim halo" fill="#1E293B">7m</text>
+</svg>

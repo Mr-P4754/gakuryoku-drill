@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 236" width="350" height="236" role="img" aria-label="台形（上底20m，下底8m，高さ11m，斜辺15m）">
+  <title>台形（上底20m，下底8m，高さ11m，斜辺15m）</title>
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 11.5px; font-weight: 600; fill: #475569; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .dim-sm { font-size: 13px; font-weight: 700; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="350" height="236" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <polygon points="56.0,62.0 173.3,188.5 265.3,188.5 286.0,62.0" fill="#EFF6FF" stroke="#1E293B" stroke-width="2.2" stroke-linejoin="round"/>
+  <line x1="265.3" y1="62.0" x2="265.3" y2="188.5" stroke="#2563EB" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="5,3"/>
+  <polyline points="255.3,188.5 255.3,178.5 265.3,178.5" fill="none" stroke="#2563EB" stroke-width="1.5"/>
+  <path d="M 56.0 62.0 Q 171.0 22.0 286.0 62.0" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="171.0" y="47.0" text-anchor="middle" class="dim halo" fill="#1E293B">20m</text>
+  <path d="M 173.3 188.5 Q 219.3 228.5 265.3 188.5" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="219.3" y="213.5" text-anchor="middle" class="dim halo" fill="#1E293B">8m</text>
+  <path d="M 56.0 62.0 Q 79.4 157.9 173.3 188.5" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="97.0" y="146.6" text-anchor="middle" class="dim halo" fill="#1E293B">15m</text>
+  <path d="M 265.3 62.0 Q 221.3 125.2 265.3 188.5" fill="none" stroke="#2563EB" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="237.3" y="130.2" text-anchor="middle" class="dim halo" fill="#2563EB">11m</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 194" width="540" height="194" role="img" aria-label="チャレンジ①の解き方ポイント">
+  <title>チャレンジ①の解き方ポイント</title>
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 11.5px; font-weight: 600; fill: #475569; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .dim-sm { font-size: 13px; font-weight: 700; fill: #1E293B; }
+      .th { font-size: 13.5px; font-weight: 700; fill: #1E293B; }
+      .td { font-size: 15px; font-weight: 600; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="540" height="194" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="270" y="28" text-anchor="middle" class="title">チャレンジ① とくための3つの作戦</text>
+  <rect x="16" y="44" width="162" height="132" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.3"/>
+  <text x="97" y="70" text-anchor="middle" class="lbl-sm" fill="#2563EB">① 線分図で整理</text>
+  <text x="97" y="98" text-anchor="middle" class="lbl-xs">ちがいを線分図に表し、</text>
+  <text x="97" y="122" text-anchor="middle" class="lbl-xs">いちばん長い（または短い）</text>
+  <text x="97" y="146" text-anchor="middle" class="lbl-xs">長さにそろえて計算する！</text>
+  <rect x="190" y="44" width="162" height="132" rx="10" fill="#ECFDF5" stroke="#0F766E" stroke-width="1.3"/>
+  <text x="271" y="70" text-anchor="middle" class="lbl-sm" fill="#0F766E">② 中心角と割合</text>
+  <text x="271" y="98" text-anchor="middle" class="lbl-xs">円の中心のまわりは360°。</text>
+  <text x="271" y="122" text-anchor="middle" class="lbl-xs">割合 ＝ 中心角 ÷ 360</text>
+  <text x="271" y="146" text-anchor="middle" class="lbl-xs">もとにする量 ＝ 比べ÷割合</text>
+  <rect x="364" y="44" width="162" height="132" rx="10" fill="#FEF3C7" stroke="#D97706" stroke-width="1.3"/>
+  <text x="445" y="70" text-anchor="middle" class="lbl-sm" fill="#D97706">③ きまりを見つける</text>
+  <text x="445" y="98" text-anchor="middle" class="lbl-xs">1番目・2番目・3番目…と</text>
+  <text x="445" y="122" text-anchor="middle" class="lbl-xs">数の増え方を表にして、</text>
+  <text x="445" y="146" text-anchor="middle" class="lbl-xs">10番目の式を見つけよう！</text>
+</svg>
