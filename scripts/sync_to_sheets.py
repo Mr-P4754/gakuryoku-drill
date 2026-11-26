@@ -80,23 +80,33 @@ def write_sheet_chunked(sheet_name: str, headers: list, rows: list, chunk_size: 
 
 
 def setup_dashboard_sheet():
-    print("[SYNC] Setting up 集計_クラス進捗 formulas...")
-    data = [
-        ["標準学力調査対策 デジタルドリル 教員用集計ダッシュボード", "", "", "", "", "", ""],
-        ["※ 学習ログシートに児童の結果が送信されると自動で集計されます。", "", "", "", "", "", ""],
-        ["", "", "", "", "", "", ""],
-        ["【1】教科別・単元別 実施状況（平均正答率・延べ挑戦数）", "", "", "", "", "", ""],
-        ["教科", "単元コード", "単元名", "延べ挑戦数", "平均正答率(%)", "最高正答率(%)", "最低正答率(%)"],
-        ["=IFERROR(QUERY('学習ログ'!A2:P,\"select G,H,I,count(K),avg(M),max(M),min(M) where G is not null group by G,H,I order by G,H label count(K) '', avg(M) '', max(M) '', min(M) ''\",0),\"データ待機中\")", "", "", "", "", "", ""],
-    ]
-    summary_right = [
-        ["【2】児童別（学校名_学年_組_番号）取り組み集計", "", "", "", ""],
-        ["児童キー(学校_学年_組_番号)", "学校名", "組", "出席番号", "延べ実施回数", "平均正答率(%)"],
-        ["=IFERROR(QUERY('学習ログ'!A2:P,\"select F,B,D,E,count(K),avg(M) where F is not null group by F,B,D,E order by B,D,E label count(K) '', avg(M) ''\",0),\"データ待機中\")", "", "", "", "", ""],
+    print("[SYNC] Setting up 集計_クラス進捗 formulas (multi-grade ready)...")
+    # A1:P8 を一括で整形上書き（旧レイアウト残骸も消去）
+    rows = [
+        ["標準学力調査対策 デジタルドリル 教員用集計ダッシュボード"] + [""] * 15,
+        ["※ 学習ログシートに児童の結果が送信されると学年・教科・単元・児童ごとに自動集計されます。"] + [""] * 15,
+        [""] * 16,
+        [
+            "【1】学年・教科・単元別 実施状況（平均正答率・延べ挑戦数）",
+            "", "", "", "", "", "", "", "",
+            "【2】児童別（学校名_学年_組_番号）取り組み集計",
+            "", "", "", "", "", ""
+        ],
+        [
+            "学年", "教科", "単元コード", "単元名", "延べ挑戦数", "平均正答率(%)", "最高正答率(%)", "最低正答率(%)",
+            "",
+            "児童キー(学校_学年_組_番号)", "学校名", "学年", "組", "出席番号", "延べ実施回数", "平均正答率(%)"
+        ],
+        [
+            "=IFERROR(QUERY('学習ログ'!A2:Q,\"select C,G,H,I,count(K),avg(M),max(M),min(M) where G is not null group by C,G,H,I order by C,G,H label count(K) '', avg(M) '', max(M) '', min(M) ''\",0),\"データ待機中\")",
+            "", "", "", "", "", "", "",
+            "",
+            "=IFERROR(QUERY('学習ログ'!A2:Q,\"select F,B,C,D,E,count(K),avg(M) where F is not null group by F,B,C,D,E order by B,C,D,E label count(K) '', avg(M) ''\",0),\"データ待機中\")",
+            "", "", "", "", "", ""
+        ],
     ]
     run_batch([
-        {"op": "write", "range": "'集計_クラス進捗'!A1", "data": data},
-        {"op": "write", "range": "'集計_クラス進捗'!I4", "data": summary_right},
+        {"op": "write", "range": "'集計_クラス進捗'!A1", "data": rows},
     ])
 
 

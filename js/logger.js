@@ -108,21 +108,27 @@ export function recordProblemAttempt(problemId, isCorrect) {
   writeJSON(KEYS.PROGRESS, all);
 }
 
-export function recordUnitCompletion({ subjectKey, unitCode, score, total }) {
+export function getUnitRecord(records, grade, subjectKey, unitCode) {
+  return records[`${grade}__${subjectKey}__${unitCode}`] || records[`${subjectKey}__${unitCode}`] || null;
+}
+
+export function recordUnitCompletion({ grade, subjectKey, unitCode, score, total }) {
   const records = getUnitRecords();
-  const key = `${subjectKey}__${unitCode}`;
+  const g = grade || APP_CONFIG.DEFAULT_GRADE;
+  const key = `${g}__${subjectKey}__${unitCode}`;
+  const legacyKey = `${subjectKey}__${unitCode}`;
   const pct = total > 0 ? Math.round((score / total) * 100) : 0;
-  const mark = pct >= 80 ? 'smile' : pct >= 50 ? 'normal' : 'try';
-  const prev = records[key];
+  const prev = records[key] || records[legacyKey];
   const bestScore = prev ? Math.max(prev.bestScore, score) : score;
   const bestPct = prev ? Math.max(prev.bestPct || 0, pct) : pct;
+  const mark = bestPct >= 80 ? 'smile' : bestPct >= 50 ? 'normal' : 'try';
   records[key] = {
     lastScore: score,
     bestScore,
     total,
     lastPct: pct,
     bestPct,
-    mark: bestPct >= 80 ? 'smile' : bestPct >= 50 ? 'normal' : 'try',
+    mark,
     attempts: (prev?.attempts || 0) + 1,
     completedAt: new Date().toISOString(),
   };

@@ -19,6 +19,7 @@ import {
   saveSettings,
   getAllProgress,
   getUnitRecords,
+  getUnitRecord,
   recordProblemAttempt,
   recordUnitCompletion,
   resetAllLearningHistory,
@@ -63,7 +64,25 @@ async function init() {
   flushPendingLogQueue().then(() => updateHeaderBadges()).catch(() => {});
 
   try {
-    state.meta = await loadMeta();
+    state.meta = await loadMeta({
+      onRemoteUpdate: (remoteMeta) => {
+        const prevGrades = [...new Set((state.meta?.subjects || []).map((s) => s.grade))].join(',');
+        const nextGradesList = [...new Set((remoteMeta?.subjects || []).map((s) => s.grade))];
+        const nextGrades = nextGradesList.join(',');
+        state.meta = remoteMeta;
+        if (prevGrades !== nextGrades) {
+          const profSelect = document.getElementById('prof-grade');
+          if (profSelect && nextGradesList.length) {
+            const prevVal = profSelect.value;
+            profSelect.innerHTML = nextGradesList.map((g) => `<option value="${escapeHtml(g)}">${escapeHtml(g)}</option>`).join('');
+            profSelect.value = nextGradesList.includes(prevVal) ? prevVal : nextGradesList[0];
+          }
+          if (!location.hash || location.hash.startsWith('#home')) {
+            renderHomeView();
+          }
+        }
+      },
+    });
     const profile = getProfile();
     if (profile?.grade) state.currentGrade = profile.grade;
     await loadGradeBundle(state.currentGrade);
@@ -193,7 +212,7 @@ function renderHomeView() {
 
       let subjCleared = 0;
       units.forEach((u) => {
-        const rec = unitRecords[`${subj.subject_key}__${u.unit_code}`];
+        const rec = getUnitRecord(unitRecords, subj.grade, subj.subject_key, u.unit_code);
         if (rec && rec.bestPct >= 80) subjCleared++;
       });
       clearedUnits += subjCleared;
@@ -308,7 +327,7 @@ function renderUnitListView(subj) {
 
   const unitsHtml = units
     .map((u) => {
-      const rec = unitRecords[`${subj.subject_key}__${u.unit_code}`];
+      const rec = getUnitRecord(unitRecords, subj.grade, subj.subject_key, u.unit_code);
       const guide = findGuide(u.unit_code);
       const sourceTags = [...new Set(u.questions.map((q) => q.source_type))]
         .map((st) => `<span class="source-badge source-${sourceSlug(st)}">${escapeHtml(st)}</span>`)
@@ -728,6 +747,7 @@ async function finishQuizSession() {
 
   if (quiz.mode === 'unit') {
     recordUnitCompletion({
+      grade: quiz.subject.grade,
       subjectKey: quiz.subject.subject_key,
       unitCode: quiz.unitCode,
       score,
@@ -865,7 +885,7 @@ function bindGlobalModals() {
   });
 
   // プロフィールフォーム送信
-  document.getElementById('profile-form')?.addEventListener('submit', (e) => {
+  document.getElementById('profile-form')?.addEventListener('submit', async (e) => {
     e.preventDefault();
     const schoolRaw = document.getElementById('prof-school').value;
     const check = validateSchoolCode(schoolRaw);
@@ -882,6 +902,16 @@ function bindGlobalModals() {
     saveProfile({ school_code: check.value, grade, class_name: className, student_no: studentNo });
     updateHeaderBadges();
     document.getElementById('profile-modal').classList.add('hidden');
+
+    // 学年が切り替わった場合は即座に該当学年のデータへ切り替え
+    if (grade && grade !== state.currentGrade) {
+      await loadGradeBundle(grade);
+      if (location.hash && !location.hash.startsWith('#home')) {
+        location.hash = `#home?grade=${encodeURIComponent(grade)}`;
+      } else {
+        renderHomeView();
+      }
+    }
   });
 
   // 設定フォームのイベント

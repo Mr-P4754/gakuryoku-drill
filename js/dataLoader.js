@@ -68,58 +68,63 @@ async function fetchJson(url, timeoutMs = 10000) {
 
 /**
  * マスタ教科一覧の取得
+ * 静的 data/meta.json で高速起動しつつ、GAS から最新マスタ（新学年追加等）を取得して自動更新
  */
-export async function loadMeta({ forceRemote = false } = {}) {
+export async function loadMeta({ forceRemote = false, onRemoteUpdate = null } = {}) {
   if (!forceRemote) {
     const cached = readSessionCache('meta');
     if (cached) return cached;
   }
 
   const gasUrl = getGasApiUrl();
+  const fetchRemoteMeta = async () => {
+    const remote = await fetchJson(`${gasUrl}?action=meta`, 10000);
+    if (remote && remote.status === 'ok' && Array.isArray(remote.subjects)) {
+      const meta = {
+        spreadsheet_id: remote.spreadsheet_id || APP_CONFIG.SPREADSHEET_ID,
+        updated_at: remote.updated_at,
+        source: 'gas',
+        subjects: remote.subjects.filter((s) => s.is_active !== false),
+      };
+      writeSessionCache('meta', meta);
+      return meta;
+    }
+    throw new Error('Invalid GAS meta response');
+  };
+
   if (gasUrl && forceRemote) {
     try {
-      const remote = await fetchJson(`${gasUrl}?action=meta`, 10000);
-      if (remote && remote.status === 'ok' && Array.isArray(remote.subjects)) {
-        const meta = {
-          spreadsheet_id: remote.spreadsheet_id || APP_CONFIG.SPREADSHEET_ID,
-          updated_at: remote.updated_at,
-          source: 'gas',
-          subjects: remote.subjects.filter((s) => s.is_active !== false),
-        };
-        writeSessionCache('meta', meta);
-        return meta;
-      }
+      return await fetchRemoteMeta();
     } catch (err) {
       console.warn('GAS meta取得失敗。静的JSONへフォールバックします:', err);
     }
   }
 
-  // 静的JSONから即時読み込み
-  const localMeta = await fetchJson('data/meta.json');
-  localMeta.source = 'static';
-  writeSessionCache('meta', localMeta);
+  try {
+    const localMeta = await fetchJson('data/meta.json');
+    localMeta.source = 'static';
+    writeSessionCache('meta', localMeta);
 
-  // GAS URLが設定されていればバックグラウンド更新
-  if (gasUrl && !forceRemote) {
-    fetchJson(`${gasUrl}?action=meta`, 10000)
-      .then((remote) => {
-        if (remote && remote.status === 'ok' && Array.isArray(remote.subjects)) {
-          writeSessionCache('meta', {
-            spreadsheet_id: remote.spreadsheet_id || APP_CONFIG.SPREADSHEET_ID,
-            updated_at: remote.updated_at,
-            source: 'gas',
-            subjects: remote.subjects.filter((s) => s.is_active !== false),
-          });
-        }
-      })
-      .catch(() => {});
+    // GAS URLが設定されていればバックグラウンドで最新マスタを取得（新学年追加を即時反映）
+    if (gasUrl && !forceRemote) {
+      fetchRemoteMeta()
+        .then((remoteMeta) => {
+          onRemoteUpdate?.(remoteMeta);
+        })
+        .catch(() => {});
+    }
+    return localMeta;
+  } catch (err) {
+    if (gasUrl) {
+      return await fetchRemoteMeta();
+    }
+    throw err;
   }
-
-  return localMeta;
 }
 
 /**
- * 特定教科の問題データ取得（例: sheetName = "4年_算数"）
+ * 特定教科の問題データ取得（例: sheetName = "5年_算数"）
+ * 静的JSONが無い新学年でも、GAS Web API へ自動フォールバックして取得可能
  */
 export async function loadSubjectQuestions(subjectMeta, { forceRemote = false } = {}) {
   const cacheKey = `sheet_${subjectMeta.sheet_name}`;
@@ -129,42 +134,48 @@ export async function loadSubjectQuestions(subjectMeta, { forceRemote = false } 
   }
 
   const gasUrl = getGasApiUrl();
+  const fetchRemoteSheet = async () => {
+    const remote = await fetchJson(
+      `${gasUrl}?action=sheet&name=${encodeURIComponent(subjectMeta.sheet_name)}`,
+      12000
+    );
+    if (remote && remote.status === 'ok' && Array.isArray(remote.rows)) {
+      const activeRows = normalizeProblemRows(remote.rows);
+      writeSessionCache(cacheKey, activeRows);
+      return activeRows;
+    }
+    throw new Error(`Invalid GAS sheet response for ${subjectMeta.sheet_name}`);
+  };
+
   if (gasUrl && forceRemote) {
     try {
-      const remote = await fetchJson(
-        `${gasUrl}?action=sheet&name=${encodeURIComponent(subjectMeta.sheet_name)}`,
-        12000
-      );
-      if (remote && remote.status === 'ok' && Array.isArray(remote.rows)) {
-        const activeRows = normalizeProblemRows(remote.rows);
-        writeSessionCache(cacheKey, activeRows);
-        return activeRows;
-      }
+      return await fetchRemoteSheet();
     } catch (err) {
       console.warn(`GAS ${subjectMeta.sheet_name} 取得失敗。静的JSONを使用:`, err);
     }
   }
 
   const filePath = subjectMeta.data_file || `data/${subjectMeta.sheet_name}.json`;
-  const rows = await fetchJson(encodeURI(filePath));
-  const activeRows = normalizeProblemRows(rows);
-  writeSessionCache(cacheKey, activeRows);
+  try {
+    const rows = await fetchJson(encodeURI(filePath));
+    const activeRows = normalizeProblemRows(rows);
+    writeSessionCache(cacheKey, activeRows);
 
-  if (gasUrl && !forceRemote) {
-    fetchJson(`${gasUrl}?action=sheet&name=${encodeURIComponent(subjectMeta.sheet_name)}`, 12000)
-      .then((remote) => {
-        if (remote && remote.status === 'ok' && Array.isArray(remote.rows)) {
-          writeSessionCache(cacheKey, normalizeProblemRows(remote.rows));
-        }
-      })
-      .catch(() => {});
+    if (gasUrl && !forceRemote) {
+      fetchRemoteSheet().catch(() => {});
+    }
+    return activeRows;
+  } catch (localErr) {
+    // 静的JSONがまだ無い新学年シート等は GAS から自動取得
+    if (gasUrl) {
+      return await fetchRemoteSheet();
+    }
+    throw localErr;
   }
-
-  return activeRows;
 }
 
 /**
- * 単元ガイド取得
+ * 単元ガイド取得（静的JSON未作成の新学年もGASへ自動フォールバック）
  */
 export async function loadUnitGuides(grade = APP_CONFIG.DEFAULT_GRADE, { forceRemote = false } = {}) {
   const cacheKey = `guides_${grade}`;
@@ -174,24 +185,39 @@ export async function loadUnitGuides(grade = APP_CONFIG.DEFAULT_GRADE, { forceRe
   }
 
   const gasUrl = getGasApiUrl();
+  const fetchRemoteGuides = async () => {
+    const remote = await fetchJson(
+      `${gasUrl}?action=guide&grade=${encodeURIComponent(grade)}`,
+      10000
+    );
+    if (remote && remote.status === 'ok' && Array.isArray(remote.rows)) {
+      writeSessionCache(cacheKey, remote.rows);
+      return remote.rows;
+    }
+    throw new Error(`Invalid GAS guide response for ${grade}`);
+  };
+
   if (gasUrl && forceRemote) {
     try {
-      const remote = await fetchJson(
-        `${gasUrl}?action=guide&grade=${encodeURIComponent(grade)}`,
-        10000
-      );
-      if (remote && remote.status === 'ok' && Array.isArray(remote.rows)) {
-        writeSessionCache(cacheKey, remote.rows);
-        return remote.rows;
-      }
+      return await fetchRemoteGuides();
     } catch (err) {
       console.warn('GAS ガイド取得失敗。静的JSONを使用:', err);
     }
   }
 
-  const guides = await fetchJson(encodeURI(`data/${grade}_単元ガイド.json`));
-  writeSessionCache(cacheKey, guides);
-  return guides;
+  try {
+    const guides = await fetchJson(encodeURI(`data/${grade}_単元ガイド.json`));
+    writeSessionCache(cacheKey, guides);
+    if (gasUrl && !forceRemote) {
+      fetchRemoteGuides().catch(() => {});
+    }
+    return guides;
+  } catch (localErr) {
+    if (gasUrl) {
+      return await fetchRemoteGuides();
+    }
+    throw localErr;
+  }
 }
 
 function normalizeProblemRows(rows) {
