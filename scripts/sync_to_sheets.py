@@ -110,6 +110,33 @@ def setup_dashboard_sheet():
     ])
 
 
+AUTH_HEADERS = [
+    "school_code", "school_label", "password", "is_active", "memo"
+]
+
+
+def ensure_auth_sheet():
+    res = subprocess.run(
+        ["gsheets", "readonly", "list-sheets", SPREADSHEET_ID, "--json"],
+        capture_output=True, text=True, check=True
+    )
+    sheets = json.loads(res.stdout)
+    titles = {s.get("title") or s.get("Title") for s in sheets}
+    if "マスタ_学校認証" in titles:
+        print("[SYNC] マスタ_学校認証 already exists; keeping existing passwords intact.")
+        return
+    print("[SYNC] Creating マスタ_学校認証 sheet with initial template row...")
+    subprocess.run(
+        ["gsheets", "mutate", "add-sheet", SPREADSHEET_ID, "--title", "マスタ_学校認証"],
+        check=True
+    )
+    rows = [
+        AUTH_HEADERS,
+        ["hino", "hino校", "hino2026", "TRUE", "仮パスワードです。運用前に任意のパスワードへ変更してください（sha256:ハッシュも可）"],
+    ]
+    run_batch([{"op": "write", "range": "'マスタ_学校認証'!A1", "data": rows}])
+
+
 def format_headers():
     res = subprocess.run(
         ["gsheets", "readonly", "list-sheets", SPREADSHEET_ID, "--json"],
@@ -125,6 +152,7 @@ def format_headers():
         "4年_理科": (20, "#047857"),
         "学習ログ": (17, "#334155"),
         "集計_クラス進捗": (14, "#1E293B"),
+        "マスタ_学校認証": (5, "#0F172A"),
     }
     for s in sheets:
         title = s.get("title") or s.get("Title")
@@ -160,6 +188,7 @@ def main():
 
     write_sheet_chunked("学習ログ", LOG_HEADERS, [])
     setup_dashboard_sheet()
+    ensure_auth_sheet()
     format_headers()
     print("\n[ALL DONE] Googleスプレッドシートへの全量同期が完了しました！")
 

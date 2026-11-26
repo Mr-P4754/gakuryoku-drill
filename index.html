@@ -145,6 +145,15 @@
           </label>
         </div>
 
+        <div class="settings-section teacher-entry-section">
+          <h3>取組状況の確認（先生用）</h3>
+          <p class="field-hint">学校名（半角英字）と先生用パスワードを照合し、児童の単元別進捗・正答率・誤答問題をアプリ内で確認できます。</p>
+          <div class="settings-btn-row">
+            <button type="button" id="open-teacher-btn" class="btn btn-primary">取組状況を確認する</button>
+          </div>
+          <p id="teacher-session-hint" class="sync-feedback-msg"></p>
+        </div>
+
         <div class="settings-section">
           <h3>スプレッドシート連携（先生用）</h3>
           <p class="field-hint">GASウェブアプリURLを設定すると、問題DBの最新取得と「学習ログ」シートへの簡易スコア自動送信が有効になります。</p>
@@ -164,6 +173,49 @@
           <button type="button" id="reset-history-btn" class="btn btn-danger-outline btn-sm">この端末の学習きろくをリセット</button>
         </div>
       </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-ghost" data-close-modal>とじる</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 先生用：取組状況確認 認証モーダル -->
+  <div id="teacher-auth-modal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="teacher-auth-title">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h2 id="teacher-auth-title">取組状況の確認（先生用認証）</h2>
+        <button type="button" class="modal-close-btn" data-close-modal aria-label="とじる">×</button>
+      </div>
+      <form id="teacher-auth-form" class="modal-body">
+        <p class="modal-desc">スプレッドシートの「マスタ_学校認証」に登録した<strong>学校名（半角英字）</strong>と<strong>パスワード</strong>を入力してください。</p>
+        <div class="form-field">
+          <label for="teacher-school-input">学校名（半角アルファベット）<span class="req">必須</span></label>
+          <input type="text" id="teacher-school-input" class="form-input" placeholder="例: hino" autocomplete="off" autocapitalize="off" spellcheck="false" required>
+        </div>
+        <div class="form-field">
+          <label for="teacher-password-input">パスワード<span class="req">必須</span></label>
+          <div class="password-input-wrap">
+            <input type="password" id="teacher-password-input" class="form-input" placeholder="先生用パスワードを入力" autocomplete="off" required>
+            <button type="button" id="teacher-password-toggle" class="btn btn-ghost btn-sm password-toggle-btn" aria-label="パスワードを表示">表示</button>
+          </div>
+        </div>
+        <p id="teacher-auth-error" class="field-error hidden" role="alert"></p>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-ghost" data-close-modal>キャンセル</button>
+          <button type="submit" id="teacher-auth-submit" class="btn btn-primary">照合して確認する</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- 先生用：詳細ドリルダウンモーダル（児童カルテ・セル履歴・問題プレビュー） -->
+  <div id="teacher-detail-modal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="teacher-detail-title">
+    <div class="modal-card modal-card-lg">
+      <div class="modal-header">
+        <h2 id="teacher-detail-title">詳細情報</h2>
+        <button type="button" class="modal-close-btn" data-close-modal aria-label="とじる">×</button>
+      </div>
+      <div id="teacher-detail-body" class="modal-body"></div>
       <div class="modal-footer">
         <button type="button" class="btn btn-ghost" data-close-modal>とじる</button>
       </div>

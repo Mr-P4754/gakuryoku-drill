@@ -36,6 +36,12 @@ import {
   mountQuestionUI,
 } from './renderers.js';
 import { DrawingCanvas } from './canvas.js';
+import {
+  getTeacherSession,
+  authenticateTeacher,
+  renderTeacherDashboardView,
+  setAutoLogoutHandler,
+} from './teacher.js';
 
 const state = {
   meta: null,
@@ -59,6 +65,13 @@ async function init() {
   bindGlobalModals();
   bindScratchpad();
   updateHeaderBadges();
+
+  setAutoLogoutHandler((msg) => {
+    if (location.hash.startsWith('#teacher')) {
+      location.hash = '#home';
+      openTeacherAuthModal(msg);
+    }
+  });
 
   // バックグラウンドで未送信キューを再送試行
   flushPendingLogQueue().then(() => updateHeaderBadges()).catch(() => {});
@@ -124,6 +137,20 @@ async function loadGradeBundle(grade, { forceRemote = false } = {}) {
   });
 }
 
+async function ensureGradeQuestionsLoaded(grade) {
+  const targetSubjects = (state.meta?.subjects || []).filter(
+    (s) => s.grade === grade && s.is_active !== false
+  );
+  const missing = targetSubjects.filter((s) => !state.questionsBySheet[s.sheet_name]);
+  if (missing.length === 0) return;
+  const lists = await Promise.all(
+    missing.map((s) => loadSubjectQuestions(s).catch(() => []))
+  );
+  missing.forEach((s, idx) => {
+    state.questionsBySheet[s.sheet_name] = lists[idx] || [];
+  });
+}
+
 // ================= ルーティング =================
 
 async function handleRoute() {
@@ -139,6 +166,30 @@ async function handleRoute() {
     if (g !== state.currentGrade) {
       await loadGradeBundle(g);
     }
+  }
+
+  if (route === 'teacher') {
+    const session = getTeacherSession();
+    if (!session) {
+      renderHomeView();
+      openTeacherAuthModal();
+      return;
+    }
+    renderTeacherDashboardView($app(), {
+      meta: state.meta,
+      questionsBySheet: state.questionsBySheet,
+      ensureGradeLoaded: ensureGradeQuestionsLoaded,
+      onOpenLightbox: openLightbox,
+      onRequireAuth: (msg) => {
+        location.hash = '#home';
+        openTeacherAuthModal(msg);
+      },
+      onExitToHome: () => {
+        location.hash = '#home';
+      },
+    });
+    window.scrollTo({ top: 0 });
+    return;
   }
 
   if (route === 'subject') {
@@ -955,6 +1006,70 @@ function bindGlobalModals() {
       renderHomeView();
     }
   });
+
+  // 歯車モーダル内「取組状況を確認する」ボタン
+  document.getElementById('open-teacher-btn')?.addEventListener('click', () => {
+    document.getElementById('settings-modal')?.classList.add('hidden');
+    if (getTeacherSession()) {
+      if (location.hash === '#teacher') {
+        handleRoute();
+      } else {
+        location.hash = '#teacher';
+      }
+    } else {
+      openTeacherAuthModal();
+    }
+  });
+
+  // パスワード表示切替
+  document.getElementById('teacher-password-toggle')?.addEventListener('click', (e) => {
+    const input = document.getElementById('teacher-password-input');
+    if (!input) return;
+    const isPassword = input.type === 'password';
+    input.type = isPassword ? 'text' : 'password';
+    e.currentTarget.textContent = isPassword ? '隠す' : '表示';
+  });
+
+  // 先生用認証フォーム送信
+  document.getElementById('teacher-auth-form')?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const schoolEl = document.getElementById('teacher-school-input');
+    const passEl = document.getElementById('teacher-password-input');
+    const errEl = document.getElementById('teacher-auth-error');
+    const submitBtn = document.getElementById('teacher-auth-submit');
+
+    errEl.classList.add('hidden');
+    errEl.textContent = '';
+    submitBtn.disabled = true;
+    const origText = submitBtn.textContent;
+    submitBtn.textContent = '照合しています...';
+
+    try {
+      const res = await authenticateTeacher({
+        schoolCode: schoolEl.value,
+        password: passEl.value,
+      });
+      if (!res.ok) {
+        errEl.textContent = res.message;
+        errEl.classList.remove('hidden');
+        return;
+      }
+      passEl.value = '';
+      passEl.type = 'password';
+      const toggleBtn = document.getElementById('teacher-password-toggle');
+      if (toggleBtn) toggleBtn.textContent = '表示';
+      document.getElementById('teacher-auth-modal')?.classList.add('hidden');
+
+      if (location.hash === '#teacher') {
+        handleRoute();
+      } else {
+        location.hash = '#teacher';
+      }
+    } finally {
+      submitBtn.disabled = false;
+      submitBtn.textContent = origText;
+    }
+  });
 }
 
 function openProfileModal(isFirstVisit = false) {
@@ -988,7 +1103,52 @@ function openSettingsModal() {
   const qLen = getPendingLogQueue().length;
   document.getElementById('pending-queue-count').textContent = `${qLen} 件`;
   document.getElementById('setting-sync-msg').textContent = '';
+
+  const session = getTeacherSession();
+  const teacherBtn = document.getElementById('open-teacher-btn');
+  const teacherHint = document.getElementById('teacher-session-hint');
+  if (teacherBtn) {
+    teacherBtn.textContent = session
+      ? `取組状況ダッシュボードを開く（認証中：${session.school_code}）`
+      : '取組状況を確認する';
+  }
+  if (teacherHint) {
+    teacherHint.textContent = session
+      ? `${session.school_label}（${session.school_code}）で認証中です。`
+      : '';
+  }
+
   document.getElementById('settings-modal').classList.remove('hidden');
+}
+
+function openTeacherAuthModal(initialError = '') {
+  const modal = document.getElementById('teacher-auth-modal');
+  const schoolEl = document.getElementById('teacher-school-input');
+  const passEl = document.getElementById('teacher-password-input');
+  const errEl = document.getElementById('teacher-auth-error');
+  const toggleBtn = document.getElementById('teacher-password-toggle');
+  if (!modal || !schoolEl || !passEl || !errEl) return;
+
+  const profile = getProfile();
+  if (!schoolEl.value && profile?.school_code) {
+    schoolEl.value = profile.school_code;
+  }
+  passEl.value = '';
+  passEl.type = 'password';
+  if (toggleBtn) toggleBtn.textContent = '表示';
+
+  if (initialError) {
+    errEl.textContent = initialError;
+    errEl.classList.remove('hidden');
+  } else {
+    errEl.textContent = '';
+    errEl.classList.add('hidden');
+  }
+
+  modal.classList.remove('hidden');
+  setTimeout(() => {
+    (schoolEl.value ? passEl : schoolEl).focus();
+  }, 50);
 }
 
 function openGuideModal(subj, unitCode, showStartBtn = true) {
