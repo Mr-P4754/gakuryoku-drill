@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 220" width="620" height="220">
+  <defs>
+    <marker id="arrC" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#475569"/>
+    </marker>
+  </defs>
+  <rect width="620" height="220" rx="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <text x="310" y="28" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="15" font-weight="bold" fill="#065F46">こん虫の育つじゅんじょ（2つのタイプ）</text>
+
+  <!-- Row 1: Butterfly -->
+  <rect x="18" y="46" width="584" height="72" rx="10" fill="#FFFFFF" stroke="#86EFAC" stroke-width="1.6"/>
+  <rect x="28" y="60" width="132" height="44" rx="8" fill="#ECFDF5" stroke="#10B981" stroke-width="1.5"/>
+  <text x="94" y="79" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12.5" font-weight="bold" fill="#065F46">チョウの</text>
+  <text x="94" y="96" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12.5" font-weight="bold" fill="#065F46">育つじゅんじょ</text>
+
+  <!-- 4 boxes -->
+  <rect x="176" y="62" width="76" height="40" rx="8" fill="#FEFCE8" stroke="#EAB308" stroke-width="1.5"/>
+  <text x="214" y="87" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13.5" font-weight="bold" fill="#854D0E">たまご</text>
+  <line x1="256" y1="82" x2="278" y2="82" stroke="#475569" stroke-width="2" marker-end="url(#arrC)"/>
+
+  <rect x="284" y="62" width="78" height="40" rx="8" fill="#DCFCE7" stroke="#22C55E" stroke-width="1.5"/>
+  <text x="323" y="87" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13.5" font-weight="bold" fill="#166534">よう虫</text>
+  <line x1="366" y1="82" x2="388" y2="82" stroke="#475569" stroke-width="2" marker-end="url(#arrC)"/>
+
+  <rect x="394" y="62" width="84" height="40" rx="8" fill="#FEF3C7" stroke="#D97706" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="436" y="87" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#B45309">[ ① ]</text>
+  <line x1="482" y1="82" x2="504" y2="82" stroke="#475569" stroke-width="2" marker-end="url(#arrC)"/>
+
+  <rect x="510" y="62" width="80" height="40" rx="8" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.5"/>
+  <text x="550" y="87" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13.5" font-weight="bold" fill="#1D4ED8">せい虫</text>
+
+  <!-- Row 2: Dragonfly & Grasshopper -->
+  <rect x="18" y="132" width="584" height="72" rx="10" fill="#FFFFFF" stroke="#93C5FD" stroke-width="1.6"/>
+  <rect x="28" y="146" width="132" height="44" rx="8" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.5"/>
+  <text x="94" y="165" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#1E40AF">トンボやバッタの</text>
+  <text x="94" y="182" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#1E40AF">育つじゅんじょ</text>
+
+  <!-- 3 boxes -->
+  <rect x="176" y="148" width="76" height="40" rx="8" fill="#FEFCE8" stroke="#EAB308" stroke-width="1.5"/>
+  <text x="214" y="173" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13.5" font-weight="bold" fill="#854D0E">たまご</text>
+  <line x1="258" y1="168" x2="296" y2="168" stroke="#475569" stroke-width="2" marker-end="url(#arrC)"/>
+
+  <rect x="304" y="148" width="112" height="40" rx="8" fill="#FEF3C7" stroke="#D97706" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="360" y="173" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#B45309">[ ② ]</text>
+  <line x1="422" y1="168" x2="466" y2="168" stroke="#475569" stroke-width="2" marker-end="url(#arrC)"/>
+
+  <rect x="474" y="148" width="116" height="40" rx="8" fill="#FEF3C7" stroke="#D97706" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="532" y="173" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#B45309">[ ③ ]</text>
+</svg>

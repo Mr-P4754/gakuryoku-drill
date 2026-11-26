@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 356" width="460" height="356" role="img" aria-label="1辺の長さが6cmの正三角形の模範作図（コンパス弧入り）">
+  <title>1辺の長さが6cmの正三角形の模範作図（コンパス弧入り）</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 14px; font-weight: 700; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <path d="M 171.87 48.55 A 264.00 264.00 0 0 1 280.56 111.30" fill="none" stroke="#059669" stroke-width="2.2"/>
+  <path d="M 179.44 111.30 A 264.00 264.00 0 0 1 288.13 48.55" fill="none" stroke="#059669" stroke-width="2.2"/>
+  <polygon points="98.0,302.0 230.0,73.4 362.0,302.0" fill="rgba(220,38,38,0.08)" stroke="none"/>
+  <polyline points="98.0,302.0 230.0,73.4 362.0,302.0" fill="none" stroke="#DC2626" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="230.0" cy="73.4" r="5.0" fill="#DC2626"/>
+  <text x="230.0" y="59.4" text-anchor="middle" font-size="16" font-weight="700" fill="#DC2626" class="halo">ウ</text>
+  <path d="M 230.0 73.4 Q 138.0 172.7 98.0 302.0" fill="none" stroke="#DC2626" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="148.9" y="184.0" text-anchor="middle" font-size="14" font-weight="700" fill="#DC2626" class="halo">6cm</text>
+
+  <path d="M 362.0 302.0 Q 322.0 172.7 230.0 73.4" fill="none" stroke="#DC2626" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="311.1" y="184.0" text-anchor="middle" font-size="14" font-weight="700" fill="#DC2626" class="halo">6cm</text>
+
+</svg>

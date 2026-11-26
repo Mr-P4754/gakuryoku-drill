@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 175" width="460" height="175" role="img" aria-label="1.9+2.1の筆算解説">
+  <title>1.9+2.1の筆算解説</title>
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 600; }
+      .lbl-sm { font-size: 14px; font-weight: 600; }
+      .lbl-xs { font-size: 12.5px; font-weight: 500; fill: #475569; }
+      .num { font-size: 17px; font-weight: 700; }
+      .num-lg { font-size: 22px; font-weight: 700; }
+      .num-sm { font-size: 14px; font-weight: 700; }
+      .carry { font-size: 13px; font-weight: 700; fill: #DC2626; }
+      .borrow { font-size: 13px; font-weight: 700; fill: #2563EB; }
+      .blank-num { font-size: 17px; font-weight: 700; fill: #2563EB; }
+      .ans-num { font-size: 17px; font-weight: 700; fill: #0F766E; }
+      .unit-txt { font-size: 14px; font-weight: 600; fill: #334155; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="460" height="175" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="230" y="28" text-anchor="middle" class="title">1.9 ＋ 2.1 の筆算（.0 を消す）</text>
+  <line x1="148" y1="48" x2="148" y2="146" stroke="#93C5FD" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <text x="126" y="57" text-anchor="middle" class="carry">1</text>
+  <text x="126" y="80" text-anchor="middle" class="num-lg">1</text>
+  <circle cx="148" cy="78" r="2.6" fill="#1E293B"/>
+  <text x="170" y="80" text-anchor="middle" class="num-lg">9</text>
+  <text x="90" y="110" text-anchor="middle" class="num-lg">＋</text>
+  <text x="126" y="110" text-anchor="middle" class="num-lg">2</text>
+  <circle cx="148" cy="108" r="2.6" fill="#1E293B"/>
+  <text x="170" y="110" text-anchor="middle" class="num-lg">1</text>
+  <line x1="76" y1="120" x2="194" y2="120" stroke="#1E293B" stroke-width="2.2"/>
+  <text x="126" y="148" text-anchor="middle" class="num-lg" fill="#0F766E">4</text>
+  <circle cx="148" cy="146" r="2.6" fill="#94A3B8"/>
+  <text x="170" y="148" text-anchor="middle" class="num-lg" fill="#94A3B8">0</text>
+  <line x1="142" y1="154" x2="182" y2="128" stroke="#DC2626" stroke-width="2.4"/>
+  <rect x="220" y="64" width="218" height="78" rx="10" fill="#FEF2F2" stroke="#FCA5A5" stroke-width="1.4"/>
+  <text x="329" y="92" text-anchor="middle" class="lbl" fill="#DC2626">4.0 の「.0」は消すよ！</text>
+  <text x="329" y="120" text-anchor="middle" class="num" fill="#0F766E">答え：4</text>
+  <line x1="184" y1="138" x2="218" y2="108" stroke="#DC2626" stroke-width="1.8" stroke-dasharray="4,2"/>
+</svg>

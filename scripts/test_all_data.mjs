@@ -1,22 +1,27 @@
 #!/usr/bin/env node
 /**
- * 全4教科のすべての問題レコードに対して js/scorer.js の scoreAnswer() を実行し、
+ * data/meta.json に登録された全学年・全教科のすべての問題レコードに対して js/scorer.js の scoreAnswer() を実行し、
  * 正答が必ず正解と判定されること・データ形式の不整合がないことを一括検証するスクリプト
  */
 import fs from 'node:fs';
 import path from 'node:path';
 import { scoreAnswer } from '../js/scorer.js';
 
-const DATA_DIR = path.resolve(import.meta.dirname, '../data');
-const FILES = ['4年_国語.json', '4年_社会.json', '4年_算数.json', '4年_理科.json'];
+const ROOT = path.resolve(import.meta.dirname, '..');
+const META_PATH = path.join(ROOT, 'data/meta.json');
+const meta = JSON.parse(fs.readFileSync(META_PATH, 'utf-8'));
+
+const FILES = (meta.subjects || [])
+  .filter((s) => s.is_active !== false && s.data_file)
+  .map((s) => s.data_file);
 
 let total = 0;
 let failures = [];
 
-for (const fname of FILES) {
-  const fpath = path.join(DATA_DIR, fname);
+for (const relFile of FILES) {
+  const fpath = path.join(ROOT, relFile);
   if (!fs.existsSync(fpath)) {
-    failures.push(`${fname}: file not found`);
+    failures.push(`${relFile}: file not found`);
     continue;
   }
   const rows = JSON.parse(fs.readFileSync(fpath, 'utf-8'));
@@ -28,10 +33,10 @@ for (const fname of FILES) {
 
     // パイプ衝突チェック: choices/answer 内に {漢字|かんじ} があると split('|') が壊れる
     if (/\{[^|{}]+\|[^|{}]+\}/.test(q.choices || '')) {
-      failures.push(`${fname}:${q.problem_id}: ruby pipe conflict in choices`);
+      failures.push(`${relFile}:${q.problem_id}: ruby pipe conflict in choices`);
     }
     if (/\{[^|{}]+\|[^|{}]+\}/.test(ans)) {
-      failures.push(`${fname}:${q.problem_id}: ruby pipe conflict in answer`);
+      failures.push(`${relFile}:${q.problem_id}: ruby pipe conflict in answer`);
     }
 
     let simulatedUserAns;
@@ -50,14 +55,14 @@ for (const fname of FILES) {
 
     const res = scoreAnswer(q, simulatedUserAns);
     if (!res.isCorrect) {
-      failures.push(`${fname}:${q.problem_id} (${type}): answer "${ans}" failed scorer!`);
+      failures.push(`${relFile}:${q.problem_id} (${type}): answer "${ans}" failed scorer!`);
     }
 
     // single_choice: answer must exist in choices
     if (type === 'single_choice') {
       const choices = String(q.choices || '').split('|').map((s) => s.trim());
       if (!choices.includes(ans.trim())) {
-        failures.push(`${fname}:${q.problem_id}: single_choice answer "${ans}" not in choices [${choices.join(', ')}]`);
+        failures.push(`${relFile}:${q.problem_id}: single_choice answer "${ans}" not in choices [${choices.join(', ')}]`);
       }
     }
 
@@ -66,7 +71,7 @@ for (const fname of FILES) {
       const choices = String(q.choices || '').split('|').map((s) => s.trim());
       for (const a of ans.split('|').map((s) => s.trim())) {
         if (!choices.includes(a)) {
-          failures.push(`${fname}:${q.problem_id}: multi_choice answer "${a}" not in choices`);
+          failures.push(`${relFile}:${q.problem_id}: multi_choice answer "${a}" not in choices`);
         }
       }
     }
@@ -76,7 +81,7 @@ for (const fname of FILES) {
       const choices = String(q.choices || '').split('|').map((s) => s.trim());
       for (const a of ans.split('|').map((s) => s.trim())) {
         if (!choices.includes(a)) {
-          failures.push(`${fname}:${q.problem_id}: word_bank answer "${a}" not in choices [${choices.join(', ')}]`);
+          failures.push(`${relFile}:${q.problem_id}: word_bank answer "${a}" not in choices [${choices.join(', ')}]`);
         }
       }
     }

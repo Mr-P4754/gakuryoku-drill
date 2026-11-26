@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 340" width="620" height="340" role="img" aria-label="3つのきかいA・B・Cのきまりと問題図">
+  <title>3つのきかいA・B・Cのきまりと問題図</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 14px; font-weight: 700; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="620" height="340" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <rect x="16" y="14" width="588" height="128" rx="10" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.5"/>
+  <text x="32" y="36" font-size="13.5" font-weight="700" fill="#1E40AF">［きまり］（1〜20の整数、同じ数は2つ入れられない）</text>
+  <text x="32" y="60" font-size="13" font-weight="700" fill="#1E293B">① A：大きい数 − 小さい数</text>
+  <text x="32" y="88" font-size="13" font-weight="700" fill="#1E293B">② B：2つの数を たす</text>
+  <text x="32" y="116" font-size="13" font-weight="700" fill="#1E293B">③ C：2つの数を かける</text>
+  <line x1="364" y1="24" x2="364" y2="132" stroke="#CBD5E1" stroke-width="1.2" stroke-dasharray="3,3"/>
+  <text x="380" y="36" font-size="13" font-weight="700" fill="#475569">［れい］</text>
+  <text x="380" y="60" font-size="13" font-weight="700">2，5 → [ A ] → 3（5−2）</text>
+  <text x="380" y="88" font-size="13" font-weight="700">2，5 → [ B ] → 7（2＋5）</text>
+  <text x="380" y="116" font-size="13" font-weight="700">2，5 → [ C ] → 10（2×5）</text>
+  <rect x="16" y="156" width="286" height="170" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.4"/>
+  <text x="32" y="178" font-size="13.5" font-weight="700" fill="#2563EB">ア をもとめよう</text>
+  <text x="38" y="206" text-anchor="middle" font-size="15" font-weight="700">6</text>
+  <text x="38" y="232" text-anchor="middle" font-size="15" font-weight="700">2</text>
+  <line x1="50" y1="201" x2="73" y2="201" stroke="#1E293B" stroke-width="1.8"/>
+  <polygon points="78,201 71,197 71,205" fill="#1E293B"/>
+  <line x1="50" y1="227" x2="73" y2="227" stroke="#1E293B" stroke-width="1.8"/>
+  <polygon points="78,227 71,223 71,231" fill="#1E293B"/>
+  <rect x="80" y="190" width="40" height="48" rx="5" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.8"/>
+  <text x="100" y="220" text-anchor="middle" font-size="16" font-weight="700" fill="#1E40AF">A</text>
+  <text x="38" y="274" text-anchor="middle" font-size="15" font-weight="700">4</text>
+  <text x="38" y="300" text-anchor="middle" font-size="15" font-weight="700">1</text>
+  <line x1="50" y1="269" x2="73" y2="269" stroke="#1E293B" stroke-width="1.8"/>
+  <polygon points="78,269 71,265 71,273" fill="#1E293B"/>
+  <line x1="50" y1="295" x2="73" y2="295" stroke="#1E293B" stroke-width="1.8"/>
+  <polygon points="78,295 71,291 71,299" fill="#1E293B"/>
+  <rect x="80" y="258" width="40" height="48" rx="5" fill="#ECFDF5" stroke="#059669" stroke-width="1.8"/>
+  <text x="100" y="288" text-anchor="middle" font-size="16" font-weight="700" fill="#065F46">B</text>
+  <line x1="124" y1="214" x2="153" y2="214" stroke="#1E293B" stroke-width="1.8"/>
+  <polygon points="158,214 151,210 151,218" fill="#1E293B"/>
+  <line x1="124" y1="282" x2="153" y2="282" stroke="#1E293B" stroke-width="1.8"/>
+  <polygon points="158,282 151,278 151,286" fill="#1E293B"/>
+  <rect x="160" y="194" width="42" height="106" rx="5" fill="#FEF3C7" stroke="#D97706" stroke-width="1.8"/>
+  <text x="181" y="253" text-anchor="middle" font-size="17" font-weight="700" fill="#92400E">C</text>
+  <line x1="206" y1="247" x2="235" y2="247" stroke="#1E293B" stroke-width="1.8"/>
+  <polygon points="240,247 233,243 233,251" fill="#1E293B"/>
+  <rect x="244" y="229" width="40" height="36" rx="6" fill="#FEF2F2" stroke="#DC2626" stroke-width="2.0"/>
+  <text x="264" y="253" text-anchor="middle" font-size="17" font-weight="700" fill="#DC2626">ア</text>
+  <rect x="318" y="156" width="286" height="170" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.4"/>
+  <text x="334" y="178" font-size="13.5" font-weight="700" fill="#DC2626">イ をもとめよう</text>
+  <rect x="332" y="190" width="34" height="28" rx="5" fill="#FEF2F2" stroke="#DC2626" stroke-width="2.0"/>
+  <text x="349" y="210" text-anchor="middle" font-size="15" font-weight="700" fill="#DC2626">イ</text>
+  <text x="349" y="242" text-anchor="middle" font-size="15" font-weight="700">5</text>
+  <line x1="370" y1="204" x2="393" y2="204" stroke="#1E293B" stroke-width="1.8"/>
+  <polygon points="398,204 391,200 391,208" fill="#1E293B"/>
+  <line x1="370" y1="236" x2="393" y2="236" stroke="#1E293B" stroke-width="1.8"/>
+  <polygon points="398,236 391,232 391,240" fill="#1E293B"/>
+  <rect x="400" y="194" width="40" height="52" rx="5" fill="#FEF3C7" stroke="#D97706" stroke-width="1.8"/>
+  <text x="420" y="226" text-anchor="middle" font-size="16" font-weight="700" fill="#92400E">C</text>
+  <line x1="444" y1="220" x2="473" y2="220" stroke="#1E293B" stroke-width="1.8"/>
+  <polygon points="478,220 471,216 471,224" fill="#1E293B"/>
+  <text x="424" y="290" text-anchor="middle" font-size="15" font-weight="700">18</text>
+  <line x1="444" y1="285" x2="473" y2="285" stroke="#1E293B" stroke-width="1.8"/>
+  <polygon points="478,285 471,281 471,289" fill="#1E293B"/>
+  <rect x="480" y="200" width="42" height="104" rx="5" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.8"/>
+  <text x="501" y="258" text-anchor="middle" font-size="17" font-weight="700" fill="#1E40AF">A</text>
+  <line x1="526" y1="252" x2="555" y2="252" stroke="#1E293B" stroke-width="1.8"/>
+  <polygon points="560,252 553,248 553,256" fill="#1E293B"/>
+  <text x="576" y="258" text-anchor="middle" font-size="18" font-weight="700" fill="#1E293B">3</text>
+</svg>

@@ -764,10 +764,26 @@ export function renderTeacherDashboardView(container, ctx) {
   const kpi = computeKpiSummary(filteredLogs);
   const problemIndex = buildProblemIndex(ctx.questionsBySheet);
 
-  // マトリクス対象学年・教科の決定
+  // マトリクス対象学年・教科の決定（フィルタが「すべて」のときは実際にログがある最新学年を優先）
+  const firstLoggedGrade = filteredLogs.find((l) => l.grade)?.grade || allLogs.find((l) => l.grade)?.grade;
   const effectiveGrade = dashboardState.filters.grade !== 'すべて'
     ? dashboardState.filters.grade
-    : (grades[0] || APP_CONFIG.DEFAULT_GRADE);
+    : (firstLoggedGrade || APP_CONFIG.DEFAULT_GRADE || grades[0]);
+
+  // 対象学年の問題・単元データが未ロードならバックグラウンド読込して再描画
+  const effectiveSubjects = metaSubjects.filter((s) => s.grade === effectiveGrade);
+  const missingUnits = effectiveSubjects.some((s) => !ctx.questionsBySheet?.[s.sheet_name]);
+  if (missingUnits && ctx.ensureGradeLoaded && !dashboardState._loadingGrade?.[effectiveGrade]) {
+    dashboardState._loadingGrade = { ...(dashboardState._loadingGrade || {}), [effectiveGrade]: true };
+    ctx.ensureGradeLoaded(effectiveGrade).then(() => {
+      dashboardState._loadingGrade[effectiveGrade] = false;
+      if (getTeacherSession() && container.querySelector('.teacher-view')) {
+        renderTeacherDashboardView(container, ctx);
+      }
+    }).catch(() => {
+      dashboardState._loadingGrade[effectiveGrade] = false;
+    });
+  }
 
   if (dashboardState.filters.subject !== 'すべて') {
     dashboardState.matrixSubject = dashboardState.filters.subject;

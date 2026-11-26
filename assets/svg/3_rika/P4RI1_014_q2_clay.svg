@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 284" width="640" height="284">
+  <defs>
+    <radialGradient id="clayBall" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#E2E8F0"/>
+      <stop offset="100%" stop-color="#94A3B8"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="640" height="284" rx="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <text x="320" y="26" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="15" font-weight="bold" fill="#065F46">200gのねん土を10こに分けたときの重さ</text>
+
+  <!-- Left: Data Table -->
+  <g transform="translate(22, 46)">
+    <text x="0" y="14" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#1E293B">表　10こに分けたねん土の重さ</text>
+    <rect x="0" y="24" width="396" height="168" rx="8" fill="#FFFFFF" stroke="#475569" stroke-width="1.8"/>
+    <!-- Header column fill -->
+    <rect x="1" y="25" width="76" height="166" rx="6" fill="#F1F5F9"/>
+    <!-- Row backgrounds -->
+    <rect x="77" y="25" width="318" height="42" fill="#ECFDF5" opacity="0.65"/>
+    <rect x="77" y="109" width="318" height="42" fill="#ECFDF5" opacity="0.65"/>
+    <!-- Highlight cell for こ -->
+    <rect x="332" y="151" width="63" height="40" fill="#FEF3C7"/>
+
+    <!-- Grid lines -->
+    <g stroke="#64748B" stroke-width="1.3">
+      <line x1="0" y1="67" x2="396" y2="67"/>
+      <line x1="0" y1="109" x2="396" y2="109" stroke-width="2"/>
+      <line x1="0" y1="151" x2="396" y2="151"/>
+      <line x1="77" y1="24" x2="77" y2="192" stroke-width="1.6"/>
+      <line x1="141" y1="24" x2="141" y2="192"/>
+      <line x1="205" y1="24" x2="205" y2="192"/>
+      <line x1="269" y1="24" x2="269" y2="192"/>
+      <line x1="333" y1="24" x2="333" y2="192"/>
+    </g>
+
+    <!-- Table text -->
+    <g font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13.5" text-anchor="middle">
+      <text x="38" y="51" font-weight="bold" fill="#334155">ねん土</text>
+      <text x="109" y="51" font-weight="bold" fill="#065F46">あ</text>
+      <text x="173" y="51" font-weight="bold" fill="#065F46">い</text>
+      <text x="237" y="51" font-weight="bold" fill="#065F46">う</text>
+      <text x="301" y="51" font-weight="bold" fill="#065F46">え</text>
+      <text x="364" y="51" font-weight="bold" fill="#065F46">お</text>
+
+      <text x="38" y="93" font-weight="bold" fill="#334155">重さ</text>
+      <text x="109" y="93" fill="#0F172A">17 g</text>
+      <text x="173" y="93" fill="#0F172A">23 g</text>
+      <text x="237" y="93" fill="#0F172A">19 g</text>
+      <text x="301" y="93" fill="#0F172A">18 g</text>
+      <text x="364" y="93" fill="#0F172A">21 g</text>
+
+      <text x="38" y="135" font-weight="bold" fill="#334155">ねん土</text>
+      <text x="109" y="135" font-weight="bold" fill="#065F46">か</text>
+      <text x="173" y="135" font-weight="bold" fill="#065F46">き</text>
+      <text x="237" y="135" font-weight="bold" fill="#065F46">く</text>
+      <text x="301" y="135" font-weight="bold" fill="#065F46">け</text>
+      <text x="364" y="135" font-weight="bold" fill="#B45309">こ</text>
+
+      <text x="38" y="177" font-weight="bold" fill="#334155">重さ</text>
+      <text x="109" y="177" fill="#0F172A">22 g</text>
+      <text x="173" y="177" fill="#0F172A">18 g</text>
+      <text x="237" y="177" fill="#0F172A">20 g</text>
+      <text x="301" y="177" fill="#0F172A">20 g</text>
+      <text x="364" y="177" font-weight="bold" fill="#DC2626">？ g</text>
+    </g>
+    <text x="198" y="218" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" fill="#475569">もとのねん土の重さ ＝ 200g</text>
+  </g>
+
+  <!-- Right: Spring Dial Scale (200g) + 10 clay balls -->
+  <g transform="translate(442, 40)">
+    <rect width="178" height="230" rx="12" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.4"/>
+    <!-- Clay ball on pan -->
+    <circle cx="89" cy="24" r="16" fill="url(#clayBall)" stroke="#475569" stroke-width="1.6"/>
+    <!-- Pan -->
+    <rect x="44" y="38" width="90" height="7" rx="3" fill="#CBD5E1" stroke="#475569" stroke-width="1.4"/>
+    <rect x="81" y="45" width="16" height="10" fill="#94A3B8" stroke="#475569" stroke-width="1.2"/>
+    <!-- Scale body & Dial -->
+    <rect x="34" y="54" width="110" height="94" rx="10" fill="#E2E8F0" stroke="#475569" stroke-width="1.6"/>
+    <g transform="translate(89, 102)">
+      <circle cx="0" cy="0" r="46" fill="#FFFFFF" stroke="#334155" stroke-width="1.8"/>
+      <line x1="0.0" y1="-36.0" x2="0.0" y2="-44.0" stroke="#334155" stroke-width="1.6"/><line x1="5.1" y1="-40.7" x2="5.5" y2="-43.7" stroke="#334155" stroke-width="0.9"/><line x1="10.2" y1="-39.7" x2="10.9" y2="-42.6" stroke="#334155" stroke-width="0.9"/><line x1="15.1" y1="-38.1" x2="16.2" y2="-40.9" stroke="#334155" stroke-width="0.9"/><line x1="19.8" y1="-35.9" x2="21.2" y2="-38.6" stroke="#334155" stroke-width="0.9"/><line x1="22.9" y1="-31.6" x2="25.9" y2="-35.6" stroke="#334155" stroke-width="0.9"/><line x1="28.1" y1="-29.9" x2="30.1" y2="-32.1" stroke="#334155" stroke-width="0.9"/><line x1="31.6" y1="-26.1" x2="33.9" y2="-28.0" stroke="#334155" stroke-width="0.9"/><line x1="34.6" y1="-22.0" x2="37.2" y2="-23.6" stroke="#334155" stroke-width="0.9"/><line x1="37.1" y1="-17.5" x2="39.8" y2="-18.7" stroke="#334155" stroke-width="0.9"/><line x1="34.2" y1="-11.1" x2="41.8" y2="-13.6" stroke="#334155" stroke-width="1.6"/><line x1="40.3" y1="-7.7" x2="43.2" y2="-8.2" stroke="#334155" stroke-width="0.9"/><line x1="40.9" y1="-2.6" x2="43.9" y2="-2.8" stroke="#334155" stroke-width="0.9"/><line x1="40.9" y1="2.6" x2="43.9" y2="2.8" stroke="#334155" stroke-width="0.9"/><line x1="40.3" y1="7.7" x2="43.2" y2="8.2" stroke="#334155" stroke-width="0.9"/><line x1="37.1" y1="12.1" x2="41.8" y2="13.6" stroke="#334155" stroke-width="0.9"/><line x1="37.1" y1="17.5" x2="39.8" y2="18.7" stroke="#334155" stroke-width="0.9"/><line x1="34.6" y1="22.0" x2="37.2" y2="23.6" stroke="#334155" stroke-width="0.9"/><line x1="31.6" y1="26.1" x2="33.9" y2="28.0" stroke="#334155" stroke-width="0.9"/><line x1="28.1" y1="29.9" x2="30.1" y2="32.1" stroke="#334155" stroke-width="0.9"/><line x1="21.2" y1="29.1" x2="25.9" y2="35.6" stroke="#334155" stroke-width="1.6"/><line x1="19.8" y1="35.9" x2="21.2" y2="38.6" stroke="#334155" stroke-width="0.9"/><line x1="15.1" y1="38.1" x2="16.2" y2="40.9" stroke="#334155" stroke-width="0.9"/><line x1="10.2" y1="39.7" x2="10.9" y2="42.6" stroke="#334155" stroke-width="0.9"/><line x1="5.1" y1="40.7" x2="5.5" y2="43.7" stroke="#334155" stroke-width="0.9"/><line x1="0.0" y1="39.0" x2="0.0" y2="44.0" stroke="#334155" stroke-width="0.9"/><line x1="-5.1" y1="40.7" x2="-5.5" y2="43.7" stroke="#334155" stroke-width="0.9"/><line x1="-10.2" y1="39.7" x2="-10.9" y2="42.6" stroke="#334155" stroke-width="0.9"/><line x1="-15.1" y1="38.1" x2="-16.2" y2="40.9" stroke="#334155" stroke-width="0.9"/><line x1="-19.8" y1="35.9" x2="-21.2" y2="38.6" stroke="#334155" stroke-width="0.9"/><line x1="-21.2" y1="29.1" x2="-25.9" y2="35.6" stroke="#334155" stroke-width="1.6"/><line x1="-28.1" y1="29.9" x2="-30.1" y2="32.1" stroke="#334155" stroke-width="0.9"/><line x1="-31.6" y1="26.1" x2="-33.9" y2="28.0" stroke="#334155" stroke-width="0.9"/><line x1="-34.6" y1="22.0" x2="-37.2" y2="23.6" stroke="#334155" stroke-width="0.9"/><line x1="-37.1" y1="17.5" x2="-39.8" y2="18.7" stroke="#334155" stroke-width="0.9"/><line x1="-37.1" y1="12.1" x2="-41.8" y2="13.6" stroke="#334155" stroke-width="0.9"/><line x1="-40.3" y1="7.7" x2="-43.2" y2="8.2" stroke="#334155" stroke-width="0.9"/><line x1="-40.9" y1="2.6" x2="-43.9" y2="2.8" stroke="#334155" stroke-width="0.9"/><line x1="-40.9" y1="-2.6" x2="-43.9" y2="-2.8" stroke="#334155" stroke-width="0.9"/><line x1="-40.3" y1="-7.7" x2="-43.2" y2="-8.2" stroke="#334155" stroke-width="0.9"/><line x1="-34.2" y1="-11.1" x2="-41.8" y2="-13.6" stroke="#334155" stroke-width="1.6"/><line x1="-37.1" y1="-17.5" x2="-39.8" y2="-18.7" stroke="#334155" stroke-width="0.9"/><line x1="-34.6" y1="-22.0" x2="-37.2" y2="-23.6" stroke="#334155" stroke-width="0.9"/><line x1="-31.6" y1="-26.1" x2="-33.9" y2="-28.0" stroke="#334155" stroke-width="0.9"/><line x1="-28.1" y1="-29.9" x2="-30.1" y2="-32.1" stroke="#334155" stroke-width="0.9"/><line x1="-22.9" y1="-31.6" x2="-25.9" y2="-35.6" stroke="#334155" stroke-width="0.9"/><line x1="-19.8" y1="-35.9" x2="-21.2" y2="-38.6" stroke="#334155" stroke-width="0.9"/><line x1="-15.1" y1="-38.1" x2="-16.2" y2="-40.9" stroke="#334155" stroke-width="0.9"/><line x1="-10.2" y1="-39.7" x2="-10.9" y2="-42.6" stroke="#334155" stroke-width="0.9"/><line x1="-5.1" y1="-40.7" x2="-5.5" y2="-43.7" stroke="#334155" stroke-width="0.9"/>
+      <!-- Scale numbers -->
+      <text x="0" y="-26" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="8.5" font-weight="bold" fill="#1E293B">0</text>
+      <text x="26" y="-6" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="8" fill="#334155">100</text>
+      <text x="18" y="26" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="8.5" font-weight="bold" fill="#DC2626">200</text>
+      <text x="-18" y="26" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="8" fill="#334155">300</text>
+      <text x="-26" y="-6" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="8" fill="#334155">400</text>
+      <!-- Pointer pointing to 200g -->
+      <line x1="0" y1="0" x2="19.4" y2="26.7" stroke="#DC2626" stroke-width="2.6" stroke-linecap="round"/>
+      <circle cx="0" cy="0" r="4" fill="#1E293B"/>
+    </g>
+
+    <!-- 10 small clay balls on a sheet -->
+    <text x="89" y="164" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="10.5" font-weight="bold" fill="#065F46">200g（10こに分ける）</text>
+    <polygon points="24,200 154,200 166,220 12,220" fill="#F1F5F9" stroke="#94A3B8" stroke-width="1.2"/>
+    <g fill="url(#clayBall)" stroke="#475569" stroke-width="1.2">
+      <circle cx="48" cy="206" r="8"/><circle cx="68" cy="206" r="8"/><circle cx="88" cy="206" r="8"/><circle cx="108" cy="206" r="8"/><circle cx="128" cy="206" r="8"/>
+      <circle cx="58" cy="194" r="8"/><circle cx="78" cy="194" r="8"/><circle cx="98" cy="194" r="8"/><circle cx="118" cy="194" r="8"/>
+      <circle cx="88" cy="182" r="8"/>
+    </g>
+  </g>
+</svg>

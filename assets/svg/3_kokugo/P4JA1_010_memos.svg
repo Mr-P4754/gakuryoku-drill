@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 390" width="760" height="390" role="img" aria-label="さおりさんのメモとけんじさんのメモ">
+  <defs><style>.t { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans CJK JP', 'Noto Sans JP', sans-serif; }</style></defs>
+  <rect width="760" height="390" rx="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="380" y="34" text-anchor="middle" class="t" font-size="18" font-weight="700" fill="#0F172A">遠足について先生が話したことのメモ（2人の見くらべ）</text>
+
+  <!-- Saori's Memo -->
+  <rect x="20" y="52" width="320" height="318" rx="12" fill="#FFFBEB" stroke="#F59E0B" stroke-width="2.2"/>
+  <rect x="20" y="52" width="320" height="38" rx="10" fill="#F59E0B"/>
+  <text x="180" y="77" text-anchor="middle" class="t" font-size="16" font-weight="700" fill="#FFFFFF">〈さおりさんのメモ〉</text>
+
+  <text x="42" y="124" class="t" font-size="16" fill="#1E293B">○ 来週遠足</text>
+
+  <!-- Circled 時 -->
+  <text x="42" y="168" class="t" font-size="16" fill="#1E293B">○</text>
+  <circle cx="72" cy="162" r="13" fill="#FEF3C7" stroke="#D97706" stroke-width="2"/>
+  <text x="72" y="168" text-anchor="middle" class="t" font-size="14" font-weight="700" fill="#92400E">時</text>
+  <text x="92" y="168" class="t" font-size="16" fill="#1E293B">… 朝八時二十五分</text>
+
+  <!-- Circled 場 -->
+  <text x="42" y="212" class="t" font-size="16" fill="#1E293B">○</text>
+  <circle cx="72" cy="206" r="13" fill="#FEF3C7" stroke="#D97706" stroke-width="2"/>
+  <text x="72" y="212" text-anchor="middle" class="t" font-size="14" font-weight="700" fill="#92400E">場</text>
+  <text x="92" y="212" class="t" font-size="16" fill="#1E293B">… 学校正門</text>
+
+  <!-- Circled 目 -->
+  <text x="42" y="256" class="t" font-size="16" fill="#1E293B">○</text>
+  <circle cx="72" cy="250" r="13" fill="#FEF3C7" stroke="#D97706" stroke-width="2"/>
+  <text x="72" y="256" text-anchor="middle" class="t" font-size="14" font-weight="700" fill="#92400E">目</text>
+  <text x="92" y="256" class="t" font-size="16" fill="#1E293B">… さくら公園</text>
+
+  <!-- Circled ふ -->
+  <text x="42" y="300" class="t" font-size="16" fill="#1E293B">○</text>
+  <circle cx="72" cy="294" r="13" fill="#FEF3C7" stroke="#D97706" stroke-width="2"/>
+  <text x="72" y="300" text-anchor="middle" class="t" font-size="14" font-weight="700" fill="#92400E">ふ</text>
+  <text x="92" y="300" class="t" font-size="16" fill="#1E293B">… 体そうふく</text>
+
+  <!-- Circled 持 -->
+  <text x="42" y="344" class="t" font-size="16" fill="#1E293B">○</text>
+  <circle cx="72" cy="338" r="13" fill="#FEF3C7" stroke="#D97706" stroke-width="2"/>
+  <text x="72" y="344" text-anchor="middle" class="t" font-size="14" font-weight="700" fill="#92400E">持</text>
+  <text x="92" y="344" class="t" font-size="16" fill="#1E293B">… おべんとう　すいとう</text>
+
+  <!-- Kenji's Memo (uniform neutral ink so answers aren't spoiled) -->
+  <rect x="358" y="52" width="382" height="318" rx="12" fill="#EFF6FF" stroke="#3B82F6" stroke-width="2.2"/>
+  <rect x="358" y="52" width="382" height="38" rx="10" fill="#3B82F6"/>
+  <text x="549" y="77" text-anchor="middle" class="t" font-size="16" font-weight="700" fill="#FFFFFF">〈けんじさんのメモ〉</text>
+
+  <text x="378" y="122" class="t" font-size="15.5" fill="#1E293B">○ 五月十日　遠足</text>
+  <text x="378" y="158" class="t" font-size="15.5" fill="#1E293B">○ 集合時間…五月十日　朝八時二十五分</text>
+  <text x="378" y="194" class="t" font-size="15.5" fill="#1E293B">○ 集合場所…学校の正門</text>
+  <text x="378" y="230" class="t" font-size="15.5" fill="#1E293B">○ 目てき地…さくら公園</text>
+  <text x="378" y="266" class="t" font-size="15.5" fill="#1E293B">○ ふくそう…体そうふく</text>
+  <text x="396" y="294" class="t" font-size="14.5" fill="#1E293B">→ ハンカチやタオル、ぼうしを持っていく</text>
+  <text x="378" y="330" class="t" font-size="15.5" fill="#1E293B">○ 持ってくるもの…おべんとう　すいとう</text>
+  <text x="412" y="356" class="t" font-size="14.5" fill="#1E293B">（おやつは持ってこない）</text>
+</svg>

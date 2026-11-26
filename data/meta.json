@@ -1,8 +1,60 @@
 {
   "spreadsheet_id": "1Au59gUt-qiAPspIrg7ZcQMB5UiQ-1HMUrAXHqsTA2dY",
   "spreadsheet_title": "標準学力調査対策_デジタルドリルDB",
-  "updated_at": "2026-11-25T13:35:00+09:00",
+  "updated_at": "2026-11-26T06:00:00+09:00",
   "subjects": [
+    {
+      "grade": "3年",
+      "subject": "国語",
+      "subject_key": "kokugo",
+      "sheet_name": "3年_国語",
+      "guide_sheet": "3年_単元ガイド",
+      "data_file": "data/3年_国語.json",
+      "guide_file": "data/3年_単元ガイド.json",
+      "theme_color": "#DC2626",
+      "theme_bg": "#FEF2F2",
+      "display_order": 1,
+      "is_active": true
+    },
+    {
+      "grade": "3年",
+      "subject": "社会",
+      "subject_key": "shakai",
+      "sheet_name": "3年_社会",
+      "guide_sheet": "3年_単元ガイド",
+      "data_file": "data/3年_社会.json",
+      "guide_file": "data/3年_単元ガイド.json",
+      "theme_color": "#D97706",
+      "theme_bg": "#FFFBEB",
+      "display_order": 2,
+      "is_active": true
+    },
+    {
+      "grade": "3年",
+      "subject": "算数",
+      "subject_key": "sansu",
+      "sheet_name": "3年_算数",
+      "guide_sheet": "3年_単元ガイド",
+      "data_file": "data/3年_算数.json",
+      "guide_file": "data/3年_単元ガイド.json",
+      "theme_color": "#2563EB",
+      "theme_bg": "#EFF6FF",
+      "display_order": 3,
+      "is_active": true
+    },
+    {
+      "grade": "3年",
+      "subject": "理科",
+      "subject_key": "rika",
+      "sheet_name": "3年_理科",
+      "guide_sheet": "3年_単元ガイド",
+      "data_file": "data/3年_理科.json",
+      "guide_file": "data/3年_単元ガイド.json",
+      "theme_color": "#059669",
+      "theme_bg": "#ECFDF5",
+      "display_order": 4,
+      "is_active": true
+    },
     {
       "grade": "4年",
       "subject": "国語",

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 270" width="720" height="270" role="img" aria-label="2段落の作文の組み立て方（101字〜160字）">
+  <defs><style>.t { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans CJK JP', 'Noto Sans JP', sans-serif; }</style></defs>
+  <rect width="720" height="270" rx="14" fill="#FFF7ED" stroke="#FDBA74" stroke-width="2"/>
+  <text x="360" y="34" text-anchor="middle" class="t" font-size="18.5" font-weight="700" fill="#9A3412">わかりやすい作文の組み立て（2つの段落）</text>
+
+  <!-- Paragraph 1 -->
+  <rect x="26" y="54" width="308" height="138" rx="12" fill="#FFFFFF" stroke="#EA580C" stroke-width="2.2"/>
+  <rect x="26" y="54" width="308" height="36" rx="12" fill="#EA580C"/>
+  <text x="180" y="78" text-anchor="middle" class="t" font-size="15.5" font-weight="700" fill="#FFFFFF">1つめの段落：しょうかいすること</text>
+  <text x="42" y="116" class="t" font-size="13.5" fill="#1E293B">・書き出しは 1マスあける</text>
+  <text x="42" y="142" class="t" font-size="13.5" fill="#1E293B">・何について書くか・見た目やとくちょう</text>
+  <text x="42" y="170" class="t" font-size="12" fill="#64748B">例：「だいじにしているのは、犬のペルです。」</text>
+
+  <!-- Arrow -->
+  <path d="M342 123 L376 123 M367 114 L377 123 L367 132" fill="none" stroke="#EA580C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Paragraph 2 -->
+  <rect x="386" y="54" width="308" height="138" rx="12" fill="#FFFFFF" stroke="#2563EB" stroke-width="2.2"/>
+  <rect x="386" y="54" width="308" height="36" rx="12" fill="#2563EB"/>
+  <text x="540" y="78" text-anchor="middle" class="t" font-size="15.5" font-weight="700" fill="#FFFFFF">2つめの段落：理由・どうやって</text>
+  <text x="402" y="116" class="t" font-size="13.5" fill="#1E293B">・行をかえて 1マスあける</text>
+  <text x="402" y="142" class="t" font-size="13.5" fill="#1E293B">・なぜだいじなのか／どうやってとくいに</text>
+  <text x="402" y="170" class="t" font-size="12" fill="#64748B">例：思い出や気持ち・毎日の練習などを書く</text>
+
+  <!-- Length check bar -->
+  <rect x="26" y="210" width="668" height="40" rx="8" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1.6"/>
+  <text x="360" y="235" text-anchor="middle" class="t" font-size="14.5" font-weight="700" fill="#92400E">文字数のめやす：6行〜8行（101字〜160字の間）に収めて、最後に読み直そう！</text>
+</svg>

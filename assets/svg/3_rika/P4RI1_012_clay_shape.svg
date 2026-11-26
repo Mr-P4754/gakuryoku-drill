@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 260" width="600" height="260">
+  <defs>
+    <marker id="arrClay" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#475569"/>
+    </marker>
+    <radialGradient id="clayGrad" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#E2E8F0"/>
+      <stop offset="100%" stop-color="#94A3B8"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="600" height="260" rx="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <text x="300" y="26" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="15" font-weight="bold" fill="#065F46">ねん土の形と重さ</text>
+
+  <!-- Original 500g rectangular clay block at top -->
+  <g transform="translate(244, 42)">
+    <polygon points="14,0 112,0 98,18 0,18" fill="#CBD5E1" stroke="#475569" stroke-width="1.6"/>
+    <rect x="0" y="18" width="98" height="28" rx="3" fill="#94A3B8" stroke="#475569" stroke-width="1.6"/>
+    <polygon points="98,18 112,0 112,28 98,46" fill="#64748B" stroke="#475569" stroke-width="1.6"/>
+  </g>
+  <rect x="160" y="52" width="70" height="28" rx="8" fill="#FEF3C7" stroke="#D97706" stroke-width="1.6"/>
+  <text x="195" y="71" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="15" font-weight="bold" fill="#B45309">500g</text>
+
+  <!-- 3 Branching arrows -->
+  <line x1="230" y1="94" x2="128" y2="124" stroke="#475569" stroke-width="3" marker-end="url(#arrClay)"/>
+  <line x1="300" y1="96" x2="300" y2="126" stroke="#475569" stroke-width="3" marker-end="url(#arrClay)"/>
+  <line x1="370" y1="94" x2="472" y2="124" stroke="#475569" stroke-width="3" marker-end="url(#arrClay)"/>
+
+  <!-- Left card: まるい形 -->
+  <g transform="translate(26, 134)">
+    <rect width="166" height="112" rx="10" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.4"/>
+    <circle cx="83" cy="40" r="28" fill="url(#clayGrad)" stroke="#475569" stroke-width="1.8"/>
+    <text x="83" y="84" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#1E293B">まるい形</text>
+    <text x="83" y="104" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13.5" font-weight="bold" fill="#B45309">[ ① ] g</text>
+  </g>
+
+  <!-- Center card: 細長い形 -->
+  <g transform="translate(217, 134)">
+    <rect width="166" height="112" rx="10" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.4"/>
+    <g transform="translate(83, 42) rotate(-10)">
+      <rect x="-56" y="-12" width="112" height="24" rx="12" fill="url(#clayGrad)" stroke="#475569" stroke-width="1.8"/>
+      <ellipse cx="-48" cy="0" rx="8" ry="11" fill="#CBD5E1" stroke="#475569" stroke-width="1.4"/>
+    </g>
+    <text x="83" y="84" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#1E293B">細長い形</text>
+    <text x="83" y="104" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13.5" font-weight="bold" fill="#B45309">[ ② ] g</text>
+  </g>
+
+  <!-- Right card: 細かく分けた形 -->
+  <g transform="translate(408, 134)">
+    <rect width="166" height="112" rx="10" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.4"/>
+    <!-- Pile of small clay balls -->
+    <g fill="url(#clayGrad)" stroke="#475569" stroke-width="1.4">
+      <circle cx="52" cy="56" r="8"/><circle cx="67" cy="56" r="8"/><circle cx="82" cy="56" r="8"/><circle cx="97" cy="56" r="8"/><circle cx="112" cy="56" r="8"/>
+      <circle cx="60" cy="44" r="8"/><circle cx="75" cy="44" r="8"/><circle cx="90" cy="44" r="8"/><circle cx="105" cy="44" r="8"/>
+      <circle cx="68" cy="32" r="8"/><circle cx="83" cy="32" r="8"/><circle cx="98" cy="32" r="8"/>
+      <circle cx="76" cy="20" r="7.5"/><circle cx="90" cy="20" r="7.5"/>
+    </g>
+    <text x="83" y="84" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#1E293B">細かく分けた形</text>
+    <text x="83" y="104" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13.5" font-weight="bold" fill="#B45309">[ ③ ] g</text>
+  </g>
+</svg>

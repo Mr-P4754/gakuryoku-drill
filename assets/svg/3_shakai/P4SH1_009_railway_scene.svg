@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" width="680" height="380" role="img" aria-label="地域に新しく鉄道が開通した記念の駅と電車、よろこぶ人々、増え始めた家々のオリジナルイラスト">
+  <style>
+    text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans CJK JP', sans-serif; }
+  </style>
+  <defs>
+    <clipPath id="rw-clip"><rect x="16" y="16" width="648" height="348" rx="12"/></clipPath>
+    <linearGradient id="rw-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#BAE6FD"/>
+      <stop offset="100%" stop-color="#FEF9C3"/>
+    </linearGradient>
+  </defs>
+  <rect width="680" height="380" fill="#FFFFFF"/>
+
+  <g clip-path="url(#rw-clip)">
+    <!-- Warm bright sky -->
+    <rect x="16" y="16" width="648" height="210" fill="url(#rw-sky)"/>
+    <!-- Soft clouds -->
+    <ellipse cx="120" cy="64" rx="46" ry="15" fill="#FFFFFF" fill-opacity="0.88"/>
+    <ellipse cx="520" cy="56" rx="54" ry="16" fill="#FFFFFF" fill-opacity="0.88"/>
+
+    <!-- Green hills & growing residential houses in background -->
+    <path d="M 16,204 Q 140,136 280,174 Q 440,126 664,176 L 664,230 L 16,230 Z" fill="#86EFAC"/>
+    <!-- Small houses popping up along the newly connected town -->
+    <g stroke="#475569" stroke-width="1.2">
+      <rect x="52" y="176" width="32" height="24" fill="#FEF3C7"/><polygon points="48,176 68,160 88,176" fill="#DC2626"/>
+      <rect x="96" y="182" width="30" height="20" fill="#FFFFFF"/><polygon points="92,182 111,168 130,182" fill="#2563EB"/>
+      <rect x="140" y="178" width="34" height="24" fill="#FEF3C7"/><polygon points="136,178 157,162 178,178" fill="#16A34A"/>
+      <rect x="190" y="186" width="28" height="18" fill="#FFFFFF"/><polygon points="187,186 204,174 221,186" fill="#D97706"/>
+    </g>
+
+    <!-- Overhead railway catenary poles & wires -->
+    <g stroke="#475569" stroke-width="3">
+      <line x1="256" y1="68" x2="256" y2="230"/>
+      <line x1="458" y1="54" x2="458" y2="230"/>
+      <line x1="256" y1="78" x2="664" y2="62" stroke-width="2.5"/>
+    </g>
+    <g stroke="#334155" stroke-width="1.4" fill="none">
+      <path d="M 16,130 L 664,74"/>
+      <path d="M 16,144 L 664,88"/>
+    </g>
+
+    <!-- Newly constructed railway tracks -->
+    <polygon points="16,298 664,216 664,364 16,364" fill="#94A3B8"/>
+    <line x1="360" y1="364" x2="664" y2="270" stroke="#475569" stroke-width="4"/>
+    <line x1="420" y1="364" x2="664" y2="288" stroke="#475569" stroke-width="4"/>
+
+    <!-- Classic Newly Opened Commuter Train (right side, bright retro cream & teal!) -->
+    <g transform="translate(376, 118)">
+      <!-- Pantograph on roof -->
+      <polyline points="92,16 116,-20 140,16" fill="none" stroke="#334155" stroke-width="2.6"/>
+      <line x1="94" y1="-20" x2="138" y2="-20" stroke="#334155" stroke-width="3"/>
+      <!-- Side carriage receding -->
+      <polygon points="168,20 288,48 288,162 168,176" fill="#0D9488" stroke="#134E4A" stroke-width="2"/>
+      <polygon points="168,54 288,72 288,112 168,108" fill="#FEF3C7"/>
+      <polygon points="184,60 218,65 218,100 184,98" fill="#BAE6FD" stroke="#1E293B" stroke-width="1.5"/>
+      <polygon points="232,68 268,74 268,104 232,102" fill="#BAE6FD" stroke="#1E293B" stroke-width="1.5"/>
+      <!-- Front face of train -->
+      <rect x="26" y="16" width="144" height="162" rx="16" fill="#FEF3C7" stroke="#1E293B" stroke-width="2.4"/>
+      <!-- Teal lower stripe -->
+      <path d="M 26,112 L 170,112 L 170,162 Q 170,178 154,178 L 42,178 Q 26,178 26,162 Z" fill="#0D9488" stroke="#1E293B" stroke-width="2"/>
+      <!-- Front windows -->
+      <rect x="40" y="34" width="54" height="54" rx="6" fill="#BAE6FD" stroke="#1E293B" stroke-width="2"/>
+      <rect x="102" y="34" width="54" height="54" rx="6" fill="#BAE6FD" stroke="#1E293B" stroke-width="2"/>
+      <!-- Headlights -->
+      <circle cx="52" cy="146" r="10" fill="#FEF08A" stroke="#854D0E" stroke-width="2"/>
+      <circle cx="144" cy="146" r="10" fill="#FEF08A" stroke="#854D0E" stroke-width="2"/>
+      <!-- Festive circular headmark badge on front of train! -->
+      <circle cx="98" cy="144" r="24" fill="#FFFFFF" stroke="#DC2626" stroke-width="3.5"/>
+      <text x="98" y="140" text-anchor="middle" font-size="11.5" font-weight="700" fill="#DC2626">祝</text>
+      <text x="98" y="154" text-anchor="middle" font-size="10.5" font-weight="700" fill="#1E293B">開通</text>
+      <!-- Underbody wheels/bumper -->
+      <rect x="42" y="178" width="112" height="16" rx="3" fill="#334155"/>
+    </g>
+
+    <!-- Station Platform (left & foreground) -->
+    <polygon points="16,240 398,240 420,364 16,364" fill="#E2E8F0" stroke="#475569" stroke-width="2"/>
+    <line x1="16" y1="256" x2="398" y2="256" stroke="#FACC15" stroke-width="5"/>
+
+    <!-- Station canopy & celebratory banner 「祝 鉄道開通」 -->
+    <rect x="26" y="42" width="164" height="36" rx="6" fill="#FFFFFF" stroke="#DC2626" stroke-width="2.4"/>
+    <text x="108" y="66" text-anchor="middle" font-size="16" font-weight="700" fill="#DC2626">祝・鉄道開通！</text>
+    <!-- Colorful bunting flags -->
+    <polyline points="190,58 398,74" fill="none" stroke="#475569" stroke-width="1.5"/>
+    <polygon points="204,59 224,61 214,82" fill="#EF4444"/>
+    <polygon points="234,62 254,63 244,84" fill="#FACC15"/>
+    <polygon points="264,64 284,66 274,87" fill="#3B82F6"/>
+    <polygon points="294,66 314,68 304,89" fill="#22C55E"/>
+    <polygon points="324,69 344,70 334,91" fill="#EC4899"/>
+    <polygon points="354,71 374,73 364,94" fill="#F97316"/>
+
+    <!-- People celebrating on the platform -->
+    <!-- Station Master (uniform & peaked cap) -->
+    <g transform="translate(310, 206)">
+      <circle cx="24" cy="20" r="14" fill="#FDE68A" stroke="#1E293B" stroke-width="1.5"/>
+      <rect x="10" y="6" width="28" height="8" rx="2" fill="#1E3A8A"/>
+      <line x1="6" y1="14" x2="42" y2="14" stroke="#0F172A" stroke-width="2"/>
+      <circle cx="19" cy="20" r="1.6" fill="#0F172A"/><circle cx="29" cy="20" r="1.6" fill="#0F172A"/>
+      <path d="M 20,26 Q 24,29 28,26" fill="none" stroke="#0F172A" stroke-width="1.4"/>
+      <rect x="8" y="34" width="32" height="56" rx="5" fill="#1E3A8A" stroke="#0F172A" stroke-width="1.5"/>
+      <rect x="14" y="90" width="8" height="32" fill="#0F172A"/><rect x="26" y="90" width="8" height="32" fill="#0F172A"/>
+    </g>
+    <!-- Mayor / resident cutting ribbon -->
+    <g transform="translate(218, 210)">
+      <circle cx="24" cy="20" r="14" fill="#FDE68A" stroke="#1E293B" stroke-width="1.5"/>
+      <path d="M 10,16 Q 24,2 38,16 Z" fill="#475569"/>
+      <circle cx="19" cy="20" r="1.6" fill="#0F172A"/><circle cx="29" cy="20" r="1.6" fill="#0F172A"/>
+      <path d="M 20,26 Q 24,29 28,26" fill="none" stroke="#0F172A" stroke-width="1.4"/>
+      <rect x="8" y="34" width="32" height="54" rx="5" fill="#334155" stroke="#0F172A" stroke-width="1.5"/>
+      <polygon points="21,36 27,36 24,54" fill="#DC2626"/>
+      <rect x="14" y="88" width="8" height="30" fill="#1E293B"/><rect x="26" y="88" width="8" height="30" fill="#1E293B"/>
+    </g>
+    <!-- Woman waving -->
+    <g transform="translate(140, 214)">
+      <circle cx="22" cy="20" r="13" fill="#FDE68A" stroke="#1E293B" stroke-width="1.5"/>
+      <path d="M 9,20 Q 12,4 32,8 Q 37,16 35,24 Z" fill="#451A03"/>
+      <circle cx="18" cy="20" r="1.5" fill="#0F172A"/><circle cx="27" cy="20" r="1.5" fill="#0F172A"/>
+      <path d="M 19,25 Q 22,28 26,25" fill="none" stroke="#0F172A" stroke-width="1.3"/>
+      <path d="M 8,34 L 36,34 L 42,88 L 2,88 Z" fill="#EC4899" stroke="#831843" stroke-width="1.5"/>
+      <line x1="8" y1="42" x2="-4" y2="16" stroke="#FDE68A" stroke-width="6" stroke-linecap="round"/>
+    </g>
+    <!-- Smiling child waving flag -->
+    <g transform="translate(74, 236)">
+      <circle cx="18" cy="18" r="11" fill="#FDE68A" stroke="#1E293B" stroke-width="1.5"/>
+      <path d="M 7,16 Q 18,4 29,16 Z" fill="#1E293B"/>
+      <circle cx="14" cy="18" r="1.4" fill="#0F172A"/><circle cx="22" cy="18" r="1.4" fill="#0F172A"/>
+      <path d="M 15,23 Q 18,26 21,23" fill="none" stroke="#0F172A" stroke-width="1.3"/>
+      <rect x="6" y="30" width="24" height="38" rx="4" fill="#3B82F6" stroke="#1E3A8A" stroke-width="1.4"/>
+      <line x1="28" y1="36" x2="40" y2="12" stroke="#FDE68A" stroke-width="5" stroke-linecap="round"/>
+      <!-- Little celebration flag -->
+      <line x1="40" y1="12" x2="46" y2="-10" stroke="#78350F" stroke-width="2"/>
+      <polygon points="46,-10 66,-4 44,4" fill="#FACC15" stroke="#854D0E" stroke-width="1.2"/>
+    </g>
+    <!-- Commuter with briefcase -->
+    <g transform="translate(28, 214)">
+      <circle cx="20" cy="20" r="13" fill="#FDE68A" stroke="#1E293B" stroke-width="1.5"/>
+      <path d="M 7,16 Q 20,4 33,16 Z" fill="#1E293B"/>
+      <circle cx="16" cy="20" r="1.5" fill="#0F172A"/><circle cx="24" cy="20" r="1.5" fill="#0F172A"/>
+      <rect x="6" y="34" width="28" height="52" rx="4" fill="#475569" stroke="#0F172A" stroke-width="1.5"/>
+    </g>
+
+    <!-- Red ceremonial ribbon stretched in front of officials! -->
+    <line x1="128" y1="274" x2="366" y2="274" stroke="#DC2626" stroke-width="6"/>
+    <circle cx="154" cy="274" r="9" fill="#EF4444" stroke="#991B1B" stroke-width="1.5"/>
+    <circle cx="242" cy="274" r="9" fill="#EF4444" stroke="#991B1B" stroke-width="1.5"/>
+    <circle cx="334" cy="274" r="9" fill="#EF4444" stroke="#991B1B" stroke-width="1.5"/>
+  </g>
+  <rect x="16" y="16" width="648" height="348" rx="12" fill="none" stroke="#1E293B" stroke-width="2"/>
+</svg>

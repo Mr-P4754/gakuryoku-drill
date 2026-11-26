@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 224" width="640" height="224" role="img" aria-label="コンパスを使った二等辺三角形のかき方">
+  <title>コンパスを使った二等辺三角形のかき方</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 14px; font-weight: 700; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="640" height="224" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="320" y="26" text-anchor="middle" class="title">辺の長さが 2cm，3cm，3cm の二等辺三角形のかき方</text>
+  <rect x="16" y="40" width="142" height="170" rx="8" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.2"/>
+  <text x="87" y="60" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1E40AF">① 2cmの辺アイをかく</text>
+  <line x1="55.0" y1="178.0" x2="119.0" y2="178.0" stroke="#1E293B" stroke-width="2.4"/>
+  <text x="43.0" y="184.0" text-anchor="middle" font-size="12" font-weight="700">ア</text>
+  <text x="131.0" y="184.0" text-anchor="middle" font-size="12" font-weight="700">イ</text>
+  <text x="87.0" y="196.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#475569">2cm</text>
+  <text x="165" y="128" text-anchor="middle" font-size="16" font-weight="700" fill="#64748B">→</text>
+  <rect x="172" y="40" width="142" height="170" rx="8" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.2"/>
+  <text x="243" y="60" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1E40AF">② アから半径3cmの弧</text>
+  <line x1="211.0" y1="178.0" x2="275.0" y2="178.0" stroke="#1E293B" stroke-width="2.4"/>
+  <text x="199.0" y="184.0" text-anchor="middle" font-size="12" font-weight="700">ア</text>
+  <text x="287.0" y="184.0" text-anchor="middle" font-size="12" font-weight="700">イ</text>
+  <text x="243.0" y="196.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#475569">2cm</text>
+  <path d="M 220.6 82.5 A 96.0 96.0 0 0 1 263.6 97.7" fill="none" stroke="#059669" stroke-width="1.8"/>
+  <text x="321" y="128" text-anchor="middle" font-size="16" font-weight="700" fill="#64748B">→</text>
+  <rect x="328" y="40" width="142" height="170" rx="8" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.2"/>
+  <text x="399" y="60" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1E40AF">③ イから半径3cmの弧</text>
+  <line x1="367.0" y1="178.0" x2="431.0" y2="178.0" stroke="#1E293B" stroke-width="2.4"/>
+  <text x="355.0" y="184.0" text-anchor="middle" font-size="12" font-weight="700">ア</text>
+  <text x="443.0" y="184.0" text-anchor="middle" font-size="12" font-weight="700">イ</text>
+  <text x="399.0" y="196.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#475569">2cm</text>
+  <path d="M 376.6 82.5 A 96.0 96.0 0 0 1 419.6 97.7" fill="none" stroke="#059669" stroke-width="1.8"/>
+  <path d="M 378.4 97.7 A 96.0 96.0 0 0 1 421.4 82.5" fill="none" stroke="#059669" stroke-width="1.8"/>
+  <text x="477" y="128" text-anchor="middle" font-size="16" font-weight="700" fill="#64748B">→</text>
+  <rect x="484" y="40" width="142" height="170" rx="8" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.2"/>
+  <text x="555" y="60" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1E40AF">④ 交点ウを結ぶ</text>
+  <line x1="523.0" y1="178.0" x2="587.0" y2="178.0" stroke="#1E293B" stroke-width="2.4"/>
+  <text x="511.0" y="184.0" text-anchor="middle" font-size="12" font-weight="700">ア</text>
+  <text x="599.0" y="184.0" text-anchor="middle" font-size="12" font-weight="700">イ</text>
+  <text x="555.0" y="196.0" text-anchor="middle" font-size="11.5" font-weight="700" fill="#475569">2cm</text>
+  <path d="M 532.6 82.5 A 96.0 96.0 0 0 1 575.6 97.7" fill="none" stroke="#059669" stroke-width="1.8"/>
+  <path d="M 534.4 97.7 A 96.0 96.0 0 0 1 577.4 82.5" fill="none" stroke="#059669" stroke-width="1.8"/>
+  <polyline points="523.0,178.0 555.0,87.5 587.0,178.0" fill="rgba(37,99,235,0.08)" stroke="#DC2626" stroke-width="2.4" stroke-linejoin="round"/>
+  <circle cx="555.0" cy="87.5" r="3.5" fill="#DC2626"/>
+  <text x="555.0" y="77.5" text-anchor="middle" font-size="12" font-weight="700" fill="#DC2626">ウ</text>
+  <text x="523.0" y="132.7" text-anchor="middle" font-size="11" font-weight="700" fill="#DC2626">3cm</text>
+  <text x="587.0" y="132.7" text-anchor="middle" font-size="11" font-weight="700" fill="#DC2626">3cm</text>
+</svg>

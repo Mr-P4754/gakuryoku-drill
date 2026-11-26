@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 280" width="760" height="280" role="img" aria-label="市の様子の2つの絵（①田植えをする様子・②港のクレーンと大きな船）">
+  <style>
+    text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans CJK JP', sans-serif; }
+  </style>
+  <defs>
+    <clipPath id="sc1"><rect x="24" y="34" width="336" height="226" rx="10"/></clipPath>
+    <clipPath id="sc2"><rect x="400" y="34" width="336" height="226" rx="10"/></clipPath>
+  </defs>
+  <rect width="760" height="280" fill="#FFFFFF"/>
+
+  <!-- Badge ① -->
+  <circle cx="42" cy="18" r="13" fill="#DCFCE7" stroke="#15803D" stroke-width="1.8"/>
+  <text x="42" y="23" text-anchor="middle" font-size="14" font-weight="700" fill="#166534">①</text>
+
+  <!-- Scene ①: Rice-planting machine in paddies -->
+  <g clip-path="url(#sc1)">
+    <!-- Sky & green mountains -->
+    <rect x="24" y="34" width="336" height="92" fill="#E0F2FE"/>
+    <path d="M 24,116 Q 110,74 202,102 Q 290,72 360,104 L 360,130 L 24,130 Z" fill="#86EFAC"/>
+    <!-- Distant farmhouses & trees -->
+    <rect x="255" y="106" width="22" height="14" fill="#FEF3C7" stroke="#78350F" stroke-width="1"/>
+    <polygon points="252,106 266,96 280,106" fill="#475569"/>
+    <circle cx="290" cy="110" r="9" fill="#16A34A"/>
+    <!-- Flooded rice paddy field -->
+    <rect x="24" y="122" width="336" height="138" fill="#BBF7D0"/>
+    <!-- Water reflection bands -->
+    <rect x="24" y="126" width="336" height="22" fill="#BAE6FD" fill-opacity="0.55"/>
+    <rect x="24" y="160" width="336" height="98" fill="#A7F3D0"/>
+    <!-- Paddy levee lines -->
+    <line x1="24" y1="148" x2="360" y2="148" stroke="#65A30D" stroke-width="4"/>
+    <line x1="24" y1="124" x2="360" y2="124" stroke="#65A30D" stroke-width="3"/>
+    <!-- Planted rice rows -->
+    <path d="M 45,195 L 42,188 M 45,195 L 45,187 M 45,195 L 48,188" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 69,195 L 66,188 M 69,195 L 69,187 M 69,195 L 72,188" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 93,195 L 90,188 M 93,195 L 93,187 M 93,195 L 96,188" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 117,195 L 114,188 M 117,195 L 117,187 M 117,195 L 120,188" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 141,195 L 138,188 M 141,195 L 141,187 M 141,195 L 144,188" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 165,195 L 162,188 M 165,195 L 165,187 M 165,195 L 168,188" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 189,195 L 186,188 M 189,195 L 189,187 M 189,195 L 192,188" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 213,195 L 210,188 M 213,195 L 213,187 M 213,195 L 216,188" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 237,195 L 234,188 M 237,195 L 237,187 M 237,195 L 240,188" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 261,195 L 258,188 M 261,195 L 261,187 M 261,195 L 264,188" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 285,195 L 282,188 M 285,195 L 285,187 M 285,195 L 288,188" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 41,213 L 38,206 M 41,213 L 41,205 M 41,213 L 44,206" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 65,213 L 62,206 M 65,213 L 65,205 M 65,213 L 68,206" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 89,213 L 86,206 M 89,213 L 89,205 M 89,213 L 92,206" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 113,213 L 110,206 M 113,213 L 113,205 M 113,213 L 116,206" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 137,213 L 134,206 M 137,213 L 137,205 M 137,213 L 140,206" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 161,213 L 158,206 M 161,213 L 161,205 M 161,213 L 164,206" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 185,213 L 182,206 M 185,213 L 185,205 M 185,213 L 188,206" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 209,213 L 206,206 M 209,213 L 209,205 M 209,213 L 212,206" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 233,213 L 230,206 M 233,213 L 233,205 M 233,213 L 236,206" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 257,213 L 254,206 M 257,213 L 257,205 M 257,213 L 260,206" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 281,213 L 278,206 M 281,213 L 281,205 M 281,213 L 284,206" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 37,231 L 34,224 M 37,231 L 37,223 M 37,231 L 40,224" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 61,231 L 58,224 M 61,231 L 61,223 M 61,231 L 64,224" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 85,231 L 82,224 M 85,231 L 85,223 M 85,231 L 88,224" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 109,231 L 106,224 M 109,231 L 109,223 M 109,231 L 112,224" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 133,231 L 130,224 M 133,231 L 133,223 M 133,231 L 136,224" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 157,231 L 154,224 M 157,231 L 157,223 M 157,231 L 160,224" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 181,231 L 178,224 M 181,231 L 181,223 M 181,231 L 184,224" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 205,231 L 202,224 M 205,231 L 205,223 M 205,231 L 208,224" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 229,231 L 226,224 M 229,231 L 229,223 M 229,231 L 232,224" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 253,231 L 250,224 M 253,231 L 253,223 M 253,231 L 256,224" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 277,231 L 274,224 M 277,231 L 277,223 M 277,231 L 280,224" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 57,249 L 54,242 M 57,249 L 57,241 M 57,249 L 60,242" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 81,249 L 78,242 M 81,249 L 81,241 M 81,249 L 84,242" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 105,249 L 102,242 M 105,249 L 105,241 M 105,249 L 108,242" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 129,249 L 126,242 M 129,249 L 129,241 M 129,249 L 132,242" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 153,249 L 150,242 M 153,249 L 153,241 M 153,249 L 156,242" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 177,249 L 174,242 M 177,249 L 177,241 M 177,249 L 180,242" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 201,249 L 198,242 M 201,249 L 201,241 M 201,249 L 204,242" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 225,249 L 222,242 M 225,249 L 225,241 M 225,249 L 228,242" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 249,249 L 246,242 M 249,249 L 249,241 M 249,249 L 252,242" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M 273,249 L 270,242 M 273,249 L 273,241 M 273,249 L 276,242" stroke="#15803D" stroke-width="1.6" stroke-linecap="round"/>
+    <!-- Rice-planting machine (田植え機) & farmer -->
+    <g transform="translate(178, 128)">
+      <!-- Wheels -->
+      <circle cx="24" cy="74" r="16" fill="#334155" stroke="#0F172A" stroke-width="2"/>
+      <circle cx="24" cy="74" r="6" fill="#94A3B8"/>
+      <circle cx="84" cy="64" r="14" fill="#334155" stroke="#0F172A" stroke-width="2"/>
+      <circle cx="84" cy="64" r="5" fill="#94A3B8"/>
+      <!-- Machine chassis -->
+      <path d="M 10,56 L 95,46 L 104,64 L 18,74 Z" fill="#EF4444" stroke="#7F1D1D" stroke-width="1.8"/>
+      <!-- Seedling rack on back -->
+      <polygon points="4,22 44,18 52,54 12,58" fill="#E2E8F0" stroke="#475569" stroke-width="1.6"/>
+      <rect x="10" y="26" width="12" height="26" fill="#22C55E"/>
+      <rect x="26" y="24" width="12" height="26" fill="#16A34A"/>
+      <!-- Farmer driving -->
+      <rect x="58" y="24" width="22" height="28" rx="5" fill="#2563EB" stroke="#1E3A8A" stroke-width="1.5"/>
+      <circle cx="70" cy="14" r="10" fill="#FDE68A" stroke="#1E293B" stroke-width="1.5"/>
+      <!-- Straw sun hat -->
+      <ellipse cx="70" cy="7" rx="16" ry="5" fill="#FACC15" stroke="#A16207" stroke-width="1.4"/>
+      <path d="M 61,6 Q 70,-4 79,6 Z" fill="#FACC15" stroke="#A16207" stroke-width="1.3"/>
+      <!-- Steering wheel -->
+      <line x1="88" y1="48" x2="82" y2="30" stroke="#1E293B" stroke-width="2.5"/>
+      <ellipse cx="82" cy="29" rx="7" ry="3" fill="none" stroke="#1E293B" stroke-width="2"/>
+    </g>
+  </g>
+  <rect x="24" y="34" width="336" height="226" rx="10" fill="none" stroke="#1E293B" stroke-width="1.8"/>
+
+  <!-- Badge ② -->
+  <circle cx="418" cy="18" r="13" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="1.8"/>
+  <text x="418" y="23" text-anchor="middle" font-size="14" font-weight="700" fill="#1E40AF">②</text>
+
+  <!-- Scene ②: Port crane loading big cargo ship -->
+  <g clip-path="url(#sc2)">
+    <!-- Sky & clouds -->
+    <rect x="400" y="34" width="336" height="150" fill="#E0F2FE"/>
+    <ellipse cx="470" cy="68" rx="34" ry="12" fill="#FFFFFF" fill-opacity="0.9"/>
+    <ellipse cx="640" cy="62" rx="40" ry="13" fill="#FFFFFF" fill-opacity="0.9"/>
+    <!-- Distant industrial warehouses -->
+    <rect x="408" y="138" width="66" height="40" fill="#CBD5E1" stroke="#475569" stroke-width="1.3"/>
+    <polygon points="404,138 441,118 478,138" fill="#94A3B8" stroke="#475569" stroke-width="1.2"/>
+    <!-- Sea -->
+    <rect x="400" y="182" width="336" height="78" fill="#38BDF8"/>
+    <path d="M 410,242 Q 440,236 470,242 Q 500,248 530,242 Q 560,236 590,242 Q 620,248 650,242 Q 680,236 720,242" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.7"/>
+    <!-- Concrete Wharf / Pier -->
+    <polygon points="622,174 736,174 736,228 606,228" fill="#CBD5E1" stroke="#334155" stroke-width="1.6"/>
+    <!-- Large Cargo Ship -->
+    <g transform="translate(425, 140)">
+      <!-- Hull -->
+      <polygon points="10,48 212,48 196,82 26,82" fill="#1E3A8A" stroke="#0F172A" stroke-width="1.8"/>
+      <polygon points="22,72 200,72 196,82 26,82" fill="#DC2626"/>
+      <!-- Bridge & smokestack -->
+      <rect x="132" y="16" width="44" height="32" fill="#FFFFFF" stroke="#1E293B" stroke-width="1.6"/>
+      <rect x="140" y="22" width="28" height="8" fill="#38BDF8" stroke="#1E293B" stroke-width="1"/>
+      <rect x="150" y="2" width="14" height="14" fill="#F97316" stroke="#1E293B" stroke-width="1.4"/>
+      <!-- Containers stacked on deck -->
+      <rect x="34" y="28" width="32" height="20" fill="#EF4444" stroke="#7F1D1D" stroke-width="1.3"/>
+      <rect x="68" y="28" width="32" height="20" fill="#F59E0B" stroke="#78350F" stroke-width="1.3"/>
+      <rect x="102" y="28" width="26" height="20" fill="#10B981" stroke="#065F46" stroke-width="1.3"/>
+      <rect x="44" y="10" width="32" height="18" fill="#3B82F6" stroke="#1E3A8A" stroke-width="1.3"/>
+    </g>
+    <!-- Giant Port Crane (クレーン) on pier -->
+    <g stroke="#B91C1C" stroke-width="2.4" fill="none">
+      <!-- Crane base & tower -->
+      <rect x="650" y="142" width="54" height="46" fill="#EF4444" stroke="#7F1D1D" stroke-width="1.8"/>
+      <rect x="666" y="152" width="22" height="14" fill="#FEF08A" stroke="#7F1D1D" stroke-width="1.2"/>
+      <!-- Lattice boom extending over ship -->
+      <polygon points="668,142 692,142 612,56 596,68" fill="#FCA5A5" fill-opacity="0.35" stroke="#B91C1C" stroke-width="2.2"/>
+      <line x1="650" y1="122" x2="672" y2="112"/>
+      <line x1="632" y1="100" x2="652" y2="92"/>
+      <line x1="614" y1="80" x2="632" y2="72"/>
+      <!-- Steel cables & hoisted container -->
+      <line x1="604" y1="62" x2="604" y2="112" stroke="#1E293B" stroke-width="1.8"/>
+      <line x1="604" y1="112" x2="586" y2="124" stroke="#1E293B" stroke-width="1.4"/>
+      <line x1="604" y1="112" x2="622" y2="124" stroke="#1E293B" stroke-width="1.4"/>
+    </g>
+    <!-- Hoisted cargo container -->
+    <rect x="582" y="124" width="44" height="24" fill="#FACC15" stroke="#854D0E" stroke-width="1.6"/>
+    <line x1="594" y1="124" x2="594" y2="148" stroke="#A16207" stroke-width="1.2"/>
+    <line x1="614" y1="124" x2="614" y2="148" stroke="#A16207" stroke-width="1.2"/>
+  </g>
+  <rect x="400" y="34" width="336" height="226" rx="10" fill="none" stroke="#1E293B" stroke-width="1.8"/>
+</svg>

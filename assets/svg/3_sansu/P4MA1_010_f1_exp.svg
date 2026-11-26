@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 170" width="580" height="170" role="img" aria-label="23÷5=4あまり3のテープ図">
+  <title>23÷5=4あまり3のテープ図</title>
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 600; }
+      .lbl-sm { font-size: 14px; font-weight: 600; }
+      .lbl-xs { font-size: 12.5px; font-weight: 500; fill: #475569; }
+      .num { font-size: 17px; font-weight: 700; }
+      .num-lg { font-size: 22px; font-weight: 700; }
+      .num-sm { font-size: 14px; font-weight: 700; }
+      .carry { font-size: 13px; font-weight: 700; fill: #DC2626; }
+      .borrow { font-size: 13px; font-weight: 700; fill: #2563EB; }
+      .blank-num { font-size: 17px; font-weight: 700; fill: #2563EB; }
+      .ans-num { font-size: 17px; font-weight: 700; fill: #0F766E; }
+      .unit-txt { font-size: 14px; font-weight: 600; fill: #334155; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="580" height="170" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="290" y="28" text-anchor="middle" class="title">23m のなわを 5m ずつ切る（23 ÷ 5 ＝ 4 あまり 3）</text>
+  <path d="M 45 68 Q 286.5 46 528.0 68" fill="none" stroke="#475569" stroke-width="1.7" stroke-dasharray="5,3"/>
+
+  <rect x="256.5" y="44" width="60" height="20" rx="4" fill="#FFFFFF"/>
+  <text x="286.5" y="59" text-anchor="middle" class="num">23 m</text>
+  <rect x="45.0" y="72" width="105.0" height="34" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.8"/>
+  <text x="97.5" y="95" text-anchor="middle" class="lbl-sm" fill="#1D4ED8">5 m</text>
+  <rect x="150.0" y="72" width="105.0" height="34" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.8"/>
+  <text x="202.5" y="95" text-anchor="middle" class="lbl-sm" fill="#1D4ED8">5 m</text>
+  <rect x="255.0" y="72" width="105.0" height="34" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.8"/>
+  <text x="307.5" y="95" text-anchor="middle" class="lbl-sm" fill="#1D4ED8">5 m</text>
+  <rect x="360.0" y="72" width="105.0" height="34" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.8"/>
+  <text x="412.5" y="95" text-anchor="middle" class="lbl-sm" fill="#1D4ED8">5 m</text>
+  <rect x="465.0" y="72" width="63.0" height="34" fill="#FEE2E2" stroke="#DC2626" stroke-width="1.8"/>
+  <text x="496.5" y="95" text-anchor="middle" class="lbl-sm" fill="#DC2626">3 m</text>
+  <path d="M 45 110 Q 255.0 126 465.0 110" fill="none" stroke="#2563EB" stroke-width="1.7" stroke-dasharray="5,3"/>
+
+  <text x="255.0" y="146" text-anchor="middle" class="lbl-sm" fill="#1D4ED8">5×4＝20m（4本できる）</text>
+  <path d="M 465.0 110 Q 496.5 124 528.0 110" fill="none" stroke="#DC2626" stroke-width="1.7" stroke-dasharray="5,3"/>
+
+  <text x="496.5" y="146" text-anchor="middle" class="lbl-sm" fill="#DC2626">あまり3m</text>
+</svg>

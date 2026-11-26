@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 155" width="520" height="155" role="img" aria-label="九万八十三 の位取り表">
+  <title>九万八十三 の位取り表</title>
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 600; }
+      .lbl-sm { font-size: 14px; font-weight: 600; }
+      .lbl-xs { font-size: 12.5px; font-weight: 500; fill: #475569; }
+      .num { font-size: 17px; font-weight: 700; }
+      .num-lg { font-size: 22px; font-weight: 700; }
+      .num-sm { font-size: 14px; font-weight: 700; }
+      .carry { font-size: 13px; font-weight: 700; fill: #DC2626; }
+      .borrow { font-size: 13px; font-weight: 700; fill: #2563EB; }
+      .blank-num { font-size: 17px; font-weight: 700; fill: #2563EB; }
+      .ans-num { font-size: 17px; font-weight: 700; fill: #0F766E; }
+      .unit-txt { font-size: 14px; font-weight: 600; fill: #334155; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="520" height="155" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="260" y="26" text-anchor="middle" class="lbl" fill="#0F766E">九万八十三 ＝ 90083</text>
+  <rect x="90" y="38" width="68" height="28" fill="#D1FAE5" stroke="#94A3B8" stroke-width="1.1"/>
+  <text x="124.0" y="57" text-anchor="middle" class="lbl-sm">一万</text>
+  <rect x="90" y="66" width="68" height="40" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.1"/>
+  <text x="124.0" y="94" text-anchor="middle" class="num-lg" fill="#1E293B">9</text>
+  <rect x="158" y="38" width="68" height="28" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.1"/>
+  <text x="192.0" y="57" text-anchor="middle" class="lbl-sm">千</text>
+  <rect x="158" y="66" width="68" height="40" fill="#FEF3C7" stroke="#94A3B8" stroke-width="1.1"/>
+  <text x="192.0" y="94" text-anchor="middle" class="num-lg" fill="#D97706">0</text>
+  <rect x="226" y="38" width="68" height="28" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.1"/>
+  <text x="260.0" y="57" text-anchor="middle" class="lbl-sm">百</text>
+  <rect x="226" y="66" width="68" height="40" fill="#FEF3C7" stroke="#94A3B8" stroke-width="1.1"/>
+  <text x="260.0" y="94" text-anchor="middle" class="num-lg" fill="#D97706">0</text>
+  <rect x="294" y="38" width="68" height="28" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.1"/>
+  <text x="328.0" y="57" text-anchor="middle" class="lbl-sm">十</text>
+  <rect x="294" y="66" width="68" height="40" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.1"/>
+  <text x="328.0" y="94" text-anchor="middle" class="num-lg" fill="#1E293B">8</text>
+  <rect x="362" y="38" width="68" height="28" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.1"/>
+  <text x="396.0" y="57" text-anchor="middle" class="lbl-sm">一</text>
+  <rect x="362" y="66" width="68" height="40" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.1"/>
+  <text x="396.0" y="94" text-anchor="middle" class="num-lg" fill="#1E293B">3</text>
+  <line x1="158" y1="38" x2="158" y2="106" stroke="#1E293B" stroke-width="2.4"/>
+  <text x="260" y="134" text-anchor="middle" class="lbl-sm" fill="#B45309">千の位と百の位がないから 0 を2つ書くよ</text>
+</svg>

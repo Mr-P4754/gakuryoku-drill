@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 410" width="740" height="410" role="img" aria-label="国語辞典の五十音じゅんルール図">
+  <defs><style>.t { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans CJK JP', 'Noto Sans JP', sans-serif; }</style></defs>
+  <rect width="740" height="410" rx="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="370" y="34" text-anchor="middle" class="t" font-size="18.5" font-weight="700" fill="#0F172A">国語辞典のならび方（五十音じゅんのルール）</text>
+  <rect x="20" y="50" width="700" height="172" rx="10" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.5"/>
+  <text x="36" y="74" class="t" font-size="14" font-weight="700" fill="#1E40AF">● 五十音表（左から右へ、上から下へならぶよ　さいごは「ん」）</text>
+  <text x="36" y="102" class="t" font-size="12.5" font-weight="700" fill="#64748B">あ行</text>
+  <rect x="72" y="86" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="91" y="102" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">あ</text>
+  <rect x="124" y="86" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="143" y="102" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">い</text>
+  <rect x="176" y="86" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="195" y="102" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">う</text>
+  <rect x="228" y="86" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="247" y="102" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">え</text>
+  <rect x="280" y="86" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="299" y="102" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">お</text>
+  <text x="36" y="127" class="t" font-size="12.5" font-weight="700" fill="#64748B">か行</text>
+  <rect x="72" y="111" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="91" y="127" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">か</text>
+  <rect x="124" y="111" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="143" y="127" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">き</text>
+  <rect x="176" y="111" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="195" y="127" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">く</text>
+  <rect x="228" y="111" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="247" y="127" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">け</text>
+  <rect x="280" y="111" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="299" y="127" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">こ</text>
+  <text x="36" y="152" class="t" font-size="12.5" font-weight="700" fill="#64748B">さ行</text>
+  <rect x="72" y="136" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="91" y="152" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">さ</text>
+  <rect x="124" y="136" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="143" y="152" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">し</text>
+  <rect x="176" y="136" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="195" y="152" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">す</text>
+  <rect x="228" y="136" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="247" y="152" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">せ</text>
+  <rect x="280" y="136" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="299" y="152" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">そ</text>
+  <text x="36" y="177" class="t" font-size="12.5" font-weight="700" fill="#64748B">た行</text>
+  <rect x="72" y="161" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="91" y="177" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">た</text>
+  <rect x="124" y="161" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="143" y="177" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">ち</text>
+  <rect x="176" y="161" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="195" y="177" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">つ</text>
+  <rect x="228" y="161" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="247" y="177" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">て</text>
+  <rect x="280" y="161" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="299" y="177" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">と</text>
+  <text x="36" y="202" class="t" font-size="12.5" font-weight="700" fill="#64748B">な行</text>
+  <rect x="72" y="186" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="91" y="202" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">な</text>
+  <rect x="124" y="186" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="143" y="202" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">に</text>
+  <rect x="176" y="186" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="195" y="202" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">ぬ</text>
+  <rect x="228" y="186" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="247" y="202" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">ね</text>
+  <rect x="280" y="186" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="299" y="202" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">の</text>
+  <text x="376" y="102" class="t" font-size="12.5" font-weight="700" fill="#64748B">は行</text>
+  <rect x="412" y="86" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="431" y="102" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">は</text>
+  <rect x="464" y="86" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="483" y="102" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">ひ</text>
+  <rect x="516" y="86" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="535" y="102" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">ふ</text>
+  <rect x="568" y="86" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="587" y="102" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">へ</text>
+  <rect x="620" y="86" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="639" y="102" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">ほ</text>
+  <text x="376" y="127" class="t" font-size="12.5" font-weight="700" fill="#64748B">ま行</text>
+  <rect x="412" y="111" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="431" y="127" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">ま</text>
+  <rect x="464" y="111" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="483" y="127" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">み</text>
+  <rect x="516" y="111" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="535" y="127" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">む</text>
+  <rect x="568" y="111" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="587" y="127" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">め</text>
+  <rect x="620" y="111" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="639" y="127" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">も</text>
+  <text x="376" y="152" class="t" font-size="12.5" font-weight="700" fill="#64748B">や行</text>
+  <rect x="412" y="136" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="431" y="152" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">や</text>
+  <rect x="464" y="136" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="483" y="152" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#94A3B8">(い)</text>
+  <rect x="516" y="136" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="535" y="152" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">ゆ</text>
+  <rect x="568" y="136" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="587" y="152" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#94A3B8">(え)</text>
+  <rect x="620" y="136" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="639" y="152" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">よ</text>
+  <text x="376" y="177" class="t" font-size="12.5" font-weight="700" fill="#64748B">ら行</text>
+  <rect x="412" y="161" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="431" y="177" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">ら</text>
+  <rect x="464" y="161" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="483" y="177" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">り</text>
+  <rect x="516" y="161" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="535" y="177" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">る</text>
+  <rect x="568" y="161" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="587" y="177" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">れ</text>
+  <rect x="620" y="161" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="639" y="177" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">ろ</text>
+  <text x="376" y="202" class="t" font-size="12.5" font-weight="700" fill="#64748B">わ行</text>
+  <rect x="412" y="186" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="431" y="202" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">わ</text>
+  <rect x="464" y="186" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="483" y="202" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#94A3B8">(い)</text>
+  <rect x="516" y="186" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="535" y="202" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#94A3B8">(う)</text>
+  <rect x="568" y="186" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="587" y="202" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#94A3B8">(え)</text>
+  <rect x="620" y="186" width="38" height="22" rx="5" fill="#F1F5F9"/>
+  <text x="639" y="202" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#0F172A">を</text>
+  <rect x="656" y="186" width="44" height="22" rx="5" fill="#DBEAFE" stroke="#2563EB"/>
+  <text x="678" y="202" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#1E40AF">ん</text>
+  <rect x="20" y="236" width="342" height="72" rx="10" fill="#FEF2F2" stroke="#DC2626" stroke-width="1.8"/>
+  <text x="34" y="259" class="t" font-size="14" font-weight="700" fill="#991B1B">① 1字目→2字目→3字目</text>
+  <text x="34" y="280" class="t" font-size="12.5" fill="#334155">同じ字なら次の字をくらべるよ</text>
+  <text x="34" y="298" class="t" font-size="12.5" font-weight="700" fill="#DC2626">例：さか → さくら → ささ → さとう</text>
+  <rect x="378" y="236" width="342" height="72" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.8"/>
+  <text x="392" y="259" class="t" font-size="14" font-weight="700" fill="#1E40AF">② にごる音・半濁音</text>
+  <text x="392" y="280" class="t" font-size="12.5" fill="#334155">清音 → 濁音(゛) → 半濁音(゜)</text>
+  <text x="392" y="298" class="t" font-size="12.5" font-weight="700" fill="#2563EB">例：ホール → ボール → ポール</text>
+  <rect x="20" y="318" width="342" height="72" rx="10" fill="#ECFDF5" stroke="#059669" stroke-width="1.8"/>
+  <text x="34" y="341" class="t" font-size="14" font-weight="700" fill="#065F46">③ のばす音「ー」</text>
+  <text x="34" y="362" class="t" font-size="12.5" fill="#334155">前の音の母音(あいうえお)にする</text>
+  <text x="34" y="380" class="t" font-size="12.5" font-weight="700" fill="#059669">例：シート(シイト)→しっと→しつど</text>
+  <rect x="378" y="318" width="342" height="72" rx="10" fill="#FFFBEB" stroke="#D97706" stroke-width="1.8"/>
+  <text x="392" y="341" class="t" font-size="14" font-weight="700" fill="#92400E">④ 小さい字・言い切り</text>
+  <text x="392" y="362" class="t" font-size="12.5" fill="#334155">っ・ゃ・ゅ・ょは大きい字と同じあつかい</text>
+  <text x="392" y="380" class="t" font-size="12.5" font-weight="700" fill="#D97706">言い切りの形で引く（書いた→書く）</text>
+</svg>

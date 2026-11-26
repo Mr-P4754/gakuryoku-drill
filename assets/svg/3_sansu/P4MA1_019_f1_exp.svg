@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 175" width="540" height="175" role="img" aria-label="えん筆の本数のテープ図（解説）">
+  <title>えん筆の本数のテープ図（解説）</title>
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 600; }
+      .lbl-sm { font-size: 14px; font-weight: 600; }
+      .lbl-xs { font-size: 12.5px; font-weight: 500; fill: #475569; }
+      .num { font-size: 17px; font-weight: 700; }
+      .num-lg { font-size: 22px; font-weight: 700; }
+      .num-sm { font-size: 14px; font-weight: 700; }
+      .carry { font-size: 13px; font-weight: 700; fill: #DC2626; }
+      .borrow { font-size: 13px; font-weight: 700; fill: #2563EB; }
+      .blank-num { font-size: 17px; font-weight: 700; fill: #2563EB; }
+      .ans-num { font-size: 17px; font-weight: 700; fill: #0F766E; }
+      .unit-txt { font-size: 14px; font-weight: 600; fill: #334155; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="540" height="175" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <path d="M 70 70 Q 200.0 46 330 70" fill="none" stroke="#2563EB" stroke-width="1.7" stroke-dasharray="5,3"/>
+
+  <rect x="156.0" y="36" width="88" height="28" rx="6" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.6"/>
+  <text x="200.0" y="56" text-anchor="middle" class="ans-num">□ 本</text>
+  <path d="M 330 70 Q 400.0 46 470 70" fill="none" stroke="#059669" stroke-width="1.7" stroke-dasharray="5,3"/>
+
+  <rect x="356.0" y="36" width="88" height="28" rx="6" fill="#D1FAE5" stroke="#059669" stroke-width="1.6"/>
+  <text x="400.0" y="56" text-anchor="middle" class="ans-num" fill="#047857">4 本</text>
+  <rect x="70" y="74" width="260" height="38" fill="#DBEAFE" stroke="#1E293B" stroke-width="2"/>
+  <text x="200.0" y="99" text-anchor="middle" class="lbl-xs" fill="#1D4ED8">はじめに あった数</text>
+  <rect x="330" y="74" width="140" height="38" fill="#D1FAE5" stroke="#1E293B" stroke-width="2"/>
+  <text x="400.0" y="99" text-anchor="middle" class="lbl-xs" fill="#047857">買った数</text>
+  <path d="M 70 116 Q 270.0 142 470 116" fill="none" stroke="#475569" stroke-width="1.7" stroke-dasharray="5,3"/>
+
+  <rect x="220.0" y="132" width="100" height="28" rx="6" fill="#FEF3C7" stroke="#D97706" stroke-width="1.6"/>
+  <text x="270.0" y="152" text-anchor="middle" class="ans-num" fill="#B45309">12 本</text>
+</svg>

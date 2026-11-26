@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 290" width="460" height="290" role="img" aria-label="すきな色のぼうグラフ（作図下絵）">
+  <title>すきな色のぼうグラフ（作図下絵）</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 14px; font-weight: 700; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="460" height="290" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="255.5" y="28" text-anchor="middle" class="title">すきな色</text>
+  <text x="416" y="52" text-anchor="middle" class="lbl-sm">(人)</text>
+  <line x1="96" y1="62" x2="415" y2="62" stroke="#1E293B" stroke-width="2.0"/>
+  <line x1="96" y1="102" x2="415" y2="102" stroke="#CBD5E1" stroke-width="0.9"/>
+  <line x1="96" y1="142" x2="415" y2="142" stroke="#CBD5E1" stroke-width="0.9"/>
+  <line x1="96" y1="182" x2="415" y2="182" stroke="#CBD5E1" stroke-width="0.9"/>
+  <line x1="96" y1="222" x2="415" y2="222" stroke="#CBD5E1" stroke-width="0.9"/>
+  <line x1="96" y1="262" x2="415" y2="262" stroke="#1E293B" stroke-width="2.0"/>
+  <line x1="96" y1="62" x2="96" y2="262" stroke="#1E293B" stroke-width="2.2"/>
+  <text x="96" y="52" text-anchor="middle" class="num">0</text>
+  <line x1="125" y1="62" x2="125" y2="262" stroke="#CBD5E1" stroke-width="0.8"/>
+  <line x1="154" y1="62" x2="154" y2="262" stroke="#CBD5E1" stroke-width="0.8"/>
+  <line x1="183" y1="62" x2="183" y2="262" stroke="#CBD5E1" stroke-width="0.8"/>
+  <line x1="212" y1="62" x2="212" y2="262" stroke="#CBD5E1" stroke-width="0.8"/>
+  <line x1="241" y1="62" x2="241" y2="262" stroke="#334155" stroke-width="1.6"/>
+  <text x="241" y="52" text-anchor="middle" class="num">5</text>
+  <line x1="270" y1="62" x2="270" y2="262" stroke="#CBD5E1" stroke-width="0.8"/>
+  <line x1="299" y1="62" x2="299" y2="262" stroke="#CBD5E1" stroke-width="0.8"/>
+  <line x1="328" y1="62" x2="328" y2="262" stroke="#CBD5E1" stroke-width="0.8"/>
+  <line x1="357" y1="62" x2="357" y2="262" stroke="#CBD5E1" stroke-width="0.8"/>
+  <line x1="386" y1="62" x2="386" y2="262" stroke="#334155" stroke-width="1.6"/>
+  <text x="386" y="52" text-anchor="middle" class="num">10</text>
+  <line x1="415" y1="62" x2="415" y2="262" stroke="#1E293B" stroke-width="1.8"/>
+  <text x="84" y="87.0" text-anchor="end" font-size="14" font-weight="700">赤</text>
+  <rect x="96" y="71.0" width="145" height="22" fill="#60A5FA" stroke="#1E3A8A" stroke-width="1.5"/>
+  <text x="84" y="127.0" text-anchor="end" font-size="14" font-weight="700">青</text>
+  <text x="84" y="167.0" text-anchor="end" font-size="14" font-weight="700">みどり</text>
+  <rect x="96" y="151.0" width="232" height="22" fill="#60A5FA" stroke="#1E3A8A" stroke-width="1.5"/>
+  <text x="84" y="207.0" text-anchor="end" font-size="14" font-weight="700">きいろ</text>
+  <rect x="96" y="191.0" width="203" height="22" fill="#60A5FA" stroke="#1E3A8A" stroke-width="1.5"/>
+  <text x="84" y="247.0" text-anchor="end" font-size="14" font-weight="700">その他</text>
+  <rect x="96" y="231.0" width="174" height="22" fill="#60A5FA" stroke="#1E3A8A" stroke-width="1.5"/>
+</svg>

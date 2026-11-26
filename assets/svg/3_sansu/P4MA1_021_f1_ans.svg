@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 290" width="460" height="290" role="img" aria-label="すきな色のぼうグラフ（模範作図オーバーレイ）">
+  <title>すきな色のぼうグラフ（模範作図オーバーレイ）</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 14px; font-weight: 700; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect x="96" y="111.0" width="116" height="22" fill="rgba(220,38,38,0.48)" stroke="#DC2626" stroke-width="2.6"/>
+  <text x="154.0" y="127.0" text-anchor="middle" font-size="13.5" font-weight="700" fill="#991B1B" class="halo">4人</text>
+</svg>

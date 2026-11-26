@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 178" width="520" height="178" role="img" aria-label="10時25分から11時10分までの時間">
+  <title>10時25分から11時10分までの時間</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 14px; font-weight: 700; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="520" height="178" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="260" y="24" text-anchor="middle" font-size="14" font-weight="700" fill="#1E293B">10時25分から11時10分までの時間</text>
+  <line x1="36" y1="70" x2="484" y2="70" stroke="#1E293B" stroke-width="2.4"/>
+  <line x1="82" y1="62" x2="82" y2="78" stroke="#1E293B" stroke-width="2.2"/>
+  <line x1="82" y1="78" x2="82" y2="146" stroke="#94A3B8" stroke-width="1.2" stroke-dasharray="3,3"/>
+  <line x1="260" y1="62" x2="260" y2="78" stroke="#1E293B" stroke-width="2.2"/>
+  <line x1="260" y1="78" x2="260" y2="146" stroke="#94A3B8" stroke-width="1.2" stroke-dasharray="3,3"/>
+  <line x1="438" y1="62" x2="438" y2="78" stroke="#1E293B" stroke-width="2.2"/>
+  <line x1="438" y1="78" x2="438" y2="146" stroke="#94A3B8" stroke-width="1.2" stroke-dasharray="3,3"/>
+  <text x="82" y="54" text-anchor="middle" font-size="14.5" font-weight="700" fill="#1E293B">10時25分</text>
+  <rect x="228" y="34" width="64" height="24" rx="5" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.8"/>
+  <text x="260" y="51" text-anchor="middle" font-size="14" font-weight="700" fill="#1D4ED8">11時</text>
+  <text x="438" y="54" text-anchor="middle" font-size="14.5" font-weight="700" fill="#1E293B">11時10分</text>
+  <path d="M 82.0 82.0 Q 171.0 116.0 260.0 82.0" fill="none" stroke="#2563EB" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="171.0" y="106.7" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1D4ED8" class="halo">35分</text>
+
+  <path d="M 260.0 82.0 Q 349.0 116.0 438.0 82.0" fill="none" stroke="#059669" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="349.0" y="106.7" text-anchor="middle" font-size="13.5" font-weight="700" fill="#047857" class="halo">10分</text>
+
+  <line x1="82" y1="138" x2="428" y2="138" stroke="#DC2626" stroke-width="2.6"/>
+  <polygon points="438,138 426,132 426,144" fill="#DC2626"/>
+  <rect x="216" y="126" width="88" height="22" rx="5" fill="#FEF2F2" stroke="#DC2626" stroke-width="1.2"/>
+  <text x="260" y="142" text-anchor="middle" font-size="13.5" font-weight="700" fill="#DC2626">45分</text>
+  <text x="260" y="168" text-anchor="middle" font-size="12.5" font-weight="700" fill="#475569">35分 ＋ 10分 ＝ 45分</text>
+</svg>

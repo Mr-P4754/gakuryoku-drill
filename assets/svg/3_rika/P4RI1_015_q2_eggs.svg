@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 250" width="640" height="250">
+  <rect width="640" height="250" rx="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <text x="320" y="26" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="15" font-weight="bold" fill="#065F46">チョウやガがたまごをうみつける場所</text>
+
+  <!-- Card 1: モンシロチョウ -> キャベツの葉 -->
+  <g transform="translate(20, 40)">
+    <rect width="190" height="196" rx="10" fill="#FFFFFF" stroke="#86EFAC" stroke-width="1.6"/>
+    <rect x="0" y="0" width="190" height="30" rx="8" fill="#ECFDF5"/>
+    <text x="95" y="20" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13.5" font-weight="bold" fill="#065F46">モンシロチョウ</text>
+    <!-- Cabbage leaf background -->
+    <path d="M16,136 Q66,46 174,64 Q166,144 92,152 Q36,154 16,136 Z" fill="#BBF7D0" stroke="#16A34A" stroke-width="1.5"/>
+    <path d="M24,132 Q92,98 164,74 M72,110 L96,74 M112,96 L146,104" fill="none" stroke="#16A34A" stroke-width="1.2" opacity="0.65"/>
+    <!-- Cabbage white butterfly -->
+    <g transform="translate(88, 96)">
+      <path d="M0,6 C10,-32 58,-34 62,-4 C64,18 32,26 0,6 Z" fill="#FFFFFF" stroke="#334155" stroke-width="1.6"/>
+      <path d="M0,6 C-6,-24 38,-40 48,-16 C52,2 24,14 0,6 Z" fill="#F8FAFC" stroke="#475569" stroke-width="1.4"/>
+      <circle cx="34" cy="4" r="4" fill="#1E293B"/>
+      <ellipse cx="-2" cy="12" rx="14" ry="4.5" fill="#475569" transform="rotate(-15 -2 12)"/>
+      <path d="M-14,10 Q-22,-4 -28,-8" fill="none" stroke="#334155" stroke-width="1.4"/>
+    </g>
+    <!-- Tiny yellow egg on leaf -->
+    <ellipse cx="46" cy="116" rx="3" ry="5" fill="#FACC15" stroke="#B45309" stroke-width="1"/>
+    <rect x="10" y="160" width="170" height="28" rx="6" fill="#F0FDF4" stroke="#86EFAC" stroke-width="1.2"/>
+    <text x="95" y="179" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#166534">キャベツの葉</text>
+  </g>
+
+  <!-- Card 2: アゲハ -> ミカンやサンショウの葉 -->
+  <g transform="translate(225, 40)">
+    <rect width="190" height="196" rx="10" fill="#FFFFFF" stroke="#FCD34D" stroke-width="1.6"/>
+    <rect x="0" y="0" width="190" height="30" rx="8" fill="#FEFCE8"/>
+    <text x="95" y="20" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13.5" font-weight="bold" fill="#92400E">アゲハ</text>
+    <!-- Citrus branch & glossy leaves -->
+    <path d="M16,144 Q96,120 174,84" fill="none" stroke="#92400E" stroke-width="3"/>
+    <path d="M36,134 Q26,96 64,86 Q76,118 36,134 Z" fill="#4ADE80" stroke="#15803D" stroke-width="1.4"/>
+    <path d="M116,112 Q128,74 166,76 Q164,112 116,112 Z" fill="#22C55E" stroke="#15803D" stroke-width="1.4"/>
+    <!-- Swallowtail butterfly (yellow & black stripes) -->
+    <g transform="translate(96, 86)">
+      <!-- Upper wing -->
+      <path d="M-8,8 C-2,-34 52,-42 54,-8 C54,10 24,18 -8,8 Z" fill="#FEF08A" stroke="#1E293B" stroke-width="2"/>
+      <!-- Black swallowtail stripe pattern -->
+      <path d="M10,-16 L46,-20 M14,-6 L50,-8 M12,4 L40,6" stroke="#1E293B" stroke-width="3"/>
+      <!-- Lower wing with tail -->
+      <path d="M-8,8 C16,10 46,24 38,44 L44,54 L30,44 C10,42 -4,26 -8,8 Z" fill="#FDE047" stroke="#1E293B" stroke-width="1.8"/>
+      <circle cx="24" cy="34" r="3.5" fill="#EF4444"/>
+      <circle cx="16" cy="32" r="3" fill="#3B82F6"/>
+      <!-- Body -->
+      <ellipse cx="-10" cy="14" rx="15" ry="4.5" fill="#1E293B" transform="rotate(-18 -10 14)"/>
+      <path d="M-22,12 Q-30,-4 -36,-8" fill="none" stroke="#1E293B" stroke-width="1.5"/>
+    </g>
+    <circle cx="48" cy="112" r="3.5" fill="#FEF08A" stroke="#B45309" stroke-width="1"/>
+    <rect x="6" y="160" width="178" height="28" rx="6" fill="#FFFBEB" stroke="#FCD34D" stroke-width="1.2"/>
+    <text x="95" y="179" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#92400E">ミカンやサンショウの葉</text>
+  </g>
+
+  <!-- Card 3: カイコガ -> クワの葉 -->
+  <g transform="translate(430, 40)">
+    <rect width="190" height="196" rx="10" fill="#FFFFFF" stroke="#93C5FD" stroke-width="1.6"/>
+    <rect x="0" y="0" width="190" height="30" rx="8" fill="#EFF6FF"/>
+    <text x="95" y="20" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13.5" font-weight="bold" fill="#1D4ED8">カイコガ</text>
+    <!-- Mulberry leaf -->
+    <path d="M24,146 C18,90 66,46 132,54 C168,60 176,108 156,144 C118,158 58,156 24,146 Z" fill="#86EFAC" stroke="#15803D" stroke-width="1.5"/>
+    <path d="M36,140 L144,68" stroke="#15803D" stroke-width="1.3" opacity="0.65"/>
+    <!-- Fluffy white silkworm moth -->
+    <g transform="translate(96, 98)">
+      <!-- Left & right broad creamy moth wings -->
+      <path d="M-4,-6 C-46,-26 -68,0 -52,22 C-38,38 -14,22 -4,8 Z" fill="#FFFBEB" stroke="#64748B" stroke-width="1.6"/>
+      <path d="M4,-6 C46,-26 68,0 52,22 C38,38 14,22 4,8 Z" fill="#FFFBEB" stroke="#64748B" stroke-width="1.6"/>
+      <path d="M-24,4 Q-36,14 -44,10 M24,4 Q36,14 44,10" fill="none" stroke="#CBD5E1" stroke-width="1.5"/>
+      <!-- Plump fuzzy white body -->
+      <ellipse cx="0" cy="8" rx="10" ry="22" fill="#FFFFFF" stroke="#64748B" stroke-width="1.6"/>
+      <!-- Feathery antennae -->
+      <path d="M-4,-12 Q-14,-24 -22,-22 M4,-12 Q14,-24 22,-22" fill="none" stroke="#92400E" stroke-width="2.2"/>
+      <circle cx="-4" cy="-10" r="2" fill="#0F172A"/><circle cx="4" cy="-10" r="2" fill="#0F172A"/>
+    </g>
+    <!-- Tiny eggs -->
+    <circle cx="90" cy="134" r="2.4" fill="#FEF08A" stroke="#CA8A04" stroke-width="0.9"/>
+    <circle cx="98" cy="136" r="2.4" fill="#FEF08A" stroke="#CA8A04" stroke-width="0.9"/>
+    <circle cx="105" cy="133" r="2.4" fill="#FEF08A" stroke="#CA8A04" stroke-width="0.9"/>
+    <rect x="10" y="160" width="170" height="28" rx="6" fill="#EFF6FF" stroke="#93C5FD" stroke-width="1.2"/>
+    <text x="95" y="179" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#1D4ED8">クワの葉</text>
+  </g>
+</svg>

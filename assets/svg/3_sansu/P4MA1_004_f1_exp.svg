@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 165" width="580" height="165" role="img" aria-label="3/10+4/10のテープ図解説">
+  <title>3/10+4/10のテープ図解説</title>
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 600; }
+      .lbl-sm { font-size: 14px; font-weight: 600; }
+      .lbl-xs { font-size: 12.5px; font-weight: 500; fill: #475569; }
+      .num { font-size: 17px; font-weight: 700; }
+      .num-lg { font-size: 22px; font-weight: 700; }
+      .num-sm { font-size: 14px; font-weight: 700; }
+      .carry { font-size: 13px; font-weight: 700; fill: #DC2626; }
+      .borrow { font-size: 13px; font-weight: 700; fill: #2563EB; }
+      .blank-num { font-size: 17px; font-weight: 700; fill: #2563EB; }
+      .ans-num { font-size: 17px; font-weight: 700; fill: #0F766E; }
+      .unit-txt { font-size: 14px; font-weight: 600; fill: #334155; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="580" height="165" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="290" y="28" text-anchor="middle" class="title">1/10 の何こ分かで考えよう（3/10 ＋ 4/10 ＝ 7/10）</text>
+  <rect x="40.0" y="62" width="50.0" height="34" fill="#BFDBFE" stroke="#334155" stroke-width="1.4"/>
+  <rect x="90.0" y="62" width="50.0" height="34" fill="#BFDBFE" stroke="#334155" stroke-width="1.4"/>
+  <rect x="140.0" y="62" width="50.0" height="34" fill="#BFDBFE" stroke="#334155" stroke-width="1.4"/>
+  <rect x="190.0" y="62" width="50.0" height="34" fill="#A7F3D0" stroke="#334155" stroke-width="1.4"/>
+  <rect x="240.0" y="62" width="50.0" height="34" fill="#A7F3D0" stroke="#334155" stroke-width="1.4"/>
+  <rect x="290.0" y="62" width="50.0" height="34" fill="#A7F3D0" stroke="#334155" stroke-width="1.4"/>
+  <rect x="340.0" y="62" width="50.0" height="34" fill="#A7F3D0" stroke="#334155" stroke-width="1.4"/>
+  <rect x="390.0" y="62" width="50.0" height="34" fill="#FFFFFF" stroke="#334155" stroke-width="1.4"/>
+  <rect x="440.0" y="62" width="50.0" height="34" fill="#FFFFFF" stroke="#334155" stroke-width="1.4"/>
+  <rect x="490.0" y="62" width="50.0" height="34" fill="#FFFFFF" stroke="#334155" stroke-width="1.4"/>
+  <path d="M 40 59 Q 115.0 46 190.0 59" fill="none" stroke="#2563EB" stroke-width="1.7" stroke-dasharray="5,3"/>
+
+  <text x="115.0" y="46" text-anchor="middle" class="lbl-xs" fill="#2563EB">3こ分 (3/10)</text>
+  <path d="M 190.0 59 Q 290.0 46 390.0 59" fill="none" stroke="#059669" stroke-width="1.7" stroke-dasharray="5,3"/>
+
+  <text x="290.0" y="46" text-anchor="middle" class="lbl-xs" fill="#059669">4こ分 (4/10)</text>
+  <path d="M 40 99 Q 215.0 116 390.0 99" fill="none" stroke="#0F766E" stroke-width="1.7" stroke-dasharray="5,3"/>
+
+  <text x="215.0" y="134" text-anchor="middle" class="num" fill="#0F766E">あわせて 3＋4＝7こ分 → 7/10</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" width="640" height="430" role="img" aria-label="ゆきこさんが書いた「春の遠足のお知らせ」の下書き">
+  <defs><style>.t { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans CJK JP', 'Noto Sans JP', sans-serif; }</style></defs>
+  <rect width="640" height="430" rx="14" fill="#F0FDF4" stroke="#86EFAC" stroke-width="2"/>
+  <rect x="28" y="24" width="584" height="382" rx="10" fill="#FFFFFF" stroke="#475569" stroke-width="2"/>
+
+  <!-- Title box -->
+  <rect x="190" y="42" width="260" height="42" rx="6" fill="#DCFCE7" stroke="#16A34A" stroke-width="2"/>
+  <text x="320" y="69" text-anchor="middle" class="t" font-size="19" font-weight="700" fill="#166534">春の遠足のお知らせ</text>
+
+  <!-- Opening message -->
+  <text x="58" y="116" class="t" font-size="15.5" fill="#1E293B">　来週の5月10日に、春の遠足へ出かけます。</text>
+  <text x="58" y="144" class="t" font-size="15.5" fill="#1E293B">　春のさわやかな風を感じながら、楽しい遠足になる</text>
+  <text x="58" y="170" class="t" font-size="15.5" fill="#1E293B">ようにしていきたいと思います。</text>
+  <text x="58" y="198" class="t" font-size="15.5" fill="#1E293B">　今よりもっとクラスのみんなとなかよくなれたらいい</text>
+  <text x="58" y="224" class="t" font-size="15.5" fill="#1E293B">ですね。</text>
+
+  <line x1="56" y1="242" x2="584" y2="242" stroke="#E2E8F0" stroke-width="1.5" stroke-dasharray="5 4"/>
+
+  <!-- Bullet items -->
+  <text x="64" y="270" class="t" font-size="15" fill="#0F172A">●　集合時間 … 朝8時25分</text>
+  <text x="64" y="298" class="t" font-size="15" fill="#0F172A">●　集合場所 … 学校正門</text>
+  <text x="64" y="326" class="t" font-size="15" fill="#0F172A">●　活動内よう … 公園せいそう、ドッジボール</text>
+  <text x="64" y="354" class="t" font-size="15" fill="#0F172A">●　持ちもの … おべんとう　すいとう（おやつは持ってこないこと）</text>
+  <text x="64" y="382" class="t" font-size="15" fill="#0F172A">●　ふくそう … 体そうふく（ハンカチやタオル、ぼうしを持っていくこと）</text>
+</svg>

@@ -59,6 +59,32 @@ assert.equal(
   true
 );
 
+// 9b. 3年生向け text_input (ローマ字長音記号・ヘボン式・大文字小文字・複合単位)
+assert.equal(
+  scoreAnswer({ question_type: 'text_input', answer: 'tyûi', accepted_answers: 'chûi|tyuui|chuui' }, 'CHÛI').isCorrect,
+  true
+);
+assert.equal(
+  scoreAnswer({ question_type: 'text_input', answer: 'tyûi', accepted_answers: 'chûi|tyuui|chuui' }, 'chuui').isCorrect,
+  true
+);
+assert.equal(
+  scoreAnswer({ question_type: 'text_input', answer: 'ryokô', accepted_answers: 'ryokou|ryokoo' }, 'RYOKOU').isCorrect,
+  true
+);
+assert.equal(
+  scoreAnswer({ question_type: 'text_input', answer: '1kg 600g' }, '１ｋｇ６００ｇ').isCorrect,
+  true
+);
+assert.equal(
+  scoreAnswer({ question_type: 'text_input', answer: '午前10時20分' }, '午前 １０ 時 ２０ 分').isCorrect,
+  true
+);
+assert.equal(
+  scoreAnswer({ question_type: 'number_input', answer: '40', unit_label: '分' }, '40分').isCorrect,
+  true
+);
+
 // 10. self_check
 assert.equal(scoreAnswer({ question_type: 'self_check_draw', answer: '働' }, { selfJudgedCorrect: true }).isCorrect, true);
 assert.equal(scoreAnswer({ question_type: 'self_check_text', answer: '模範解答' }, { selfJudgedCorrect: false, text: 'てすと' }).isCorrect, false);

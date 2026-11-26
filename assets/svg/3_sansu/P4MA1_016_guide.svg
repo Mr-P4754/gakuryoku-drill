@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 260" width="560" height="260" role="img" aria-label="円と球の中心・半径・直径">
+  <title>円と球の中心・半径・直径</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 14px; font-weight: 700; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="560" height="260" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <rect x="14" y="14" width="256" height="232" rx="10" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.2"/>
+  <text x="142" y="38" text-anchor="middle" class="title">円</text>
+  <circle cx="142" cy="134" r="74" fill="#EFF6FF" stroke="#1E293B" stroke-width="2.2"/>
+  <line x1="89.7" y1="186.3" x2="194.3" y2="81.7" stroke="#DC2626" stroke-width="2.6"/>
+  <line x1="142" y1="134" x2="99.6" y2="73.4" stroke="#2563EB" stroke-width="2.6"/>
+  <circle cx="142" cy="134" r="4.2" fill="#1E293B"/>
+  <text x="166" y="150" class="lbl-sm">中心</text>
+  <path d="M 164 145 L 148 137" stroke="#475569" stroke-width="1.2" fill="none"/>
+  <text x="108" y="108" text-anchor="middle" class="lbl-sm blue halo">半径</text>
+  <text x="114" y="170" text-anchor="middle" class="lbl-sm red halo">直径</text>
+  <rect x="44" y="214" width="196" height="24" rx="6" fill="#DBEAFE"/>
+  <text x="142" y="231" text-anchor="middle" font-size="13" font-weight="700" fill="#1E40AF">直径 ＝ 半径 × 2</text>
+  <rect x="286" y="14" width="260" height="232" rx="10" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1.2"/>
+  <text x="416" y="38" text-anchor="middle" class="title">球（きゅう）の半分</text>
+  <path d="M 342 136 A 74 74 0 0 1 490 136" fill="none" stroke="#94A3B8" stroke-width="1.6" stroke-dasharray="4,4"/>
+  <path d="M 342 136 A 74 74 0 0 0 490 136" fill="#ECFDF5" stroke="#1E293B" stroke-width="2.2"/>
+  <ellipse cx="416" cy="136" rx="74" ry="22" fill="#D1FAE5" stroke="#1E293B" stroke-width="2.0"/>
+  <line x1="342" y1="136" x2="490" y2="136" stroke="#DC2626" stroke-width="2.4"/>
+  <line x1="416" y1="136" x2="370" y2="119" stroke="#2563EB" stroke-width="2.4"/>
+  <circle cx="416" cy="136" r="4.2" fill="#1E293B"/>
+  <text x="432" y="108" class="lbl-sm">球の中心</text>
+  <path d="M 440 112 L 419 131" stroke="#475569" stroke-width="1.2" fill="none"/>
+  <text x="372" y="110" text-anchor="middle" class="lbl-sm blue halo">半径</text>
+  <text x="452" y="154" text-anchor="middle" class="lbl-sm red halo">直径</text>
+  <text x="416" y="232" text-anchor="middle" font-size="12.5" font-weight="600" fill="#475569">どこから見ても円に見える形</text>
+</svg>

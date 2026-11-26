@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 296" width="340" height="296" role="img" aria-label="円と4本の直線1・2・3・4">
+  <title>円と4本の直線1・2・3・4</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 14px; font-weight: 700; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="340" height="296" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <circle cx="170" cy="148" r="108" fill="#F8FAFC" stroke="#1E293B" stroke-width="2.4"/>
+  <line x1="68.5" y1="184.9" x2="160.6" y2="40.4" stroke="#1E293B" stroke-width="2.0"/>
+  <line x1="68.5" y1="184.9" x2="271.5" y2="111.1" stroke="#1E293B" stroke-width="2.0"/>
+  <line x1="170" y1="148" x2="272.7" y2="181.4" stroke="#1E293B" stroke-width="2.0"/>
+  <line x1="68.5" y1="184.9" x2="272.7" y2="181.4" stroke="#1E293B" stroke-width="2.0"/>
+  <circle cx="170" cy="148" r="4.5" fill="#1E293B"/>
+  <path d="M 68.5 184.9 Q 94.3 99.8 160.6 40.4" fill="none" stroke="#64748B" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="102.8" y="110.2" text-anchor="middle" font-size="17" font-weight="700" fill="#2563EB" class="halo">1</text>
+
+  <path d="M 68.5 184.9 Q 162.5 127.3 271.5 111.1" fill="none" stroke="#64748B" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="165.6" y="141.0" text-anchor="middle" font-size="17" font-weight="700" fill="#2563EB" class="halo">2</text>
+
+  <path d="M 170.0 148.0 Q 227.5 145.7 272.7 181.4" fill="none" stroke="#64748B" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="224.9" y="158.7" text-anchor="middle" font-size="17" font-weight="700" fill="#2563EB" class="halo">3</text>
+
+  <path d="M 68.5 184.9 Q 171.1 211.2 272.7 181.4" fill="none" stroke="#64748B" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="170.9" y="204.4" text-anchor="middle" font-size="17" font-weight="700" fill="#2563EB" class="halo">4</text>
+
+</svg>

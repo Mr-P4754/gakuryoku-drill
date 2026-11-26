@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 270" width="560" height="270">
+  <defs>
+    <linearGradient id="bat3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#34D399"/>
+      <stop offset="50%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+    <radialGradient id="bulbGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="45%" stop-color="#FEF08A"/>
+      <stop offset="100%" stop-color="#FACC15" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="560" height="270" rx="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <text x="280" y="26" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="15" font-weight="bold" fill="#065F46">豆電球とかん電池のつなぎ方</text>
+
+  <!-- Circuit wire loop -->
+  <path d="M214,178 L142,178 Q122,178 122,158 L122,126 Q122,106 142,106 L274,106 L274,98" fill="none" stroke="#1E293B" stroke-width="3.8" stroke-linecap="round"/>
+  <path d="M342,178 L418,178 Q438,178 438,158 L438,126 Q438,106 418,106 L286,106 L286,98" fill="none" stroke="#1E293B" stroke-width="3.8" stroke-linecap="round"/>
+
+  <!-- Lightbulb & Socket (豆電球) at top center -->
+  <g transform="translate(280, 68)">
+    <!-- Glow -->
+    <circle cx="0" cy="-6" r="32" fill="url(#bulbGlow)"/>
+    <!-- Light rays -->
+    <g stroke="#EAB308" stroke-width="2.2" stroke-linecap="round">
+      <line x1="0" y1="-34" x2="0" y2="-27"/>
+      <line x1="-20" y1="-26" x2="-15" y2="-21"/>
+      <line x1="20" y1="-26" x2="15" y2="-21"/>
+      <line x1="-26" y1="-8" x2="-20" y2="-8"/>
+      <line x1="26" y1="-8" x2="20" y2="-8"/>
+    </g>
+    <!-- Glass globe -->
+    <circle cx="0" cy="-6" r="15" fill="#FEF9C3" stroke="#B45309" stroke-width="1.8"/>
+    <!-- Filament -->
+    <path d="M-5,6 L-4,-8 L0,-4 L4,-8 L5,6" fill="none" stroke="#EA580C" stroke-width="1.6"/>
+    <!-- Screw base & socket -->
+    <rect x="-9" y="8" width="18" height="16" rx="2" fill="#CBD5E1" stroke="#475569" stroke-width="1.5"/>
+    <line x1="-9" y1="13" x2="9" y2="13" stroke="#64748B" stroke-width="1.2"/>
+    <line x1="-9" y1="18" x2="9" y2="18" stroke="#64748B" stroke-width="1.2"/>
+    <rect x="-11" y="23" width="22" height="10" rx="2" fill="#475569"/>
+  </g>
+
+  <!-- Battery (かん電池): left protruding nub (+), right flat end (-) WITHOUT printing + or - -->
+  <g transform="translate(222, 154)">
+    <!-- Left nub (+ pole) -->
+    <rect x="-10" y="14" width="11" height="20" rx="2" fill="#E2E8F0" stroke="#475569" stroke-width="1.8"/>
+    <!-- Battery cylinder -->
+    <rect x="0" y="2" width="118" height="44" rx="5" fill="url(#bat3)" stroke="#065F46" stroke-width="2"/>
+    <!-- Decorative band (left metallic band) -->
+    <rect x="0" y="2" width="26" height="44" rx="4" fill="#F59E0B" opacity="0.9"/>
+    <rect x="98" y="2" width="20" height="44" rx="4" fill="#065F46" opacity="0.5"/>
+    <!-- Right flat plate -->
+    <line x1="118" y1="6" x2="118" y2="42" stroke="#CBD5E1" stroke-width="3"/>
+  </g>
+
+  <!-- Labels -->
+  <line x1="296" y1="68" x2="348" y2="62" stroke="#475569" stroke-width="1.3"/>
+  <text x="354" y="67" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#0F172A">豆電球</text>
+
+  <line x1="398" y1="106" x2="444" y2="100" stroke="#475569" stroke-width="1.3"/>
+  <text x="450" y="105" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#0F172A">どう線</text>
+
+  <line x1="342" y1="166" x2="444" y2="152" stroke="#475569" stroke-width="1.3"/>
+  <text x="450" y="157" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#065F46">かん電池</text>
+
+  <!-- Pole pointers ①きょく (left nub) and ②きょく (right flat) -->
+  <line x1="214" y1="184" x2="154" y2="226" stroke="#DC2626" stroke-width="1.8"/>
+  <rect x="92" y="226" width="118" height="30" rx="8" fill="#FEF2F2" stroke="#DC2626" stroke-width="1.8"/>
+  <text x="151" y="246" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#B91C1C">[ ① ] きょく</text>
+
+  <line x1="342" y1="184" x2="402" y2="226" stroke="#2563EB" stroke-width="1.8"/>
+  <rect x="348" y="226" width="118" height="30" rx="8" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.8"/>
+  <text x="407" y="246" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="14" font-weight="bold" fill="#1D4ED8">[ ② ] きょく</text>
+</svg>

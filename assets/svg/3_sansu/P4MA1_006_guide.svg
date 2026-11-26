@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 235" width="640" height="235" role="img" aria-label="ひき算の筆算くり下がりガイド">
+  <title>ひき算の筆算くり下がりガイド</title>
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 600; }
+      .lbl-sm { font-size: 14px; font-weight: 600; }
+      .lbl-xs { font-size: 12.5px; font-weight: 500; fill: #475569; }
+      .num { font-size: 17px; font-weight: 700; }
+      .num-lg { font-size: 22px; font-weight: 700; }
+      .num-sm { font-size: 14px; font-weight: 700; }
+      .carry { font-size: 13px; font-weight: 700; fill: #DC2626; }
+      .borrow { font-size: 13px; font-weight: 700; fill: #2563EB; }
+      .blank-num { font-size: 17px; font-weight: 700; fill: #2563EB; }
+      .ans-num { font-size: 17px; font-weight: 700; fill: #0F766E; }
+      .unit-txt { font-size: 14px; font-weight: 600; fill: #334155; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="640" height="235" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="320" y="28" text-anchor="middle" class="title">ひき算の筆算：十の位が 0 のくり下がり（602 － 238）</text>
+  <rect x="20" y="44" width="184" height="174" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.3"/>
+  <text x="112" y="64" text-anchor="middle" class="lbl-xs" fill="#1E293B" font-weight="700">① 百の位から十の位へ</text>
+  <line x1="140.5" y1="68" x2="140.5" y2="190" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="111.5" y1="68" x2="111.5" y2="190" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="82.5" y1="68" x2="82.5" y2="190" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="155" y="126" text-anchor="middle" class="num-lg">2</text>
+  <text x="126" y="126" text-anchor="middle" class="num-lg">0</text>
+  <text x="126" y="102" text-anchor="middle" class="borrow">10</text>
+  <text x="97" y="126" text-anchor="middle" class="num-lg">6</text>
+  <line x1="88" y1="129" x2="106" y2="108" stroke="#DC2626" stroke-width="2"/>
+  <text x="97" y="102" text-anchor="middle" class="borrow">5</text>
+  <text x="72" y="156" text-anchor="middle" class="num-lg">－</text>
+  <text x="155" y="156" text-anchor="middle" class="num-lg">8</text>
+  <text x="126" y="156" text-anchor="middle" class="num-lg">3</text>
+  <text x="97" y="156" text-anchor="middle" class="num-lg">2</text>
+  <line x1="56" y1="166" x2="173" y2="166" stroke="#1E293B" stroke-width="2.2"/>
+  <text x="112" y="210" text-anchor="middle" class="lbl-xs" fill="#2563EB">6を5にして十の位へ10</text>
+  <text x="214" y="132" text-anchor="middle" class="num" fill="#2563EB">→</text>
+  <rect x="228" y="44" width="184" height="174" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.3"/>
+  <text x="320" y="64" text-anchor="middle" class="lbl-xs" fill="#1E293B" font-weight="700">② 十の位から一の位へ</text>
+  <line x1="350.5" y1="68" x2="350.5" y2="190" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="321.5" y1="68" x2="321.5" y2="190" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="292.5" y1="68" x2="292.5" y2="190" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="365" y="126" text-anchor="middle" class="num-lg">2</text>
+  <text x="365" y="102" text-anchor="middle" class="borrow">10</text>
+  <text x="336" y="126" text-anchor="middle" class="num-lg">0</text>
+  <line x1="327" y1="129" x2="345" y2="108" stroke="#DC2626" stroke-width="2"/>
+  <text x="336" y="102" text-anchor="middle" class="borrow">10</text>
+  <line x1="327" y1="104" x2="345" y2="92" stroke="#DC2626" stroke-width="1.6"/>
+  <text x="336" y="86" text-anchor="middle" class="carry">9</text>
+  <text x="307" y="126" text-anchor="middle" class="num-lg">6</text>
+  <line x1="298" y1="129" x2="316" y2="108" stroke="#DC2626" stroke-width="2"/>
+  <text x="307" y="102" text-anchor="middle" class="borrow">5</text>
+  <text x="282" y="156" text-anchor="middle" class="num-lg">－</text>
+  <text x="365" y="156" text-anchor="middle" class="num-lg">8</text>
+  <text x="336" y="156" text-anchor="middle" class="num-lg">3</text>
+  <text x="307" y="156" text-anchor="middle" class="num-lg">2</text>
+  <line x1="266" y1="166" x2="383" y2="166" stroke="#1E293B" stroke-width="2.2"/>
+  <text x="320" y="210" text-anchor="middle" class="lbl-xs" fill="#2563EB">10を9にして一の位へ10</text>
+  <text x="422" y="132" text-anchor="middle" class="num" fill="#2563EB">→</text>
+  <rect x="436" y="44" width="184" height="174" rx="10" fill="#F0FDF4" stroke="#86EFAC" stroke-width="1.3"/>
+  <text x="528" y="64" text-anchor="middle" class="lbl-xs" fill="#1E293B" font-weight="700">③ それぞれの位をひく</text>
+  <line x1="560.5" y1="68" x2="560.5" y2="190" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="531.5" y1="68" x2="531.5" y2="190" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="502.5" y1="68" x2="502.5" y2="190" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="575" y="126" text-anchor="middle" class="num-lg">2</text>
+  <text x="575" y="102" text-anchor="middle" class="borrow">10</text>
+  <text x="546" y="126" text-anchor="middle" class="num-lg">0</text>
+  <line x1="537" y1="129" x2="555" y2="108" stroke="#DC2626" stroke-width="2"/>
+  <text x="546" y="102" text-anchor="middle" class="borrow">10</text>
+  <line x1="537" y1="104" x2="555" y2="92" stroke="#DC2626" stroke-width="1.6"/>
+  <text x="546" y="86" text-anchor="middle" class="carry">9</text>
+  <text x="517" y="126" text-anchor="middle" class="num-lg">6</text>
+  <line x1="508" y1="129" x2="526" y2="108" stroke="#DC2626" stroke-width="2"/>
+  <text x="517" y="102" text-anchor="middle" class="borrow">5</text>
+  <text x="492" y="156" text-anchor="middle" class="num-lg">－</text>
+  <text x="575" y="156" text-anchor="middle" class="num-lg">8</text>
+  <text x="546" y="156" text-anchor="middle" class="num-lg">3</text>
+  <text x="517" y="156" text-anchor="middle" class="num-lg">2</text>
+  <line x1="476" y1="166" x2="593" y2="166" stroke="#1E293B" stroke-width="2.2"/>
+  <text x="575" y="192" text-anchor="middle" class="num-lg" fill="#0F766E">4</text>
+  <text x="546" y="192" text-anchor="middle" class="num-lg" fill="#0F766E">6</text>
+  <text x="517" y="192" text-anchor="middle" class="num-lg" fill="#0F766E">3</text>
+  <text x="528" y="210" text-anchor="middle" class="lbl-xs" fill="#0F766E">12-8=4, 9-3=6, 5-2=3</text>
+</svg>

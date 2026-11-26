@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360">
+  <defs>
+    <marker id="arrG" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#059669"/>
+    </marker>
+  </defs>
+  <rect width="640" height="360" rx="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <text x="320" y="28" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="15.5" font-weight="bold" fill="#065F46">モンシロチョウの育ち方</text>
+
+  <!-- Panel 1: Egg -->
+  <g transform="translate(24, 42)">
+    <rect width="276" height="134" rx="10" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.5"/>
+    <circle cx="22" cy="22" r="13" fill="#FEF9C3" stroke="#CA8A04" stroke-width="2"/>
+    <text x="22" y="27" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#854D0E">1</text>
+    <!-- Cabbage leaf underside -->
+    <path d="M44,44 Q142,30 246,46 Q210,74 140,72 Q72,72 44,44 Z" fill="#BBF7D0" stroke="#16A34A" stroke-width="1.6"/>
+    <!-- Upright yellow ribbed egg -->
+    <ellipse cx="144" cy="86" rx="11" ry="22" fill="#FEF08A" stroke="#CA8A04" stroke-width="1.8"/>
+    <path d="M138,68 Q138,86 138,104 M144,64 L144,108 M150,68 Q150,86 150,104" stroke="#D97706" stroke-width="1" opacity="0.8"/>
+    <path d="M134,78 L154,78 M133,86 L155,86 M134,94 L154,94" stroke="#D97706" stroke-width="0.9" opacity="0.6"/>
+    <text x="174" y="92" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" fill="#64748B">（大きくした図）</text>
+    <text x="138" y="124" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#334155">①をうみつける（②色）</text>
+  </g>
+
+  <!-- Arrow 1 -> 2 -->
+  <line x1="305" y1="108" x2="334" y2="108" stroke="#059669" stroke-width="2.4" marker-end="url(#arrG)"/>
+
+  <!-- Panel 2: Larva (Caterpillar) -->
+  <g transform="translate(340, 42)">
+    <rect width="276" height="134" rx="10" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.5"/>
+    <circle cx="22" cy="22" r="13" fill="#DCFCE7" stroke="#16A34A" stroke-width="2"/>
+    <text x="22" y="27" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#166534">2</text>
+    <!-- Chewed cabbage leaf -->
+    <path d="M46,96 Q110,48 232,58 Q214,96 150,106 Q92,110 46,96 Z" fill="#86EFAC" stroke="#15803D" stroke-width="1.6"/>
+    <!-- Bite marks -->
+    <circle cx="192" cy="60" r="8" fill="#FFFFFF"/>
+    <circle cx="174" cy="56" r="6" fill="#FFFFFF"/>
+    <!-- Green segmented caterpillar -->
+    <g transform="translate(82, 46)">
+      <path d="M10,36 C28,12 72,8 104,16 C110,18 112,26 106,30 C76,26 42,32 20,46 C12,50 4,44 10,36 Z" fill="#22C55E" stroke="#14532D" stroke-width="1.8"/>
+      <!-- Segments -->
+      <path d="M26,28 L30,40 M42,20 L46,34 M58,15 L60,30 M74,14 L76,28 M90,15 L90,28" stroke="#14532D" stroke-width="1.2"/>
+      <!-- Yellow dorsal stripe -->
+      <path d="M18,34 Q62,14 102,20" fill="none" stroke="#FDE047" stroke-width="2" opacity="0.8"/>
+      <!-- Tiny head & eye -->
+      <circle cx="105" cy="22" r="2" fill="#0F172A"/>
+    </g>
+    <text x="138" y="124" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#334155">③になる（④色・⑤を食べる）</text>
+  </g>
+
+  <!-- Connector 2 -> 3 -->
+  <path d="M478,180 L478,194 L162,194 L162,206" fill="none" stroke="#059669" stroke-width="2.4" marker-end="url(#arrG)"/>
+
+  <!-- Panel 3: Chrysalis (さなぎ) -->
+  <g transform="translate(24, 212)">
+    <rect width="276" height="134" rx="10" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.5"/>
+    <circle cx="22" cy="22" r="13" fill="#FEF3C7" stroke="#D97706" stroke-width="2"/>
+    <text x="22" y="27" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#92400E">3</text>
+    <!-- Twig / wall support -->
+    <line x1="178" y1="18" x2="128" y2="108" stroke="#A16207" stroke-width="6" stroke-linecap="round"/>
+    <!-- Silk girdle thread -->
+    <path d="M126,56 L158,52" stroke="#94A3B8" stroke-width="1.5" stroke-dasharray="3,2"/>
+    <!-- Chrysalis body -->
+    <path d="M144,26 L156,42 L152,66 L132,98 L122,94 L126,58 L134,36 Z" fill="#BEF264" stroke="#4D7C0F" stroke-width="1.8" stroke-linejoin="round"/>
+    <path d="M132,52 L152,56 M128,68 L146,72 M125,80 L139,84" stroke="#4D7C0F" stroke-width="1.2"/>
+    <text x="138" y="124" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#334155">⑥になる（何も⑦）</text>
+  </g>
+
+  <!-- Arrow 3 -> 4 -->
+  <line x1="305" y1="278" x2="334" y2="278" stroke="#059669" stroke-width="2.4" marker-end="url(#arrG)"/>
+
+  <!-- Panel 4: Adult Butterfly -->
+  <g transform="translate(340, 212)">
+    <rect width="276" height="134" rx="10" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.5"/>
+    <circle cx="22" cy="22" r="13" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+    <text x="22" y="27" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#1D4ED8">4</text>
+    <!-- Cabbage white butterfly (side-angled) -->
+    <g transform="translate(88, 16)">
+      <!-- Back wing -->
+      <path d="M52,56 C58,14 114,4 118,34 C120,56 84,68 52,56 Z" fill="#F8FAFC" stroke="#475569" stroke-width="1.6"/>
+      <path d="M98,10 Q116,14 117,28 Q106,24 98,10 Z" fill="#334155"/>
+      <!-- Front wing -->
+      <path d="M48,58 C66,18 128,22 126,56 C124,80 78,86 48,58 Z" fill="#FFFFFF" stroke="#334155" stroke-width="1.8"/>
+      <circle cx="92" cy="52" r="5" fill="#1E293B"/>
+      <circle cx="84" cy="68" r="4.5" fill="#1E293B"/>
+      <!-- Wing veins -->
+      <path d="M56,56 L112,42 M56,58 L116,58 M58,62 L104,74" stroke="#CBD5E1" stroke-width="1.1"/>
+      <!-- Body -->
+      <ellipse cx="44" cy="66" rx="18" ry="5.5" fill="#475569" transform="rotate(-12 44 66)"/>
+      <circle cx="26" cy="64" r="5.5" fill="#334155"/>
+      <!-- Antennae -->
+      <path d="M24,60 Q14,44 6,40 M26,59 Q20,40 16,32" fill="none" stroke="#334155" stroke-width="1.5"/>
+      <circle cx="6" cy="40" r="2" fill="#334155"/>
+      <circle cx="16" cy="32" r="2" fill="#334155"/>
+      <!-- Legs -->
+      <path d="M36,70 L30,86 M44,70 L42,88 M52,69 L56,86" stroke="#334155" stroke-width="1.5"/>
+    </g>
+    <text x="138" y="124" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#334155">⑧をもった⑨が出てくる</text>
+  </g>
+</svg>

@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 326" width="560" height="326" role="img" aria-label="きかいAに整数を入れたときの図">
+  <title>きかいAに整数を入れたときの図</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 14px; font-weight: 700; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="560" height="326" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="280" y="26" text-anchor="middle" class="title">きかい A に整数を入れると…</text>
+  <text x="44" y="61" text-anchor="middle" font-size="15" font-weight="700">0</text>
+  <line x1="62" y1="56" x2="88" y2="56" stroke="#1E293B" stroke-width="1.8"/>
+  <polygon points="92,56 84,51.5 84,60.5" fill="#1E293B"/>
+  <rect x="96" y="50" width="12" height="12" fill="#E2E8F0" stroke="#1E293B" stroke-width="1.4"/>
+  <rect x="108" y="42" width="60" height="28" rx="4" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.8"/>
+  <text x="138" y="61" text-anchor="middle" font-size="15" font-weight="700" fill="#1E40AF">A</text>
+  <rect x="168" y="50" width="12" height="12" fill="#E2E8F0" stroke="#1E293B" stroke-width="1.4"/>
+  <line x1="184" y1="56" x2="210" y2="56" stroke="#1E293B" stroke-width="1.8"/>
+  <polygon points="214,56 206,51.5 206,60.5" fill="#1E293B"/>
+  <text x="234" y="61" text-anchor="middle" font-size="15" font-weight="700">0</text>
+  <text x="44" y="96" text-anchor="middle" font-size="15" font-weight="700">1</text>
+  <line x1="62" y1="91" x2="88" y2="91" stroke="#1E293B" stroke-width="1.8"/>
+  <polygon points="92,91 84,86.5 84,95.5" fill="#1E293B"/>
+  <rect x="96" y="85" width="12" height="12" fill="#E2E8F0" stroke="#1E293B" stroke-width="1.4"/>
+  <rect x="108" y="77" width="60" height="28" rx="4" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.8"/>
+  <text x="138" y="96" text-anchor="middle" font-size="15" font-weight="700" fill="#1E40AF">A</text>
+  <rect x="168" y="85" width="12" height="12" fill="#E2E8F0" stroke="#1E293B" stroke-width="1.4"/>
+  <line x1="184" y1="91" x2="210" y2="91" stroke="#1E293B" stroke-width="1.8"/>
+  <polygon points="214,91 206,86.5 206,95.5" fill="#1E293B"/>
+  <text x="234" y="96" text-anchor="middle" font-size="15" font-weight="700">1</text>
+  <text x="44" y="131" text-anchor="middle" font-size="15" font-weight="700">2</text>
+  <line x1="62" y1="126" x2="88" y2="126" stroke="#1E293B" stroke-width="1.8"/>
+  <polygon points="92,126 84,121.5 84,130.5" fill="#1E293B"/>
+  <rect x="96" y="120" width="12" height="12" fill="#E2E8F0" stroke="#1E293B" stroke-width="1.4"/>
+  <rect x="108" y="112" width="60" height="28" rx="4" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.8"/>
+  <text x="138" y="131" text-anchor="middle" font-size="15" font-weight="700" fill="#1E40AF">A</text>
+  <rect x="168" y="120" width="12" height="12" fill="#E2E8F0" stroke="#1E293B" stroke-width="1.4"/>
+  <line x1="184" y1="126" x2="210" y2="126" stroke="#1E293B" stroke-width="1.8"/>
+  <polygon points="214,126 206,121.5 206,130.5" fill="#1E293B"/>
+  <text x="234" y="131" text-anchor="middle" font-size="15" font-weight="700">2</text>
+  <text x="44" y="166" text-anchor="middle" font-size="15" font-weight="700">3</text>
+  <line x1="62" y1="161" x2="88" y2="161" stroke="#1E293B" stroke-width="1.8"/>
+  <polygon points="92,161 84,156.5 84,165.5" fill="#1E293B"/>
+  <rect x="96" y="155" width="12" height="12" fill="#E2E8F0" stroke="#1E293B" stroke-width="1.4"/>
+  <rect x="108" y="147" width="60" height="28" rx="4" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.8"/>
+  <text x="138" y="166" text-anchor="middle" font-size="15" font-weight="700" fill="#1E40AF">A</text>
+  <rect x="168" y="155" width="12" height="12" fill="#E2E8F0" stroke="#1E293B" stroke-width="1.4"/>
+  <line x1="184" y1="161" x2="210" y2="161" stroke="#1E293B" stroke-width="1.8"/>
+  <polygon points="214,161 206,156.5 206,165.5" fill="#1E293B"/>
+  <text x="234" y="166" text-anchor="middle" font-size="15" font-weight="700">3</text>
+  <text x="44" y="201" text-anchor="middle" font-size="15" font-weight="700">4</text>
+  <line x1="62" y1="196" x2="88" y2="196" stroke="#1E293B" stroke-width="1.8"/>
+  <polygon points="92,196 84,191.5 84,200.5" fill="#1E293B"/>
+  <rect x="96" y="190" width="12" height="12" fill="#E2E8F0" stroke="#1E293B" stroke-width="1.4"/>
+  <rect x="108" y="182" width="60" height="28" rx="4" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.8"/>
+  <text x="138" y="201" text-anchor="middle" font-size="15" font-weight="700" fill="#1E40AF">A</text>
+  <rect x="168" y="190" width="12" height="12" fill="#E2E8F0" stroke="#1E293B" stroke-width="1.4"/>
+  <line x1="184" y1="196" x2="210" y2="196" stroke="#1E293B" stroke-width="1.8"/>
+  <polygon points="214,196 206,191.5 206,200.5" fill="#1E293B"/>
+  <text x="234" y="201" text-anchor="middle" font-size="15" font-weight="700">0</text>
+  <text x="44" y="236" text-anchor="middle" font-size="15" font-weight="700">5</text>
+  <line x1="62" y1="231" x2="88" y2="231" stroke="#1E293B" stroke-width="1.8"/>
+  <polygon points="92,231 84,226.5 84,235.5" fill="#1E293B"/>
+  <rect x="96" y="225" width="12" height="12" fill="#E2E8F0" stroke="#1E293B" stroke-width="1.4"/>
+  <rect x="108" y="217" width="60" height="28" rx="4" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.8"/>
+  <text x="138" y="236" text-anchor="middle" font-size="15" font-weight="700" fill="#1E40AF">A</text>
+  <rect x="168" y="225" width="12" height="12" fill="#E2E8F0" stroke="#1E293B" stroke-width="1.4"/>
+  <line x1="184" y1="231" x2="210" y2="231" stroke="#1E293B" stroke-width="1.8"/>
+  <polygon points="214,231 206,226.5 206,235.5" fill="#1E293B"/>
+  <text x="234" y="236" text-anchor="middle" font-size="15" font-weight="700">1</text>
+  <text x="44" y="271" text-anchor="middle" font-size="15" font-weight="700">6</text>
+  <line x1="62" y1="266" x2="88" y2="266" stroke="#1E293B" stroke-width="1.8"/>
+  <polygon points="92,266 84,261.5 84,270.5" fill="#1E293B"/>
+  <rect x="96" y="260" width="12" height="12" fill="#E2E8F0" stroke="#1E293B" stroke-width="1.4"/>
+  <rect x="108" y="252" width="60" height="28" rx="4" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.8"/>
+  <text x="138" y="271" text-anchor="middle" font-size="15" font-weight="700" fill="#1E40AF">A</text>
+  <rect x="168" y="260" width="12" height="12" fill="#E2E8F0" stroke="#1E293B" stroke-width="1.4"/>
+  <line x1="184" y1="266" x2="210" y2="266" stroke="#1E293B" stroke-width="1.8"/>
+  <polygon points="214,266 206,261.5 206,270.5" fill="#1E293B"/>
+  <text x="234" y="271" text-anchor="middle" font-size="15" font-weight="700">2</text>
+  <text x="44" y="306" text-anchor="middle" font-size="15" font-weight="700">7</text>
+  <line x1="62" y1="301" x2="88" y2="301" stroke="#1E293B" stroke-width="1.8"/>
+  <polygon points="92,301 84,296.5 84,305.5" fill="#1E293B"/>
+  <rect x="96" y="295" width="12" height="12" fill="#E2E8F0" stroke="#1E293B" stroke-width="1.4"/>
+  <rect x="108" y="287" width="60" height="28" rx="4" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.8"/>
+  <text x="138" y="306" text-anchor="middle" font-size="15" font-weight="700" fill="#1E40AF">A</text>
+  <rect x="168" y="295" width="12" height="12" fill="#E2E8F0" stroke="#1E293B" stroke-width="1.4"/>
+  <line x1="184" y1="301" x2="210" y2="301" stroke="#1E293B" stroke-width="1.8"/>
+  <polygon points="214,301 206,296.5 206,305.5" fill="#1E293B"/>
+  <text x="234" y="306" text-anchor="middle" font-size="15" font-weight="700">3</text>
+  <line x1="274" y1="44" x2="274" y2="310" stroke="#CBD5E1" stroke-width="1.4" stroke-dasharray="4,4"/>
+  <rect x="294" y="64" width="246" height="148" rx="10" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.5"/>
+  <text x="417" y="88" text-anchor="middle" font-size="13.5" font-weight="700" fill="#DC2626">問題（あ・い を考えよう）</text>
+  <text x="322" y="131" text-anchor="middle" font-size="15" font-weight="700">37</text>
+  <line x1="340" y1="126" x2="366" y2="126" stroke="#1E293B" stroke-width="1.8"/>
+  <polygon points="370,126 362,121.5 362,130.5" fill="#1E293B"/>
+  <rect x="374" y="120" width="12" height="12" fill="#E2E8F0" stroke="#1E293B" stroke-width="1.4"/>
+  <rect x="386" y="112" width="60" height="28" rx="4" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.8"/>
+  <text x="416" y="131" text-anchor="middle" font-size="15" font-weight="700" fill="#1E40AF">A</text>
+  <rect x="446" y="120" width="12" height="12" fill="#E2E8F0" stroke="#1E293B" stroke-width="1.4"/>
+  <line x1="462" y1="126" x2="488" y2="126" stroke="#1E293B" stroke-width="1.8"/>
+  <polygon points="492,126 484,121.5 484,130.5" fill="#1E293B"/>
+  <circle cx="512" cy="126" r="13" fill="#FEF2F2" stroke="#DC2626" stroke-width="1.8"/>
+  <text x="512" y="131" text-anchor="middle" font-size="14" font-weight="700" fill="#DC2626">あ</text>
+  <circle cx="322" cy="178" r="13" fill="#FEF2F2" stroke="#DC2626" stroke-width="1.8"/>
+  <text x="322" y="183" text-anchor="middle" font-size="14" font-weight="700" fill="#DC2626">い</text>
+  <line x1="340" y1="178" x2="366" y2="178" stroke="#1E293B" stroke-width="1.8"/>
+  <polygon points="370,178 362,173.5 362,182.5" fill="#1E293B"/>
+  <rect x="374" y="172" width="12" height="12" fill="#E2E8F0" stroke="#1E293B" stroke-width="1.4"/>
+  <rect x="386" y="164" width="60" height="28" rx="4" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.8"/>
+  <text x="416" y="183" text-anchor="middle" font-size="15" font-weight="700" fill="#1E40AF">A</text>
+  <rect x="446" y="172" width="12" height="12" fill="#E2E8F0" stroke="#1E293B" stroke-width="1.4"/>
+  <line x1="462" y1="178" x2="488" y2="178" stroke="#1E293B" stroke-width="1.8"/>
+  <polygon points="492,178 484,173.5 484,182.5" fill="#1E293B"/>
+  <text x="512" y="183" text-anchor="middle" font-size="15" font-weight="700">3</text>
+</svg>

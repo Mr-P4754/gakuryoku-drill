@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 380" width="520" height="380" role="img" aria-label="スーパーマーケットでいろいろなおかしをはかり売りしている様子">
+  <style>
+    text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans CJK JP', sans-serif; }
+  </style>
+  <rect width="520" height="380" fill="#FFFFFF"/>
+  <rect x="14" y="14" width="492" height="352" rx="12" fill="#FFFBEB" stroke="#1E293B" stroke-width="2"/>
+
+  <!-- Store header strip -->
+  <rect x="34" y="24" width="452" height="28" rx="6" fill="#F59E0B"/>
+  <text x="260" y="43" text-anchor="middle" font-size="14.5" font-weight="700" fill="#FFFFFF">おかしのはかり売りコーナー</text>
+
+  <!-- 4 Clear Candy Dispenser Jars -->
+  <g stroke="#334155" stroke-width="1.8">
+    <rect x="52" y="60" width="90" height="148" rx="10" fill="#FFFFFF" fill-opacity="0.9"/>
+    <rect x="156" y="60" width="90" height="148" rx="10" fill="#FFFFFF" fill-opacity="0.9"/>
+    <rect x="260" y="60" width="90" height="148" rx="10" fill="#FFFFFF" fill-opacity="0.9"/>
+    <rect x="364" y="60" width="90" height="148" rx="10" fill="#FFFFFF" fill-opacity="0.9"/>
+  </g>
+  <!-- Candies inside jars -->
+  <circle cx="70" cy="72" r="8" fill="#EF4444" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="88" cy="72" r="8" fill="#F97316" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="106" cy="72" r="8" fill="#FACC15" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="124" cy="72" r="8" fill="#EF4444" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="74" cy="89" r="8" fill="#F97316" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="92" cy="89" r="8" fill="#FACC15" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="110" cy="89" r="8" fill="#EF4444" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="128" cy="89" r="8" fill="#F97316" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="70" cy="106" r="8" fill="#FACC15" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="88" cy="106" r="8" fill="#EF4444" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="106" cy="106" r="8" fill="#F97316" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="124" cy="106" r="8" fill="#FACC15" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="74" cy="123" r="8" fill="#EF4444" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="92" cy="123" r="8" fill="#F97316" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="110" cy="123" r="8" fill="#FACC15" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="128" cy="123" r="8" fill="#EF4444" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="70" cy="140" r="8" fill="#F97316" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="88" cy="140" r="8" fill="#FACC15" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="106" cy="140" r="8" fill="#EF4444" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="124" cy="140" r="8" fill="#F97316" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="74" cy="157" r="8" fill="#FACC15" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="92" cy="157" r="8" fill="#EF4444" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="110" cy="157" r="8" fill="#F97316" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="128" cy="157" r="8" fill="#FACC15" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="174" cy="72" r="8" fill="#92400E" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="192" cy="72" r="8" fill="#B45309" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="210" cy="72" r="8" fill="#D97706" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="228" cy="72" r="8" fill="#92400E" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="178" cy="89" r="8" fill="#B45309" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="196" cy="89" r="8" fill="#D97706" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="214" cy="89" r="8" fill="#92400E" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="232" cy="89" r="8" fill="#B45309" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="174" cy="106" r="8" fill="#D97706" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="192" cy="106" r="8" fill="#92400E" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="210" cy="106" r="8" fill="#B45309" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="228" cy="106" r="8" fill="#D97706" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="178" cy="123" r="8" fill="#92400E" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="196" cy="123" r="8" fill="#B45309" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="214" cy="123" r="8" fill="#D97706" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="232" cy="123" r="8" fill="#92400E" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="174" cy="140" r="8" fill="#B45309" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="192" cy="140" r="8" fill="#D97706" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="210" cy="140" r="8" fill="#92400E" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="228" cy="140" r="8" fill="#B45309" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="178" cy="157" r="8" fill="#D97706" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="196" cy="157" r="8" fill="#92400E" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="214" cy="157" r="8" fill="#B45309" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="232" cy="157" r="8" fill="#D97706" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="278" cy="72" r="8" fill="#22C55E" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="296" cy="72" r="8" fill="#3B82F6" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="314" cy="72" r="8" fill="#EC4899" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="332" cy="72" r="8" fill="#22C55E" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="282" cy="89" r="8" fill="#3B82F6" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="300" cy="89" r="8" fill="#EC4899" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="318" cy="89" r="8" fill="#22C55E" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="336" cy="89" r="8" fill="#3B82F6" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="278" cy="106" r="8" fill="#EC4899" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="296" cy="106" r="8" fill="#22C55E" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="314" cy="106" r="8" fill="#3B82F6" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="332" cy="106" r="8" fill="#EC4899" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="282" cy="123" r="8" fill="#22C55E" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="300" cy="123" r="8" fill="#3B82F6" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="318" cy="123" r="8" fill="#EC4899" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="336" cy="123" r="8" fill="#22C55E" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="278" cy="140" r="8" fill="#3B82F6" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="296" cy="140" r="8" fill="#EC4899" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="314" cy="140" r="8" fill="#22C55E" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="332" cy="140" r="8" fill="#3B82F6" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="282" cy="157" r="8" fill="#EC4899" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="300" cy="157" r="8" fill="#22C55E" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="318" cy="157" r="8" fill="#3B82F6" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="336" cy="157" r="8" fill="#EC4899" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="382" cy="72" r="8" fill="#F59E0B" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="400" cy="72" r="8" fill="#FDE047" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="418" cy="72" r="8" fill="#FB923C" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="436" cy="72" r="8" fill="#F59E0B" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="386" cy="89" r="8" fill="#FDE047" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="404" cy="89" r="8" fill="#FB923C" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="422" cy="89" r="8" fill="#F59E0B" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="440" cy="89" r="8" fill="#FDE047" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="382" cy="106" r="8" fill="#FB923C" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="400" cy="106" r="8" fill="#F59E0B" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="418" cy="106" r="8" fill="#FDE047" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="436" cy="106" r="8" fill="#FB923C" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="386" cy="123" r="8" fill="#F59E0B" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="404" cy="123" r="8" fill="#FDE047" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="422" cy="123" r="8" fill="#FB923C" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="440" cy="123" r="8" fill="#F59E0B" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="382" cy="140" r="8" fill="#FDE047" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="400" cy="140" r="8" fill="#FB923C" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="418" cy="140" r="8" fill="#F59E0B" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="436" cy="140" r="8" fill="#FDE047" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="386" cy="157" r="8" fill="#FB923C" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="404" cy="157" r="8" fill="#F59E0B" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="422" cy="157" r="8" fill="#FDE047" stroke="#1E293B" stroke-width="0.9"/>
+  <circle cx="440" cy="157" r="8" fill="#FB923C" stroke="#1E293B" stroke-width="0.9"/>
+  <!-- Dispenser lids & bottom chutes/knobs -->
+  <g fill="#475569" stroke="#1E293B" stroke-width="1.5">
+    <rect x="48" y="54" width="98" height="12" rx="4"/>
+    <rect x="152" y="54" width="98" height="12" rx="4"/>
+    <rect x="256" y="54" width="98" height="12" rx="4"/>
+    <rect x="360" y="54" width="98" height="12" rx="4"/>
+    <rect x="78" y="182" width="38" height="24" rx="3" fill="#CBD5E1"/>
+    <rect x="182" y="182" width="38" height="24" rx="3" fill="#CBD5E1"/>
+    <rect x="286" y="182" width="38" height="24" rx="3" fill="#CBD5E1"/>
+    <rect x="390" y="182" width="38" height="24" rx="3" fill="#CBD5E1"/>
+  </g>
+  <!-- Dispenser knobs -->
+  <circle cx="97" cy="194" r="6" fill="#EF4444"/><circle cx="201" cy="194" r="6" fill="#F59E0B"/>
+  <circle cx="305" cy="194" r="6" fill="#22C55E"/><circle cx="409" cy="194" r="6" fill="#3B82F6"/>
+
+  <!-- Counter shelf -->
+  <rect x="16" y="294" width="488" height="70" fill="#E2E8F0"/>
+  <line x1="16" y1="294" x2="504" y2="294" stroke="#475569" stroke-width="2"/>
+
+  <!-- Weighing Scale (はかり) centered on counter -->
+  <g transform="translate(184, 212)">
+    <!-- Top weighing pan -->
+    <polygon points="8,14 144,14 128,32 24,32" fill="#CBD5E1" stroke="#334155" stroke-width="2"/>
+    <rect x="64" y="32" width="24" height="16" fill="#64748B"/>
+    <!-- Paper bag with chosen snacks on scale pan -->
+    <polygon points="48,-22 104,-22 110,14 42,14" fill="#FDE68A" stroke="#92400E" stroke-width="1.8"/>
+    <circle cx="64" cy="-16" r="7" fill="#EF4444"/><circle cx="78" cy="-18" r="7" fill="#22C55E"/><circle cx="90" cy="-15" r="7" fill="#F59E0B"/>
+    <!-- Scale body -->
+    <polygon points="32,48 120,48 136,128 16,128" fill="#38BDF8" stroke="#0369A1" stroke-width="2.2"/>
+    <!-- Dial face -->
+    <circle cx="76" cy="88" r="30" fill="#FFFFFF" stroke="#1E293B" stroke-width="2"/>
+    <!-- Dial tick marks & needle -->
+    <line x1="76" y1="62" x2="76" y2="68" stroke="#1E293B" stroke-width="1.8"/>
+    <line x1="102" y1="88" x2="96" y2="88" stroke="#1E293B" stroke-width="1.8"/>
+    <line x1="50" y1="88" x2="56" y2="88" stroke="#1E293B" stroke-width="1.8"/>
+    <line x1="76" y1="88" x2="92" y2="74" stroke="#DC2626" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="76" cy="88" r="4" fill="#1E293B"/>
+    <text x="76" y="108" text-anchor="middle" font-size="10.5" font-weight="700" fill="#334155">g</text>
+  </g>
+
+  <!-- Price tag beside scale -->
+  <rect x="358" y="246" width="118" height="44" rx="6" fill="#FFFFFF" stroke="#D97706" stroke-width="1.6"/>
+  <text x="417" y="265" text-anchor="middle" font-size="12" font-weight="700" fill="#92400E">100g あたり</text>
+  <text x="417" y="282" text-anchor="middle" font-size="13" font-weight="700" fill="#DC2626">はかり売り</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 256" width="360" height="256" role="img" aria-label="辺アイと辺イウの長さが等しい三角形アイウ">
+  <title>辺アイと辺イウの長さが等しい三角形アイウ</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 14px; font-weight: 700; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="360" height="256" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <polygon points="74.2,65.1 136.0,204.0 288.0,204.0" fill="#EFF6FF" stroke="#1E293B" stroke-width="2.4" stroke-linejoin="round"/>
+  <text x="58.2" y="57.1" text-anchor="middle" font-size="17" font-weight="700">ア</text>
+  <text x="120.0" y="224.0" text-anchor="middle" font-size="17" font-weight="700">イ</text>
+  <text x="306.0" y="210.0" text-anchor="middle" font-size="17" font-weight="700">ウ</text>
+  <circle cx="103.2" cy="101.1" r="11.5" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.6"/>
+  <text x="103.2" y="106.1" text-anchor="middle" font-size="13" font-weight="700" fill="#2563EB">あ</text>
+  <circle cx="152.0" cy="186.0" r="11.5" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.6"/>
+  <text x="152.0" y="191.0" text-anchor="middle" font-size="13" font-weight="700" fill="#2563EB">い</text>
+  <circle cx="246.0" cy="188.0" r="11.5" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.6"/>
+  <text x="246.0" y="193.0" text-anchor="middle" font-size="13" font-weight="700" fill="#2563EB">う</text>
+</svg>

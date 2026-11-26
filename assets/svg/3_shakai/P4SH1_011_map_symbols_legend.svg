@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 420" width="770" height="420" role="img" aria-label="小学校で覚える主な地図記号一覧">
+  <style>
+    text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans CJK JP', sans-serif; }
+  </style>
+  <rect width="770" height="420" fill="#FFFFFF"/>
+  <text x="385" y="36" text-anchor="middle" font-size="19" font-weight="700" fill="#0F172A">おぼえておきたい地図記号まとめ</text>
+  
+  <rect x="24" y="58" width="170" height="102" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.6"/>
+  <circle cx="60" cy="102" r="24" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.4"/>
+  <text x="60" y="111.4" text-anchor="middle" font-size="26.2" font-weight="700" fill="#0F172A">文</text>
+  <text x="94" y="98" font-size="15" font-weight="700" fill="#0F172A">小・中学校</text>
+  <text x="94" y="120" font-size="11.5" font-weight="600" fill="#475569">文の形</text>
+  <rect x="208" y="58" width="170" height="102" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.6"/>
+  <circle cx="244" cy="102" r="24" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.4"/>
+  <g transform="translate(244,102) scale(1.25)" fill="#FFFFFF" stroke="#0F172A" stroke-width="1.8" stroke-linejoin="round">
+      <path d="M 0,-7 L -11,-9 L -11,8 L 0,10 Z"/>
+      <path d="M 0,-7 L 11,-9 L 11,8 L 0,10 Z"/>
+      <line x1="0" y1="-7" x2="0" y2="10"/>
+    </g>
+  <text x="278" y="98" font-size="15" font-weight="700" fill="#0F172A">図書館</text>
+  <text x="278" y="120" font-size="11.5" font-weight="600" fill="#475569">開いた本の形</text>
+  <rect x="392" y="58" width="170" height="102" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.6"/>
+  <circle cx="428" cy="102" r="24" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.4"/>
+  <g transform="translate(428,102) scale(1.25)">
+      <polygon points="-9,-9 9,-9 9,1 0,10 -9,1" fill="#FFFFFF" stroke="#0F172A" stroke-width="1.8" stroke-linejoin="round"/>
+      <line x1="0" y1="-5" x2="0" y2="4" stroke="#0F172A" stroke-width="2.0"/>
+      <line x1="-4.5" y1="-0.5" x2="4.5" y2="-0.5" stroke="#0F172A" stroke-width="2.0"/>
+    </g>
+  <text x="462" y="98" font-size="15" font-weight="700" fill="#0F172A">病院</text>
+  <text x="462" y="120" font-size="11.5" font-weight="600" fill="#475569">たてに十字</text>
+  <rect x="576" y="58" width="170" height="102" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.6"/>
+  <circle cx="612" cy="102" r="24" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.4"/>
+  <g transform="translate(612,102) scale(1.25)" stroke="#0F172A" stroke-width="2.2" stroke-linecap="round">
+      <line x1="-8" y1="-8" x2="8" y2="8"/>
+      <line x1="8" y1="-8" x2="-8" y2="8"/>
+    </g>
+  <text x="646" y="98" font-size="15" font-weight="700" fill="#0F172A">交番</text>
+  <text x="646" y="120" font-size="11.5" font-weight="600" fill="#475569">けいぼうを交差</text>
+  <rect x="24" y="174" width="170" height="102" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.6"/>
+  <circle cx="60" cy="218" r="24" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.4"/>
+  <g transform="translate(60,218) scale(1.25)" fill="none" stroke="#0F172A" stroke-width="2.0" stroke-linecap="round">
+      <path d="M -9,-8 C -9,2 9,2 9,-8"/>
+      <line x1="0" y1="-0.5" x2="0" y2="11"/>
+    </g>
+  <text x="94" y="214" font-size="15" font-weight="700" fill="#0F172A">消防しょ</text>
+  <text x="94" y="236" font-size="11.5" font-weight="600" fill="#475569">さすまたの形</text>
+  <rect x="208" y="174" width="170" height="102" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.6"/>
+  <circle cx="244" cy="218" r="24" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.4"/>
+  <g transform="translate(244,218) scale(1.25)" fill="none" stroke="#0F172A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="-11,-1 0,-10 11,-1"/>
+      <line x1="-8" y1="0" x2="-8" y2="9"/>
+      <line x1="8" y1="0" x2="8" y2="9"/>
+      <line x1="-8" y1="9" x2="8" y2="9"/>
+      <!-- Cane (つえ) inside -->
+      <path d="M -2,-1 C -2,-5 3,-5 3,-1 L 3,7"/>
+    </g>
+  <text x="278" y="214" font-size="15" font-weight="700" fill="#0F172A">老人ホーム</text>
+  <text x="278" y="236" font-size="11.5" font-weight="600" fill="#475569">家の中につえ</text>
+  <rect x="392" y="174" width="170" height="102" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.6"/>
+  <circle cx="428" cy="218" r="24" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.4"/>
+  <g transform="translate(428,218) scale(1.25)">
+      <circle cx="0" cy="0" r="9.5" fill="#FFFFFF" stroke="#0F172A" stroke-width="1.8"/>
+      <circle cx="0" cy="0" r="4.5" fill="none" stroke="#0F172A" stroke-width="1.8"/>
+    </g>
+  <text x="462" y="214" font-size="15" font-weight="700" fill="#0F172A">市役所</text>
+  <text x="462" y="236" font-size="11.5" font-weight="600" fill="#475569">二重の丸</text>
+  <rect x="576" y="174" width="170" height="102" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.6"/>
+  <circle cx="612" cy="218" r="24" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.4"/>
+  <g transform="translate(612,218) scale(1.25)">
+      <circle cx="0" cy="0" r="9.5" fill="#FFFFFF" stroke="#0F172A" stroke-width="1.8"/>
+      <line x1="-5.5" y1="-3.8" x2="5.5" y2="-3.8" stroke="#0F172A" stroke-width="1.8"/>
+      <line x1="-5.5" y1="0" x2="5.5" y2="0" stroke="#0F172A" stroke-width="1.8"/>
+      <line x1="0" y1="0" x2="0" y2="6.2" stroke="#0F172A" stroke-width="1.8"/>
+    </g>
+  <text x="646" y="214" font-size="15" font-weight="700" fill="#0F172A">ゆうびん局</text>
+  <text x="646" y="236" font-size="11.5" font-weight="600" fill="#475569">丸の中に〒</text>
+  <rect x="24" y="290" width="170" height="102" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.6"/>
+  <circle cx="60" cy="334" r="24" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.4"/>
+  <g transform="translate(60,334) scale(1.25)" fill="none" stroke="#0F172A" stroke-width="1.9" stroke-linecap="round">
+      <line x1="-9.5" y1="-6.5" x2="9.5" y2="-6.5"/>
+      <line x1="-7.5" y1="-2.2" x2="7.5" y2="-2.2"/>
+      <line x1="-5.2" y1="-6.5" x2="-5.2" y2="8.5"/>
+      <line x1="5.2" y1="-6.5" x2="5.2" y2="8.5"/>
+    </g>
+  <text x="94" y="330" font-size="15" font-weight="700" fill="#0F172A">神社</text>
+  <text x="94" y="352" font-size="11.5" font-weight="600" fill="#475569">とりいの形</text>
+  <rect x="208" y="290" width="170" height="102" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.6"/>
+  <circle cx="244" cy="334" r="24" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.4"/>
+  <g transform="translate(244,334) scale(1.25)" fill="none" stroke="#0F172A" stroke-width="2.0" stroke-linecap="square">
+      <line x1="0" y1="-8" x2="0" y2="8"/>
+      <line x1="-8" y1="0" x2="8" y2="0"/>
+      <line x1="0" y1="-8" x2="-7" y2="-8"/>
+      <line x1="0" y1="8" x2="7" y2="8"/>
+      <line x1="-8" y1="0" x2="-8" y2="7"/>
+      <line x1="8" y1="0" x2="8" y2="-7"/>
+    </g>
+  <text x="278" y="330" font-size="15" font-weight="700" fill="#0F172A">寺</text>
+  <text x="278" y="352" font-size="11.5" font-weight="600" fill="#475569">まんじ（卍）</text>
+  <rect x="392" y="290" width="170" height="102" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.6"/>
+  <circle cx="428" cy="334" r="24" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.4"/>
+  <g transform="translate(428,334) scale(1.25)">
+      <circle cx="0" cy="0" r="6" fill="#FFFFFF" stroke="#0F172A" stroke-width="1.8"/>
+      <g stroke="#0F172A" stroke-width="2.0">
+        <line x1="0" y1="-10" x2="0" y2="-6"/><line x1="0" y1="6" x2="0" y2="10"/>
+        <line x1="-10" y1="0" x2="-6" y2="0"/><line x1="6" y1="0" x2="10" y2="0"/>
+        <line x1="-7" y1="-7" x2="-4.2" y2="-4.2"/><line x1="4.2" y1="4.2" x2="7" y2="7"/>
+        <line x1="7" y1="-7" x2="4.2" y2="-4.2"/><line x1="-4.2" y1="4.2" x2="-7" y2="7"/>
+      </g>
+    </g>
+  <text x="462" y="330" font-size="15" font-weight="700" fill="#0F172A">工場</text>
+  <text x="462" y="352" font-size="11.5" font-weight="600" fill="#475569">歯車の形</text>
+  <rect x="576" y="290" width="170" height="102" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.6"/>
+  <circle cx="612" cy="334" r="24" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.4"/>
+  <polyline points="605.75,330.25 612,339.0 618.25,330.25" fill="none" stroke="#15803D" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="646" y="330" font-size="15" font-weight="700" fill="#0F172A">畑</text>
+  <text x="646" y="352" font-size="11.5" font-weight="600" fill="#475569">ふた葉の形</text>
+</svg>

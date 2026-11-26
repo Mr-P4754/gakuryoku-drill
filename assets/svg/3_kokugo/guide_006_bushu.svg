@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 456" width="760" height="456" role="img" aria-label="漢字の部首6種類と位置の色分けガイド">
+  <defs><style>.t { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans CJK JP', 'Noto Sans JP', sans-serif; }</style></defs>
+  <rect width="760" height="456" rx="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="380" y="34" text-anchor="middle" class="t" font-size="19" font-weight="700" fill="#0F172A">漢字の部首（色のついたところが部首の位置だよ）</text>
+  <rect x="20" y="52" width="228" height="160" rx="12" fill="#FEF2F2" stroke="#DC2626" stroke-width="2"/>
+  <rect x="20" y="52" width="228" height="32" rx="10" fill="#DC2626"/>
+  <text x="134.0" y="74" text-anchor="middle" class="t" font-size="14.5" font-weight="700" fill="#FFFFFF">へん（左側）</text>
+  <rect x="34" y="98" width="46" height="46" rx="4" fill="#FFFFFF" stroke="#64748B" stroke-width="1.6"/>
+  <rect x="34" y="98" width="23.0" height="46" rx="3" fill="#DC2626"/>
+  <text x="90" y="116" class="t" font-size="11.5" font-weight="700" fill="#991B1B">いとへん(糸)・きへん(木)</text>
+  <text x="90" y="136" class="t" font-size="11.5" font-weight="700" fill="#991B1B">さんずい(氵)・ごんべん(言)</text>
+  <rect x="30" y="160" width="208" height="38" rx="7" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="134.0" y="184" text-anchor="middle" class="t" font-size="12.5" font-weight="700" fill="#1E293B">例：細・紙・校・村・池・決</text>
+  <rect x="266" y="52" width="228" height="160" rx="12" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+  <rect x="266" y="52" width="228" height="32" rx="10" fill="#2563EB"/>
+  <text x="380.0" y="74" text-anchor="middle" class="t" font-size="14.5" font-weight="700" fill="#FFFFFF">つくり（右側）</text>
+  <rect x="280" y="98" width="46" height="46" rx="4" fill="#FFFFFF" stroke="#64748B" stroke-width="1.6"/>
+  <rect x="303.0" y="98" width="23.0" height="46" rx="3" fill="#2563EB"/>
+  <text x="336" y="116" class="t" font-size="11.5" font-weight="700" fill="#1E40AF">おおがい(頁)</text>
+  <text x="336" y="136" class="t" font-size="11.5" font-weight="700" fill="#1E40AF">のぶん(攵)</text>
+  <rect x="276" y="160" width="208" height="38" rx="7" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="380.0" y="184" text-anchor="middle" class="t" font-size="12.5" font-weight="700" fill="#1E293B">例：頭・顔・題・数</text>
+  <rect x="512" y="52" width="228" height="160" rx="12" fill="#ECFDF5" stroke="#059669" stroke-width="2"/>
+  <rect x="512" y="52" width="228" height="32" rx="10" fill="#059669"/>
+  <text x="626.0" y="74" text-anchor="middle" class="t" font-size="14.5" font-weight="700" fill="#FFFFFF">かんむり（上側）</text>
+  <rect x="526" y="98" width="46" height="46" rx="4" fill="#FFFFFF" stroke="#64748B" stroke-width="1.6"/>
+  <rect x="526" y="98" width="46" height="19.32" rx="3" fill="#059669"/>
+  <text x="582" y="108" class="t" font-size="11.5" font-weight="700" fill="#065F46">うかんむり(宀)</text>
+  <text x="582" y="126" class="t" font-size="11.5" font-weight="700" fill="#065F46">たけかんむり(⺮)</text>
+  <text x="582" y="144" class="t" font-size="11.5" font-weight="700" fill="#065F46">くさかんむり(艹)</text>
+  <rect x="522" y="160" width="208" height="38" rx="7" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="626.0" y="184" text-anchor="middle" class="t" font-size="12.5" font-weight="700" fill="#1E293B">例：家・客・筆・箱・花・草</text>
+  <rect x="20" y="226" width="228" height="160" rx="12" fill="#FFFBEB" stroke="#D97706" stroke-width="2"/>
+  <rect x="20" y="226" width="228" height="32" rx="10" fill="#D97706"/>
+  <text x="134.0" y="248" text-anchor="middle" class="t" font-size="14.5" font-weight="700" fill="#FFFFFF">あし（下側）</text>
+  <rect x="34" y="272" width="46" height="46" rx="4" fill="#FFFFFF" stroke="#64748B" stroke-width="1.6"/>
+  <rect x="34" y="298.68" width="46" height="19.32" rx="3" fill="#D97706"/>
+  <text x="90" y="290" class="t" font-size="11.5" font-weight="700" fill="#92400E">こころ(心)</text>
+  <text x="90" y="310" class="t" font-size="11.5" font-weight="700" fill="#92400E">れんが(灬)</text>
+  <rect x="30" y="334" width="208" height="38" rx="7" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="134.0" y="358" text-anchor="middle" class="t" font-size="12.5" font-weight="700" fill="#1E293B">例：思・感・点</text>
+  <rect x="266" y="226" width="228" height="160" rx="12" fill="#F5F3FF" stroke="#7C3AED" stroke-width="2"/>
+  <rect x="266" y="226" width="228" height="32" rx="10" fill="#7C3AED"/>
+  <text x="380.0" y="248" text-anchor="middle" class="t" font-size="14.5" font-weight="700" fill="#FFFFFF">にょう（左から下）</text>
+  <rect x="280" y="272" width="46" height="46" rx="4" fill="#FFFFFF" stroke="#64748B" stroke-width="1.6"/>
+  <path d="M280,272 h16 v30 h30 v16 h-46 z" fill="#7C3AED"/>
+  <text x="336" y="290" class="t" font-size="11.5" font-weight="700" fill="#5B21B6">しんにょう(⻌)</text>
+  <text x="336" y="310" class="t" font-size="11.5" font-weight="700" fill="#5B21B6">（行く・進むの意味）</text>
+  <rect x="276" y="334" width="208" height="38" rx="7" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="380.0" y="358" text-anchor="middle" class="t" font-size="12.5" font-weight="700" fill="#1E293B">例：道・通・近・週</text>
+  <rect x="512" y="226" width="228" height="160" rx="12" fill="#F0FDFA" stroke="#0D9488" stroke-width="2"/>
+  <rect x="512" y="226" width="228" height="32" rx="10" fill="#0D9488"/>
+  <text x="626.0" y="248" text-anchor="middle" class="t" font-size="14.5" font-weight="700" fill="#FFFFFF">かまえ（囲む形）</text>
+  <rect x="526" y="272" width="46" height="46" rx="4" fill="#FFFFFF" stroke="#64748B" stroke-width="1.6"/>
+  <rect x="526" y="272" width="46" height="46" rx="3" fill="#0D9488"/>
+  <rect x="536" y="282" width="26" height="26" rx="2" fill="#FFFFFF"/>
+  <text x="582" y="290" class="t" font-size="11.5" font-weight="700" fill="#115E59">もんがまえ(門)</text>
+  <text x="582" y="310" class="t" font-size="11.5" font-weight="700" fill="#115E59">くにがまえ(囗)</text>
+  <rect x="522" y="334" width="208" height="38" rx="7" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="626.0" y="358" text-anchor="middle" class="t" font-size="12.5" font-weight="700" fill="#1E293B">例：開・間・図・園</text>
+  <rect x="20" y="406" width="720" height="36" rx="8" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1.5"/>
+  <text x="380" y="429" text-anchor="middle" class="t" font-size="13.5" font-weight="700" fill="#78350F">ポイント：部首は決まった意味をもつことが多いよ（木へん＝木／さんずい＝水／れんが＝火）</text>
+</svg>

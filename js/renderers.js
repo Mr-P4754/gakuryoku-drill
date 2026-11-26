@@ -952,7 +952,10 @@ export function mountQuestionUI(container, problem, { onSelfJudge, onReadyChange
   // 11. 短答テキスト入力 (text_input)
   const expected = splitPipe(problem.answer);
   const unitLabel = problem.unit_label || '';
+  const padSpec = String(problem.choices || '').trim();
+  const padChars = padSpec.startsWith('pad:') ? splitPipe(padSpec.slice(4)) : [];
   const inputs = [];
+  let activeInput = null;
 
   const wrap = document.createElement('div');
   wrap.className = 'text-input-list';
@@ -969,8 +972,13 @@ export function mountQuestionUI(container, problem, { onSelfJudge, onReadyChange
     const input = document.createElement('input');
     input.type = 'text';
     input.className = 'drill-input';
-    input.placeholder = 'こたえを入力';
+    input.placeholder = padChars.length ? 'ローマ字を入力（下の記号ボタンも使えるよ）' : 'こたえを入力';
     input.autocomplete = 'off';
+    if (padChars.length) {
+      input.autocapitalize = 'off';
+      input.spellcheck = false;
+    }
+    input.addEventListener('focus', () => { activeInput = input; });
     input.addEventListener('input', () => onReadyChange?.(inputs.every((el) => el.value.trim() !== '')));
     row.appendChild(input);
 
@@ -983,15 +991,45 @@ export function mountQuestionUI(container, problem, { onSelfJudge, onReadyChange
     inputs.push(input);
     wrap.appendChild(row);
   });
+  activeInput = inputs[0];
 
   container.appendChild(wrap);
+
+  let padBtns = [];
+  if (padChars.length) {
+    const pad = document.createElement('div');
+    pad.className = 'symbol-pad romaji-pad';
+    padBtns = padChars.map((ch) => {
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'symbol-btn';
+      b.textContent = ch;
+      b.setAttribute('aria-label', `${ch} を入力`);
+      b.addEventListener('click', () => {
+        if (!activeInput || activeInput.disabled) return;
+        const start = activeInput.selectionStart ?? activeInput.value.length;
+        const end = activeInput.selectionEnd ?? activeInput.value.length;
+        activeInput.value = activeInput.value.slice(0, start) + ch + activeInput.value.slice(end);
+        activeInput.focus();
+        activeInput.setSelectionRange(start + ch.length, start + ch.length);
+        onReadyChange?.(inputs.every((el) => el.value.trim() !== ''));
+      });
+      pad.appendChild(b);
+      return b;
+    });
+    container.appendChild(pad);
+  }
+
   setTimeout(() => inputs[0]?.focus(), 50);
 
   return {
     isSelfCheck: false,
     isReady: () => inputs.every((el) => el.value.trim() !== ''),
     getAnswer: () => (inputs.length === 1 ? inputs[0].value.trim() : inputs.map((el) => el.value.trim())),
-    disable: () => inputs.forEach((el) => (el.disabled = true)),
+    disable: () => {
+      inputs.forEach((el) => (el.disabled = true));
+      padBtns.forEach((b) => (b.disabled = true));
+    },
     resizeCanvases: () => {},
   };
 }

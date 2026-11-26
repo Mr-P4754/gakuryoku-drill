@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 175" width="560" height="175" role="img" aria-label="4×(8×5)の考え方図">
+  <title>4×(8×5)の考え方図</title>
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 600; }
+      .lbl-sm { font-size: 14px; font-weight: 600; }
+      .lbl-xs { font-size: 12.5px; font-weight: 500; fill: #475569; }
+      .num { font-size: 17px; font-weight: 700; }
+      .num-lg { font-size: 22px; font-weight: 700; }
+      .num-sm { font-size: 14px; font-weight: 700; }
+      .carry { font-size: 13px; font-weight: 700; fill: #DC2626; }
+      .borrow { font-size: 13px; font-weight: 700; fill: #2563EB; }
+      .blank-num { font-size: 17px; font-weight: 700; fill: #2563EB; }
+      .ans-num { font-size: 17px; font-weight: 700; fill: #0F766E; }
+      .unit-txt { font-size: 14px; font-weight: 600; fill: #334155; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="560" height="175" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="280" y="28" text-anchor="middle" class="title">セットの数を先にもとめる式：4 × (8 × 5)</text>
+  <rect x="28" y="44" width="504" height="72" rx="10" fill="#ECFDF5" stroke="#059669" stroke-width="2" stroke-dasharray="5,3"/>
+  <rect x="38" y="52" width="88" height="56" rx="6" fill="#FFFFFF" stroke="#10B981" stroke-width="1.3"/>
+  <text x="82" y="76" text-anchor="middle" class="lbl-sm" fill="#047857">8セット</text>
+  <text x="82" y="96" text-anchor="middle" class="lbl-xs">(1セット4本)</text>
+  <rect x="136" y="52" width="88" height="56" rx="6" fill="#FFFFFF" stroke="#10B981" stroke-width="1.3"/>
+  <text x="180" y="76" text-anchor="middle" class="lbl-sm" fill="#047857">8セット</text>
+  <text x="180" y="96" text-anchor="middle" class="lbl-xs">(1セット4本)</text>
+  <rect x="234" y="52" width="88" height="56" rx="6" fill="#FFFFFF" stroke="#10B981" stroke-width="1.3"/>
+  <text x="278" y="76" text-anchor="middle" class="lbl-sm" fill="#047857">8セット</text>
+  <text x="278" y="96" text-anchor="middle" class="lbl-xs">(1セット4本)</text>
+  <rect x="332" y="52" width="88" height="56" rx="6" fill="#FFFFFF" stroke="#10B981" stroke-width="1.3"/>
+  <text x="376" y="76" text-anchor="middle" class="lbl-sm" fill="#047857">8セット</text>
+  <text x="376" y="96" text-anchor="middle" class="lbl-xs">(1セット4本)</text>
+  <rect x="430" y="52" width="88" height="56" rx="6" fill="#FFFFFF" stroke="#10B981" stroke-width="1.3"/>
+  <text x="474" y="76" text-anchor="middle" class="lbl-sm" fill="#047857">8セット</text>
+  <text x="474" y="96" text-anchor="middle" class="lbl-xs">(1セット4本)</text>
+  <text x="280" y="140" text-anchor="middle" class="lbl-sm" fill="#047857">全部のセットの数 ＝ (8 × 5) ＝ 40セット</text>
+  <text x="280" y="162" text-anchor="middle" class="num" fill="#0F766E">1セット4本 × 全部のセット数 → 4 × (8 × 5)</text>
+</svg>

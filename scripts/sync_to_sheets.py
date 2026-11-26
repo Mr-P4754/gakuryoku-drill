@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """
-ローカル静的JSON（data/*.json）の内容を Googleスプレッドシートへ一括反映するスクリプト
-gsheets CLI (mutate batch / mutate format / mutate freeze) を使用します。
+ローカル静的JSON（data/*.json）の内容を Googleスプレッドシートへ安全に同期するスクリプト。
+- data/meta.json に登録された全学年（または --grade 指定学年）のシートを自動作成・同期
+- 既存の「学習ログ」および「マスタ_学校認証」のデータは絶対に上書きしない安全設計
 """
+import argparse
 import json
 import subprocess
 import tempfile
@@ -37,10 +39,41 @@ LOG_HEADERS = [
     "wrong_ids", "duration_sec", "device_id"
 ]
 
+AUTH_HEADERS = [
+    "school_code", "school_label", "password", "is_active", "memo"
+]
+
+SUBJECT_HEADER_BG = {
+    "国語": "#B91C1C",
+    "社会": "#B45309",
+    "算数": "#1D4ED8",
+    "理科": "#047857",
+}
+
 
 def load_json(path: Path):
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
+
+
+def list_sheets():
+    res = subprocess.run(
+        ["gsheets", "readonly", "list-sheets", SPREADSHEET_ID, "--json"],
+        capture_output=True, text=True, check=True
+    )
+    return json.loads(res.stdout)
+
+
+def ensure_sheet_exists(sheet_name: str, existing_titles: set):
+    if sheet_name in existing_titles:
+        return False
+    print(f"[SYNC] Creating new sheet: {sheet_name}")
+    subprocess.run(
+        ["gsheets", "mutate", "add-sheet", SPREADSHEET_ID, "--title", sheet_name],
+        check=True
+    )
+    existing_titles.add(sheet_name)
+    return True
 
 
 def run_batch(ops):
@@ -79,9 +112,9 @@ def write_sheet_chunked(sheet_name: str, headers: list, rows: list, chunk_size: 
         run_batch(ops)
 
 
-def setup_dashboard_sheet():
+def setup_dashboard_sheet(existing_titles: set):
+    ensure_sheet_exists("集計_クラス進捗", existing_titles)
     print("[SYNC] Setting up 集計_クラス進捗 formulas (multi-grade ready)...")
-    # A1:P8 を一括で整形上書き（旧レイアウト残骸も消去）
     rows = [
         ["標準学力調査対策 デジタルドリル 教員用集計ダッシュボード"] + [""] * 15,
         ["※ 学習ログシートに児童の結果が送信されると学年・教科・単元・児童ごとに自動集計されます。"] + [""] * 15,
@@ -105,31 +138,22 @@ def setup_dashboard_sheet():
             "", "", "", "", "", ""
         ],
     ]
-    run_batch([
-        {"op": "write", "range": "'集計_クラス進捗'!A1", "data": rows},
-    ])
+    run_batch([{"op": "write", "range": "'集計_クラス進捗'!A1", "data": rows}])
 
 
-AUTH_HEADERS = [
-    "school_code", "school_label", "password", "is_active", "memo"
-]
+def ensure_log_sheet(existing_titles: set):
+    if "学習ログ" in existing_titles:
+        print("[SYNC] 学習ログ already exists; preserving all existing student logs.")
+        return
+    ensure_sheet_exists("学習ログ", existing_titles)
+    write_sheet_chunked("学習ログ", LOG_HEADERS, [])
 
 
-def ensure_auth_sheet():
-    res = subprocess.run(
-        ["gsheets", "readonly", "list-sheets", SPREADSHEET_ID, "--json"],
-        capture_output=True, text=True, check=True
-    )
-    sheets = json.loads(res.stdout)
-    titles = {s.get("title") or s.get("Title") for s in sheets}
-    if "マスタ_学校認証" in titles:
+def ensure_auth_sheet(existing_titles: set):
+    if "マスタ_学校認証" in existing_titles:
         print("[SYNC] マスタ_学校認証 already exists; keeping existing passwords intact.")
         return
-    print("[SYNC] Creating マスタ_学校認証 sheet with initial template row...")
-    subprocess.run(
-        ["gsheets", "mutate", "add-sheet", SPREADSHEET_ID, "--title", "マスタ_学校認証"],
-        check=True
-    )
+    ensure_sheet_exists("マスタ_学校認証", existing_titles)
     rows = [
         AUTH_HEADERS,
         ["hino", "hino校", "hino2026", "TRUE", "仮パスワードです。運用前に任意のパスワードへ変更してください（sha256:ハッシュも可）"],
@@ -137,60 +161,87 @@ def ensure_auth_sheet():
     run_batch([{"op": "write", "range": "'マスタ_学校認証'!A1", "data": rows}])
 
 
-def format_headers():
-    res = subprocess.run(
-        ["gsheets", "readonly", "list-sheets", SPREADSHEET_ID, "--json"],
-        capture_output=True, text=True, check=True
-    )
-    sheets = json.loads(res.stdout)
+def format_headers(meta: dict, only_sheets: set | None = None):
+    sheets = list_sheets()
     header_cols = {
         "マスタ_教科一覧": (11, "#1E40AF"),
-        "4年_単元ガイド": (8, "#0F766E"),
-        "4年_国語": (20, "#B91C1C"),
-        "4年_社会": (20, "#B45309"),
-        "4年_算数": (20, "#1D4ED8"),
-        "4年_理科": (20, "#047857"),
         "学習ログ": (17, "#334155"),
-        "集計_クラス進捗": (14, "#1E293B"),
         "マスタ_学校認証": (5, "#0F172A"),
     }
+    for s in meta.get("subjects", []):
+        g_sheet = s.get("guide_sheet")
+        if g_sheet:
+            header_cols[g_sheet] = (8, "#0F766E")
+        q_sheet = s.get("sheet_name")
+        if q_sheet:
+            header_cols[q_sheet] = (20, SUBJECT_HEADER_BG.get(s.get("subject", ""), "#1D4ED8"))
+
     for s in sheets:
         title = s.get("title") or s.get("Title")
         sid = s.get("sheetId") if "sheetId" in s else s.get("id", s.get("ID"))
         if title not in header_cols or sid is None:
             continue
+        if only_sheets is not None and title not in only_sheets:
+            continue
         cols, bg = header_cols[title]
-        if title != "集計_クラス進捗":
-            subprocess.run([
-                "gsheets", "mutate", "format", SPREADSHEET_ID,
-                "--sheet-id", str(sid),
-                "--start-row", "0", "--end-row", "1",
-                "--start-col", "0", "--end-col", str(cols),
-                "--bold", "--bg-color", bg, "--fg-color", "#FFFFFF", "--wrap"
-            ], check=True)
-            subprocess.run([
-                "gsheets", "mutate", "freeze", SPREADSHEET_ID,
-                "--sheet-id", str(sid), "--rows", "1"
-            ], check=True)
+        subprocess.run([
+            "gsheets", "mutate", "format", SPREADSHEET_ID,
+            "--sheet-id", str(sid),
+            "--start-row", "0", "--end-row", "1",
+            "--start-col", "0", "--end-col", str(cols),
+            "--bold", "--bg-color", bg, "--fg-color", "#FFFFFF", "--wrap"
+        ], check=True)
+        subprocess.run([
+            "gsheets", "mutate", "freeze", SPREADSHEET_ID,
+            "--sheet-id", str(sid), "--rows", "1"
+        ], check=True)
     print("[FORMAT] Header styling and freeze completed!")
 
 
 def main():
+    parser = argparse.ArgumentParser(description="Sync static drill JSONs to Google Sheets safely.")
+    parser.add_argument("--grade", action="append", help="Sync only specified grade(s), e.g. --grade 3年 (always updates マスタ_教科一覧)")
+    parser.add_argument("--skip-dashboard", action="store_true", help="Skip rewriting 集計_クラス進捗 formulas")
+    args = parser.parse_args()
+
     meta = load_json(DATA_DIR / "meta.json")
+    existing_titles = {s.get("title") or s.get("Title") for s in list_sheets()}
+    target_grades = set(args.grade) if args.grade else None
+    touched_sheets = {"マスタ_教科一覧"}
+
+    ensure_sheet_exists("マスタ_教科一覧", existing_titles)
     write_sheet_chunked("マスタ_教科一覧", MASTER_HEADERS, meta["subjects"])
 
-    guides = load_json(DATA_DIR / "4年_単元ガイド.json")
-    write_sheet_chunked("4年_単元ガイド", GUIDE_HEADERS, guides)
+    guides_done = set()
+    for s in meta.get("subjects", []):
+        grade = s.get("grade")
+        if target_grades and grade not in target_grades:
+            continue
 
-    for sheet_name in ["4年_国語", "4年_社会", "4年_算数", "4年_理科"]:
-        rows = load_json(DATA_DIR / f"{sheet_name}.json")
-        write_sheet_chunked(sheet_name, Q_HEADERS, rows)
+        guide_sheet = s.get("guide_sheet")
+        guide_file = s.get("guide_file")
+        if guide_sheet and guide_file and guide_sheet not in guides_done:
+            ensure_sheet_exists(guide_sheet, existing_titles)
+            guides = load_json(ROOT / guide_file)
+            write_sheet_chunked(guide_sheet, GUIDE_HEADERS, guides)
+            guides_done.add(guide_sheet)
+            touched_sheets.add(guide_sheet)
 
-    write_sheet_chunked("学習ログ", LOG_HEADERS, [])
-    setup_dashboard_sheet()
-    ensure_auth_sheet()
-    format_headers()
-    print("\n[ALL DONE] Googleスプレッドシートへの全量同期が完了しました！")
+        sheet_name = s.get("sheet_name")
+        data_file = s.get("data_file")
+        if sheet_name and data_file:
+            ensure_sheet_exists(sheet_name, existing_titles)
+            rows = load_json(ROOT / data_file)
+            write_sheet_chunked(sheet_name, Q_HEADERS, rows)
+            touched_sheets.add(sheet_name)
+
+    ensure_log_sheet(existing_titles)
+    ensure_auth_sheet(existing_titles)
+    if not args.skip_dashboard:
+        setup_dashboard_sheet(existing_titles)
+
+    format_headers(meta, only_sheets=touched_sheets if target_grades else None)
+    print("\n[ALL DONE] Googleスプレッドシートへの同期が完了しました！")
 
 
 if __name__ == "__main__":

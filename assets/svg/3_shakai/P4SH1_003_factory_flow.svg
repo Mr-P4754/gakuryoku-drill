@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 590" width="940" height="590" role="img" aria-label="おかし工場でクッキーがつくられて出荷されるまでの工程図">
+  <style>
+    text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans CJK JP', sans-serif; }
+  </style>
+  <rect width="940" height="590" fill="#FFFFFF"/>
+  <rect x="12" y="12" width="916" height="566" rx="14" fill="#F8FAFC" stroke="#334155" stroke-width="2"/>
+
+  <!-- ================= 1. 原料を運ぶ (Left top) ================= -->
+  <rect x="26" y="24" width="184" height="62" rx="8" fill="#FFFBEB" stroke="#D97706" stroke-width="1.6"/>
+  <text x="36" y="44" font-size="12.5" font-weight="700" fill="#92400E">原料の小麦粉，さとう，</text>
+  <text x="36" y="61" font-size="12.5" font-weight="700" fill="#92400E">バターは外国から</text>
+  <text x="36" y="78" font-size="12.5" font-weight="700" fill="#92400E">運んでくる。</text>
+
+  <text x="34" y="110" font-size="14" font-weight="700" fill="#0F172A">原料を運ぶ</text>
+  <!-- Cargo ship on waves -->
+  <g transform="translate(26, 118)">
+    <rect x="0" y="48" width="176" height="22" rx="4" fill="#BAE6FD"/>
+    <!-- Ship hull -->
+    <polygon points="10,40 162,40 144,62 24,62" fill="#1E40AF" stroke="#0F172A" stroke-width="1.6"/>
+    <rect x="24" y="18" width="38" height="22" fill="#FFFFFF" stroke="#1E293B" stroke-width="1.4"/>
+    <rect x="34" y="6" width="12" height="12" fill="#EF4444" stroke="#1E293B" stroke-width="1.2"/>
+    <path d="M 38,4 Q 24,-4 12,2" fill="none" stroke="#94A3B8" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Flour & sugar sacks on ship -->
+    <ellipse cx="82" cy="34" rx="16" ry="9" fill="#FEF3C7" stroke="#92400E" stroke-width="1.3"/>
+    <ellipse cx="108" cy="34" rx="16" ry="9" fill="#FEF3C7" stroke="#92400E" stroke-width="1.3"/>
+    <ellipse cx="95" cy="24" rx="15" ry="8" fill="#FDE68A" stroke="#92400E" stroke-width="1.3"/>
+    <rect x="128" y="24" width="22" height="16" fill="#FACC15" stroke="#854D0E" stroke-width="1.3"/>
+    <path d="M 6,62 Q 30,56 54,62 Q 78,68 102,62 Q 126,56 150,62 Q 168,66 174,62" fill="none" stroke="#0284C7" stroke-width="1.8"/>
+  </g>
+
+  <!-- Arrow: 原料を運ぶ -> 原料をたくわえる -->
+  <polygon points="208,154 226,154 226,146 242,160 226,174 226,166 208,166" fill="#60A5FA" stroke="#1D4ED8" stroke-width="1.2"/>
+
+  <!-- ================= 2. 原料をたくわえる ================= -->
+  <text x="252" y="72" font-size="14" font-weight="700" fill="#0F172A">原料をたくわえる</text>
+  <rect x="248" y="82" width="166" height="114" rx="6" fill="#FFFFFF" stroke="#334155" stroke-width="1.8"/>
+  <!-- 3 Wheat Flour Silos -->
+  <g fill="#E2E8F0" stroke="#475569" stroke-width="1.4">
+    <rect x="258" y="96" width="26" height="72" rx="4"/>
+    <polygon points="258,168 284,168 271,188"/>
+    <rect x="290" y="96" width="26" height="72" rx="4"/>
+    <polygon points="290,168 316,168 303,188"/>
+    <rect x="322" y="96" width="26" height="72" rx="4"/>
+    <polygon points="322,168 348,168 335,188"/>
+  </g>
+  <!-- Butter Refrigerator -->
+  <rect x="356" y="94" width="50" height="94" rx="3" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="1.5"/>
+  <line x1="364" y1="120" x2="364" y2="146" stroke="#1E40AF" stroke-width="3" stroke-linecap="round"/>
+  <text x="382" y="138" text-anchor="middle" font-size="10.5" font-weight="700" fill="#1E3A8A">冷ぞう</text>
+  <text x="382" y="152" text-anchor="middle" font-size="10.5" font-weight="700" fill="#1E3A8A">庫</text>
+
+  <rect x="234" y="204" width="194" height="44" rx="6" fill="#FFFBEB" stroke="#D97706" stroke-width="1.4"/>
+  <text x="244" y="222" font-size="11.5" font-weight="700" fill="#92400E">小麦粉はサイロに入れ，</text>
+  <text x="244" y="239" font-size="11.5" font-weight="700" fill="#92400E">バターは冷ぞう庫でひやす。</text>
+
+  <!-- Branch arrows to クッキーづくり & クリームづくり -->
+  <polygon points="424,104 442,104 442,97 456,110 442,123 442,116 424,116" fill="#60A5FA" stroke="#1D4ED8" stroke-width="1.2"/>
+  <polygon points="424,226 442,226 442,219 456,232 442,245 442,238 424,238" fill="#60A5FA" stroke="#1D4ED8" stroke-width="1.2"/>
+
+  <!-- ================= 3. クッキーづくり (Top branch) ================= -->
+  <rect x="464" y="26" width="130" height="26" rx="13" fill="#FEF3C7" stroke="#D97706" stroke-width="1.6"/>
+  <text x="529" y="44" text-anchor="middle" font-size="13.5" font-weight="700" fill="#92400E">クッキーづくり</text>
+
+  <!-- Dough mixer -->
+  <g transform="translate(470, 66)">
+    <rect x="10" y="28" width="44" height="40" rx="6" fill="#E2E8F0" stroke="#334155" stroke-width="1.5"/>
+    <path d="M 14,42 Q 32,32 50,42 L 50,64 L 14,64 Z" fill="#FDE68A"/>
+    <line x1="32" y1="6" x2="32" y2="52" stroke="#475569" stroke-width="3"/>
+    <path d="M 18,36 Q 32,58 46,36" fill="none" stroke="#475569" stroke-width="2"/>
+  </g>
+
+  <!-- Molding & Baking Oven -->
+  <g transform="translate(544, 62)">
+    <rect x="14" y="24" width="84" height="54" rx="4" fill="#CBD5E1" stroke="#334155" stroke-width="1.6"/>
+    <!-- Cookie cutter rollers -->
+    <rect x="22" y="10" width="22" height="36" rx="3" fill="#94A3B8" stroke="#334155" stroke-width="1.3"/>
+    <rect x="52" y="10" width="22" height="36" rx="3" fill="#FDBA74" stroke="#9A3412" stroke-width="1.3"/>
+    <circle cx="63" cy="22" r="5" fill="#F59E0B" stroke="#78350F" stroke-width="1"/>
+    <circle cx="63" cy="36" r="5" fill="#F59E0B" stroke="#78350F" stroke-width="1"/>
+    <!-- Baking oven with steam -->
+    <rect x="102" y="8" width="52" height="72" rx="4" fill="#FED7AA" stroke="#C2410C" stroke-width="1.8"/>
+    <rect x="110" y="26" width="36" height="24" rx="2" fill="#EA580C" stroke="#7C2D12" stroke-width="1.3"/>
+    <path d="M 114,4 Q 110,-4 116,-10 M 136,4 Q 140,-4 134,-10" fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Conveyor ①: Checking cookies for cracks (ひびわれ) -->
+  <g transform="translate(706, 98)">
+    <polygon points="0,12 162,12 174,36 12,36" fill="#E2E8F0" stroke="#334155" stroke-width="1.6"/>
+    <!-- Cookies on belt -->
+    <ellipse cx="30" cy="22" rx="11" ry="5" fill="#F59E0B" stroke="#78350F" stroke-width="1.2"/>
+    <ellipse cx="64" cy="22" rx="11" ry="5" fill="#F59E0B" stroke="#78350F" stroke-width="1.2"/>
+    <ellipse cx="98" cy="22" rx="11" ry="5" fill="#F59E0B" stroke="#78350F" stroke-width="1.2"/>
+    <ellipse cx="132" cy="22" rx="11" ry="5" fill="#F59E0B" stroke="#78350F" stroke-width="1.2"/>
+    <!-- Cracked cookie being checked -->
+    <path d="M 94,19 L 98,23 L 103,20" fill="none" stroke="#7F1D1D" stroke-width="1.4"/>
+  </g>
+  <!-- White-clad workers at ① -->
+  <g transform="translate(766,96) scale(1.0)">
+      <circle cx="0" cy="-14" r="9" fill="#FDE68A" stroke="#1E293B" stroke-width="1.4"/>
+      <!-- White sanitary cap -->
+      <path d="M -9,-17 Q 0,-29 9,-17 Z" fill="#FFFFFF" stroke="#475569" stroke-width="1.3"/>
+      <!-- White mask -->
+      <rect x="-5.5" y="-12" width="11" height="5.5" rx="2" fill="#FFFFFF" stroke="#64748B" stroke-width="1"/>
+      <circle cx="-3" cy="-15.5" r="1.2" fill="#0F172A"/><circle cx="3" cy="-15.5" r="1.2" fill="#0F172A"/>
+      <!-- White sanitary uniform -->
+      <rect x="-10" y="-4" width="20" height="22" rx="4" fill="#FFFFFF" stroke="#334155" stroke-width="1.5"/>
+    </g>
+  <g transform="translate(868,96) scale(1.0)">
+      <circle cx="0" cy="-14" r="9" fill="#FDE68A" stroke="#1E293B" stroke-width="1.4"/>
+      <!-- White sanitary cap -->
+      <path d="M -9,-17 Q 0,-29 9,-17 Z" fill="#FFFFFF" stroke="#475569" stroke-width="1.3"/>
+      <!-- White mask -->
+      <rect x="-5.5" y="-12" width="11" height="5.5" rx="2" fill="#FFFFFF" stroke="#64748B" stroke-width="1"/>
+      <circle cx="-3" cy="-15.5" r="1.2" fill="#0F172A"/><circle cx="3" cy="-15.5" r="1.2" fill="#0F172A"/>
+      <!-- White sanitary uniform -->
+      <rect x="-10" y="-4" width="20" height="22" rx="4" fill="#FFFFFF" stroke="#334155" stroke-width="1.5"/>
+    </g>
+  <!-- Badge ① -->
+  <circle cx="816" cy="70" r="15" fill="#FEE2E2" stroke="#DC2626" stroke-width="2.2"/>
+  <text x="816" y="76" text-anchor="middle" font-size="16" font-weight="700" fill="#B91C1C">①</text>
+
+  <!-- ================= 4. クリームづくり (Middle branch) ================= -->
+  <rect x="442" y="160" width="124" height="26" rx="13" fill="#FCE7F3" stroke="#DB2777" stroke-width="1.6"/>
+  <text x="504" y="178" text-anchor="middle" font-size="13.5" font-weight="700" fill="#9D174D">クリームづくり</text>
+
+  <!-- Cream mixer -->
+  <g transform="translate(476, 198)">
+    <rect x="8" y="28" width="44" height="44" rx="6" fill="#E2E8F0" stroke="#334155" stroke-width="1.5"/>
+    <path d="M 12,42 Q 30,32 48,42 L 48,68 L 12,68 Z" fill="#FFFBEB"/>
+    <line x1="30" y1="6" x2="30" y2="54" stroke="#475569" stroke-width="3"/>
+    <path d="M 16,38 Q 30,58 44,38" fill="none" stroke="#475569" stroke-width="2"/>
+  </g>
+  <rect x="424" y="274" width="102" height="58" rx="6" fill="#FFFBEB" stroke="#D97706" stroke-width="1.3"/>
+  <text x="433" y="292" font-size="11.5" font-weight="700" fill="#92400E">さとうと</text>
+  <text x="433" y="308" font-size="11.5" font-weight="700" fill="#92400E">バターを</text>
+  <text x="433" y="324" font-size="11.5" font-weight="700" fill="#92400E">よくかきまぜる。</text>
+
+  <!-- Arrow to 3 flavor tanks -->
+  <polygon points="544,234 558,234 558,228 570,240 558,252 558,246 544,246" fill="#F472B6" stroke="#BE185D" stroke-width="1.1"/>
+
+  <!-- 3 Flavor Tanks (バニラ / チョコレート / いちご) -->
+  <rect x="578" y="164" width="136" height="22" rx="4" fill="#FFFFFF" stroke="#475569" stroke-width="1.2"/>
+  <text x="646" y="179" text-anchor="middle" font-size="11.5" font-weight="700" fill="#0F172A">せいかくにはかる。</text>
+  <g transform="translate(576, 198)">
+    <!-- Vanilla -->
+    <rect x="0" y="16" width="36" height="72" rx="14" fill="#FEF9C3" stroke="#CA8A04" stroke-width="1.6"/>
+    <text x="18" y="42" text-anchor="middle" font-size="11" font-weight="700" fill="#854D0E">バ</text>
+    <text x="18" y="56" text-anchor="middle" font-size="11" font-weight="700" fill="#854D0E">ニ</text>
+    <text x="18" y="70" text-anchor="middle" font-size="11" font-weight="700" fill="#854D0E">ラ</text>
+    <!-- Chocolate -->
+    <rect x="44" y="16" width="36" height="72" rx="14" fill="#92400E" stroke="#451A03" stroke-width="1.6"/>
+    <text x="62" y="36" text-anchor="middle" font-size="10" font-weight="700" fill="#FFFFFF">チ</text>
+    <text x="62" y="48" text-anchor="middle" font-size="10" font-weight="700" fill="#FFFFFF">ョ</text>
+    <text x="62" y="60" text-anchor="middle" font-size="10" font-weight="700" fill="#FFFFFF">コ</text>
+    <text x="62" y="72" text-anchor="middle" font-size="10" font-weight="700" fill="#FFFFFF">レ</text>
+    <text x="62" y="83" text-anchor="middle" font-size="9" font-weight="700" fill="#FFFFFF">ート</text>
+    <!-- Strawberry -->
+    <rect x="88" y="16" width="36" height="72" rx="14" fill="#FBCFE8" stroke="#DB2777" stroke-width="1.6"/>
+    <text x="106" y="42" text-anchor="middle" font-size="11" font-weight="700" fill="#9D174D">い</text>
+    <text x="106" y="56" text-anchor="middle" font-size="11" font-weight="700" fill="#9D174D">ち</text>
+    <text x="106" y="70" text-anchor="middle" font-size="11" font-weight="700" fill="#9D174D">ご</text>
+  </g>
+
+  <!-- Callout: かんにつめてクリームをぬる機械へ -->
+  <rect x="774" y="148" width="144" height="58" rx="6" fill="#FFFBEB" stroke="#D97706" stroke-width="1.4"/>
+  <text x="783" y="166" font-size="11.5" font-weight="700" fill="#92400E">かんにつめて</text>
+  <text x="783" y="182" font-size="11.5" font-weight="700" fill="#92400E">クリームをぬる</text>
+  <text x="783" y="198" font-size="11.5" font-weight="700" fill="#92400E">機械へ。</text>
+
+  <!-- Arrow from Cookie belt ① down to Cream spreading -->
+  <polygon points="750,146 762,146 762,172 770,172 756,188 742,172 750,172" fill="#F59E0B" stroke="#B45309" stroke-width="1.1"/>
+  <!-- Arrow from Cream tanks right to Cream spreading -->
+  <polygon points="710,236 728,236 728,230 740,242 728,254 728,248 710,248" fill="#F472B6" stroke="#BE185D" stroke-width="1.1"/>
+
+  <!-- ================= 5. クリームぬり & ② Checking cream ================= -->
+  <text x="760" y="226" text-anchor="middle" font-size="12.5" font-weight="700" fill="#0F172A">クリームぬり</text>
+  <!-- Vertical conveyor belt going down -->
+  <rect x="802" y="232" width="66" height="178" rx="4" fill="#E2E8F0" stroke="#334155" stroke-width="1.6"/>
+  <!-- Cream nozzles at top -->
+  <rect x="810" y="216" width="14" height="24" rx="2" fill="#FEF08A" stroke="#CA8A04" stroke-width="1.3"/>
+  <rect x="828" y="216" width="14" height="24" rx="2" fill="#92400E" stroke="#451A03" stroke-width="1.3"/>
+  <rect x="846" y="216" width="14" height="24" rx="2" fill="#F472B6" stroke="#BE185D" stroke-width="1.3"/>
+  <!-- Cream sandwich cookies descending -->
+  <g>
+    <circle cx="818" cy="260" r="8" fill="#F59E0B" stroke="#78350F" stroke-width="1.2"/><circle cx="818" cy="260" r="4" fill="#FEF9C3"/>
+    <circle cx="836" cy="260" r="8" fill="#F59E0B" stroke="#78350F" stroke-width="1.2"/><circle cx="836" cy="260" r="4" fill="#78350F"/>
+    <circle cx="854" cy="260" r="8" fill="#F59E0B" stroke="#78350F" stroke-width="1.2"/><circle cx="854" cy="260" r="4" fill="#F9A8D4"/>
+
+    <circle cx="818" cy="296" r="8" fill="#F59E0B" stroke="#78350F" stroke-width="1.2"/><circle cx="818" cy="296" r="4" fill="#FEF9C3"/>
+    <circle cx="836" cy="296" r="8" fill="#F59E0B" stroke="#78350F" stroke-width="1.2"/><circle cx="836" cy="296" r="4" fill="#78350F"/>
+    <circle cx="854" cy="296" r="8" fill="#F59E0B" stroke="#78350F" stroke-width="1.2"/><circle cx="854" cy="296" r="4" fill="#F9A8D4"/>
+
+    <circle cx="818" cy="332" r="8" fill="#F59E0B" stroke="#78350F" stroke-width="1.2"/>
+    <circle cx="836" cy="332" r="8" fill="#F59E0B" stroke="#78350F" stroke-width="1.2"/>
+    <circle cx="854" cy="332" r="8" fill="#F59E0B" stroke="#78350F" stroke-width="1.2"/>
+
+    <circle cx="818" cy="368" r="8" fill="#F59E0B" stroke="#78350F" stroke-width="1.2"/>
+    <circle cx="836" cy="368" r="8" fill="#F59E0B" stroke="#78350F" stroke-width="1.2"/>
+    <circle cx="854" cy="368" r="8" fill="#F59E0B" stroke="#78350F" stroke-width="1.2"/>
+  </g>
+  <!-- White-clad workers checking cream at ② -->
+  <g transform="translate(780,272) scale(1.0)">
+      <circle cx="0" cy="-14" r="9" fill="#FDE68A" stroke="#1E293B" stroke-width="1.4"/>
+      <!-- White sanitary cap -->
+      <path d="M -9,-17 Q 0,-29 9,-17 Z" fill="#FFFFFF" stroke="#475569" stroke-width="1.3"/>
+      <!-- White mask -->
+      <rect x="-5.5" y="-12" width="11" height="5.5" rx="2" fill="#FFFFFF" stroke="#64748B" stroke-width="1"/>
+      <circle cx="-3" cy="-15.5" r="1.2" fill="#0F172A"/><circle cx="3" cy="-15.5" r="1.2" fill="#0F172A"/>
+      <!-- White sanitary uniform -->
+      <rect x="-10" y="-4" width="20" height="22" rx="4" fill="#FFFFFF" stroke="#334155" stroke-width="1.5"/>
+    </g>
+  <g transform="translate(890,344) scale(1.0)">
+      <circle cx="0" cy="-14" r="9" fill="#FDE68A" stroke="#1E293B" stroke-width="1.4"/>
+      <!-- White sanitary cap -->
+      <path d="M -9,-17 Q 0,-29 9,-17 Z" fill="#FFFFFF" stroke="#475569" stroke-width="1.3"/>
+      <!-- White mask -->
+      <rect x="-5.5" y="-12" width="11" height="5.5" rx="2" fill="#FFFFFF" stroke="#64748B" stroke-width="1"/>
+      <circle cx="-3" cy="-15.5" r="1.2" fill="#0F172A"/><circle cx="3" cy="-15.5" r="1.2" fill="#0F172A"/>
+      <!-- White sanitary uniform -->
+      <rect x="-10" y="-4" width="20" height="22" rx="4" fill="#FFFFFF" stroke="#334155" stroke-width="1.5"/>
+    </g>
+  <!-- Badge ② -->
+  <circle cx="896" cy="288" r="15" fill="#FEE2E2" stroke="#DC2626" stroke-width="2.2"/>
+  <text x="896" y="294" text-anchor="middle" font-size="16" font-weight="700" fill="#B91C1C">②</text>
+
+  <!-- ================= 6. ③ Wrapping -> けんさ -> かんづめ ================= -->
+  <!-- Bottom conveyor belt going RIGHT to LEFT -->
+  <rect x="444" y="446" width="438" height="30" rx="4" fill="#E2E8F0" stroke="#334155" stroke-width="1.6"/>
+  <!-- ③ Wrapping machine (ほうそう) -->
+  <g transform="translate(716, 390)">
+    <rect x="0" y="0" width="66" height="106" rx="6" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="1.8"/>
+    <circle cx="33" cy="24" r="14" fill="#FFFFFF" stroke="#2563EB" stroke-width="1.6"/>
+    <circle cx="33" cy="24" r="5" fill="#93C5FD"/>
+    <rect x="14" y="48" width="38" height="38" rx="4" fill="#EFF6FF" stroke="#1D4ED8" stroke-width="1.4"/>
+    <!-- Individually wrapped cookie inside -->
+    <rect x="20" y="58" width="26" height="18" rx="3" fill="#FEF08A" stroke="#CA8A04" stroke-width="1.2"/>
+    <circle cx="33" cy="67" r="6" fill="#F59E0B"/>
+  </g>
+  <!-- Badge ③ -->
+  <circle cx="749" cy="368" r="15" fill="#FEE2E2" stroke="#DC2626" stroke-width="2.2"/>
+  <text x="749" y="374" text-anchor="middle" font-size="16" font-weight="700" fill="#B91C1C">③</text>
+
+  <!-- Wrapped cookies emerging left -->
+  <g fill="#FEF08A" stroke="#CA8A04" stroke-width="1.2">
+    <rect x="684" y="454" width="22" height="14" rx="2"/><circle cx="695" cy="461" r="4.5" fill="#F59E0B"/>
+    <rect x="652" y="454" width="22" height="14" rx="2"/><circle cx="663" cy="461" r="4.5" fill="#F59E0B"/>
+  </g>
+
+  <!-- Arrow right-to-left -->
+  <polygon points="708,424 692,424 692,418 680,430 692,442 692,436 708,436" fill="#60A5FA" stroke="#1D4ED8" stroke-width="1.1"/>
+
+  <!-- けんさ (Inspection machine) -->
+  <text x="618" y="374" text-anchor="middle" font-size="14" font-weight="700" fill="#0F172A">けんさ</text>
+  <rect x="582" y="392" width="72" height="96" rx="5" fill="#CCFBF1" stroke="#0F766E" stroke-width="1.8"/>
+  <rect x="594" y="406" width="48" height="24" rx="3" fill="#0F172A"/>
+  <text x="618" y="423" text-anchor="middle" font-size="11" font-weight="700" fill="#4ADE80">OK ✓</text>
+
+  <!-- Arrow right-to-left -->
+  <polygon points="572,424 556,424 556,418 544,430 556,442 556,436 572,436" fill="#60A5FA" stroke="#1D4ED8" stroke-width="1.1"/>
+
+  <!-- かんづめ (Canning & Boxing by white-clad workers) -->
+  <text x="492" y="374" text-anchor="middle" font-size="14" font-weight="700" fill="#0F172A">かんづめ</text>
+  <g transform="translate(464,424) scale(0.95)">
+      <circle cx="0" cy="-14" r="9" fill="#FDE68A" stroke="#1E293B" stroke-width="1.4"/>
+      <!-- White sanitary cap -->
+      <path d="M -9,-17 Q 0,-29 9,-17 Z" fill="#FFFFFF" stroke="#475569" stroke-width="1.3"/>
+      <!-- White mask -->
+      <rect x="-5.5" y="-12" width="11" height="5.5" rx="2" fill="#FFFFFF" stroke="#64748B" stroke-width="1"/>
+      <circle cx="-3" cy="-15.5" r="1.2" fill="#0F172A"/><circle cx="3" cy="-15.5" r="1.2" fill="#0F172A"/>
+      <!-- White sanitary uniform -->
+      <rect x="-10" y="-4" width="20" height="22" rx="4" fill="#FFFFFF" stroke="#334155" stroke-width="1.5"/>
+    </g>
+  <g transform="translate(520,424) scale(0.95)">
+      <circle cx="0" cy="-14" r="9" fill="#FDE68A" stroke="#1E293B" stroke-width="1.4"/>
+      <!-- White sanitary cap -->
+      <path d="M -9,-17 Q 0,-29 9,-17 Z" fill="#FFFFFF" stroke="#475569" stroke-width="1.3"/>
+      <!-- White mask -->
+      <rect x="-5.5" y="-12" width="11" height="5.5" rx="2" fill="#FFFFFF" stroke="#64748B" stroke-width="1"/>
+      <circle cx="-3" cy="-15.5" r="1.2" fill="#0F172A"/><circle cx="3" cy="-15.5" r="1.2" fill="#0F172A"/>
+      <!-- White sanitary uniform -->
+      <rect x="-10" y="-4" width="20" height="22" rx="4" fill="#FFFFFF" stroke="#334155" stroke-width="1.5"/>
+    </g>
+  <!-- Cans on table -->
+  <rect x="444" y="452" width="102" height="44" rx="4" fill="#F1F5F9" stroke="#475569" stroke-width="1.4"/>
+  <ellipse cx="464" cy="466" rx="10" ry="5" fill="#FDE047" stroke="#A16207" stroke-width="1.2"/>
+  <ellipse cx="492" cy="466" rx="10" ry="5" fill="#FDE047" stroke="#A16207" stroke-width="1.2"/>
+  <ellipse cx="520" cy="466" rx="10" ry="5" fill="#FDE047" stroke="#A16207" stroke-width="1.2"/>
+  <!-- Cardboard boxes labeled おかし -->
+  <rect x="366" y="486" width="60" height="42" rx="3" fill="#FDE68A" stroke="#92400E" stroke-width="1.6"/>
+  <text x="396" y="512" text-anchor="middle" font-size="13" font-weight="700" fill="#78350F">おかし</text>
+  <rect x="378" y="454" width="44" height="32" rx="3" fill="#FEF3C7" stroke="#92400E" stroke-width="1.4"/>
+
+  <!-- ================= 7. 出荷 (Shipping - Left bottom) ================= -->
+  <text x="116" y="352" font-size="15" font-weight="700" fill="#0F172A">出荷</text>
+  <!-- Arrow from おかし boxes to forklift -->
+  <polygon points="354,480 342,468 336,474 334,458 350,460 344,466 356,478" fill="#60A5FA" stroke="#1D4ED8" stroke-width="1.1"/>
+
+  <!-- Forklift with boxes -->
+  <g transform="translate(264, 396)">
+    <rect x="44" y="32" width="40" height="28" rx="4" fill="#F59E0B" stroke="#78350F" stroke-width="1.5"/>
+    <rect x="40" y="6" width="4" height="58" fill="#334155"/>
+    <line x1="10" y1="60" x2="40" y2="60" stroke="#334155" stroke-width="4"/>
+    <rect x="14" y="24" width="24" height="34" fill="#FDE68A" stroke="#92400E" stroke-width="1.3"/>
+    <circle cx="52" cy="64" r="9" fill="#1E293B"/>
+    <circle cx="76" cy="64" r="9" fill="#1E293B"/>
+    <!-- Driver -->
+    <circle cx="64" cy="18" r="8" fill="#FDE68A" stroke="#1E293B" stroke-width="1.3"/>
+    <rect x="58" y="26" width="14" height="12" fill="#FFFFFF" stroke="#334155" stroke-width="1.2"/>
+  </g>
+
+  <!-- Loading truck -->
+  <g transform="translate(154, 326)">
+    <rect x="44" y="8" width="84" height="48" rx="4" fill="#FFFFFF" stroke="#334155" stroke-width="1.6"/>
+    <rect x="52" y="18" width="28" height="28" fill="#FDE68A" stroke="#92400E" stroke-width="1.2"/>
+    <rect x="84" y="18" width="28" height="28" fill="#FDE68A" stroke="#92400E" stroke-width="1.2"/>
+    <path d="M 8,30 L 44,16 L 44,56 L 8,56 Z" fill="#38BDF8" stroke="#0369A1" stroke-width="1.6"/>
+    <rect x="14" y="26" width="20" height="14" fill="#E0F2FE" stroke="#0369A1" stroke-width="1"/>
+    <circle cx="26" cy="58" r="9" fill="#1E293B"/>
+    <circle cx="106" cy="58" r="9" fill="#1E293B"/>
+  </g>
+
+  <!-- Arrow down-left to departing big delivery truck -->
+  <polygon points="154,406 142,418 148,424 132,426 134,410 140,416 152,404" fill="#60A5FA" stroke="#1D4ED8" stroke-width="1.1"/>
+
+  <!-- Big delivery truck departing -->
+  <g transform="translate(34, 444)">
+    <rect x="62" y="4" width="152" height="78" rx="5" fill="#FFFFFF" stroke="#1E293B" stroke-width="2"/>
+    <text x="138" y="48" text-anchor="middle" font-size="16" font-weight="700" fill="#D97706">おかし工場</text>
+    <path d="M 10,36 L 34,14 L 62,14 L 62,82 L 10,82 Z" fill="#22C55E" stroke="#14532D" stroke-width="2"/>
+    <polygon points="18,36 36,20 54,20 54,42 18,42" fill="#E0F2FE" stroke="#14532D" stroke-width="1.2"/>
+    <circle cx="38" cy="84" r="14" fill="#1E293B"/><circle cx="38" cy="84" r="6" fill="#CBD5E1"/>
+    <circle cx="152" cy="84" r="14" fill="#1E293B"/><circle cx="152" cy="84" r="6" fill="#CBD5E1"/>
+    <circle cx="186" cy="84" r="14" fill="#1E293B"/><circle cx="186" cy="84" r="6" fill="#CBD5E1"/>
+  </g>
+</svg>

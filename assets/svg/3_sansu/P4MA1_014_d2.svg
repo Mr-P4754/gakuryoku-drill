@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 290" width="560" height="290" role="img" aria-label="学校・図書館・ゆうびん局・しおりさんの家の地図">
+  <title>学校・図書館・ゆうびん局・しおりさんの家の地図</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 14px; font-weight: 700; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="560" height="290" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <line x1="102" y1="78" x2="496" y2="78" stroke="#475569" stroke-width="16" stroke-linecap="round"/>
+  <line x1="102" y1="78" x2="496" y2="78" stroke="#FEFCE8" stroke-width="12" stroke-linecap="round"/>
+  <line x1="232" y1="78" x2="232" y2="224" stroke="#475569" stroke-width="16" stroke-linecap="round"/>
+  <line x1="232" y1="78" x2="232" y2="224" stroke="#FEFCE8" stroke-width="12" stroke-linecap="round"/>
+  <line x1="126" y1="224" x2="506" y2="224" stroke="#475569" stroke-width="16" stroke-linecap="round"/>
+  <line x1="126" y1="224" x2="506" y2="224" stroke="#FEFCE8" stroke-width="12" stroke-linecap="round"/>
+  <line x1="298" y1="78" x2="404" y2="224" stroke="#475569" stroke-width="16" stroke-linecap="round"/>
+  <line x1="298" y1="78" x2="404" y2="224" stroke="#FEFCE8" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="102" cy="78" r="5" fill="#1E293B"/>
+  <circle cx="232" cy="78" r="4.5" fill="#DC2626"/>
+  <circle cx="298" cy="78" r="5" fill="#1E293B"/>
+  <circle cx="232" cy="224" r="5" fill="#1E293B"/>
+  <circle cx="404" cy="224" r="4.5" fill="#1E293B"/>
+  <circle cx="496" cy="224" r="5" fill="#1E293B"/>
+  <path d="M 102.0 78.0 Q 200.0 30.0 298.0 78.0" fill="none" stroke="#2563EB" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="200.0" y="55.2" text-anchor="middle" font-size="14" font-weight="700" fill="#1D4ED8" class="halo">500m</text>
+
+  <path d="M 232.0 78.0 Q 265.0 118.0 298.0 78.0" fill="none" stroke="#DC2626" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="265.0" y="106.2" text-anchor="middle" font-size="13.5" font-weight="700" fill="#DC2626" class="halo">160m</text>
+
+  <path d="M 232.0 78.0 Q 184.0 151.0 232.0 224.0" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="204.2" y="156.0" text-anchor="middle" font-size="14" font-weight="700" fill="#1E293B" class="halo">440m</text>
+
+  <path d="M 298.0 78.0 Q 389.8 122.8 404.0 224.0" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="373.5" y="139.6" text-anchor="middle" font-size="14" font-weight="700" fill="#1E293B" class="halo">580m</text>
+
+  <path d="M 404.0 224.0 Q 450.0 188.0 496.0 224.0" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="450.0" y="208.1" text-anchor="middle" font-size="14" font-weight="700" fill="#1E293B" class="halo">260m</text>
+
+  <rect x="30.0" y="64.0" width="48.0" height="28" rx="6" fill="#ECFDF5" stroke="#059669" stroke-width="1.6"/>
+  <text x="54.0" y="83.0" text-anchor="middle" font-size="13.5" font-weight="700" fill="#065F46">学校</text>
+  <rect x="289.0" y="22.0" width="62.0" height="28" rx="6" fill="#FEF3C7" stroke="#D97706" stroke-width="1.6"/>
+  <text x="320.0" y="41.0" text-anchor="middle" font-size="13.5" font-weight="700" fill="#92400E">図書館</text>
+  <rect x="183.0" y="246.0" width="90.0" height="28" rx="6" fill="#FEE2E2" stroke="#DC2626" stroke-width="1.6"/>
+  <text x="228.0" y="265.0" text-anchor="middle" font-size="13.5" font-weight="700" fill="#991B1B">ゆうびん局</text>
+  <rect x="417.0" y="246.0" width="118.0" height="28" rx="6" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.6"/>
+  <text x="476.0" y="265.0" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1E3A8A">しおりさんの家</text>
+</svg>

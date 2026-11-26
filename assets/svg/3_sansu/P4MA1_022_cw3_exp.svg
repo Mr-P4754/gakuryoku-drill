@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 270" width="520" height="270" role="img" aria-label="7つのグループの分け方：式 32÷7 ＝ 4あまり4">
+  <title>7つのグループの分け方：式 32÷7 ＝ 4あまり4</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 14px; font-weight: 700; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="520" height="270" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="260" y="28" text-anchor="middle" class="title">7つのグループの分け方：式 32÷7 ＝ 4あまり4</text>
+  <text x="260" y="50" text-anchor="middle" font-size="13.5" font-weight="700" fill="#2563EB">5人のグループ4つ，4人のグループ3つに分ける</text>
+  <rect x="71.0" y="66" width="34" height="110" rx="12" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.8" stroke-dasharray="4,3"/>
+  <circle cx="88.0" cy="85" r="7.5" fill="#CBD5E1" stroke="#334155" stroke-width="1.5"/>
+  <circle cx="88.0" cy="109" r="7.5" fill="#CBD5E1" stroke="#334155" stroke-width="1.5"/>
+  <circle cx="88.0" cy="133" r="7.5" fill="#CBD5E1" stroke="#334155" stroke-width="1.5"/>
+  <circle cx="88.0" cy="157" r="7.5" fill="#CBD5E1" stroke="#334155" stroke-width="1.5"/>
+  <rect x="121.0" y="66" width="34" height="110" rx="12" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.8" stroke-dasharray="4,3"/>
+  <circle cx="138.0" cy="85" r="7.5" fill="#CBD5E1" stroke="#334155" stroke-width="1.5"/>
+  <circle cx="138.0" cy="109" r="7.5" fill="#CBD5E1" stroke="#334155" stroke-width="1.5"/>
+  <circle cx="138.0" cy="133" r="7.5" fill="#CBD5E1" stroke="#334155" stroke-width="1.5"/>
+  <circle cx="138.0" cy="157" r="7.5" fill="#CBD5E1" stroke="#334155" stroke-width="1.5"/>
+  <rect x="171.0" y="66" width="34" height="110" rx="12" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.8" stroke-dasharray="4,3"/>
+  <circle cx="188.0" cy="85" r="7.5" fill="#CBD5E1" stroke="#334155" stroke-width="1.5"/>
+  <circle cx="188.0" cy="109" r="7.5" fill="#CBD5E1" stroke="#334155" stroke-width="1.5"/>
+  <circle cx="188.0" cy="133" r="7.5" fill="#CBD5E1" stroke="#334155" stroke-width="1.5"/>
+  <circle cx="188.0" cy="157" r="7.5" fill="#CBD5E1" stroke="#334155" stroke-width="1.5"/>
+  <rect x="221.0" y="66" width="34" height="110" rx="12" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.8" stroke-dasharray="4,3"/>
+  <circle cx="238.0" cy="85" r="7.5" fill="#CBD5E1" stroke="#334155" stroke-width="1.5"/>
+  <circle cx="238.0" cy="109" r="7.5" fill="#CBD5E1" stroke="#334155" stroke-width="1.5"/>
+  <circle cx="238.0" cy="133" r="7.5" fill="#CBD5E1" stroke="#334155" stroke-width="1.5"/>
+  <circle cx="238.0" cy="157" r="7.5" fill="#CBD5E1" stroke="#334155" stroke-width="1.5"/>
+  <rect x="271.0" y="66" width="34" height="110" rx="12" fill="#F8FAFC" stroke="#64748B" stroke-width="1.8" stroke-dasharray="4,3"/>
+  <circle cx="288.0" cy="85" r="7.5" fill="#CBD5E1" stroke="#334155" stroke-width="1.5"/>
+  <circle cx="288.0" cy="109" r="7.5" fill="#CBD5E1" stroke="#334155" stroke-width="1.5"/>
+  <circle cx="288.0" cy="133" r="7.5" fill="#CBD5E1" stroke="#334155" stroke-width="1.5"/>
+  <circle cx="288.0" cy="157" r="7.5" fill="#CBD5E1" stroke="#334155" stroke-width="1.5"/>
+  <rect x="321.0" y="66" width="34" height="110" rx="12" fill="#F8FAFC" stroke="#64748B" stroke-width="1.8" stroke-dasharray="4,3"/>
+  <circle cx="338.0" cy="85" r="7.5" fill="#CBD5E1" stroke="#334155" stroke-width="1.5"/>
+  <circle cx="338.0" cy="109" r="7.5" fill="#CBD5E1" stroke="#334155" stroke-width="1.5"/>
+  <circle cx="338.0" cy="133" r="7.5" fill="#CBD5E1" stroke="#334155" stroke-width="1.5"/>
+  <circle cx="338.0" cy="157" r="7.5" fill="#CBD5E1" stroke="#334155" stroke-width="1.5"/>
+  <rect x="371.0" y="66" width="34" height="110" rx="12" fill="#F8FAFC" stroke="#64748B" stroke-width="1.8" stroke-dasharray="4,3"/>
+  <circle cx="388.0" cy="85" r="7.5" fill="#CBD5E1" stroke="#334155" stroke-width="1.5"/>
+  <circle cx="388.0" cy="109" r="7.5" fill="#CBD5E1" stroke="#334155" stroke-width="1.5"/>
+  <circle cx="388.0" cy="133" r="7.5" fill="#CBD5E1" stroke="#334155" stroke-width="1.5"/>
+  <circle cx="388.0" cy="157" r="7.5" fill="#CBD5E1" stroke="#334155" stroke-width="1.5"/>
+  <circle cx="431.0" cy="162.0" r="7.5" fill="#FCA5A5" stroke="#DC2626" stroke-width="1.8"/>
+  <path d="M 431.0 171.0 Q 259.5 212.0 88.0 184.0" fill="none" stroke="#DC2626" stroke-width="1.6"/>
+  <polygon points="88.0,180.0 83.5,188.0 92.5,188.0" fill="#DC2626"/>
+  <circle cx="455.0" cy="162.0" r="7.5" fill="#FCA5A5" stroke="#DC2626" stroke-width="1.8"/>
+  <path d="M 455.0 171.0 Q 296.5 223.0 138.0 184.0" fill="none" stroke="#DC2626" stroke-width="1.6"/>
+  <polygon points="138.0,180.0 133.5,188.0 142.5,188.0" fill="#DC2626"/>
+  <circle cx="431.0" cy="138.0" r="7.5" fill="#FCA5A5" stroke="#DC2626" stroke-width="1.8"/>
+  <path d="M 431.0 147.0 Q 309.5 234.0 188.0 184.0" fill="none" stroke="#DC2626" stroke-width="1.6"/>
+  <polygon points="188.0,180.0 183.5,188.0 192.5,188.0" fill="#DC2626"/>
+  <circle cx="455.0" cy="138.0" r="7.5" fill="#FCA5A5" stroke="#DC2626" stroke-width="1.8"/>
+  <path d="M 455.0 147.0 Q 346.5 245.0 238.0 184.0" fill="none" stroke="#DC2626" stroke-width="1.6"/>
+  <polygon points="238.0,180.0 233.5,188.0 242.5,188.0" fill="#DC2626"/>
+  <text x="443.0" y="124.0" text-anchor="middle" font-size="12" font-weight="700" fill="#DC2626">あまり4人</text>
+</svg>

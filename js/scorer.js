@@ -71,8 +71,8 @@ function stripUnitLabel(val, unitLabel) {
   if (u && v.endsWith(u) && v.length > u.length) {
     return v.slice(0, v.length - u.length);
   }
-  // よくある単位の揺れ (cm2/cm², m2/m², 度/°, l/L)
-  const stripped = v.replace(/(cm2|cm²|m2|m²|km|mm|cm|m|kg|g|dl|dL|l|L|℃|度|°|人|こ|本|まい|枚|つ|画|県|日間|日|円|倍|点)$/i, '');
+  // よくある単位の揺れ (cm2/cm², m2/m², 度/°, l/L, 時・分・秒等)
+  const stripped = v.replace(/(cm2|cm²|m2|m²|km|mm|cm|m|kg|g|mL|ml|dl|dL|l|L|℃|度|°|時間|時|分間|分|秒|人|こ|個|本|まい|枚|さつ|冊|文字|つ|画|県|日間|日|円|倍|点)$/i, '');
   if (stripped && u && v.toLowerCase().endsWith(u.toLowerCase())) {
     return v.slice(0, v.length - u.length);
   }
@@ -415,6 +415,8 @@ export function scoreAnswer(problem, userAnswer) {
     if (!rawU) return false;
     const uClean = normalizeText(stripUnitLabel(rawU, unitLabel), { stripSpaces: true });
     const uRawNorm = normalizeText(rawU, { stripSpaces: true });
+    const uCleanLower = uClean.toLowerCase();
+    const uRawLower = uRawNorm.toLowerCase();
     const uNum = kanjiToArabic(uClean);
 
     const candidates = [exp, ...altPerSlot[idx]];
@@ -423,8 +425,8 @@ export function scoreAnswer(problem, userAnswer) {
       const cRawNorm = normalizeText(cand, { stripSpaces: true });
       const cNum = kanjiToArabic(cClean);
       return (
-        uClean === cClean ||
-        uRawNorm === cRawNorm ||
+        uCleanLower === cClean.toLowerCase() ||
+        uRawLower === cRawNorm.toLowerCase() ||
         (uNum !== '' && uNum === cNum)
       );
     });

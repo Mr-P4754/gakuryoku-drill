@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="900" height="500" role="img" aria-label="模範作図：近くのスーパーマーケット①に○を12こ書いたグラフ">
+  <style>
+    text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans CJK JP', sans-serif; }
+  </style>
+  <!-- Transparent background for exact overlay onto P4SH1_004_shopping_survey.svg -->
+  <rect x="478" y="109.5" width="52" height="205.5" rx="4" fill="#FEE2E2" fill-opacity="0.22" stroke="#DC2626" stroke-width="1.5" stroke-dasharray="4,3"/>
+  
+  <circle cx="504.0" cy="307.5" r="7.2" fill="#FEE2E2" fill-opacity="0.82" stroke="#DC2626" stroke-width="2.4"/>
+  <circle cx="504.0" cy="290.5" r="7.2" fill="#FEE2E2" fill-opacity="0.82" stroke="#DC2626" stroke-width="2.4"/>
+  <circle cx="504.0" cy="273.5" r="7.2" fill="#FEE2E2" fill-opacity="0.82" stroke="#DC2626" stroke-width="2.4"/>
+  <circle cx="504.0" cy="256.5" r="7.2" fill="#FEE2E2" fill-opacity="0.82" stroke="#DC2626" stroke-width="2.4"/>
+  <circle cx="504.0" cy="239.5" r="7.2" fill="#FEE2E2" fill-opacity="0.82" stroke="#DC2626" stroke-width="2.4"/>
+  <circle cx="504.0" cy="222.5" r="7.2" fill="#FEE2E2" fill-opacity="0.82" stroke="#DC2626" stroke-width="2.4"/>
+  <circle cx="504.0" cy="205.5" r="7.2" fill="#FEE2E2" fill-opacity="0.82" stroke="#DC2626" stroke-width="2.4"/>
+  <circle cx="504.0" cy="188.5" r="7.2" fill="#FEE2E2" fill-opacity="0.82" stroke="#DC2626" stroke-width="2.4"/>
+  <circle cx="504.0" cy="171.5" r="7.2" fill="#FEE2E2" fill-opacity="0.82" stroke="#DC2626" stroke-width="2.4"/>
+  <circle cx="504.0" cy="154.5" r="7.2" fill="#FEE2E2" fill-opacity="0.82" stroke="#DC2626" stroke-width="2.4"/>
+  <circle cx="504.0" cy="137.5" r="7.2" fill="#FEE2E2" fill-opacity="0.82" stroke="#DC2626" stroke-width="2.4"/>
+  <circle cx="504.0" cy="120.5" r="7.2" fill="#FEE2E2" fill-opacity="0.82" stroke="#DC2626" stroke-width="2.4"/>
+  <!-- Clear count badge above 12th circle -->
+  <rect x="476.0" y="60" width="56" height="22" rx="6" fill="#DC2626"/>
+  <text x="504.0" y="75" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">12こ</text>
+</svg>

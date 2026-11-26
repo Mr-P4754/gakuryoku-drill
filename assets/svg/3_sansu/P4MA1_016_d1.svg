@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 276" width="320" height="276" role="img" aria-label="半径5cmの円">
+  <title>半径5cmの円</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 14px; font-weight: 700; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="320" height="276" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <circle cx="160" cy="138" r="98" fill="#F8FAFC" stroke="#1E293B" stroke-width="2.4"/>
+  <line x1="62" y1="138" x2="258" y2="138" stroke="#1E293B" stroke-width="2.2"/>
+  <circle cx="160" cy="138" r="4.5" fill="#1E293B"/>
+  <path d="M 160.0 138.0 Q 209.0 106.0 258.0 138.0" fill="none" stroke="#2563EB" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="209.0" y="124.4" text-anchor="middle" font-size="16" font-weight="700" fill="#2563EB" class="halo">5cm</text>
+
+</svg>

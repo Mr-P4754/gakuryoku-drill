@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 185" width="600" height="185" role="img" aria-label="□×5=20のことばの式解説">
+  <title>□×5=20のことばの式解説</title>
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 600; }
+      .lbl-sm { font-size: 14px; font-weight: 600; }
+      .lbl-xs { font-size: 12.5px; font-weight: 500; fill: #475569; }
+      .num { font-size: 17px; font-weight: 700; }
+      .num-lg { font-size: 22px; font-weight: 700; }
+      .num-sm { font-size: 14px; font-weight: 700; }
+      .carry { font-size: 13px; font-weight: 700; fill: #DC2626; }
+      .borrow { font-size: 13px; font-weight: 700; fill: #2563EB; }
+      .blank-num { font-size: 17px; font-weight: 700; fill: #2563EB; }
+      .ans-num { font-size: 17px; font-weight: 700; fill: #0F766E; }
+      .unit-txt { font-size: 14px; font-weight: 600; fill: #334155; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="600" height="185" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="300" y="28" text-anchor="middle" class="title">みかん□こずつ・5人・ぜんぶで20こ</text>
+  <rect x="36" y="46" width="150" height="34" rx="8" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.8"/>
+  <text x="111.0" y="69" text-anchor="middle" class="lbl-sm" fill="#1D4ED8">1人分の数</text>
+  <text x="111.0" y="102" text-anchor="middle" class="lbl-sm" fill="#64748B">↓</text>
+  <rect x="77.0" y="108" width="68" height="36" rx="8" fill="#EFF6FF" stroke="#2563EB" stroke-width="2.2"/>
+  <text x="111.0" y="133" text-anchor="middle" class="num-lg" fill="#2563EB">□</text>
+  <rect x="228" y="46" width="134" height="34" rx="8" fill="#ECFDF5" stroke="#059669" stroke-width="1.8"/>
+  <text x="295.0" y="69" text-anchor="middle" class="lbl-sm" fill="#047857">何人分</text>
+  <text x="295.0" y="102" text-anchor="middle" class="lbl-sm" fill="#64748B">↓</text>
+  <rect x="261.0" y="108" width="68" height="36" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="1.6"/>
+  <text x="295.0" y="133" text-anchor="middle" class="num-lg" fill="#047857">5</text>
+  <rect x="404" y="46" width="160" height="34" rx="8" fill="#FFFBEB" stroke="#D97706" stroke-width="1.8"/>
+  <text x="484.0" y="69" text-anchor="middle" class="lbl-sm" fill="#B45309">ぜんぶの数</text>
+  <text x="484.0" y="102" text-anchor="middle" class="lbl-sm" fill="#64748B">↓</text>
+  <rect x="450.0" y="108" width="68" height="36" rx="8" fill="#FFFFFF" stroke="#D97706" stroke-width="1.6"/>
+  <text x="484.0" y="133" text-anchor="middle" class="num-lg" fill="#B45309">20</text>
+  <text x="207" y="70" text-anchor="middle" class="num-lg">×</text>
+  <text x="207" y="133" text-anchor="middle" class="num-lg">×</text>
+  <text x="383" y="70" text-anchor="middle" class="num-lg">＝</text>
+  <text x="383" y="133" text-anchor="middle" class="num-lg">＝</text>
+  <text x="300" y="170" text-anchor="middle" class="num" fill="#0F766E">式： □ × 5 ＝ 20</text>
+</svg>

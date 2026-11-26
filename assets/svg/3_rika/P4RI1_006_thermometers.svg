@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 300" width="620" height="300">
+  <rect width="620" height="300" rx="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <text x="310" y="26" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="15" font-weight="bold" fill="#065F46">日なたと日かげの地面の温度</text>
+
+  <!-- Left box: 午前9時 -->
+  <rect x="22" y="38" width="278" height="248" rx="12" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.5"/>
+  <rect x="108" y="45" width="106" height="22" rx="6" fill="#EFF6FF" stroke="#3B82F6" stroke-width="1.2"/>
+  <text x="161" y="60" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#1D4ED8">午前9時</text>
+  <g transform="translate(56, 0)">
+  <text x="46" y="84" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#EA580C">日なた</text>
+  <line x1="30" y1="227.5" x2="62" y2="227.5" stroke="#475569" stroke-width="0.9"/>
+  <line x1="12" y1="219.0" x2="80" y2="219.0" stroke="#475569" stroke-width="1.6"/>
+  <text x="16" y="216.0" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#1E293B">1</text>
+  <text x="70" y="216.0" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#1E293B">0</text>
+  <line x1="30" y1="210.5" x2="62" y2="210.5" stroke="#475569" stroke-width="0.9"/>
+  <line x1="30" y1="202.0" x2="62" y2="202.0" stroke="#475569" stroke-width="0.9"/>
+  <line x1="30" y1="193.5" x2="62" y2="193.5" stroke="#475569" stroke-width="0.9"/>
+  <line x1="30" y1="185.0" x2="62" y2="185.0" stroke="#475569" stroke-width="0.9"/>
+  <line x1="22" y1="176.5" x2="70" y2="176.5" stroke="#475569" stroke-width="1.2"/>
+  <line x1="30" y1="168.0" x2="62" y2="168.0" stroke="#475569" stroke-width="0.9"/>
+  <line x1="30" y1="159.5" x2="62" y2="159.5" stroke="#475569" stroke-width="0.9"/>
+  <line x1="30" y1="151.0" x2="62" y2="151.0" stroke="#475569" stroke-width="0.9"/>
+  <line x1="30" y1="142.5" x2="62" y2="142.5" stroke="#475569" stroke-width="0.9"/>
+  <line x1="12" y1="134.0" x2="80" y2="134.0" stroke="#475569" stroke-width="1.6"/>
+  <text x="16" y="131.0" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#1E293B">2</text>
+  <text x="70" y="131.0" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#1E293B">0</text>
+  <line x1="30" y1="125.5" x2="62" y2="125.5" stroke="#475569" stroke-width="0.9"/>
+  <line x1="30" y1="117.0" x2="62" y2="117.0" stroke="#475569" stroke-width="0.9"/>
+  <line x1="30" y1="108.5" x2="62" y2="108.5" stroke="#475569" stroke-width="0.9"/>
+  <line x1="30" y1="100.0" x2="62" y2="100.0" stroke="#475569" stroke-width="0.9"/>
+  <rect x="38" y="94" width="16" height="148" rx="4" fill="#FFFFFF" stroke="#334155" stroke-width="1.5"/>
+  <rect x="41" y="185.0" width="10" height="56.0" fill="#EF4444"/>
+  <line x1="36" y1="185.0" x2="56" y2="185.0" stroke="#B91C1C" stroke-width="1.5"/>
+  <rect x="16" y="250" width="60" height="24" rx="6" fill="#FFFFFF" stroke="#EA580C" stroke-width="1.5"/>
+  <text x="46" y="267" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13.5" font-weight="bold" fill="#EA580C">14℃</text>
+  </g>
+  <g transform="translate(176, 0)">
+  <text x="46" y="84" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#475569">日かげ</text>
+  <line x1="30" y1="227.5" x2="62" y2="227.5" stroke="#475569" stroke-width="0.9"/>
+  <line x1="12" y1="219.0" x2="80" y2="219.0" stroke="#475569" stroke-width="1.6"/>
+  <text x="16" y="216.0" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#1E293B">1</text>
+  <text x="70" y="216.0" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#1E293B">0</text>
+  <line x1="30" y1="210.5" x2="62" y2="210.5" stroke="#475569" stroke-width="0.9"/>
+  <line x1="30" y1="202.0" x2="62" y2="202.0" stroke="#475569" stroke-width="0.9"/>
+  <line x1="30" y1="193.5" x2="62" y2="193.5" stroke="#475569" stroke-width="0.9"/>
+  <line x1="30" y1="185.0" x2="62" y2="185.0" stroke="#475569" stroke-width="0.9"/>
+  <line x1="22" y1="176.5" x2="70" y2="176.5" stroke="#475569" stroke-width="1.2"/>
+  <line x1="30" y1="168.0" x2="62" y2="168.0" stroke="#475569" stroke-width="0.9"/>
+  <line x1="30" y1="159.5" x2="62" y2="159.5" stroke="#475569" stroke-width="0.9"/>
+  <line x1="30" y1="151.0" x2="62" y2="151.0" stroke="#475569" stroke-width="0.9"/>
+  <line x1="30" y1="142.5" x2="62" y2="142.5" stroke="#475569" stroke-width="0.9"/>
+  <line x1="12" y1="134.0" x2="80" y2="134.0" stroke="#475569" stroke-width="1.6"/>
+  <text x="16" y="131.0" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#1E293B">2</text>
+  <text x="70" y="131.0" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#1E293B">0</text>
+  <line x1="30" y1="125.5" x2="62" y2="125.5" stroke="#475569" stroke-width="0.9"/>
+  <line x1="30" y1="117.0" x2="62" y2="117.0" stroke="#475569" stroke-width="0.9"/>
+  <line x1="30" y1="108.5" x2="62" y2="108.5" stroke="#475569" stroke-width="0.9"/>
+  <line x1="30" y1="100.0" x2="62" y2="100.0" stroke="#475569" stroke-width="0.9"/>
+  <rect x="38" y="94" width="16" height="148" rx="4" fill="#FFFFFF" stroke="#334155" stroke-width="1.5"/>
+  <rect x="41" y="193.5" width="10" height="47.5" fill="#EF4444"/>
+  <line x1="36" y1="193.5" x2="56" y2="193.5" stroke="#B91C1C" stroke-width="1.5"/>
+  <rect x="16" y="250" width="60" height="24" rx="6" fill="#FFFFFF" stroke="#475569" stroke-width="1.5"/>
+  <text x="46" y="267" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13.5" font-weight="bold" fill="#475569">13℃</text>
+  </g>
+
+  <!-- Right box: 正午 -->
+  <rect x="320" y="38" width="278" height="248" rx="12" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.5"/>
+  <rect x="406" y="45" width="106" height="22" rx="6" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1.2"/>
+  <text x="459" y="60" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#B45309">正午</text>
+  <g transform="translate(354, 0)">
+  <text x="46" y="84" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#EA580C">日なた</text>
+  <line x1="30" y1="227.5" x2="62" y2="227.5" stroke="#475569" stroke-width="0.9"/>
+  <line x1="12" y1="219.0" x2="80" y2="219.0" stroke="#475569" stroke-width="1.6"/>
+  <text x="16" y="216.0" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#1E293B">1</text>
+  <text x="70" y="216.0" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#1E293B">0</text>
+  <line x1="30" y1="210.5" x2="62" y2="210.5" stroke="#475569" stroke-width="0.9"/>
+  <line x1="30" y1="202.0" x2="62" y2="202.0" stroke="#475569" stroke-width="0.9"/>
+  <line x1="30" y1="193.5" x2="62" y2="193.5" stroke="#475569" stroke-width="0.9"/>
+  <line x1="30" y1="185.0" x2="62" y2="185.0" stroke="#475569" stroke-width="0.9"/>
+  <line x1="22" y1="176.5" x2="70" y2="176.5" stroke="#475569" stroke-width="1.2"/>
+  <line x1="30" y1="168.0" x2="62" y2="168.0" stroke="#475569" stroke-width="0.9"/>
+  <line x1="30" y1="159.5" x2="62" y2="159.5" stroke="#475569" stroke-width="0.9"/>
+  <line x1="30" y1="151.0" x2="62" y2="151.0" stroke="#475569" stroke-width="0.9"/>
+  <line x1="30" y1="142.5" x2="62" y2="142.5" stroke="#475569" stroke-width="0.9"/>
+  <line x1="12" y1="134.0" x2="80" y2="134.0" stroke="#475569" stroke-width="1.6"/>
+  <text x="16" y="131.0" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#1E293B">2</text>
+  <text x="70" y="131.0" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#1E293B">0</text>
+  <line x1="30" y1="125.5" x2="62" y2="125.5" stroke="#475569" stroke-width="0.9"/>
+  <line x1="30" y1="117.0" x2="62" y2="117.0" stroke="#475569" stroke-width="0.9"/>
+  <line x1="30" y1="108.5" x2="62" y2="108.5" stroke="#475569" stroke-width="0.9"/>
+  <line x1="30" y1="100.0" x2="62" y2="100.0" stroke="#475569" stroke-width="0.9"/>
+  <rect x="38" y="94" width="16" height="148" rx="4" fill="#FFFFFF" stroke="#334155" stroke-width="1.5"/>
+  <rect x="41" y="125.5" width="10" height="115.5" fill="#EF4444"/>
+  <line x1="36" y1="125.5" x2="56" y2="125.5" stroke="#B91C1C" stroke-width="1.5"/>
+  <rect x="16" y="250" width="60" height="24" rx="6" fill="#FFFFFF" stroke="#EA580C" stroke-width="1.5"/>
+  <text x="46" y="267" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13.5" font-weight="bold" fill="#EA580C">21℃</text>
+  </g>
+  <g transform="translate(474, 0)">
+  <text x="46" y="84" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#475569">日かげ</text>
+  <line x1="30" y1="227.5" x2="62" y2="227.5" stroke="#475569" stroke-width="0.9"/>
+  <line x1="12" y1="219.0" x2="80" y2="219.0" stroke="#475569" stroke-width="1.6"/>
+  <text x="16" y="216.0" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#1E293B">1</text>
+  <text x="70" y="216.0" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#1E293B">0</text>
+  <line x1="30" y1="210.5" x2="62" y2="210.5" stroke="#475569" stroke-width="0.9"/>
+  <line x1="30" y1="202.0" x2="62" y2="202.0" stroke="#475569" stroke-width="0.9"/>
+  <line x1="30" y1="193.5" x2="62" y2="193.5" stroke="#475569" stroke-width="0.9"/>
+  <line x1="30" y1="185.0" x2="62" y2="185.0" stroke="#475569" stroke-width="0.9"/>
+  <line x1="22" y1="176.5" x2="70" y2="176.5" stroke="#475569" stroke-width="1.2"/>
+  <line x1="30" y1="168.0" x2="62" y2="168.0" stroke="#475569" stroke-width="0.9"/>
+  <line x1="30" y1="159.5" x2="62" y2="159.5" stroke="#475569" stroke-width="0.9"/>
+  <line x1="30" y1="151.0" x2="62" y2="151.0" stroke="#475569" stroke-width="0.9"/>
+  <line x1="30" y1="142.5" x2="62" y2="142.5" stroke="#475569" stroke-width="0.9"/>
+  <line x1="12" y1="134.0" x2="80" y2="134.0" stroke="#475569" stroke-width="1.6"/>
+  <text x="16" y="131.0" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#1E293B">2</text>
+  <text x="70" y="131.0" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#1E293B">0</text>
+  <line x1="30" y1="125.5" x2="62" y2="125.5" stroke="#475569" stroke-width="0.9"/>
+  <line x1="30" y1="117.0" x2="62" y2="117.0" stroke="#475569" stroke-width="0.9"/>
+  <line x1="30" y1="108.5" x2="62" y2="108.5" stroke="#475569" stroke-width="0.9"/>
+  <line x1="30" y1="100.0" x2="62" y2="100.0" stroke="#475569" stroke-width="0.9"/>
+  <rect x="38" y="94" width="16" height="148" rx="4" fill="#FFFFFF" stroke="#334155" stroke-width="1.5"/>
+  <rect x="41" y="168.0" width="10" height="73.0" fill="#EF4444"/>
+  <line x1="36" y1="168.0" x2="56" y2="168.0" stroke="#B91C1C" stroke-width="1.5"/>
+  <rect x="16" y="250" width="60" height="24" rx="6" fill="#FFFFFF" stroke="#475569" stroke-width="1.5"/>
+  <text x="46" y="267" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13.5" font-weight="bold" fill="#475569">16℃</text>
+  </g>
+</svg>

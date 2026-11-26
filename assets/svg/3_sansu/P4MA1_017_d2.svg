@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 250" width="340" height="250" role="img" aria-label="辺の長さが6cm・6cm・6cmの三角形">
+  <title>辺の長さが6cm・6cm・6cmの三角形</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 14px; font-weight: 700; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="340" height="250" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <polygon points="170.0,58.2 87.0,202.0 253.0,202.0" fill="#EFF6FF" stroke="#1E293B" stroke-width="2.4" stroke-linejoin="round"/>
+  <path d="M 170.0 58.2 Q 102.5 115.1 87.0 202.0" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="113.4" y="126.4" text-anchor="middle" font-size="14" font-weight="700" fill="#1E293B" class="halo">6cm</text>
+
+  <path d="M 253.0 202.0 Q 237.5 115.1 170.0 58.2" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="226.6" y="126.4" text-anchor="middle" font-size="14" font-weight="700" fill="#1E293B" class="halo">6cm</text>
+
+  <path d="M 87.0 202.0 Q 170.0 232.0 253.0 202.0" fill="none" stroke="#475569" stroke-width="1.3" stroke-dasharray="3.5,3"/>
+  <text x="170.0" y="224.4" text-anchor="middle" font-size="14" font-weight="700" fill="#1E293B" class="halo">6cm</text>
+
+</svg>

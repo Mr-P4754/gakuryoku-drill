@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 280" width="600" height="280">
+  <defs>
+    <radialGradient id="lensGrad" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#E0F2FE" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#7DD3FC" stop-opacity="0.55"/>
+    </radialGradient>
+    <marker id="arrBlue" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,1 L9,5 L0,9 z" fill="#0284C7"/>
+    </marker>
+    <marker id="arrBlueRev" viewBox="0 0 10 10" refX="3" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M10,1 L1,5 L10,9 z" fill="#0284C7"/>
+    </marker>
+  </defs>
+
+  <rect width="600" height="280" rx="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <text x="300" y="28" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="15" font-weight="bold" fill="#065F46">虫めがねの使い方（手で持てる物を見るとき）</text>
+
+  <!-- Left panel: Child observing a flower with magnifying glass -->
+  <rect x="18" y="42" width="356" height="222" rx="12" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.4"/>
+
+  <!-- Child in side profile -->
+  <g transform="translate(54, 62)">
+    <!-- Shirt / shoulder -->
+    <path d="M18,196 L28,128 Q54,116 86,128 L94,196 Z" fill="#60A5FA" stroke="#1D4ED8" stroke-width="2"/>
+    <!-- Collar -->
+    <path d="M46,122 L62,138 L78,124" fill="#EFF6FF" stroke="#1D4ED8" stroke-width="1.5"/>
+    <!-- Neck -->
+    <rect x="52" y="106" width="20" height="20" rx="6" fill="#FDE68A" stroke="#B45309" stroke-width="1.5"/>
+    <!-- Head profile facing right -->
+    <path d="M40,56 C40,34 86,32 98,54 C104,64 103,76 106,82 C108,85 103,88 100,90 C100,104 86,112 68,112 C48,112 38,94 40,56 Z" fill="#FEF3C7" stroke="#92400E" stroke-width="1.8"/>
+    <!-- Hair -->
+    <path d="M38,62 C36,36 74,26 98,46 C86,44 76,54 68,62 C62,68 56,82 54,90 C44,88 38,76 38,62 Z" fill="#334155"/>
+    <!-- Ear -->
+    <circle cx="58" cy="78" r="7" fill="#FEF3C7" stroke="#92400E" stroke-width="1.5"/>
+    <!-- Eye -->
+    <ellipse cx="90" cy="72" rx="3.2" ry="4" fill="#0F172A"/>
+    <path d="M84,65 Q91,62 96,65" fill="none" stroke="#334155" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- Smile -->
+    <path d="M93,96 Q98,98 101,95" fill="none" stroke="#92400E" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- Yellow Sun Hat -->
+    <path d="M24,48 C34,14 92,10 104,42 Z" fill="#FACC15" stroke="#B45309" stroke-width="1.8"/>
+    <path d="M12,48 Q64,34 122,48 Q74,56 12,48 Z" fill="#FDE047" stroke="#B45309" stroke-width="1.8"/>
+    <!-- Right arm holding magnifying glass near eye -->
+    <path d="M68,144 Q98,146 116,120" fill="none" stroke="#60A5FA" stroke-width="16" stroke-linecap="round"/>
+    <path d="M68,144 Q98,146 116,120" fill="none" stroke="#1D4ED8" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="122" cy="112" r="10" fill="#FEF3C7" stroke="#92400E" stroke-width="1.6"/>
+    <!-- Magnifying glass close to eye -->
+    <line x1="122" y1="106" x2="128" y2="86" stroke="#475569" stroke-width="5" stroke-linecap="round"/>
+    <ellipse cx="131" cy="70" rx="8" ry="18" fill="url(#lensGrad)" stroke="#0284C7" stroke-width="3" transform="rotate(8 131 70)"/>
+    <!-- Left arm holding flower -->
+    <path d="M84,158 Q144,162 184,136" fill="none" stroke="#60A5FA" stroke-width="14" stroke-linecap="round"/>
+    <circle cx="192" cy="130" r="10" fill="#FEF3C7" stroke="#92400E" stroke-width="1.6"/>
+    <!-- Flower held in hand -->
+    <path d="M192,130 L204,96" stroke="#16A34A" stroke-width="3" stroke-linecap="round"/>
+    <path d="M198,114 Q186,108 184,116 Q190,122 198,116 Z" fill="#4ADE80" stroke="#15803D" stroke-width="1.2"/>
+    <g transform="translate(206, 88)">
+      <circle cx="0" cy="-9" r="7" fill="#F472B6" stroke="#BE185D" stroke-width="1.2"/>
+      <circle cx="9" cy="-2" r="7" fill="#F472B6" stroke="#BE185D" stroke-width="1.2"/>
+      <circle cx="5" cy="8" r="7" fill="#F472B6" stroke="#BE185D" stroke-width="1.2"/>
+      <circle cx="-5" cy="8" r="7" fill="#F472B6" stroke="#BE185D" stroke-width="1.2"/>
+      <circle cx="-9" cy="-2" r="7" fill="#F472B6" stroke="#BE185D" stroke-width="1.2"/>
+      <circle cx="0" cy="0" r="4.5" fill="#FACC15"/>
+    </g>
+    <!-- Sightline dashed -->
+    <line x1="98" y1="72" x2="192" y2="86" stroke="#0EA5E9" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <!-- Back-and-forth arrow under flower -->
+    <line x1="176" y1="160" x2="232" y2="160" stroke="#0284C7" stroke-width="2.2" marker-start="url(#arrBlueRev)" marker-end="url(#arrBlue)"/>
+    <text x="204" y="178" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#0369A1">前後に動かす</text>
+  </g>
+
+  <!-- Callout badges ① and ② -->
+  <line x1="150" y1="134" x2="178" y2="74" stroke="#059669" stroke-width="1.6"/>
+  <circle cx="188" cy="64" r="13" fill="#ECFDF5" stroke="#059669" stroke-width="2"/>
+  <text x="188" y="69" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#065F46">①</text>
+  <text x="206" y="69" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#065F46">に近づけて持つ</text>
+
+  <line x1="262" y1="142" x2="282" y2="112" stroke="#D97706" stroke-width="1.6"/>
+  <circle cx="290" cy="102" r="13" fill="#FFFBEB" stroke="#D97706" stroke-width="2"/>
+  <text x="290" y="107" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#B45309">②</text>
+  <text x="308" y="107" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12" font-weight="bold" fill="#B45309">を動かす</text>
+
+  <!-- Right panel: Safety Warning -->
+  <rect x="388" y="42" width="194" height="222" rx="12" fill="#FEF2F2" stroke="#EF4444" stroke-width="2"/>
+  <rect x="404" y="54" width="162" height="26" rx="6" fill="#DC2626"/>
+  <text x="485" y="72" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#FFFFFF">ちゅうい（きけん！）</text>
+
+  <!-- Sun with prohibition mark -->
+  <g transform="translate(485, 140)">
+    <circle cx="0" cy="0" r="24" fill="#FACC15" stroke="#EA580C" stroke-width="2.2"/>
+    <g stroke="#EA580C" stroke-width="3" stroke-linecap="round">
+      <line x1="0" y1="-36" x2="0" y2="-29"/><line x1="0" y1="29" x2="0" y2="36"/>
+      <line x1="-36" y1="0" x2="-29" y2="0"/><line x1="29" y1="0" x2="36" y2="0"/>
+      <line x1="-25" y1="-25" x2="-20" y2="-20"/><line x1="20" y1="20" x2="25" y2="25"/>
+      <line x1="25" y1="-25" x2="20" y2="-20"/><line x1="-20" y1="20" x2="-25" y2="25"/>
+    </g>
+    <!-- Red prohibition circle + slash -->
+    <circle cx="0" cy="0" r="42" fill="none" stroke="#DC2626" stroke-width="6"/>
+    <line x1="-30" y1="-30" x2="30" y2="30" stroke="#DC2626" stroke-width="6"/>
+  </g>
+
+  <circle cx="430" cy="212" r="13" fill="#FFFFFF" stroke="#DC2626" stroke-width="2"/>
+  <text x="430" y="217" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13" font-weight="bold" fill="#B91C1C">③</text>
+  <text x="448" y="217" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12.5" font-weight="bold" fill="#991B1B">をぜったいに</text>
+  <text x="485" y="242" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="12.5" font-weight="bold" fill="#991B1B">見てはいけない！</text>
+</svg>

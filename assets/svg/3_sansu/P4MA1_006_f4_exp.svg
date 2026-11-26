@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 200" width="560" height="200" role="img" aria-label="2343 - 1468 の筆算解説">
+  <title>2343 - 1468 の筆算解説</title>
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 600; }
+      .lbl-sm { font-size: 14px; font-weight: 600; }
+      .lbl-xs { font-size: 12.5px; font-weight: 500; fill: #475569; }
+      .num { font-size: 17px; font-weight: 700; }
+      .num-lg { font-size: 22px; font-weight: 700; }
+      .num-sm { font-size: 14px; font-weight: 700; }
+      .carry { font-size: 13px; font-weight: 700; fill: #DC2626; }
+      .borrow { font-size: 13px; font-weight: 700; fill: #2563EB; }
+      .blank-num { font-size: 17px; font-weight: 700; fill: #2563EB; }
+      .ans-num { font-size: 17px; font-weight: 700; fill: #0F766E; }
+      .unit-txt { font-size: 14px; font-weight: 600; fill: #334155; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="560" height="200" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="280" y="28" text-anchor="middle" class="title">2343 － 1468 ＝ 875</text>
+  <line x1="155.0" y1="54" x2="155.0" y2="176" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="125.0" y1="54" x2="125.0" y2="176" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="95.0" y1="54" x2="95.0" y2="176" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="65.0" y1="54" x2="65.0" y2="176" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="170" y="112" text-anchor="middle" class="num-lg">3</text>
+  <text x="170" y="88" text-anchor="middle" class="borrow">10</text>
+  <text x="140" y="112" text-anchor="middle" class="num-lg">4</text>
+  <line x1="131" y1="115" x2="149" y2="94" stroke="#DC2626" stroke-width="2"/>
+  <text x="140" y="88" text-anchor="middle" class="borrow">3</text>
+  <text x="140" y="72" text-anchor="middle" class="carry">10</text>
+  <text x="110" y="112" text-anchor="middle" class="num-lg">3</text>
+  <line x1="101" y1="115" x2="119" y2="94" stroke="#DC2626" stroke-width="2"/>
+  <text x="110" y="88" text-anchor="middle" class="borrow">2</text>
+  <text x="110" y="72" text-anchor="middle" class="carry">10</text>
+  <text x="80" y="112" text-anchor="middle" class="num-lg">2</text>
+  <line x1="71" y1="115" x2="89" y2="94" stroke="#DC2626" stroke-width="2"/>
+  <text x="80" y="88" text-anchor="middle" class="borrow">1</text>
+  <text x="54" y="142" text-anchor="middle" class="num-lg">－</text>
+  <text x="170" y="142" text-anchor="middle" class="num-lg">8</text>
+  <text x="140" y="142" text-anchor="middle" class="num-lg">6</text>
+  <text x="110" y="142" text-anchor="middle" class="num-lg">4</text>
+  <text x="80" y="142" text-anchor="middle" class="num-lg">1</text>
+  <line x1="38" y1="152" x2="188" y2="152" stroke="#1E293B" stroke-width="2.2"/>
+  <text x="170" y="178" text-anchor="middle" class="num-lg" fill="#0F766E">5</text>
+  <text x="140" y="178" text-anchor="middle" class="num-lg" fill="#0F766E">7</text>
+  <text x="110" y="178" text-anchor="middle" class="num-lg" fill="#0F766E">8</text>
+  <rect x="208" y="48" width="332" height="132" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.2"/>
+  <text x="222" y="76" class="lbl-xs" fill="#1E293B">一の位：13－8＝5（十の位4→3）</text>
+  <text x="222" y="102" class="lbl-xs" fill="#1E293B">十の位：13－6＝7（百の位3→2）</text>
+  <text x="222" y="128" class="lbl-xs" fill="#1E293B">百の位：12－4＝8（千の位2→1）</text>
+  <text x="222" y="154" class="lbl-xs" fill="#1E293B">千の位：1－1＝0（先頭の0は書かない）</text>
+</svg>

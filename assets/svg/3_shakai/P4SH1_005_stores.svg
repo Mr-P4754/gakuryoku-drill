@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 560" width="820" height="560" role="img" aria-label="いろいろな店の4つの絵（①スーパーマーケット・②近所の八百屋・③コンビニエンスストア・④駅前のデパート）">
+  <style>
+    text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', 'Noto Sans CJK JP', sans-serif; }
+  </style>
+  <defs>
+    <clipPath id="st1"><rect x="24" y="38" width="374" height="224" rx="10"/></clipPath>
+    <clipPath id="st2"><rect x="422" y="38" width="374" height="224" rx="10"/></clipPath>
+    <clipPath id="st3"><rect x="24" y="314" width="374" height="224" rx="10"/></clipPath>
+    <clipPath id="st4"><rect x="422" y="314" width="374" height="224" rx="10"/></clipPath>
+  </defs>
+  <rect width="820" height="560" fill="#FFFFFF"/>
+
+  <!-- ① スーパーマーケット -->
+  <circle cx="38" cy="20" r="12" fill="#FEF3C7" stroke="#D97706" stroke-width="1.8"/>
+  <text x="38" y="25" text-anchor="middle" font-size="13" font-weight="700" fill="#92400E">①</text>
+  <text x="58" y="25" font-size="15" font-weight="700" fill="#0F172A">スーパーマーケット</text>
+  <g clip-path="url(#st1)">
+    <rect x="24" y="38" width="374" height="96" fill="#E0F2FE"/>
+    <!-- Wide asphalt parking lot -->
+    <rect x="24" y="130" width="374" height="132" fill="#CBD5E1"/>
+    <!-- Parking bay lines -->
+    <g stroke="#FFFFFF" stroke-width="2">
+      <line x1="60" y1="168" x2="170" y2="195"/>
+      <line x1="115" y1="158" x2="225" y2="185"/>
+      <line x1="180" y1="186" x2="310" y2="232"/>
+      <line x1="250" y1="176" x2="380" y2="222"/>
+    </g>
+    <!-- Large supermarket building -->
+    <polygon points="120,126 266,86 398,104 398,176 266,162 120,156" fill="#FFFFFF" stroke="#334155" stroke-width="1.8"/>
+    <polygon points="120,126 266,86 266,102 120,136" fill="#EF4444"/>
+    <polygon points="266,86 398,104 398,118 266,102" fill="#F97316"/>
+    <!-- Rooftop sign -->
+    <rect x="218" y="54" width="66" height="34" rx="4" fill="#EF4444" stroke="#7F1D1D" stroke-width="1.6"/>
+    <text x="251" y="76" text-anchor="middle" font-size="14" font-weight="700" fill="#FFFFFF">★SUPER</text>
+    <!-- Entrance canopy & sliding doors -->
+    <rect x="210" y="122" width="46" height="36" fill="#BAE6FD" stroke="#1E293B" stroke-width="1.4"/>
+    <rect x="290" y="122" width="84" height="36" fill="#E0F2FE" stroke="#475569" stroke-width="1.2"/>
+    <!-- Cars parked in wide parking lot -->
+    <g transform="translate(40, 198)">
+      <path d="M 4,26 L 18,8 L 62,8 L 82,26 L 90,46 L 0,46 Z" fill="#3B82F6" stroke="#1E3A8A" stroke-width="1.6"/>
+      <polygon points="20,12 58,12 70,24 12,24" fill="#DBEAFE"/>
+      <circle cx="22" cy="46" r="10" fill="#1E293B"/><circle cx="72" cy="46" r="10" fill="#1E293B"/>
+    </g>
+    <g transform="translate(262, 184)">
+      <path d="M 6,24 L 22,6 L 68,6 L 86,24 L 94,46 L 0,46 Z" fill="#10B981" stroke="#065F46" stroke-width="1.6"/>
+      <polygon points="24,10 64,10 74,22 14,22" fill="#D1FAE5"/>
+      <circle cx="22" cy="46" r="10" fill="#1E293B"/><circle cx="74" cy="46" r="10" fill="#1E293B"/>
+    </g>
+    <g transform="translate(148, 152) scale(0.55)">
+      <path d="M 4,26 L 18,8 L 62,8 L 82,26 L 90,46 L 0,46 Z" fill="#F59E0B" stroke="#78350F" stroke-width="2"/>
+      <circle cx="22" cy="46" r="10" fill="#1E293B"/><circle cx="72" cy="46" r="10" fill="#1E293B"/>
+    </g>
+  </g>
+  <rect x="24" y="38" width="374" height="224" rx="10" fill="none" stroke="#1E293B" stroke-width="1.8"/>
+
+  <!-- ② 近所の八百屋 -->
+  <circle cx="436" cy="20" r="12" fill="#DCFCE7" stroke="#15803D" stroke-width="1.8"/>
+  <text x="436" y="25" text-anchor="middle" font-size="13" font-weight="700" fill="#166534">②</text>
+  <text x="456" y="25" font-size="15" font-weight="700" fill="#0F172A">近所の八百屋</text>
+  <g clip-path="url(#st2)">
+    <rect x="422" y="38" width="374" height="224" fill="#FEFCE8"/>
+    <!-- Shop awning stripes -->
+    <rect x="422" y="38" width="374" height="32" fill="#22C55E"/>
+    <rect x="456" y="38" width="34" height="32" fill="#FFFFFF" fill-opacity="0.35"/>
+    <rect x="524" y="38" width="34" height="32" fill="#FFFFFF" fill-opacity="0.35"/>
+    <rect x="592" y="38" width="34" height="32" fill="#FFFFFF" fill-opacity="0.35"/>
+    <rect x="660" y="38" width="34" height="32" fill="#FFFFFF" fill-opacity="0.35"/>
+    <rect x="728" y="38" width="34" height="32" fill="#FFFFFF" fill-opacity="0.35"/>
+
+    <!-- Friendly greengrocer with headband holding daikon -->
+    <g transform="translate(556, 78)">
+      <circle cx="32" cy="24" r="16" fill="#FDE68A" stroke="#1E293B" stroke-width="1.6"/>
+      <!-- White hachimaki headband -->
+      <rect x="16" y="13" width="32" height="6" rx="2" fill="#FFFFFF" stroke="#475569" stroke-width="1.2"/>
+      <circle cx="26" cy="24" r="1.8" fill="#0F172A"/><circle cx="38" cy="24" r="1.8" fill="#0F172A"/>
+      <path d="M 27,31 Q 32,35 37,31" fill="none" stroke="#0F172A" stroke-width="1.5"/>
+      <!-- Apron & shirt -->
+      <rect x="14" y="40" width="36" height="58" rx="6" fill="#1E40AF" stroke="#0F172A" stroke-width="1.5"/>
+      <!-- Daikon radish being handed over -->
+      <ellipse cx="4" cy="54" rx="18" ry="6" fill="#FFFFFF" stroke="#475569" stroke-width="1.3" transform="rotate(-20 4 54)"/>
+      <path d="M -10,48 L -20,40 M -10,48 L -22,48" stroke="#16A34A" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <!-- Customers (parent & child) -->
+    <g transform="translate(454, 108)">
+      <circle cx="26" cy="22" r="14" fill="#FDE68A" stroke="#1E293B" stroke-width="1.5"/>
+      <path d="M 12,20 Q 24,4 40,18 Z" fill="#451A03"/>
+      <rect x="10" y="38" width="32" height="72" rx="6" fill="#EC4899" stroke="#831843" stroke-width="1.5"/>
+      <!-- Child -->
+      <circle cx="62" cy="46" r="11" fill="#FDE68A" stroke="#1E293B" stroke-width="1.5"/>
+      <rect x="52" y="58" width="22" height="48" rx="5" fill="#FACC15" stroke="#854D0E" stroke-width="1.4"/>
+    </g>
+
+    <!-- Abundant fresh produce display stands -->
+    <polygon points="552,162 796,136 796,262 552,262" fill="#D97706" stroke="#78350F" stroke-width="1.8"/>
+    <!-- Tomatoes -->
+    <rect x="564" y="172" width="66" height="44" rx="4" fill="#FEF3C7" stroke="#92400E" stroke-width="1.3"/>
+    <circle cx="580" cy="188" r="8" fill="#EF4444"/><circle cx="598" cy="188" r="8" fill="#EF4444"/><circle cx="614" cy="188" r="8" fill="#EF4444"/>
+    <circle cx="588" cy="204" r="8" fill="#EF4444"/><circle cx="606" cy="204" r="8" fill="#EF4444"/>
+    <!-- Price card トマト -->
+    <rect x="576" y="156" width="42" height="16" rx="2" fill="#FFFFFF" stroke="#DC2626" stroke-width="1.2"/>
+    <text x="597" y="168" text-anchor="middle" font-size="9.5" font-weight="700" fill="#B91C1C">トマト</text>
+
+    <!-- Apples -->
+    <rect x="642" y="158" width="68" height="44" rx="4" fill="#FEF3C7" stroke="#92400E" stroke-width="1.3"/>
+    <circle cx="658" cy="174" r="8.5" fill="#DC2626"/><circle cx="676" cy="174" r="8.5" fill="#DC2626"/><circle cx="694" cy="174" r="8.5" fill="#DC2626"/>
+    <circle cx="668" cy="190" r="8.5" fill="#EF4444"/><circle cx="686" cy="190" r="8.5" fill="#EF4444"/>
+    <rect x="654" y="142" width="42" height="16" rx="2" fill="#FFFFFF" stroke="#DC2626" stroke-width="1.2"/>
+    <text x="675" y="154" text-anchor="middle" font-size="9.5" font-weight="700" fill="#B91C1C">リンゴ</text>
+
+    <!-- Cabbages & onions -->
+    <rect x="720" y="146" width="68" height="52" rx="4" fill="#FEF3C7" stroke="#92400E" stroke-width="1.3"/>
+    <circle cx="742" cy="172" r="14" fill="#4ADE80" stroke="#15803D" stroke-width="1.3"/>
+    <circle cx="768" cy="172" r="14" fill="#4ADE80" stroke="#15803D" stroke-width="1.3"/>
+    <rect x="634" y="212" width="76" height="42" rx="4" fill="#FEF3C7" stroke="#92400E" stroke-width="1.3"/>
+    <circle cx="654" cy="232" r="10" fill="#F59E0B" stroke="#92400E" stroke-width="1.1"/>
+    <circle cx="674" cy="232" r="10" fill="#F59E0B" stroke="#92400E" stroke-width="1.1"/>
+    <circle cx="694" cy="232" r="10" fill="#F59E0B" stroke="#92400E" stroke-width="1.1"/>
+    <rect x="720" y="208" width="68" height="46" rx="4" fill="#FEF3C7" stroke="#92400E" stroke-width="1.3"/>
+    <ellipse cx="742" cy="230" rx="10" ry="6" fill="#7E22CE"/>
+    <ellipse cx="764" cy="230" rx="10" ry="6" fill="#7E22CE"/>
+  </g>
+  <rect x="422" y="38" width="374" height="224" rx="10" fill="none" stroke="#1E293B" stroke-width="1.8"/>
+
+  <!-- ③ コンビニエンスストア -->
+  <circle cx="38" cy="296" r="12" fill="#DBEAFE" stroke="#1D4ED8" stroke-width="1.8"/>
+  <text x="38" y="301" text-anchor="middle" font-size="13" font-weight="700" fill="#1E40AF">③</text>
+  <text x="58" y="301" font-size="15" font-weight="700" fill="#0F172A">コンビニエンスストア</text>
+  <g clip-path="url(#st3)">
+    <!-- Evening/dusk sky showing open late! -->
+    <rect x="24" y="314" width="374" height="110" fill="#1E3A8A"/>
+    <!-- Crescent moon & stars -->
+    <circle cx="68" cy="342" r="12" fill="#FEF08A"/>
+    <circle cx="74" cy="339" r="10" fill="#1E3A8A"/>
+    <circle cx="118" cy="336" r="2" fill="#FFFFFF"/><circle cx="152" cy="348" r="2" fill="#FFFFFF"/><circle cx="288" cy="338" r="2.2" fill="#FFFFFF"/>
+    <!-- Pavement -->
+    <rect x="24" y="454" width="374" height="84" fill="#94A3B8"/>
+    <line x1="60" y1="538" x2="110" y2="480" stroke="#FFFFFF" stroke-width="2.5"/>
+    <line x1="165" y1="538" x2="205" y2="480" stroke="#FFFFFF" stroke-width="2.5"/>
+    <line x1="275" y1="538" x2="305" y2="480" stroke="#FFFFFF" stroke-width="2.5"/>
+
+    <!-- Brightly lit convenience store building -->
+    <rect x="40" y="366" width="268" height="106" fill="#F8FAFC" stroke="#1E293B" stroke-width="1.8"/>
+    <!-- Iconic tricolor canopy stripe -->
+    <rect x="34" y="376" width="280" height="9" fill="#22C55E"/>
+    <rect x="34" y="385" width="280" height="7" fill="#F97316"/>
+    <rect x="34" y="392" width="280" height="7" fill="#3B82F6"/>
+    <!-- Glowing warm storefront windows -->
+    <rect x="52" y="408" width="76" height="64" fill="#FEF9C3" stroke="#334155" stroke-width="1.5"/>
+    <line x1="90" y1="408" x2="90" y2="472" stroke="#334155" stroke-width="1.5"/>
+    <rect x="142" y="408" width="150" height="54" fill="#FEF08A" stroke="#334155" stroke-width="1.5"/>
+    <line x1="192" y1="408" x2="192" y2="462" stroke="#475569" stroke-width="1.2"/>
+    <line x1="242" y1="408" x2="242" y2="462" stroke="#475569" stroke-width="1.2"/>
+    <!-- Tall roadside 24H illuminated sign -->
+    <line x1="348" y1="364" x2="348" y2="474" stroke="#475569" stroke-width="5"/>
+    <rect x="320" y="328" width="56" height="40" rx="6" fill="#FFFFFF" stroke="#22C55E" stroke-width="3"/>
+    <text x="348" y="354" text-anchor="middle" font-size="14" font-weight="700" fill="#15803D">24H</text>
+    <rect x="332" y="378" width="32" height="22" rx="3" fill="#2563EB"/>
+    <text x="348" y="394" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">P</text>
+
+    <!-- Parked car in front -->
+    <g transform="translate(226, 462)">
+      <path d="M 6,22 L 22,6 L 68,6 L 86,22 L 92,42 L 0,42 Z" fill="#F8FAFC" stroke="#1E293B" stroke-width="1.6"/>
+      <polygon points="24,10 64,10 74,20 14,20" fill="#BAE6FD"/>
+      <circle cx="22" cy="42" r="9" fill="#1E293B"/><circle cx="72" cy="42" r="9" fill="#1E293B"/>
+    </g>
+    <!-- Customer walking in -->
+    <g transform="translate(114, 456)">
+      <circle cx="12" cy="12" r="8" fill="#FDE68A" stroke="#1E293B" stroke-width="1.3"/>
+      <rect x="4" y="20" width="16" height="24" rx="4" fill="#EF4444" stroke="#7F1D1D" stroke-width="1.3"/>
+      <line x1="8" y1="44" x2="6" y2="62" stroke="#1E293B" stroke-width="3.5"/>
+      <line x1="16" y1="44" x2="18" y2="62" stroke="#1E293B" stroke-width="3.5"/>
+    </g>
+  </g>
+  <rect x="24" y="314" width="374" height="224" rx="10" fill="none" stroke="#1E293B" stroke-width="1.8"/>
+
+  <!-- ④ 駅前のデパート -->
+  <circle cx="436" cy="296" r="12" fill="#F3E8FF" stroke="#7E22CE" stroke-width="1.8"/>
+  <text x="436" y="301" text-anchor="middle" font-size="13" font-weight="700" fill="#6B21A8">④</text>
+  <text x="456" y="301" font-size="15" font-weight="700" fill="#0F172A">駅前のデパート</text>
+  <g clip-path="url(#st4)">
+    <rect x="422" y="314" width="374" height="80" fill="#E0F2FE"/>
+    <!-- Rooftop garden trees & flags -->
+    <circle cx="545" cy="368" r="12" fill="#22C55E"/><circle cx="595" cy="366" r="14" fill="#16A34A"/>
+    <circle cx="655" cy="368" r="12" fill="#22C55E"/><circle cx="710" cy="366" r="13" fill="#16A34A"/>
+    <line x1="744" y1="342" x2="744" y2="372" stroke="#475569" stroke-width="2"/>
+    <polygon points="744,342 764,348 744,356" fill="#EF4444"/>
+    <line x1="766" y1="346" x2="766" y2="372" stroke="#475569" stroke-width="2"/>
+    <polygon points="766,346 784,352 766,360" fill="#3B82F6"/>
+
+    <!-- Grand multi-story department store building -->
+    <rect x="442" y="370" width="334" height="142" fill="#FEF3C7" stroke="#334155" stroke-width="1.8"/>
+    <!-- Rooftop sign tower -->
+    <rect x="442" y="330" width="84" height="40" fill="#7C3AED" stroke="#4C1D95" stroke-width="1.6"/>
+    <text x="484" y="355" text-anchor="middle" font-size="14" font-weight="700" fill="#FFFFFF">デパート</text>
+    <!-- Hanging vertical banners -->
+    <rect x="458" y="388" width="22" height="80" rx="2" fill="#EC4899" stroke="#831843" stroke-width="1.2"/>
+    <text x="469" y="408" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF">大</text>
+    <text x="469" y="424" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF">売</text>
+    <text x="469" y="440" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF">り</text>
+    <text x="469" y="456" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF">出</text>
+    <!-- Large glass facade windows -->
+    <rect x="498" y="388" width="112" height="86" fill="#BAE6FD" stroke="#334155" stroke-width="1.5"/>
+    <line x1="536" y1="388" x2="536" y2="474" stroke="#334155" stroke-width="1.2"/>
+    <line x1="574" y1="388" x2="574" y2="474" stroke="#334155" stroke-width="1.2"/>
+    <line x1="498" y1="417" x2="610" y2="417" stroke="#334155" stroke-width="1.2"/>
+    <line x1="498" y1="446" x2="610" y2="446" stroke="#334155" stroke-width="1.2"/>
+
+    <!-- Fashion billboard display -->
+    <rect x="622" y="388" width="58" height="86" fill="#FDE68A" stroke="#B45309" stroke-width="1.4"/>
+    <circle cx="651" cy="414" r="10" fill="#EC4899"/>
+    <polygon points="651,424 636,460 666,460" fill="#EC4899"/>
+
+    <rect x="692" y="388" width="72" height="86" fill="#BAE6FD" stroke="#334155" stroke-width="1.5"/>
+    <line x1="728" y1="388" x2="728" y2="474" stroke="#334155" stroke-width="1.2"/>
+    <line x1="692" y1="417" x2="764" y2="417" stroke="#334155" stroke-width="1.2"/>
+    <line x1="692" y1="446" x2="764" y2="446" stroke="#334155" stroke-width="1.2"/>
+
+    <!-- Ground floor entrances & busy sidewalk -->
+    <rect x="422" y="510" width="374" height="28" fill="#CBD5E1"/>
+    <rect x="520" y="486" width="56" height="26" fill="#1E293B"/>
+    <rect x="684" y="486" width="56" height="26" fill="#1E293B"/>
+    <!-- Street trees & shoppers -->
+    <circle cx="650" cy="482" r="18" fill="#22C55E" stroke="#15803D" stroke-width="1.3"/>
+    <rect x="646" y="498" width="8" height="16" fill="#78350F"/>
+    <!-- Shoppers silhouettes -->
+    <circle cx="508" cy="500" r="5" fill="#FDE68A"/><rect x="503" y="505" width="10" height="16" fill="#3B82F6"/>
+    <circle cx="596" cy="500" r="5" fill="#FDE68A"/><rect x="591" y="505" width="10" height="16" fill="#EF4444"/>
+    <circle cx="614" cy="502" r="4.5" fill="#FDE68A"/><rect x="610" y="507" width="8" height="14" fill="#F59E0B"/>
+    <circle cx="754" cy="500" r="5" fill="#FDE68A"/><rect x="749" y="505" width="10" height="16" fill="#8B5CF6"/>
+  </g>
+  <rect x="422" y="314" width="374" height="224" rx="10" fill="none" stroke="#1E293B" stroke-width="1.8"/>
+</svg>

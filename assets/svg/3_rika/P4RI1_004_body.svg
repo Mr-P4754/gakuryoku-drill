@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 310" width="640" height="310">
+  <rect width="640" height="310" rx="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <text x="320" y="26" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="15" font-weight="bold" fill="#065F46">こん虫のからだのつくり</text>
+
+  <!-- Left panel: Butterfly body -->
+  <rect x="18" y="40" width="350" height="254" rx="12" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.4"/>
+  <rect x="86" y="48" width="214" height="26" rx="6" fill="#ECFDF5" stroke="#10B981" stroke-width="1.4"/>
+  <text x="193" y="66" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13.5" font-weight="bold" fill="#065F46">モンシロチョウのからだ</text>
+
+  <g transform="translate(152, 168)">
+    <!-- Wings (translucent so body & 6 legs on thorax are clearly visible) -->
+    <path d="M-8,-14 C-46,-68 -124,-78 -116,-36 C-110,-6 -60,6 -8,4 Z" fill="#F8FAFC" fill-opacity="0.88" stroke="#64748B" stroke-width="1.6"/>
+    <path d="M8,-14 C46,-68 124,-78 116,-36 C110,-6 60,6 8,4 Z" fill="#F8FAFC" fill-opacity="0.88" stroke="#64748B" stroke-width="1.6"/>
+    <path d="M-8,2 C-58,4 -106,24 -94,58 C-82,88 -26,74 -8,32 Z" fill="#F8FAFC" fill-opacity="0.88" stroke="#64748B" stroke-width="1.6"/>
+    <path d="M8,2 C58,4 106,24 94,58 C82,88 26,74 8,32 Z" fill="#F8FAFC" fill-opacity="0.88" stroke="#64748B" stroke-width="1.6"/>
+    <!-- Wing spots -->
+    <circle cx="-68" cy="-30" r="6" fill="#94A3B8"/>
+    <circle cx="68" cy="-30" r="6" fill="#94A3B8"/>
+    <!-- 6 legs attached clearly to THORAX (middle segment) -->
+    <g stroke="#1E293B" stroke-width="2" fill="none" stroke-linecap="round">
+      <path d="M-8,-12 L-28,-22 L-38,-32"/>
+      <path d="M8,-12 L28,-22 L38,-32"/>
+      <path d="M-10,-2 L-32,-2 L-44,6"/>
+      <path d="M10,-2 L32,-2 L44,6"/>
+      <path d="M-9,10 L-28,22 L-36,36"/>
+      <path d="M9,10 L28,22 L36,36"/>
+    </g>
+    <!-- Antennae -->
+    <path d="M-4,-34 Q-16,-60 -28,-66 M4,-34 Q16,-60 28,-66" fill="none" stroke="#1E293B" stroke-width="1.8"/>
+    <circle cx="-28" cy="-66" r="2.5" fill="#1E293B"/>
+    <circle cx="28" cy="-66" r="2.5" fill="#1E293B"/>
+    <!-- Segment ①: Head -->
+    <ellipse cx="0" cy="-28" rx="9" ry="8" fill="#FEF3C7" stroke="#B45309" stroke-width="1.8"/>
+    <circle cx="-6" cy="-29" r="3" fill="#0F172A"/>
+    <circle cx="6" cy="-29" r="3" fill="#0F172A"/>
+    <!-- Segment ②: Thorax -->
+    <ellipse cx="0" cy="-2" rx="11" ry="18" fill="#DCFCE7" stroke="#15803D" stroke-width="1.8"/>
+    <!-- Segment ③: Abdomen -->
+    <ellipse cx="0" cy="48" rx="8.5" ry="32" fill="#E0F2FE" stroke="#0369A1" stroke-width="1.8"/>
+    <line x1="-8" y1="34" x2="8" y2="34" stroke="#0369A1" stroke-width="1"/>
+    <line x1="-8" y1="46" x2="8" y2="46" stroke="#0369A1" stroke-width="1"/>
+    <line x1="-7" y1="58" x2="7" y2="58" stroke="#0369A1" stroke-width="1"/>
+
+    <!-- Brackets & pointers ①, ②, ③ -->
+    <path d="M12,-36 L18,-36 L18,-20 L12,-20" fill="none" stroke="#B45309" stroke-width="1.6"/>
+    <line x1="18" y1="-28" x2="152" y2="-56" stroke="#B45309" stroke-width="1.5"/>
+    <circle cx="168" cy="-56" r="14" fill="#FEF3C7" stroke="#B45309" stroke-width="2"/>
+    <text x="168" y="-51" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13.5" font-weight="bold" fill="#92400E">①</text>
+
+    <path d="M13,-18 L19,-18 L19,14 L13,14" fill="none" stroke="#15803D" stroke-width="1.6"/>
+    <line x1="19" y1="-2" x2="152" y2="-2" stroke="#15803D" stroke-width="1.5"/>
+    <circle cx="168" cy="-2" r="14" fill="#DCFCE7" stroke="#15803D" stroke-width="2"/>
+    <text x="168" y="3" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13.5" font-weight="bold" fill="#166534">②</text>
+
+    <path d="M11,18 L18,18 L18,78 L11,78" fill="none" stroke="#0369A1" stroke-width="1.6"/>
+    <line x1="18" y1="48" x2="152" y2="58" stroke="#0369A1" stroke-width="1.5"/>
+    <circle cx="168" cy="58" r="14" fill="#E0F2FE" stroke="#0369A1" stroke-width="2"/>
+    <text x="168" y="63" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13.5" font-weight="bold" fill="#075985">③</text>
+  </g>
+
+  <!-- Right panel: Grasshopper head -->
+  <rect x="382" y="40" width="240" height="254" rx="12" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.4"/>
+  <rect x="434" y="48" width="136" height="26" rx="6" fill="#ECFDF5" stroke="#10B981" stroke-width="1.4"/>
+  <text x="502" y="66" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13.5" font-weight="bold" fill="#065F46">バッタの頭</text>
+
+  <g transform="translate(462, 180)">
+    <!-- Antennae (④) -->
+    <path d="M-12,-40 Q-28,-62 -44,-72" fill="none" stroke="#15803D" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M12,-40 Q28,-62 44,-72" fill="none" stroke="#15803D" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- Head oval -->
+    <path d="M-30,-28 C-32,-50 32,-50 30,-28 L34,26 C34,54 -34,54 -34,26 Z" fill="#86EFAC" stroke="#15803D" stroke-width="2"/>
+    <!-- Facial ridges -->
+    <path d="M-10,-30 L-12,18 M10,-30 L12,18" stroke="#15803D" stroke-width="1.2" opacity="0.6"/>
+    <!-- Compound eyes (⑤) -->
+    <ellipse cx="-26" cy="-22" rx="12" ry="20" fill="#4D7C0F" stroke="#14532D" stroke-width="1.8" transform="rotate(-12 -26 -22)"/>
+    <ellipse cx="26" cy="-22" rx="12" ry="20" fill="#4D7C0F" stroke="#14532D" stroke-width="1.8" transform="rotate(12 26 -22)"/>
+    <ellipse cx="-29" cy="-28" rx="3" ry="6" fill="#D9F99D" opacity="0.6"/>
+    <ellipse cx="23" cy="-28" rx="3" ry="6" fill="#D9F99D" opacity="0.6"/>
+    <!-- Mouthparts (⑥) -->
+    <path d="M-24,24 L24,24 L20,46 Q0,54 -20,46 Z" fill="#4ADE80" stroke="#15803D" stroke-width="1.8"/>
+    <path d="M-14,34 L-4,44 L0,36 L4,44 L14,34" fill="none" stroke="#14532D" stroke-width="1.8" stroke-linejoin="round"/>
+    <!-- Palps -->
+    <path d="M-24,42 L-28,68 L-22,74 M24,42 L28,68 L22,74" fill="none" stroke="#15803D" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Pointers ④, ⑤, ⑥ -->
+    <line x1="36" y1="-64" x2="94" y2="-64" stroke="#7C3AED" stroke-width="1.6"/>
+    <circle cx="112" cy="-64" r="14" fill="#F5F3FF" stroke="#7C3AED" stroke-width="2"/>
+    <text x="112" y="-59" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13.5" font-weight="bold" fill="#5B21B6">④</text>
+
+    <line x1="38" y1="-22" x2="94" y2="-22" stroke="#EA580C" stroke-width="1.6"/>
+    <circle cx="112" cy="-22" r="14" fill="#FFF7ED" stroke="#EA580C" stroke-width="2"/>
+    <text x="112" y="-17" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13.5" font-weight="bold" fill="#9A3412">⑤</text>
+
+    <line x1="26" y1="38" x2="94" y2="38" stroke="#DB2777" stroke-width="1.6"/>
+    <circle cx="112" cy="38" r="14" fill="#FDF2F8" stroke="#DB2777" stroke-width="2"/>
+    <text x="112" y="43" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13.5" font-weight="bold" fill="#9D174D">⑥</text>
+  </g>
+</svg>

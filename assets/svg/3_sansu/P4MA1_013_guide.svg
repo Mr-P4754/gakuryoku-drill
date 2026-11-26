@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 236" width="560" height="236" role="img" aria-label="1分＝60秒の変換のしかた">
+  <title>1分＝60秒の変換のしかた</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 14px; font-weight: 700; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="560" height="236" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <rect x="148" y="14" width="264" height="36" rx="10" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+  <text x="280" y="38" text-anchor="middle" font-size="18" font-weight="700" fill="#1D4ED8">1分 ＝ 60秒</text>
+  <rect x="20" y="66" width="520" height="70" rx="8" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.2"/>
+  <text x="36" y="88" font-size="13.5" font-weight="700" fill="#1E293B">① 1分20秒 は 何秒？</text>
+  <rect x="36" y="96" width="240" height="28" rx="5" fill="#DBEAFE" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="156" y="115" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1E40AF">1分 ＝ 60秒</text>
+  <rect x="280" y="96" width="84" height="28" rx="5" fill="#FEF3C7" stroke="#D97706" stroke-width="1.5"/>
+  <text x="322" y="115" text-anchor="middle" font-size="13.5" font-weight="700" fill="#92400E">20秒</text>
+  <text x="380" y="115" font-size="15" font-weight="700" fill="#DC2626">→ 60＋20 ＝ 80秒</text>
+  <rect x="20" y="148" width="520" height="72" rx="8" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.2"/>
+  <text x="36" y="170" font-size="13.5" font-weight="700" fill="#1E293B">② 100秒 は 何分何秒？（60秒と のこりに分ける）</text>
+  <rect x="36" y="180" width="210" height="28" rx="5" fill="#D1FAE5" stroke="#059669" stroke-width="1.5"/>
+  <text x="141" y="199" text-anchor="middle" font-size="13.5" font-weight="700" fill="#065F46">60秒 ＝ 1分</text>
+  <rect x="250" y="180" width="120" height="28" rx="5" fill="#FEE2E2" stroke="#DC2626" stroke-width="1.5"/>
+  <text x="310" y="199" text-anchor="middle" font-size="13.5" font-weight="700" fill="#991B1B">のこり 40秒</text>
+  <text x="386" y="199" font-size="15" font-weight="700" fill="#DC2626">→ 1分40秒</text>
+</svg>

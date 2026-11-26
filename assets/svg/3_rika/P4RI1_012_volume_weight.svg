@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 264" width="620" height="264">
+  <defs>
+    <radialGradient id="woodSp" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#FDE68A"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </radialGradient>
+    <radialGradient id="ironSp" cx="32%" cy="28%" r="70%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="45%" stop-color="#94A3B8"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </radialGradient>
+    <radialGradient id="rubberSp" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#64748B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="620" height="264" rx="14" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+  <text x="310" y="26" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="15" font-weight="bold" fill="#065F46">同じ大きさ（かさ）のおもりの重さくらべ</text>
+  <!-- Equal size reference dashed guide -->
+  <line x1="78" y1="86" x2="542" y2="86" stroke="#0EA5E9" stroke-width="1.2" stroke-dasharray="5,4"/>
+  <rect x="218" y="36" width="184" height="20" rx="6" fill="#E0F2FE" stroke="#38BDF8" stroke-width="1"/>
+  <text x="310" y="50" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#0369A1">3つとも同じ大きさ（かさ）</text>
+
+  <g transform="translate(26, 54)">
+      <!-- Digital scale body -->
+      <rect x="10" y="72" width="150" height="90" rx="12" fill="#E2E8F0" stroke="#475569" stroke-width="1.8"/>
+      <rect x="16" y="76" width="138" height="76" rx="9" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.2"/>
+      <!-- Round weighing pan -->
+      <ellipse cx="85" cy="94" rx="48" ry="22" fill="#F1F5F9" stroke="#64748B" stroke-width="1.6"/>
+      <!-- LCD display & buttons -->
+      <rect x="28" y="124" width="66" height="20" rx="4" fill="#DCFCE7" stroke="#475569" stroke-width="1.3"/>
+      <text x="61" y="138" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#166534">？ g</text>
+      <circle cx="114" cy="134" r="5" fill="#94A3B8" stroke="#475569" stroke-width="1"/>
+      <circle cx="132" cy="134" r="5" fill="#94A3B8" stroke="#475569" stroke-width="1"/>
+      <!-- Identical-volume sphere (r=32) -->
+      <circle cx="85" cy="64" r="32" fill="url(#woodSp)" stroke="#334155" stroke-width="1.8"/>
+      <path d="M58,56 Q85,46 112,56 M55,68 Q85,58 115,68 M60,80 Q85,72 110,80" fill="none" stroke="#92400E" stroke-width="1.2" opacity="0.55"/>
+      <!-- Label -->
+      <rect x="20" y="170" width="130" height="26" rx="7" fill="#FFFFFF" stroke="#64748B" stroke-width="1.4"/>
+      <text x="85" y="188" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13.5" font-weight="bold" fill="#1E293B">木のおもり</text>
+    </g>
+  <g transform="translate(225, 54)">
+      <!-- Digital scale body -->
+      <rect x="10" y="72" width="150" height="90" rx="12" fill="#E2E8F0" stroke="#475569" stroke-width="1.8"/>
+      <rect x="16" y="76" width="138" height="76" rx="9" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.2"/>
+      <!-- Round weighing pan -->
+      <ellipse cx="85" cy="94" rx="48" ry="22" fill="#F1F5F9" stroke="#64748B" stroke-width="1.6"/>
+      <!-- LCD display & buttons -->
+      <rect x="28" y="124" width="66" height="20" rx="4" fill="#DCFCE7" stroke="#475569" stroke-width="1.3"/>
+      <text x="61" y="138" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#166534">？ g</text>
+      <circle cx="114" cy="134" r="5" fill="#94A3B8" stroke="#475569" stroke-width="1"/>
+      <circle cx="132" cy="134" r="5" fill="#94A3B8" stroke="#475569" stroke-width="1"/>
+      <!-- Identical-volume sphere (r=32) -->
+      <circle cx="85" cy="64" r="32" fill="url(#ironSp)" stroke="#334155" stroke-width="1.8"/>
+      <ellipse cx="73" cy="50" rx="9" ry="5" fill="#FFFFFF" opacity="0.7" transform="rotate(-25 73 50)"/>
+      <!-- Label -->
+      <rect x="20" y="170" width="130" height="26" rx="7" fill="#FFFFFF" stroke="#64748B" stroke-width="1.4"/>
+      <text x="85" y="188" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13.5" font-weight="bold" fill="#1E293B">鉄のおもり</text>
+    </g>
+  <g transform="translate(424, 54)">
+      <!-- Digital scale body -->
+      <rect x="10" y="72" width="150" height="90" rx="12" fill="#E2E8F0" stroke="#475569" stroke-width="1.8"/>
+      <rect x="16" y="76" width="138" height="76" rx="9" fill="#FFFFFF" stroke="#94A3B8" stroke-width="1.2"/>
+      <!-- Round weighing pan -->
+      <ellipse cx="85" cy="94" rx="48" ry="22" fill="#F1F5F9" stroke="#64748B" stroke-width="1.6"/>
+      <!-- LCD display & buttons -->
+      <rect x="28" y="124" width="66" height="20" rx="4" fill="#DCFCE7" stroke="#475569" stroke-width="1.3"/>
+      <text x="61" y="138" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="11.5" font-weight="bold" fill="#166534">？ g</text>
+      <circle cx="114" cy="134" r="5" fill="#94A3B8" stroke="#475569" stroke-width="1"/>
+      <circle cx="132" cy="134" r="5" fill="#94A3B8" stroke="#475569" stroke-width="1"/>
+      <!-- Identical-volume sphere (r=32) -->
+      <circle cx="85" cy="64" r="32" fill="url(#rubberSp)" stroke="#334155" stroke-width="1.8"/>
+      
+      <!-- Label -->
+      <rect x="20" y="170" width="130" height="26" rx="7" fill="#FFFFFF" stroke="#64748B" stroke-width="1.4"/>
+      <text x="85" y="188" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif" font-size="13.5" font-weight="bold" fill="#1E293B">ゴムのおもり</text>
+    </g>
+</svg>

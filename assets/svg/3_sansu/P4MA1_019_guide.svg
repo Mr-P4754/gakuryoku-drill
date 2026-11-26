@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 240" width="640" height="240" role="img" aria-label="□を使った式（たし算・ひき算）ガイド">
+  <title>□を使った式（たし算・ひき算）ガイド</title>
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 600; }
+      .lbl-sm { font-size: 14px; font-weight: 600; }
+      .lbl-xs { font-size: 12.5px; font-weight: 500; fill: #475569; }
+      .num { font-size: 17px; font-weight: 700; }
+      .num-lg { font-size: 22px; font-weight: 700; }
+      .num-sm { font-size: 14px; font-weight: 700; }
+      .carry { font-size: 13px; font-weight: 700; fill: #DC2626; }
+      .borrow { font-size: 13px; font-weight: 700; fill: #2563EB; }
+      .blank-num { font-size: 17px; font-weight: 700; fill: #2563EB; }
+      .ans-num { font-size: 17px; font-weight: 700; fill: #0F766E; }
+      .unit-txt { font-size: 14px; font-weight: 600; fill: #334155; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="640" height="240" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="320" y="28" text-anchor="middle" class="title">お話のじゅんにテープ図をかいて □ の式をつくろう</text>
+  <rect x="20" y="44" width="286" height="178" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.3"/>
+  <text x="34" y="70" class="lbl-xs" fill="#334155">① はじめ 32まい 持っていた</text>
+  <text x="163" y="94" text-anchor="middle" class="num" fill="#1E293B">式： 32</text>
+  <text x="34" y="122" class="lbl-xs" fill="#2563EB">② 何まいか（□まい）使った</text>
+  <text x="163" y="146" text-anchor="middle" class="num" fill="#2563EB">式： 32 － □</text>
+  <text x="34" y="174" class="lbl-xs" fill="#0F766E">③ のこりは 18まい になった</text>
+  <text x="163" y="202" text-anchor="middle" class="num-lg" fill="#0F766E">32 － □ ＝ 18</text>
+  <rect x="322" y="44" width="298" height="178" rx="10" fill="#EFF6FF" stroke="#93C5FD" stroke-width="1.4"/>
+  <text x="471" y="68" text-anchor="middle" class="lbl-sm" fill="#1D4ED8">テープ図</text>
+  <path d="M 350 114 Q 471.0 90 592 114" fill="none" stroke="#334155" stroke-width="1.7" stroke-dasharray="5,3"/>
+
+  <rect x="437.0" y="86" width="68" height="22" rx="4" fill="#EFF6FF"/>
+  <text x="471.0" y="103" text-anchor="middle" class="num">32 まい</text>
+  <rect x="350" y="118" width="106" height="36" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+  <text x="403.0" y="142" text-anchor="middle" class="lbl-xs" fill="#1D4ED8">使った数</text>
+  <rect x="456" y="118" width="136" height="36" fill="#D1FAE5" stroke="#059669" stroke-width="2"/>
+  <text x="524.0" y="142" text-anchor="middle" class="lbl-xs" fill="#047857">のこりの数</text>
+  <path d="M 350 158 Q 403.0 176 456 158" fill="none" stroke="#2563EB" stroke-width="1.7" stroke-dasharray="5,3"/>
+
+  <text x="403.0" y="194" text-anchor="middle" class="num" fill="#2563EB">□ まい</text>
+  <path d="M 456 158 Q 524.0 176 592 158" fill="none" stroke="#059669" stroke-width="1.7" stroke-dasharray="5,3"/>
+
+  <text x="524.0" y="194" text-anchor="middle" class="num" fill="#059669">18 まい</text>
+</svg>

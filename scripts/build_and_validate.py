@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """
-全教科JSON・単元ガイドの結合および厳密バリデーションスクリプト
+全学年・全教科JSONおよび単元ガイドの結合＆厳密バリデーションスクリプト
 """
 import json
-import os
 import sys
 import xml.etree.ElementTree as ET
 from pathlib import Path
@@ -29,6 +28,17 @@ REQUIRED_GUIDE_KEYS = [
     "goal", "key_points", "example_text", "guide_image"
 ]
 
+EXPECTED_UNITS_BY_SHEET = {
+    "3年_国語": 11,
+    "3年_社会": 12,
+    "3年_算数": 23,
+    "3年_理科": 15,
+    "4年_国語": 11,
+    "4年_社会": 10,
+    "4年_算数": 36,
+    "4年_理科": 20,
+}
+
 
 def load_json(path: Path):
     with open(path, "r", encoding="utf-8") as f:
@@ -41,32 +51,58 @@ def save_json(path: Path, obj):
 
 
 def merge_parts():
-    p1 = DATA_DIR / "4年_算数_part1.json"
-    p2 = DATA_DIR / "4年_算数_part2.json"
-    if p1.exists() and p2.exists():
-        src_rank = {"フォローアップ": 1, "たしかめドリル": 2, "チャレンジ": 3}
-        merged = load_json(p1) + load_json(p2)
-        merged.sort(key=lambda r: (int(r.get("unit_order", 0)), src_rank.get(r.get("source_type", ""), 9), str(r.get("problem_id", ""))))
-        save_json(DATA_DIR / "4年_算数.json", merged)
-        print(f"[MERGE] 4年_算数.json <- part1 + part2 ({len(merged)} questions)")
+    src_rank = {"フォローアップ": 1, "たしかめドリル": 2, "チャレンジ": 3}
+    subject_order = {"国語": 1, "社会": 2, "算数": 3, "理科": 4}
 
-    guide_files = [
+    # 算数 part1 + part2 結合（3年・4年共通）
+    for grade in ["3年", "4年"]:
+        p1 = DATA_DIR / f"{grade}_算数_part1.json"
+        p2 = DATA_DIR / f"{grade}_算数_part2.json"
+        if p1.exists() and p2.exists():
+            merged = load_json(p1) + load_json(p2)
+            merged.sort(key=lambda r: (
+                int(r.get("unit_order", 0)),
+                src_rank.get(r.get("source_type", ""), 9),
+                str(r.get("problem_id", ""))
+            ))
+            save_json(DATA_DIR / f"{grade}_算数.json", merged)
+            print(f"[MERGE] {grade}_算数.json <- part1 + part2 ({len(merged)} questions)")
+
+    # 4年 単元ガイド結合
+    g4_files = [
         "guides_kokugo.json",
         "guides_shakai.json",
         "guides_sansu_part1.json",
         "guides_sansu_part2.json",
         "guides_rika.json",
     ]
-    guides = []
-    for gf in guide_files:
+    g4 = []
+    for gf in g4_files:
         fp = DATA_DIR / gf
         if fp.exists():
-            guides.extend(load_json(fp))
-    if guides:
-        subject_order = {"国語": 1, "社会": 2, "算数": 3, "理科": 4}
-        guides.sort(key=lambda g: (subject_order.get(g.get("subject", ""), 9), int(g.get("unit_order", 0))))
-        save_json(DATA_DIR / "4年_単元ガイド.json", guides)
-        print(f"[MERGE] 4年_単元ガイド.json ({len(guides)} unit guides)")
+            g4.extend(load_json(fp))
+    if g4:
+        g4.sort(key=lambda g: (subject_order.get(g.get("subject", ""), 9), int(g.get("unit_order", 0))))
+        save_json(DATA_DIR / "4年_単元ガイド.json", g4)
+        print(f"[MERGE] 4年_単元ガイド.json ({len(g4)} unit guides)")
+
+    # 3年 単元ガイド結合
+    g3_files = [
+        "guides_3_kokugo.json",
+        "guides_3_shakai.json",
+        "guides_3_sansu_part1.json",
+        "guides_3_sansu_part2.json",
+        "guides_3_rika.json",
+    ]
+    g3 = []
+    for gf in g3_files:
+        fp = DATA_DIR / gf
+        if fp.exists():
+            g3.extend(load_json(fp))
+    if g3:
+        g3.sort(key=lambda g: (subject_order.get(g.get("subject", ""), 9), int(g.get("unit_order", 0))))
+        save_json(DATA_DIR / "3年_単元ガイド.json", g3)
+        print(f"[MERGE] 3年_単元ガイド.json ({len(g3)} unit guides)")
 
 
 def validate_svg(rel_path: str, errors: list, ctx: str):
@@ -91,20 +127,19 @@ def validate_all():
     errors = []
     seen_ids = set()
 
-    subjects = [
-        ("4年_国語.json", 11),
-        ("4年_社会.json", 10),
-        ("4年_算数.json", 36),
-        ("4年_理科.json", 20),
-    ]
+    meta = load_json(DATA_DIR / "meta.json")
+    subjects = [s for s in meta.get("subjects", []) if s.get("is_active") is not False]
 
     total_q = 0
     total_units = 0
+    guide_files_seen = set()
 
-    for fname, expected_units in subjects:
-        fpath = DATA_DIR / fname
+    for s in subjects:
+        sheet_name = s["sheet_name"]
+        rel_file = s.get("data_file") or f"data/{sheet_name}.json"
+        fpath = ROOT / rel_file
         if not fpath.exists():
-            errors.append(f"Missing subject file: {fname}")
+            errors.append(f"Missing subject file: {rel_file}")
             continue
         rows = load_json(fpath)
         units = set()
@@ -112,45 +147,52 @@ def validate_all():
             pid = row.get("problem_id", f"row#{idx}")
             for k in REQUIRED_Q_KEYS:
                 if k not in row:
-                    errors.append(f"[{fname}:{pid}] Missing key: {k}")
+                    errors.append(f"[{sheet_name}:{pid}] Missing key: {k}")
             if pid in seen_ids:
-                errors.append(f"[{fname}:{pid}] Duplicate problem_id")
+                errors.append(f"[{sheet_name}:{pid}] Duplicate problem_id")
             seen_ids.add(pid)
 
             qt = row.get("question_type")
             if qt not in VALID_TYPES:
-                errors.append(f"[{fname}:{pid}] Invalid question_type: {qt}")
+                errors.append(f"[{sheet_name}:{pid}] Invalid question_type: {qt}")
 
             if not str(row.get("question_text", "")).strip():
-                errors.append(f"[{fname}:{pid}] Empty question_text")
+                errors.append(f"[{sheet_name}:{pid}] Empty question_text")
             if not str(row.get("answer", "")).strip():
-                errors.append(f"[{fname}:{pid}] Empty answer")
+                errors.append(f"[{sheet_name}:{pid}] Empty answer")
 
             if qt in ("single_choice", "multi_choice", "word_bank", "matching", "ordering"):
                 if not str(row.get("choices", "")).strip():
-                    errors.append(f"[{fname}:{pid}] Empty choices for {qt}")
+                    errors.append(f"[{sheet_name}:{pid}] Empty choices for {qt}")
 
-            validate_svg(row.get("image_path", ""), errors, f"{fname}:{pid}")
-            validate_svg(row.get("explanation_image", ""), errors, f"{fname}:{pid}")
+            validate_svg(row.get("image_path", ""), errors, f"{sheet_name}:{pid}")
+            validate_svg(row.get("explanation_image", ""), errors, f"{sheet_name}:{pid}")
             units.add(row.get("unit_code"))
 
         total_q += len(rows)
         total_units += len(units)
-        status = "OK" if len(units) == expected_units else f"WARN (expected {expected_units})"
-        print(f"[CHECK] {fname}: {len(rows)} questions, {len(units)} units {status}")
+        expected = EXPECTED_UNITS_BY_SHEET.get(sheet_name)
+        if expected is not None and len(units) != expected:
+            errors.append(f"[{sheet_name}] Unit count mismatch: got {len(units)}, expected {expected}")
+        status = "OK" if (expected is None or len(units) == expected) else f"NG (expected {expected})"
+        print(f"[CHECK] {sheet_name}: {len(rows)} questions, {len(units)} units {status}")
 
-    gpath = DATA_DIR / "4年_単元ガイド.json"
-    if gpath.exists():
-        guides = load_json(gpath)
-        for g in guides:
-            uc = g.get("unit_code", "?")
-            for k in REQUIRED_GUIDE_KEYS:
-                if k not in g:
-                    errors.append(f"[guide:{uc}] Missing key: {k}")
-            validate_svg(g.get("guide_image", ""), errors, f"guide:{uc}")
-        print(f"[CHECK] 4年_単元ガイド.json: {len(guides)} guides")
-    else:
-        errors.append("Missing 4年_単元ガイド.json")
+        if s.get("guide_file"):
+            guide_files_seen.add((s["grade"], s["guide_file"]))
+
+    for grade, rel_gfile in sorted(guide_files_seen):
+        gpath = ROOT / rel_gfile
+        if gpath.exists():
+            guides = load_json(gpath)
+            for g in guides:
+                uc = g.get("unit_code", "?")
+                for k in REQUIRED_GUIDE_KEYS:
+                    if k not in g:
+                        errors.append(f"[{grade} guide:{uc}] Missing key: {k}")
+                validate_svg(g.get("guide_image", ""), errors, f"{grade} guide:{uc}")
+            print(f"[CHECK] {rel_gfile}: {len(guides)} guides")
+        else:
+            errors.append(f"Missing guide file: {rel_gfile}")
 
     svg_count = len(list((ROOT / "assets" / "svg").rglob("*.svg")))
     print(f"[SUMMARY] Total: {total_units} units, {total_q} questions, {svg_count} SVG files")

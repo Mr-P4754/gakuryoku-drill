@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 240" width="380" height="240" role="img" aria-label="半径3cmのボール2こが入った箱">
+  <title>半径3cmのボール2こが入った箱</title>
+
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 700; }
+      .lbl-sm { font-size: 13px; font-weight: 600; }
+      .lbl-xs { font-size: 12px; font-weight: 600; fill: #475569; }
+      .num { font-size: 14px; font-weight: 700; }
+      .dim { font-size: 14px; font-weight: 700; fill: #1E293B; }
+      .blue { fill: #2563EB; }
+      .red { fill: #DC2626; }
+      .teal { fill: #0F766E; }
+      .green { fill: #059669; }
+      .halo { paint-order: stroke; stroke: #FFFFFF; stroke-width: 4.5px; stroke-linejoin: round; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="380" height="240" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <polygon points="88.0,104.0 132.0,76.0 300.0,76.0 256.0,104.0" fill="#F1F5F9" stroke="#1E293B" stroke-width="1.8" stroke-linejoin="round"/>
+  <circle cx="151.1" cy="104.6" r="41.0" fill="#DBEAFE" stroke="#1E293B" stroke-width="2.0"/>
+  <ellipse cx="139.4" cy="91.1" rx="10.1" ry="5.9" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="235.1" cy="104.6" r="41.0" fill="#DBEAFE" stroke="#1E293B" stroke-width="2.0"/>
+  <ellipse cx="223.4" cy="91.1" rx="10.1" ry="5.9" fill="#FFFFFF" opacity="0.7"/>
+  <rect x="88.0" y="104.0" width="168.0" height="82.0" fill="#FFFBEB" stroke="#1E293B" stroke-width="2.2"/>
+  <polygon points="256.0,104.0 300.0,76.0 300.0,158.0 256.0,186.0" fill="#FEF3C7" stroke="#1E293B" stroke-width="2.2" stroke-linejoin="round"/>
+  <polyline points="88.0,104.0 132.0,76.0 300.0,76.0" fill="none" stroke="#1E293B" stroke-width="1.8"/>
+  <path d="M 88.0 192.0 Q 172.0 222.0 256.0 192.0" fill="none" stroke="#475569" stroke-width="1.4" stroke-dasharray="4,3"/>
+  <rect x="136.0" y="200.0" width="72" height="28" rx="6" fill="#FFFFFF"/>
+  <rect x="144.0" y="203.0" width="24" height="22" rx="3" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.8"/>
+  <text x="186.0" y="220.0" text-anchor="middle" font-size="16" font-weight="700" fill="#1E293B">cm</text>
+</svg>

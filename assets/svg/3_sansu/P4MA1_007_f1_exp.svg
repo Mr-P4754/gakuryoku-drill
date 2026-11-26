@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 175" width="480" height="175" role="img" aria-label="24×9の筆算解説">
+  <title>24×9の筆算解説</title>
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 600; }
+      .lbl-sm { font-size: 14px; font-weight: 600; }
+      .lbl-xs { font-size: 12.5px; font-weight: 500; fill: #475569; }
+      .num { font-size: 17px; font-weight: 700; }
+      .num-lg { font-size: 22px; font-weight: 700; }
+      .num-sm { font-size: 14px; font-weight: 700; }
+      .carry { font-size: 13px; font-weight: 700; fill: #DC2626; }
+      .borrow { font-size: 13px; font-weight: 700; fill: #2563EB; }
+      .blank-num { font-size: 17px; font-weight: 700; fill: #2563EB; }
+      .ans-num { font-size: 17px; font-weight: 700; fill: #0F766E; }
+      .unit-txt { font-size: 14px; font-weight: 600; fill: #334155; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="480" height="175" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="240" y="28" text-anchor="middle" class="title">24 × 9 ＝ 216 の筆算</text>
+  <text x="155" y="72" text-anchor="middle" class="num-lg">4</text>
+  <text x="127" y="72" text-anchor="middle" class="num-lg">2</text>
+  <text x="99" y="100" text-anchor="middle" class="num-lg">×</text>
+  <text x="155" y="100" text-anchor="middle" class="num-lg">9</text>
+  <line x1="63" y1="110" x2="171" y2="110" stroke="#1E293B" stroke-width="2.2"/>
+  <text x="155" y="136" text-anchor="middle" class="num-lg" fill="#0F766E">6</text>
+  <text x="127" y="136" text-anchor="middle" class="num-lg" fill="#0F766E">1</text>
+  <text x="99" y="136" text-anchor="middle" class="num-lg" fill="#0F766E">2</text>
+  <rect x="200" y="52" width="256" height="100" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.2"/>
+  <text x="216" y="80" class="lbl-sm" fill="#2563EB">① 一の位：9 × 4 ＝ 36</text>
+  <text x="234" y="102" class="lbl-xs">6を書いて，3くり上がる</text>
+  <text x="216" y="130" class="lbl-sm" fill="#0F766E">② 十の位：9 × 2 ＋ 3 ＝ 21</text>
+</svg>

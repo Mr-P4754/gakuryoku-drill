@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 182" width="580" height="182" role="img" aria-label="1-1/4のテープ図解説">
+  <title>1-1/4のテープ図解説</title>
+  <defs>
+    <style>
+      text { font-family: 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif; fill: #1E293B; }
+      .title { font-size: 16px; font-weight: 700; fill: #1E293B; }
+      .lbl { font-size: 15px; font-weight: 600; }
+      .lbl-sm { font-size: 14px; font-weight: 600; }
+      .lbl-xs { font-size: 12.5px; font-weight: 500; fill: #475569; }
+      .num { font-size: 17px; font-weight: 700; }
+      .num-lg { font-size: 22px; font-weight: 700; }
+      .num-sm { font-size: 14px; font-weight: 700; }
+      .carry { font-size: 13px; font-weight: 700; fill: #DC2626; }
+      .borrow { font-size: 13px; font-weight: 700; fill: #2563EB; }
+      .blank-num { font-size: 17px; font-weight: 700; fill: #2563EB; }
+      .ans-num { font-size: 17px; font-weight: 700; fill: #0F766E; }
+      .unit-txt { font-size: 14px; font-weight: 600; fill: #334155; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="580" height="182" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1.5"/>
+  <text x="290" y="28" text-anchor="middle" class="title">1 を 4/4 に直してひき算しよう（1 － 1/4 ＝ 3/4）</text>
+  <rect x="40.0" y="72" width="125.0" height="34" fill="#A7F3D0" stroke="#334155" stroke-width="1.5"/>
+  <text x="102.5" y="95" text-anchor="middle" class="lbl-sm" fill="#0F766E">1/4</text>
+  <rect x="165.0" y="72" width="125.0" height="34" fill="#A7F3D0" stroke="#334155" stroke-width="1.5"/>
+  <text x="227.5" y="95" text-anchor="middle" class="lbl-sm" fill="#0F766E">1/4</text>
+  <rect x="290.0" y="72" width="125.0" height="34" fill="#A7F3D0" stroke="#334155" stroke-width="1.5"/>
+  <text x="352.5" y="95" text-anchor="middle" class="lbl-sm" fill="#0F766E">1/4</text>
+  <rect x="415.0" y="72" width="125.0" height="34" fill="#FEE2E2" stroke="#334155" stroke-width="1.5"/>
+  <text x="477.5" y="95" text-anchor="middle" class="lbl-sm" fill="#DC2626">1/4</text>
+  <path d="M 40 69 Q 290.0 52 540 69" fill="none" stroke="#2563EB" stroke-width="1.7" stroke-dasharray="5,3"/>
+
+  <text x="290.0" y="52" text-anchor="middle" class="lbl-sm" fill="#2563EB">1 ＝ 4/4（1/4 の 4こ分）</text>
+  <path d="M 40 109 Q 227.5 124 415.0 109" fill="none" stroke="#0F766E" stroke-width="1.7" stroke-dasharray="5,3"/>
+
+  <text x="227.5" y="144" text-anchor="middle" class="num" fill="#0F766E">のこり 3こ分 ＝ 3/4</text>
+  <path d="M 415.0 109 Q 477.5 124 540.0 109" fill="none" stroke="#DC2626" stroke-width="1.7" stroke-dasharray="5,3"/>
+
+  <text x="477.5" y="144" text-anchor="middle" class="lbl-sm" fill="#DC2626">1/4 をひく</text>
+</svg>
